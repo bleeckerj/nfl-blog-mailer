@@ -1,9 +1,7 @@
 from premailer import transform
-import sys
 from bs4 import BeautifulSoup
-import requests
 import urllib.parse
-
+import os
 
 def make_urls_absolute(html, base_url):
     soup = BeautifulSoup(html, 'html.parser')
@@ -50,10 +48,15 @@ def process_html_with_premailer(html_content, output_file_path):
 #         output_path = sys.argv[2]
 #         process_html_with_premailer(input_path, output_path)
 # Path to your HTML and CSS files
-html_file_path = '/Users/julian/Code/nfl-augie-blog/dist/blog/2024/01/w4-2024/index.html'
+html_file_path = '/Users/julian/Code/nfl-augie-blog/dist/blog/2024/02/w5-2024/index.html'
 css_file_paths = ['/Users/julian/Code/nfl-augie-blog/src/styles/email_styles.css', '/Users/julian/Code/nfl-augie-blog/src/styles/email_responsive.css', 
-                  '/Users/julian/Code/nfl-augie-blog/src/styles/email_fonts.css', '/Users/julian/Code/nfl-augie-blog/src/styles/email_fonts.css', '/Users/julian/Code/nfl-augie-blog/src/styles/email_bundle.css']
+                  '/Users/julian/Code/nfl-augie-blog/src/styles/email_fonts.css', '/Users/julian/Code/nfl-augie-blog/src/styles/email_fonts.css', 
+                  '/Users/julian/Code/nfl-augie-blog/src/styles/email_bundle.css']
 base_url = 'https://backoffice.nearfuturelaboratory.com/'
+directory_name = os.path.basename(os.path.dirname(html_file_path))
+
+# Create the new filename
+new_file_name = directory_name + "_email.html"
 
 # Read the HTML file
 with open(html_file_path, 'r') as html_file:
@@ -95,5 +98,5 @@ soup.head.append(style_tag)
 html_with_inline_css = str(soup)
 
 # Now you can process 'html_with_inline_css' with Premailer
-process_html_with_premailer(html_with_inline_css, '/Users/julian/Code/nfl-blog-mailer/final_output.html')
+process_html_with_premailer(html_with_inline_css, new_file_name)
 
