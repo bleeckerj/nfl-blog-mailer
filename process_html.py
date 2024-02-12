@@ -30,10 +30,15 @@ def process_html_with_premailer(html_content, output_file_path):
 
         # Use Premailer to inline the CSS
         processed_html = transform(html_content)
-
+        fresh_soup = BeautifulSoup(processed_html, 'html.parser')
+        
+        sm_style_tag = fresh_soup.new_tag('style')
+        sm_style_tag.string = "@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');"
+        fresh_soup.head.append(sm_style_tag)
+        foo = str(fresh_soup.prettify())
         # Write the processed HTML back to a new file
         with open(output_file_path, 'w') as file:
-            file.write(processed_html)
+            file.write(foo)
 
         print(f"Processed HTML saved to {output_file_path}")
     except Exception as e:
@@ -48,10 +53,8 @@ def process_html_with_premailer(html_content, output_file_path):
 #         output_path = sys.argv[2]
 #         process_html_with_premailer(input_path, output_path)
 # Path to your HTML and CSS files
-html_file_path = '/Users/julian/Code/nfl-augie-blog/dist/blog/2024/02/w5-2024/index.html'
-css_file_paths = ['/Users/julian/Code/nfl-augie-blog/src/styles/email_styles.css', '/Users/julian/Code/nfl-augie-blog/src/styles/email_responsive.css', 
-                  '/Users/julian/Code/nfl-augie-blog/src/styles/email_fonts.css', '/Users/julian/Code/nfl-augie-blog/src/styles/email_fonts.css', 
-                  '/Users/julian/Code/nfl-augie-blog/src/styles/email_bundle.css']
+html_file_path = '/Users/julian/Code/nfl-backoffice/dist/blog/emailified/2024/02/nora-young-imagine-harder/index.html'
+css_file_paths = ['/Users/julian/Code/nfl-backoffice/src/styles/email_styles.css', '/Users/julian/Code/nfl-backoffice/src/styles/email_responsive.css']
 base_url = 'https://backoffice.nearfuturelaboratory.com/'
 directory_name = os.path.basename(os.path.dirname(html_file_path))
 
