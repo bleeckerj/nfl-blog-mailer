@@ -53,8 +53,8 @@ def process_html_with_premailer(html_content, output_file_path):
 #         output_path = sys.argv[2]
 #         process_html_with_premailer(input_path, output_path)
 # Path to your HTML and CSS files
-html_file_path = '/Users/julian/Code/nfl-backoffice/dist/blog/emailified/2024/02/nora-young-imagine-harder/index.html'
-css_file_paths = ['/Users/julian/Code/nfl-backoffice/src/styles/email_styles.css', '/Users/julian/Code/nfl-backoffice/src/styles/email_responsive.css']
+html_file_path = '/Users/julian/Code/astro-minimal/nfl-backoffice/dist/blog/emailified/2024/02/nora-young-imagine-harder/index.html'
+css_file_paths = ['/Users/julian/Code/astro-minimal/nfl-backoffice/src/styles/email_responsive.css', '/Users/julian/Code/astro-minimal/nfl-backoffice/src/styles/email_styles.css']
 base_url = 'https://backoffice.nearfuturelaboratory.com/'
 directory_name = os.path.basename(os.path.dirname(html_file_path))
 
