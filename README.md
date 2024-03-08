@@ -1,4 +1,4 @@
-Start with the html output from markdown, eg: /Users/julian/Code/nfl-augie-blog/dist/blog/blue-boat/index.html
+Start with the html output from markdown, eg: git
 
 Then run that html output through process_html.py, making sure you've enumerated the stylesheets that should be attached to it.
 
