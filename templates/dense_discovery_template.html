@@ -1,0 +1,2335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns"http://www.w3.org/1999/xhtml" xmlns:v"urn:schemas-microso=
+ft-com:vml" xmlns:o"urn:schemas-microsoft-com:office:office">
+<head>
+
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gt mso 15]>
+<style type"text/css" media"all">
+/* Outlook 2016 Height Fix */
+table, tr, td {border-collapse: collapse;}
+tr { font-size:0px; line-height:0px; border-collapse: collapse; }
+</style>
+<![endif]-->
+
+
+<meta http-equiv"Content-Type" content"text/html; charsetUTF-8">
+<meta name"viewport" content"widthdevice-width, initial-scale1"=
+>
+<meta http-equiv"X-UA-Compatible" content"IEedge">
+<meta name"format-detection" content"dateno">
+<meta name"format-detection" content"telephoneno">
+<meta name"robots" content"noindex">
+<title>Dense Discovery =E2=80=93 Issue 277</title>
+
+<style media"screen" type"text/css">
+
+
+
+
+@media screen and (max-width:599px) {
+
+  .fr, .container, .header, .body, .footer  {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .pl20 {padding-left: 12px !important}
+  .pr20 {padding-right: 12px !important}
+  .pl10 {padding-left: 12px !important}
+  .pr10 {padding-right: 12px !important}
+
+  .pt20 {padding-top: 12px !important}
+
+  .mobt0 {padding-top: 0 !important}
+  .mobb15 {margin-bottom: 15px !important}
+
+  .hl {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .lg, h1 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+  }
+
+  .spc {padding-top: 15px !important;}
+
+  .browser {text-align: left !important;}
+
+  a.spo {
+    line-height: 12px !important;
+    padding-top: 8px;
+    font-size: 10px !important;
+  }
+}
+
+</style>
+
+<!--[if mso]>
+<style type"text/css">
+body, table, td, h1, h2, h3, p {font-family: Arial, sans-serif !important;}
+</style>
+<![endif]-->
+
+<style media"screen" type"text/css">
+
+.ios-footer a {
+  color: #aaaaaa !important;
+  text-decoration: underline;
+}
+
+
+.yshortcuts a {
+  border-bottom: none !important;
+}
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+a[href^"x-apple-data-detectors:"],
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+</style>
+
+
+
+</head>
+<body bgcolor"#FFFFFF" leftmargin"0" topmargin"0" marginwidth"0=
+" marginheight"0" style'-moz-osx-font-smoothing:grayscale; -ms-text-s=
+ize-adjust:100%; -webkit-font-smoothing:antialiased; -webkit-text-size-adju=
+st:100%; font-family:"SF Pro Display", -apple-system, BlinkMacSystemFont, s=
+ystem-ui, "Segoe UI", sans-serif; margin:0; padding:0'>
+
+
+<table border"0" width"100%" cellpadding"0" cellspacing"0" bgco=
+lor"#FFFFFF" style"border-spacing:0; mso-table-lspace:0; mso-table-rs=
+pace:0">
+  <tr>
+    <td align"center" valign"top" bgcolor"#f39c97" style"border=
+-collapse:collapse">
+
+      <table border"0" width"640" cellpadding"0" cellspacing"0"=
+ class"header mobt0" style"border-spacing:0; mso-table-lspace:0; mso-=
+table-rspace:0; max-width:640px; width:640px; padding-top:20px">
+
+        <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr10 pb5 pl20" valign"top" style"bord=
+er-collapse:collapse; padding-top:15px; padding-right:10px; padding-bottom:=
+5px; padding-left:20px">
+
+               =20
+                <p class"mb5" style"color:#000; font-size:16px; font-=
+weight:400; line-height:23px; margin:0; margin-bottom:5px; padding:0">
+                  We don=E2=80=99t inherit the earth from our ancestors, we=
+ borrow it from our children.
+                </p>
+
+                <p class"mb0" style"color:#000; font-size:16px; font-=
+weight:400; line-height:23px; margin:0; margin-bottom:0; padding:0">
+                  <b style"font-weight:600">=E2=80=93 Chief Seattle</b>
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt20 pr20 pb5 pl10" valign"top" align"righ=
+t" style"border-collapse:collapse; padding-top:20px; padding-right:20px;=
+ padding-bottom:5px; padding-left:10px">
+
+                <p class"mb5" style"color:#000; font-size:16px; font-=
+weight:400; line-height:23px; margin:0; margin-bottom:5px; padding:0">
+                  <img src"https://www.densediscovery.com/archive/277/he=
+ad.jpg" width"100%" height"auto" class"img" style"-ms-interpola=
+tion-mode:bicubic; display:block; max-height:900px; max-width:416px; width:=
+100%">
+                </p>
+
+                <p class"mb0 mobb15" style"color:#000; font-size:16px=
+; font-weight:400; line-height:23px; margin:0; margin-bottom:0; padding:0">
+                  Featured artist: <a href"https://t.densediscovery.com/=
+CL0/https:%2F%2Fwww.instagram.com%2Fthebabybirds/1/0100018de73eef11-3b5b0ca=
+2-e30c-4026-b211-9e167124aa53-000000/daem1v8xZs130A5evL8fa_bvW4FWBvNtrrXIAM=
+egXbM341" style"text-decoration:underline; color:#000 !important">The=
+ Babybirds</a>
+                </p>
+
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+
+        <tr>
+          <td align"left" valign"bottom" class"tighten pl20" style=
+"border-collapse:collapse; font-size:1px; line-height:1px; padding-left:=
+20px"><a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.densedisc=
+overy.com/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/1n=
+JknfyCt_wWP0hlvQREnFdqB4AQJPk2rPyOkJrChDc341" style"text-decoration:u=
+nderline; color:#000 !important"><img src"https://www.densediscovery.com=
+/img/logo-top-new.png" height"auto" width"111" alt"Dense Discovery=
+" style"-ms-interpolation-mode:bicubic; display:block; float:left" align=
+"left"></a></td>
+        </tr>
+
+      </table>
+
+
+
+    </td>
+  </tr>
+</table>
+
+
+
+<table border"0" width"100%" cellpadding"0" cellspacing"0" bgco=
+lor"#FFFFFF" style"border-spacing:0; mso-table-lspace:0; mso-table-rs=
+pace:0">
+  <tr>
+    <td align"center" valign"top" bgcolor"#FFFFFF" style"border=
+-collapse:collapse; background-color:#FFF">
+
+      <table border"0" width"640" cellpadding"0" cellspacing"0"=
+ class"body" style"border-spacing:0; mso-table-lspace:0; mso-table-rs=
+pace:0; max-width:640px; width:640px">
+
+        <tr>
+            <td align"left" valign"top" class"tighten pl20" style=
+"border-collapse:collapse; font-size:1px; line-height:1px; padding-left:=
+20px"><a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.densedisc=
+overy.com/2/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/pR=
+nX-YNHcI6mf-ZXqyDmuXXqCJ26vxvPX0RJ-Z3mHmY341" style"text-decoration:u=
+nderline; color:#000 !important"><img src"https://www.densediscovery.com=
+/img/logo-bottom-new.png" height"auto" width"111" alt"Dense Discov=
+ery" style"-ms-interpolation-mode:bicubic; display:block; float:left" al=
+ign"left"></a></td>
+        </tr>
+
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+
+
+                <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"50%" valign"top"><![endif]-->
+
+          <table width"320" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr10 pl20" valign"top" style"border-c=
+ollapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px">
+
+               =20
+                <h1 class"mb5" style"color:#000; font-size:21px; font=
+-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padd=
+ing:0; margin-bottom:5px">
+                                      Welcome back, Julian!
+                                  </h1>
+
+             =20
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"50%" valign"top" class"brows=
+er"><![endif]-->
+
+          <table width"320" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr browser" style"border-spacing:0; mso-=
+table-lspace:0; mso-table-rspace:0; text-align:right">
+            <tr>
+              <td class"pt15 pr20 pl10 mobt0" valign"top" style"bo=
+rder-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:=
+10px">
+
+               =20
+                <p class"sm grey" style"color:#5A5A5A !important; fon=
+t-size:14px; font-weight:400; line-height:19px; margin:0; margin-bottom:15p=
+x; padding:0">
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.densediscovery.com%2Fissues%2F277/1/0100018de73eef11-3b5b0ca2-e30c-4026-=
+b211-9e167124aa53-000000/jf7r3Xyvb1USUi-ktS9gurwOmlZH7GIRNCkBF53DndY341"=
+ class"grey" style"text-decoration:underline; color:#5A5A5A !importan=
+t">View/share online</a> =E2=86=92</p>
+
+               =20
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+
+        <tr>
+          <td class"pt20 pl20 pr20 pb5" align"left" style"border-c=
+ollapse:collapse; padding-top:20px; padding-right:20px; padding-bottom:5px;=
+ padding-left:20px">
+
+            <p class"lg" style"color:#000; font-size:21px; font-weigh=
+t:400; line-height:30px; margin:0; margin-bottom:15px; padding:0">
+
+            Wikipedia <a href"https://t.densediscovery.com/CL0/https:%2F=
+%2Fen.wikipedia.org%2Fwiki%2FUltra-processed_food/1/0100018de73eef11-3b5b0c=
+a2-e30c-4026-b211-9e167124aa53-000000/9eivSzJvgCjUhRIOxv6fMO_cfTAoZdFmUaupv=
+Phni1s341" style"text-decoration:underline; color:#000 !important">de=
+fines</a> ultra-processed food (UPF) as <span class"quote" style"back=
+ground-color:#f2f2f2; color:#5A5A5A" bgcolor"#f2f2f2">=E2=80=9Can indust=
+rially formulated edible substance derived from natural food or synthesised=
+ from other organic compounds. The resulting products are designed to be hi=
+ghly profitable, convenient, and hyperpalatable.=E2=80=9D</span> An industr=
+ially formulated edible substance. Wow! <br><br>
+
+Tons of studies have linked regular consumption of UPFs to critical health =
+conditions such as obesity, type 2 diabetes, cardiovascular disease and cer=
+tain types of cancer.<br><br>
+
+It is frightening to think that UPFs now account for <a href"https://t.d=
+ensediscovery.com/CL0/https:%2F%2Fwww.nyu.edu%2Fabout%2Fnews-publications%2=
+Fnews%2F2021%2Foctober%2Fultra-processed-foods.html%3Futm_sourceDenseDis=
+covery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/G=
+BbBkMNY5Ztl2RWDXFJacHYXPpAN6C5RMZ2ScYYZAIA341" style"text-decoration:=
+underline; color:#000 !important">57%</a> of all calories consumed in the U=
+S. An analysis of foods available in major US supermarkets found that <a hr=
+ef"https://t.densediscovery.com/CL0/https:%2F%2Ffoodtank.com%2Fnews%2F20=
+22%2F11%2Fdatabase-indicates-u-s-food-supply-is-73-percent-ultra-processed%=
+2F%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-=
+b211-9e167124aa53-000000/FZZwRKpLyRcxdtRQf1AUnfsT2YJ1jcSWwPrts7kPbdk341"=
+ style"text-decoration:underline; color:#000 !important">73%</a> of them=
+ could be considered ultra-processed. UK and European numbers are only slig=
+htly better.<br><br>
+
+UPFs are the new tobacco, according to doctor, academic and BBC broadcaster=
+ Chris van Tulleken. In his excellent talk on <a href"https://t.densedis=
+covery.com/CL0/https:%2F%2Fwww.youtube.com%2Fwatch%3Fv5QOTBreQaIk/1/0100=
+018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/2Dkm7oOSN1hnkR3yXD=
+xesKBTMPnwii6zAXjjTUcbxyQ341" style"text-decoration:underline; color:=
+#000 !important">the harsh reality of ultra-processed foods</a> (h/t to <a =
+href"https://t.densediscovery.com/CL0/https:%2F%2Fsubstack.com%2F@thomas=
+klaffke%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-=
+4026-b211-9e167124aa53-000000/9mudqmwC20K7ouG6tKzTYENPcoON95UBT_2eK40GHmQ=
+341" style"text-decoration:underline; color:#000 !important">Thomas</=
+a>), he points out that poor diet has overtaken tobacco as the leading caus=
+e of early death. He makes the case that obesity and diet-related diseases =
+are what he calls =E2=80=98commerciogenic=E2=80=99 =E2=80=93 driven by prof=
+it incentives, just like tobacco.<br><br>
+
+Unlike processed foods, which have been around for thousands of years, ultr=
+a-processed foods were never part of our diet until about 50 years ago. Tha=
+t=E2=80=99s when industrialised food manufacturers found a way to modify ch=
+eap food substances for maximum sensory experience and profit. As a result,=
+ we now ingest numerous molecules that are devoid of nutrition, highly addi=
+ctive and completely foreign to our digestive tracts, causing all sorts of =
+health problems. van Tulleken calls it the <span class"quote" style"b=
+ackground-color:#f2f2f2; color:#5A5A5A" bgcolor"#f2f2f2">=E2=80=9Ccommod=
+ification of disease=E2=80=9D</span>.<br><br>
+
+In one of the most fascinating parts of the talk, he explains that the noti=
+on of =E2=80=98calories in, calories out=E2=80=99 =E2=80=93 the idea that w=
+e can simply burn off excess calories through exercise =E2=80=93 is not onl=
+y wrong, it=E2=80=99s actually a phrase trademarked by Coca-Cola. van Tulle=
+ken compared the calorie intake of highly active hunter-gatherers in Tanzan=
+ia with that of the average, much more inactive Westerner. He found that bo=
+th burned about the same number of calories.<br><br>
+
+<span class"quote" style"background-color:#f2f2f2; color:#5A5A5A" bgc=
+olor"#f2f2f2">=E2=80=9CIf I were to move to Tanzania, I would spend many=
+ of those calories moving around, preparing, hunting and gathering food. In=
+ the UK, I still spend those calories, but I=E2=80=99m not moving. I seem t=
+o spend them on inflammation and anxiety, and on hormone levels that may be=
+ quite toxic. There is lots and lots of data coalescing around this. =E2=80=
+=A6 We steal from reproductive and immune budgets.=E2=80=9D</span><br><br>
+
+That=E2=80=99s pretty wild! We spend a lot of calories just dealing with th=
+e effects of modernity on our bodies!<br><br>
+
+van Tulleken is quick to point out that we shouldn=E2=80=99t blame ourselve=
+s. His children eat a lot of UPFs because food connects us to the people ar=
+ound us. To cut ourselves off from that completely would be to cut ourselve=
+s off from much of society. <br><br>
+
+Instead, van Tulleken calls for institutional food to be real food: hospita=
+ls, prisons, schools =E2=80=93 they can all lead by example, serving nutrit=
+ious, healthy food and setting us on the right path early on. To stop the f=
+inancialisation of food we ought to establish and promote not-for-profit fo=
+od companies. <br><br>
+
+Showing products from Mexico, where cute animals have been removed from cer=
+eal boxes and replaced with clear nutrition labels and health warnings, he =
+suggests that the most impactful change would be to ban the world=E2=80=99s=
+ biggest food companies from influencing government policy. <br><br>
+
+<span class"quote" style"background-color:#f2f2f2; color:#5A5A5A" bgc=
+olor"#f2f2f2">=E2=80=9CThe number one change we need is a cultural chang=
+e where we come to regard the companies that make our food as tobacco compa=
+nies. Their money is dirty, and if [governments and researchers] accept the=
+ir money, we become part of the marketing division of those companies. We n=
+eed to disentangle all the charities that influence policy from the compani=
+es that make the food that is harming us.=E2=80=9D</span>
+
+
+ =E2=80=93 <a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.briz=
+k.com/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/SO00hV=
+jfgYVEmfvZlHYDW2oD3PmfA__d0qjwHnjxZ78341" style"text-decoration:under=
+line; color:#000 !important">Kai</a>
+
+            </p>
+
+            </td>
+          </tr>
+
+            <tr><td class"spc" style"border-collapse:collapse; font-s=
+ize:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+            <tr>
+              <td align"left" style"border-collapse:collapse">
+
+             =20
+              <p class"sm grey pr20 pl20 pb5" style"color:#5A5A5A !im=
+portant; font-size:14px; font-weight:400; line-height:19px; margin:0; margi=
+n-bottom:15px; padding:0; padding-right:20px; padding-bottom:5px; padding-l=
+eft:20px"><b style"font-weight:600">Thanks again for being a <a href"=
+https://t.densediscovery.com/CL0/https:%2F%2Fwww.densediscovery.com%2Ffrien=
+ds%2F/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/mxtpHK=
+iv0F_U8Yp2ruFPgyuBtfJ-b7e26aXRfOxhhCo341" class"grey" style"text-d=
+ecoration:underline; color:#5A5A5A !important">Friend of DD</a>, Julian!</b=
+> Find more info about your benefits as a Friend and how to manage your mem=
+bership in the footer of each DD issue. If you have any questions, simply r=
+eply to this email. </p>
+
+             =20
+              </td>
+            </tr>
+
+                             =20
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+        <tr>
+          <td class"hl box-yellow" align"left" style"border-collap=
+se:collapse; background:#f8eccf; border-bottom:2px solid #FFF; padding:15px=
+ 20px 15px 20px">
+
+            <h1 style"color:#000; font-size:21px; font-weight:600; line-=
+height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Accelerate =
+Your Shopify Business<a href"https://t.densediscovery.com/CL0/https:%2F%=
+2Fwww.densediscovery.com%2Fadvertise%2F/1/0100018de73eef11-3b5b0ca2-e30c-40=
+26-b211-9e167124aa53-000000/2GXM4Op66-A53jsqAiDUuq6BkYYcZHpmGv7OILenPWo3=
+41" class"byl spo" style"text-decoration:none; display:inline-block; =
+float:right; font-size:12px !important; font-weight:600; line-height:23px; =
+text-transform:uppercase; color:rgba(0, 0, 0, 0.4) !important">SPONSOR</a>
+</h1>
+
+          </td>
+        </tr>
+
+        <tr>
+          <td align"left" class"box-yellow" style"border-collapse:=
+collapse; background:#f8eccf">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt20 pr10 pl20 pb5" valign"top" style"bord=
+er-collapse:collapse; padding-top:20px; padding-right:10px; padding-bottom:=
+5px; padding-left:20px">
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  <img src"https://www.densediscovery.com/archive/277/sp=
+onsor.jpg" alt"=E2=9D=8F" width"100%" height"auto" class"img" s=
+tyle"-ms-interpolation-mode:bicubic; display:block; max-height:900px; ma=
+x-width:416px; width:100%">
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr20 pl10 pb5 mobt0" valign"top" style=
+"border-collapse:collapse; padding-top:15px; padding-right:20px; padding=
+-bottom:5px; padding-left:10px">
+
+                <h2 class"pb5" style"color:#000; font-size:16px; font=
+-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padd=
+ing:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Flucidcommerce.co%2F=
+%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b2=
+11-9e167124aa53-000000/v_OKQQuTDgYrCt5lXJ5GVqXK5Eub9ht0g5Xruuq5ACI341" s=
+tyle"text-decoration:underline; color:#000 !important">Lucid Commerce</a=
+><span class"nobk" style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                <h3 style"font-size:16px; font-weight:400; line-height:2=
+3px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#6d6b=
+57 !important">All the Shopify expertise you=E2=80=99ll ever need</h3>
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0">
+                 Bringing the expertise of an agency without all the proces=
+s: after over two decades running an agency, my solo practice now works dir=
+ectly with founders to grow their Shopify business. As one of the original =
+12 Shopify Partners, I=E2=80=99ve designed and built dozens of successful, =
+=E2=80=98low-code=E2=80=98 Shopify stores. Get in touch!
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+       =20
+               =20
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+        <tr>
+          <td class"hl" align"left" style"border-collapse:collapse=
+; border-bottom:2px solid #FFF; padding:15px 20px 15px 20px">
+
+            <h1 style"color:#000; font-size:21px; font-weight:600; line-=
+height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Apps &amp; =
+Sites</h1>
+
+          </td>
+        </tr>
+
+
+        <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr10 pl20" valign"top" style"border-c=
+ollapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px">
+
+                <h2 class"pb5" style"color:#000; font-size:16px; font=
+-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padd=
+ing:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fcooked.wiki%2F%3Fut=
+m_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e=
+167124aa53-000000/dnghrtfT5IEP393ZEh-FxqcPmOvf2DiQw9fk-GfMmrc341" style=
+"text-decoration:underline; color:#000 !important">Cooked.wiki</a><span =
+class"nobk" style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                <h3 style"font-size:16px; font-weight:400; line-height:2=
+3px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A5A=
+5A !important">Clean up &amp; save recipes</h3>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr20 pl10 mobt0" valign"top" style"bo=
+rder-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:=
+10px">
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0">
+                   I love that there is an infinite amount of recipes avail=
+able online. Sadly, cooking-related websites usually come with the worst po=
+ssible user experience. With this handy web app, you can simply add =E2=80=
+=98cooked.wiki/=E2=80=99 in front of any recipe URL and it will provide you=
+ with a clean, practical view of <i>just</i> the recipe that you can then e=
+dit and save.=20
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+        <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr10 pl20" valign"top" style"border-c=
+ollapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px">
+
+                <h2 class"pb5" style"color:#000; font-size:16px; font=
+-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padd=
+ing:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.superlist.com%2=
+F%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b=
+211-9e167124aa53-000000/84ciCVPcdLq3IClUpIa7pZ1Pv3jJxoEJSBmDgg5LV54341" =
+style"text-decoration:underline; color:#000 !important">Superlist</a><sp=
+an class"nobk" style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                <h3 style"font-size:16px; font-weight:400; line-height:2=
+3px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A5A=
+5A !important">To-do list app</h3>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr20 pl10 mobt0" valign"top" style"bo=
+rder-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:=
+10px">
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  Remember <a href"https://t.densediscovery.com/CL0/http=
+s:%2F%2Fen.wikipedia.org%2Fwiki%2FWunderlist/1/0100018de73eef11-3b5b0ca2-e3=
+0c-4026-b211-9e167124aa53-000000/A_skajurGv8SQm_wzL9Nw7HcaFxI3JbYfh0_qZw6_N=
+M341" style"text-decoration:underline; color:#000 !important">Wunderl=
+ist</a> =E2=80=93 the to-do list app that was sold to Microsoft and shortly=
+ after disappeared? (*sigh*) Some members of that original crew have just r=
+eleased =E2=80=93 you guessed it =E2=80=93 a new to-do list app. Superlist =
+looks lovely and comes with the features you=E2=80=99d expect. Ticking off =
+list items is arguably one of the biggest app segments already, and yet the=
+re seems to be an unquenchable appetite for more. =20
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+        <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr10 pl20" valign"top" style"border-c=
+ollapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px">
+
+                <h2 class"pb5" style"color:#000; font-size:16px; font=
+-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padd=
+ing:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fgithub.com%2Fjackla=
+ndrin%2FOnlySwitch%2F%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-=
+3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/aYYTvuN293NZv4Bj_m5JPH2jQ1QgK7b=
+5Y9Hk8aYmuHw341" style"text-decoration:underline; color:#000 !importa=
+nt">OnlySwitch</a><span class"nobk" style"white-space:nowrap">=C2=A0=
+=E2=86=92</span>
+</h2>
+
+                <h3 style"font-size:16px; font-weight:400; line-height:2=
+3px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A5A=
+5A !important">Shortcuts for macOS</h3>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr20 pl10 mobt0" valign"top" style"bo=
+rder-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:=
+10px">
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  OnlySwitch is a macOS menu bar app that presents you with=
+ a series of toggle switches for easily and quickly enabling/disabling cert=
+ain Mac features, shortcuts and utilities.=20
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+        <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr10 pl20" valign"top" style"border-c=
+ollapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px">
+
+                <h2 class"pb5" style"color:#000; font-size:16px; font=
+-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padd=
+ing:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Frocketlaunch.org%2F=
+%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b2=
+11-9e167124aa53-000000/KxcGjp6kpJojjkVw9sQ8f9fVAPnIRmIi-SOTRQU4fe8341" s=
+tyle"text-decoration:underline; color:#000 !important">RocketLaunch</a><=
+span class"nobk" style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                <h3 style"font-size:16px; font-weight:400; line-height:2=
+3px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A5A=
+5A !important">Explore past &amp; future rocket launches</h3>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr20 pl10 mobt0" valign"top" style"bo=
+rder-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:=
+10px">
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  For space and engineering geeks, RocketLaunch&amp;period;=
+org is a kind of wiki about all past and scheduled rocket launches from var=
+ious launch sites around the world. I had no idea just <i>how many</i> laun=
+ches there are throughout the year! Check <a href"https://t.densediscove=
+ry.com/CL0/https:%2F%2Frocketlaunch.org%2Frocket-launch-recap%2F2023%3Futm_=
+sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e16=
+7124aa53-000000/EcackKtzJNFPgLty6Xym7hDRTCfrxpYnozGRTRsGYvE341" style=
+"text-decoration:underline; color:#000 !important">this 2023 recap</a>: 234=
+ total launches with 45 humans sent to space.
+                </p>
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+                  <tr><td class"spc" style"border-collapse:collapse; =
+font-size:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl box-red" align"left" style"border-collaps=
+e:collapse; background:#fbe7e3; border-bottom:2px solid #FFF; padding:15px =
+20px 15px 20px">
+
+            <h1 style"color:#000; font-size:21px; font-weight:600; line-=
+height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Worthy Five=
+: Emily Dela Cruz</h1>
+
+          </td>
+          </tr>
+
+          <tr>
+          <td align"left" class"box-red" style"border-collapse:col=
+lapse; background:#fbe7e3">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt20 pr10 pb5 pl20" valign"top" style"bord=
+er-collapse:collapse; padding-top:20px; padding-right:10px; padding-bottom:=
+5px; padding-left:20px">
+
+                <p style"color:#000; font-size:16px; font-weight:400; li=
+ne-height:23px; margin:0; margin-bottom:15px; padding:0"><img src"https:=
+//www.densediscovery.com/archive/277/worthy-five.jpg" width"100%" height=
+"auto" class"img" loading"lazy" style"-ms-interpolation-mode:bi=
+cubic; display:block; max-height:900px; max-width:416px; width:100%"></p>
+
+                <p class"grey" style"color:#84625D !important; font-s=
+ize:16px; font-weight:400; line-height:23px; margin:0; margin-bottom:15px; =
+padding:0">Five recommendations by web developer and general enthusiast <a =
+href"https://t.densediscovery.com/CL0/https:%2F%2Femilydelacruz.com%2F%3=
+Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211=
+-9e167124aa53-000000/xzQcPGnM-ML7cFOVf-aw5zuHJtZyaD07ld57fOWgMK8341" sty=
+le"text-decoration:underline; color:#84625D !important">Emily Dela Cruz<=
+/a></p>
+
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt15 pr20 pl10 pb5 mobt0" valign"top" style=
+"border-collapse:collapse; padding-top:15px; padding-right:20px; padding=
+-bottom:5px; padding-left:10px">
+
+              <h2 class"pb5" style"color:#000; font-size:16px; font-w=
+eight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; paddin=
+g:0 0 15px 0; padding-bottom:5px">A question worth asking:</h2>
+              <p style"color:#000; font-size:16px; font-weight:400; line=
+-height:23px; margin:0; margin-bottom:15px; padding:0">
+                Consider this: =E2=80=98Is this worth your energy?=E2=80=99=
+ It=E2=80=99s my go-to question for pulling myself and others out of spiral=
+ states, especially during a gripe or worry session. This simple inquiry us=
+ually prompts myself and others to pause and reflect on what truly matters.
+              </p>
+
+              <h2 class"pb5" style"color:#000; font-size:16px; font-w=
+eight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; paddin=
+g:0 0 15px 0; padding-bottom:5px">A book worth reading:</h2>
+              <p style"color:#000; font-size:16px; font-weight:400; line=
+-height:23px; margin:0; margin-bottom:15px; padding:0">=20
+                Explore the imaginative afterlives crafted by neuroscientis=
+t David Eagleman in <a href"https://t.densediscovery.com/CL0/https:%2F%2=
+Fapp.thestorygraph.com%2Fbooks%2F138c3a91-6524-4242-9bdb-18ef43418531%3Futm=
+_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e1=
+67124aa53-000000/1QbnKME-_WiYu7MACS55OiZQKsYcKeaDtvTHxvidpZ8341" style=
+"text-decoration:underline; color:#000 !important"><i>Sum: Forty Tales f=
+rom the Afterlives</i></a>. Spoiler: While being a background character in =
+others=E2=80=99 dreams isn=E2=80=99t my preference, the exploration is defi=
+nitely intriguing.
+              </p>
+
+              <h2 class"pb5" style"color:#000; font-size:16px; font-w=
+eight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; paddin=
+g:0 0 15px 0; padding-bottom:5px">A video worth watching:</h2>
+              <p style"color:#000; font-size:16px; font-weight:400; line=
+-height:23px; margin:0; margin-bottom:15px; padding:0">
+               I may not be a dancer myself, but <a href"https://t.dense=
+discovery.com/CL0/https:%2F%2Fwww.youtube.com%2Fwatch%3FvTmQJwgUqT_o/1/0=
+100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/dnpSE37POzJOlvI=
+sxMGgOYO7QvNUeNwdLjmOQoNIyps341" style"text-decoration:underline; col=
+or:#000 !important">Lip J=E2=80=99s waacking skills in her judge showcase</=
+a> at the Line Up dance battle event make me wish I were. Her performance i=
+s infused with musicality and emotion. Don=E2=80=99t miss those lightning-f=
+ast arm movements around the two-minute mark =E2=80=93 truly incredible!
+              </p>
+
+              <h2 class"pb5" style"color:#000; font-size:16px; font-w=
+eight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; paddin=
+g:0 0 15px 0; padding-bottom:5px">A phrase worth knowing:</h2>
+              <p style"color:#000; font-size:16px; font-weight:400; line=
+-height:23px; margin:0; margin-bottom:15px; padding:0">
+              In Pangasinan, the Filipino dialect my parents speak, the phr=
+ase <i>=E2=80=98akauley kilad tan=E2=80=99</i> roughly translates to all of=
+ this: do what you will, it=E2=80=99s up to you, find a way. Often shared b=
+y my mum with a fond eye roll, it serves as a reminder to get off my butt, =
+take action, and face challenges head-on.
+
+              </p>
+
+              <h2 class"pb5" style"color:#000; font-size:16px; font-w=
+eight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; paddin=
+g:0 0 15px 0; padding-bottom:5px">A piece of advice worth passing on:</h2>
+              <p style"color:#000; font-size:16px; font-weight:400; line=
+-height:23px; margin:0; margin-bottom:15px; padding:0">
+              From Jocelyn K. Glei=E2=80=99s <a href"https://t.densedisc=
+overy.com/CL0/https:%2F%2Fjkg.ck.page%2Fposts%2Fwhen-the-time-is-ripe%3Futm=
+_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e1=
+67124aa53-000000/fovlR81IGkrjLtVwBt712olnl6IyEDzIUhTlxslf59I341" style=
+"text-decoration:underline; color:#000 !important">newsletter</a>: Allow=
+ things (insights, situations, relationships, etc.) the time and space they=
+ need to ripen. This advice tempers the part of me that wants things to hap=
+pen ASAP. Loosen your grip, stop pushing and prodding. Sometimes you need t=
+o step away and let everything naturally unfurl.
+              </p>
+
+               =20
+                 =20
+                    <p class"pt5 pb5" style"color:#000; font-size:16p=
+x; font-weight:400; line-height:23px; margin:0; margin-bottom:15px; padding=
+:0; padding-top:5px; padding-bottom:5px"><a href"https://t.densediscover=
+y.com/CL0/https:%2F%2Frespond.densediscovery.com%2F277/1/0100018de73eef11-3=
+b5b0ca2-e30c-4026-b211-9e167124aa53-000000/p8cYpgWglmTR-nKFk37pizCcHdBFlumG=
+fmBSgbHZqvQ341" class"btn btn-red" style"text-decoration:none !imp=
+ortant; border-radius:2px; display:inline-block; padding:3px 8px 4px 8px; t=
+ext-align:center; background:#000; color:#fbe7e3 !important" align"cente=
+r"><b style"font-weight:600">Respond to Emily Dela Cruz=C2=A0=E2=86=92</=
+b></a> </p>
+
+                    <p class"grey" style"color:#84625D !important; fo=
+nt-size:16px; font-weight:400; line-height:23px; margin:0; margin-bottom:15=
+px; padding:0">(Only Friends of DD like you can contact guest contributors =
+directly.)</p>
+
+                 =20
+               =20
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+
+            </td>
+          </tr>
+=20
+          <tr><td class"spc" style"border-collapse:collapse; font-siz=
+e:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl" align"left" style"border-collapse:collap=
+se; border-bottom:2px solid #FFF; padding:15px 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Books &am=
+p; Accessories</h1>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" style"border-collapse:collapse">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"50%" valign"top"><![endif]-->
+
+            <table width"320" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:10px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    <img src"https://www.densediscovery.com/archive/277/=
+book1.jpg" width"100%" height"auto" class"img" loading"lazy" st=
+yle"-ms-interpolation-mode:bicubic; display:block; max-height:900px; max=
+-width:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"50%" valign"top"><![endif]-->
+
+            <table width"320" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr10 pl20 mobt0" valign"top" style"=
+border-collapse:collapse; padding-top:15px; padding-right:10px; padding-lef=
+t:20px">
+
+                  <h2 class"pb5" style"color:#000; font-size:16px; fo=
+nt-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; pa=
+dding:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fapp.thestorygraph.c=
+om%2Fbooks%2F8654a3c4-c40e-4ada-99fd-f987f9d51faf%3Futm_sourceDenseDisco=
+very-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/hVF=
+RGOqYPvWxzqYPEQeVG1NKH_yiqznM2uN74NP1G1Q341" style"text-decoration:un=
+derline; color:#000 !important">Limitarianism</a><span class"nobk" style=
+"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                  <h3 style"font-size:16px; font-weight:400; line-height=
+:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A=
+5A5A !important">The case against extreme wealth</h3>
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    How much money is too much? What can be done to stop in=
+dividuals amassing a limitless amount of wealth that distorts markets and d=
+emocracies? In her new book, Ingrid Robeyns <span class"quote" style"=
+background-color:#f2f2f2; color:#5A5A5A" bgcolor"#f2f2f2">=E2=80=9Cunpac=
+ks the concept of a cap on wealth, where to draw the line, how to collect t=
+he excess and what to do with the money. In the process, Robeyns will ignit=
+e an urgent debate about wealth, one that calls into question the very forc=
+es we live by (capitalism and neoliberalism) and invites us to a radical re=
+imagining of our world.=E2=80=9D</span>
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" style"border-collapse:collapse">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"50%" valign"top"><![endif]-->
+
+            <table width"320" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:10px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    <img src"https://www.densediscovery.com/archive/277/=
+book2.jpg" width"100%" height"auto" class"img" loading"lazy" st=
+yle"-ms-interpolation-mode:bicubic; display:block; max-height:900px; max=
+-width:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"50%" valign"top"><![endif]-->
+
+            <table width"320" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr10 pl20 mobt0" valign"top" style"=
+border-collapse:collapse; padding-top:15px; padding-right:10px; padding-lef=
+t:20px">
+
+                  <h2 class"pb5" style"color:#000; font-size:16px; fo=
+nt-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; pa=
+dding:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.chelseagreen.co=
+m%2Fproduct%2Fkinship-belonging-in-a-world-of-relations-5-volume-set%2F%3Fu=
+tm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9=
+e167124aa53-000000/bujdbWEeQQGCerbLyeN-JvQMJNxcBTFn_Bd5d_di8aU341" style=
+"text-decoration:underline; color:#000 !important">Kinship (Set)</a><spa=
+n class"nobk" style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                  <h3 style"font-size:16px; font-weight:400; line-height=
+:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A=
+5A5A !important">Belonging in a world of relations</h3>
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    From the employee-owned, ecology-focused publisher Chel=
+sea Green Publishing comes a beautiful box set with five volumes that each =
+contain essays, interviews, poetry, and stories of solidarity that highligh=
+t the interdependence that exists between humans and nonhuman beings. The v=
+olumes are split into: planet, place, partners, persons, and practice. Enjo=
+y more than 70 contributors, including Robin Wall Kimmerer (see <a href"=
+https://t.densediscovery.com/CL0/https:%2F%2Fwww.densediscovery.com%2Fissue=
+s%2F171%2F/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/P=
+lg_AIkoJdbjynuY7dQ3ENHP8nbRYCV-PUicNyHpmJo341" style"text-decoration:=
+underline; color:#000 !important">DD171</a>), Richard Powers, David Abram, =
+J. Drew Lanham, and Sharon Blackie.
+                    (UK readers order from <a href"https://t.densediscov=
+ery.com/CL0/https:%2F%2Fchelseagreen.co.uk%2Fbook%2Fkinship-belonging-in-a-=
+world-of-relations-5-volume-set%2F%3Futm_sourceDenseDiscovery-277/1/0100=
+018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/JcrL_KEd_HZInMCTN9=
+mj3H5CZJLZKZaU6KvpnDpsgAc341" style"text-decoration:underline; color:=
+#000 !important">here</a>.) <span class"friend-special" style"backgro=
+und:#ffeec1"><b style"font-weight:600">Friends of DD</b> enjoy a 35% dis=
+count.
+                 =20
+                    Use the code: <span class"code" style"border:1px =
+solid #000; display:inline-box; font-size:13px; padding:0 2px 1px 2px; whit=
+e-space:nowrap">CGP35</span> US &amp; UK orders only.
+                   =20
+                                    </span>
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+  =20
+          <tr><td class"spc" style"border-collapse:collapse; font-siz=
+e:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl box-blue" align"left" style"border-collap=
+se:collapse; background:#d1eaf4; border-bottom:2px solid #FFF; padding:15px=
+ 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Overheard=
+ on Mastodon</h1>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"pt15 pr20 pl20 pb5 box-blue" style=
+"border-collapse:collapse; background:#d1eaf4; padding-top:15px; padding=
+-right:20px; padding-bottom:5px; padding-left:20px">
+
+              <p class"lg" style"color:#000; font-size:21px; font-wei=
+ght:400; line-height:30px; margin:0; margin-bottom:15px; padding:0">
+              Over 80% of iCloud storage is used on 12 megapixel photos of =
+stuff in the grocery store followed by a text that says =E2=80=9Cis this th=
+e right one=E2=80=9D.
+              </p>
+
+              <h2 style"color:#000; font-size:16px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 15px 0">=
+=E2=80=93 <a href"https://t.densediscovery.com/CL0/https:%2F%2Fposts.rat=
+.pictures%2F@hannah%2F111808086160815790/1/0100018de73eef11-3b5b0ca2-e30c-4=
+026-b211-9e167124aa53-000000/o-UxAbpH9y2PucpE024F5avzmCbLrD1HDxW9jRscNvQ=
+341" style"text-decoration:underline; color:#000 !important">@hannah@pos=
+ts.rat.pictures</a>
+</h2>
+
+            </td>
+
+          </tr>
+<tr><td class"spc" style"border-collapse:collapse; font-size:1px; lin=
+e-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl" align"left" style"border-collapse:collap=
+se; border-bottom:2px solid #FFF; padding:15px 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Food for =
+Thought</h1>
+
+            </td>
+          </tr>
+
+
+          <tr>
+            <td align"left" style"border-collapse:collapse">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px=
+">
+
+                  <h2 class"pb5" style"color:#000; font-size:16px; fo=
+nt-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; pa=
+dding:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.youtube.com%2Fw=
+atch%3Fv5QOTBreQaIk/2/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124a=
+a53-000000/Z_fGTan18HyU2lN-HiY1yQE0guGWcUHjSKROqynuBb0341" style"text=
+-decoration:underline; color:#000 !important">The harsh reality of ultra pr=
+ocessed food</a><span class"nobk" style"white-space:nowrap">=C2=A0=E2=
+=86=92</span>
+</h2>
+
+                  <h3 style"font-size:16px; font-weight:400; line-height=
+:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A=
+5A5A !important">Watch</h3>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10 mobt0" valign"top" style"=
+border-collapse:collapse; padding-top:15px; padding-right:20px; padding-lef=
+t:10px">
+
+                    <p style"color:#000; font-size:16px; font-weight:400=
+; line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                      It=E2=80=99s fascinating and scary to think just how =
+much the industrialisation and financialisation of food has transformed our=
+ diets and the way we think about food. Most of our calories now come from =
+an entirely novel set of substances that are physically changing our bodies=
+. Doctor and academic Chris van Tulleken is a wonderful speaker and you lea=
+rn a lot about food, diets, and myths around eating and obesity. An eye-ope=
+ning talk for those interested in better understanding how we fuel our bodi=
+es.=20
+                    </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" style"border-collapse:collapse">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px=
+">
+
+                  <h2 class"pb5" style"color:#000; font-size:16px; fo=
+nt-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; pa=
+dding:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.whatworks.fyi%2=
+Fp%2Fall-parasites-have-value-makers-takers%3Futm_sourceDenseDiscovery-2=
+77/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/tHA8zWOYo=
+F0XYiOk7f9QfYI5uCzQIAMghCgQW2mtv-I341" style"text-decoration:underlin=
+e; color:#000 !important">All Parasites Have Value</a><span class"nobk" =
+style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                  <h3 style"font-size:16px; font-weight:400; line-height=
+:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A=
+5A5A !important">Read</h3>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10 mobt0" valign"top" style"=
+border-collapse:collapse; padding-top:15px; padding-right:20px; padding-lef=
+t:10px">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    Tara McMullin with another lovely piece on our societal=
+ beliefs around work and worthiness. She argues that a new cultural and per=
+sonal narrative is needed to recognise the worth of those who aren=E2=80=99=
+t =E2=80=98productive=E2=80=99 in a purely economic sense and calls for mor=
+e sustainable work practices. <span class"quote" style"background-col=
+or:#f2f2f2; color:#5A5A5A" bgcolor"#f2f2f2">=E2=80=9CIn our consumer eco=
+nomy, producing demand is even more important than producing supply. And th=
+ere is no demand without people who can purchase what=E2=80=99s on offer. P=
+eople can=E2=80=99t purchase what=E2=80=99s on offer without money =E2=80=
+=93 so keeping people employed maintains the market for the crap that gets =
+produced. Instead of our work creating needed value for our communities, ou=
+r work fuels our economic obsession with growth through consumption. For ma=
+ny of us, the part we play in the economy is this: we work to shop.=E2=80=
+=9D</span>
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+
+          <tr>
+            <td align"left" style"border-collapse:collapse">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px=
+">
+
+                  <h2 class"pb5" style"color:#000; font-size:16px; fo=
+nt-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; pa=
+dding:0 0 15px 0; padding-bottom:5px">
+<a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.scientificameri=
+can.com%2Farticle%2Fhow-we-make-sense-of-time%2F%3Futm_sourceDenseDiscov=
+ery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/LTvS=
+8EiLXRMtdWJtrbOHEMPO1sXVBobT1W_7L11Jlvk341" style"text-decoration:und=
+erline; color:#000 !important">How We Make Sense of Time</a><span class"=
+nobk" style"white-space:nowrap">=C2=A0=E2=86=92</span>
+</h2>
+
+                  <h3 style"font-size:16px; font-weight:400; line-height=
+:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 5px 0; color:#5A=
+5A5A !important">Read</h3>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10 mobt0" valign"top" style"=
+border-collapse:collapse; padding-top:15px; padding-right:20px; padding-lef=
+t:10px">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    If you enjoyed the talk by cognitive scientist Lera Bor=
+oditsky (<a href"https://t.densediscovery.com/CL0/https:%2F%2Fwww.densed=
+iscovery.com%2Fissues%2F273%2F/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9=
+e167124aa53-000000/lD_gFZAhL8CJba3QP1vE4h4yAvrgC4YS6Hzcc33L9tI341" style=
+"text-decoration:underline; color:#000 !important">DD273</a>) on how the=
+ language we speak shapes our view of the world, this essay offers some ove=
+rlapping and some additional insights on how our concept of time is influen=
+ced by our understanding of physical space, with cultural variations playin=
+g a major role. <span class"quote" style"background-color:#f2f2f2; co=
+lor:#5A5A5A" bgcolor"#f2f2f2">=E2=80=9CAymara people spend much more tim=
+e talking about past events than about future times. After all, they can te=
+ll whether last year was dry or wet =E2=80=93 they were there and saw it wi=
+th their eyes =E2=80=93 and can discuss that with clarity and conviction. B=
+ut how next year is going to be is anybody's guess =E2=80=93 nobody has see=
+n it, and so it is just a matter of futile speculation. The known past is t=
+herefore conceived as being visually in front of them and the unknown futur=
+e out of view behind them.=E2=80=9D</span>
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr><td class"spc" style"border-collapse:collapse; font-siz=
+e:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl box-grey" align"left" style"border-collap=
+se:collapse; background:#f2f2f2; border-bottom:2px solid #FFF; padding:15px=
+ 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Aesthetic=
+ally Pleasing</h1>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"box-grey" style"border-collapse:=
+collapse; background:#f2f2f2">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt20 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:20px; padding-right:10px; padding-left:20px=
+">
+
+                  <p class"mb0" style"color:#000; font-size:16px; fon=
+t-weight:400; line-height:23px; margin:0; margin-bottom:0; padding:0">
+                    <img src"https://www.densediscovery.com/archive/277/=
+art1.jpg" width"100%" height"auto" class"img img-line" loading"=
+lazy" style"-ms-interpolation-mode:bicubic; display:block; max-height:90=
+0px; max-width:416px; width:100%; margin-bottom:2px">
+                    <img src"https://www.densediscovery.com/archive/277/=
+art2.jpg" width"100%" height"auto" class"img" loading"lazy" sty=
+le"-ms-interpolation-mode:bicubic; display:block; max-height:900px; max-=
+width:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:10px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    If you=E2=80=99re looking for some contemporary art pri=
+nts for your walls, <a href"https://t.densediscovery.com/CL0/https:%2F%2=
+Fdrool-art.com%2F%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b=
+0ca2-e30c-4026-b211-9e167124aa53-000000/CE2RLcoTbpix3OSGJB2XlISsLf4FXFZ7eGr=
+jUJjgYOs341" style"text-decoration:underline; color:#000 !important">=
+<b style"font-weight:600">Drool</b></a> has a nice collection of colourf=
+ul, illustrated art at a reasonable price.
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"box-grey" style"border-collapse:=
+collapse; background:#f2f2f2">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt20 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:20px; padding-right:10px; padding-left:20px=
+">
+
+                  <p class"mb0" style"color:#000; font-size:16px; fon=
+t-weight:400; line-height:23px; margin:0; margin-bottom:0; padding:0">
+                      <img src"https://www.densediscovery.com/archive/27=
+7/photo1.jpg" width"100%" height"auto" class"img img-line" loading=
+"lazy" style"-ms-interpolation-mode:bicubic; display:block; max-heigh=
+t:900px; max-width:416px; width:100%; margin-bottom:2px">
+                      <img src"https://www.densediscovery.com/archive/27=
+7/photo2.jpg" width"100%" height"auto" class"img" loading"lazy"=
+ style"-ms-interpolation-mode:bicubic; display:block; max-height:900px; =
+max-width:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:10px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    Enjoy the top 100 winners of the <a href"https://t.d=
+ensediscovery.com/CL0/https:%2F%2Fwww.cupoty.com%2Fwinners-5%3Futm_source=
+DenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa=
+53-000000/d_QwULVG6TEtmcVExOVqytLhhAKIq1RnGYqksgb57v0341" style"text-=
+decoration:underline; color:#000 !important"><b style"font-weight:600">C=
+lose-up Photographer of the Year</b></a> competition for 2023.
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"box-grey" style"border-collapse:=
+collapse; background:#f2f2f2">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt20 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:20px; padding-right:10px; padding-left:20px=
+">
+
+                  <p class"mb0" style"color:#000; font-size:16px; fon=
+t-weight:400; line-height:23px; margin:0; margin-bottom:0; padding:0">
+                      <img src"https://www.densediscovery.com/archive/27=
+7/tea1.jpg" width"100%" height"auto" class"img img-line" loading=
+"lazy" style"-ms-interpolation-mode:bicubic; display:block; max-heigh=
+t:900px; max-width:416px; width:100%; margin-bottom:2px">
+                      <img src"https://www.densediscovery.com/archive/27=
+7/tea2.jpg" width"100%" height"auto" class"img" loading"lazy" s=
+tyle"-ms-interpolation-mode:bicubic; display:block; max-height:900px; ma=
+x-width:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:10px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    Watch <a href"https://t.densediscovery.com/CL0/https=
+:%2F%2Fwww.instagram.com%2Fteapotcraftsman/1/0100018de73eef11-3b5b0ca2-e30c=
+-4026-b211-9e167124aa53-000000/QRU0tLC5wjjaQFy5KlRND8vpug6Dqx8FDxjW4cdbyqk=
+341" style"text-decoration:underline; color:#000 !important"><b style=
+"font-weight:600">Chinese craftspeople</b></a> create beautiful teapots =
+by hand. =20
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"pb5 box-grey" style"border-colla=
+pse:collapse; background:#f2f2f2; padding-bottom:5px">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt20 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:20px; padding-right:10px; padding-left:20px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    <img src"https://www.densediscovery.com/archive/277/=
+font1.jpg" width"100%" height"auto" class"img img-line" loading=
+"lazy" style"-ms-interpolation-mode:bicubic; display:block; max-height:9=
+00px; max-width:416px; width:100%; margin-bottom:2px">
+                    <img src"https://www.densediscovery.com/archive/277/=
+font2.jpg" width"100%" height"auto" class"img" loading"lazy" st=
+yle"-ms-interpolation-mode:bicubic; display:block; max-height:900px; max=
+-width:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10 mobt0" valign"top" style"=
+border-collapse:collapse; padding-top:15px; padding-right:20px; padding-lef=
+t:10px">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.youworkforthem.com%2Ffont%2FT16914%2Fed-nimpkish%3Futm_sourceDenseDis=
+covery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/h=
+J3mY3iidt7ANY1hdDtDgZ0B_0cR9O_UosYadrlpJKc341" style"text-decoration:=
+underline; color:#000 !important"><b style"font-weight:600">ED Nimpkish<=
+/b></a> is a typeface for logos or editorial designs that adds a unique twi=
+st and merges two distinct typographic styles into one cohesive narrative.
+                  </p>
+
+
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+=20
+          <tr><td class"spc" style"border-collapse:collapse; font-siz=
+e:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl" align"left" style"border-collapse:collap=
+se; border-bottom:2px solid #FFF; padding:15px 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Notable N=
+umbers</h1>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"num-box num-fst" style"border-co=
+llapse:collapse; border-bottom:2px solid #eee4f0; border-left:2px solid #ee=
+e4f0; border-right:2px solid #eee4f0; border-top:2px solid #eee4f0">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"30%" valign"top"><![endif]-->
+
+            <table width"188" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl20" valign"top" align"center=
+" style"border-collapse:collapse; padding-top:15px; padding-right:20px; =
+padding-left:20px">
+
+                  <p class"xl" style"color:#000; font-size:28px; font=
+-weight:400; line-height:38px; margin:0; margin-bottom:15px; padding:0">18<=
+/p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"70%" valign"top"><![endif]-->
+
+            <table width"448" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl20 num-bg" valign"top" style=
+"border-collapse:collapse; padding-top:15px; padding-right:20px; padding-le=
+ft:20px; background:#eee4f0">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    Just under 1 in 5 Americans (<a href"https://t.dense=
+discovery.com/CL0/https:%2F%2Fwww.monmouth.edu%2Fpolling-institute%2Freport=
+s%2Fmonmouthpoll_us_021424%3Futm_sourceDenseDiscovery-277/1/0100018de73e=
+ef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/cdOC9tSI1zdmkxujut6_FoQe_g=
+eBc8SbgjVdx7Ehrjc341" style"text-decoration:underline; color:#000 !im=
+portant">18%</a>) believe in a conspiracy theory that claims Taylor Swift i=
+s part of a supposed covert government effort to help Biden win the 2024 pr=
+esidential election. 71% of those identify with or lean toward the Republic=
+an Party.
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"num-box" style"border-collapse:c=
+ollapse; border-bottom:2px solid #eee4f0; border-left:2px solid #eee4f0; bo=
+rder-right:2px solid #eee4f0; border-top:2px solid #FFF">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"30%" valign"top"><![endif]-->
+
+            <table width"188" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl20" valign"top" align"center=
+" style"border-collapse:collapse; padding-top:15px; padding-right:20px; =
+padding-left:20px">
+
+                  <p class"xl" style"color:#000; font-size:28px; font=
+-weight:400; line-height:38px; margin:0; margin-bottom:15px; padding:0">78<=
+/p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"70%" valign"top"><![endif]-->
+
+            <table width"448" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl20 num-bg" valign"top" style=
+"border-collapse:collapse; padding-top:15px; padding-right:20px; padding-le=
+ft:20px; background:#eee4f0">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.theguardian.com%2Fenvironment%2F2024%2Ffeb%2F17%2Ffebruary-on-course-to-=
+break-unprecedented-number-of-heat-records%3Futm_sourceDenseDiscovery-27=
+7/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/c2QS_iEpna=
+XC6blML7dZeA3dVjTaLkaF1yPWdbbXcAg341" style"text-decoration:underline=
+; color:#000 !important">Record hot seawater</a> killed <a href"https://=
+t.densediscovery.com/CL0/https:%2F%2Fapnews.com%2Farticle%2Fcoral-reefs-wid=
+espread-death-climate-change-2b08ae1ef9b23b4a95f57cd76ada5d3d%3Futm_source=
+DenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa=
+53-000000/bHcn8Aa88xPlcHp4SUKnKYbtJUDXZtpRnoLR8xSAHrM341" style"text-=
+decoration:underline; color:#000 !important">78%</a> of human-cultivated co=
+ral that scientists had placed in the Florida Keys in recent years in an ef=
+fort to prop up a threatened species that=E2=80=99s highly vulnerable to cl=
+imate change.
+                  </p>
+                 =20
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"num-box" style"border-collapse:c=
+ollapse; border-bottom:2px solid #eee4f0; border-left:2px solid #eee4f0; bo=
+rder-right:2px solid #eee4f0; border-top:2px solid #FFF">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"30%" valign"top"><![endif]-->
+
+            <table width"188" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl20" valign"top" align"center=
+" style"border-collapse:collapse; padding-top:15px; padding-right:20px; =
+padding-left:20px">
+
+                  <p class"xl" style"color:#000; font-size:28px; font=
+-weight:400; line-height:38px; margin:0; margin-bottom:15px; padding:0">60<=
+/p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"70%" valign"top"><![endif]-->
+
+            <table width"448" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl20 num-bg" valign"top" style=
+"border-collapse:collapse; padding-top:15px; padding-right:20px; padding-le=
+ft:20px; background:#eee4f0">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                  Dublin is set to become the latest European capital to ba=
+r through-traffic from its city centre. The plan set a goal of a <a href=
+"https://t.densediscovery.com/CL0/https:%2F%2Fwww.bloomberg.com%2Fnews%2Far=
+ticles%2F2024-02-17%2Fdublin-takes-aim-at-traffic-congestion-with-a-car-ban=
+-on-certain-trips%3Futm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b=
+0ca2-e30c-4026-b211-9e167124aa53-000000/cc9VKHH2jrj4eBr3EFjxFXgVpUoH0xsr5jJ=
+pd8bghis341" style"text-decoration:underline; color:#000 !important">=
+60%</a> traffic reduction and promises to both ease current traffic congest=
+ion and allow for the creation of new pedestrian streets and plazas that wi=
+ll make Dublin=E2=80=99s heart a more pleasant place to linger.=20
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+                             =20
+          <tr><td class"spc" style"border-collapse:collapse; font-siz=
+e:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl" align"left" style"border-collapse:collap=
+se; border-bottom:2px solid #FFF; padding:15px 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">Classifie=
+ds</h1>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" style"border-collapse:collapse">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+
+              <tr>
+                <td class"pt15 pr10 pl20" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:10px; padding-left:20px=
+">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                   Make your organisation=E2=80=99s next website sustainabl=
+e, inclusive and privacy-respecting with <a href"https://t.densediscover=
+y.com/CL0/https:%2F%2Fdavesmyth.studio%3Futm_sourceDenseDiscovery-277/1/=
+0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/Uix4c4hLX7HWyP=
+WUsDalaPMHCxvZoliAjb3hiHJF2kI341" style"text-decoration:underline; co=
+lor:#000 !important"><b style"font-weight:600">Dave Smyth Studio</b></a>=
+.
+                  </p>
+
+                  <div class"line" style"border-bottom:2px solid #f2f=
+2f2; display:block; height:2px; margin-bottom:15px" height"2"></div>
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    <a href"https://t.densediscovery.com/CL0/https:%2F%2=
+Fomgimg.co%3Futm_sourcenewsletter%26utm_mediumemail%26utm_contentd=
+ense-discovery/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-0000=
+00/C_rDG_XlC_RUDnN7slEJbd7UMHdZlfHrwjV7JBvBQ5I341" style"text-decorat=
+ion:underline; color:#000 !important"><b style"font-weight:600">Let your=
+ images do the talking!</b></a> Use your WordPress content to create valuab=
+le, shareable featured images for your website and social media.
+                  </p>
+
+                  <div class"line" style"border-bottom:2px solid #f2f=
+2f2; display:block; height:2px; margin-bottom:15px" height"2"></div>
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    <a href"https://t.densediscovery.com/CL0/https:%2F%2=
+Fwww.playbook.com%3Futm_sourcedense_discovery_classified/1/0100018de73ee=
+f11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/dWHm6zCCfC0uEqCoiBsILY8Gate=
+hlkIJuMEgH0_26e8341" style"text-decoration:underline; color:#000 !imp=
+ortant"><b style"font-weight:600">Playbook.com</b></a> is cloud storage =
+for creatives: a visual workplace for your projects, with built-in discussi=
+ons and easy client hand-off. Creatives get 4TB of storage totally free.
+                  </p>
+
+                  <div class"line" style"border-bottom:2px solid #f2f=
+2f2; display:block; height:2px; margin-bottom:15px" height"2"></div>
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    Give people a great experience getting in touch with yo=
+u, and avoid having to give out your personal email address to the world. <=
+a href"https://t.densediscovery.com/CL0/https:%2F%2Fletterbird.co%2F%3Fu=
+tm_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9=
+e167124aa53-000000/cJdaQO1Sojxr97dKZ63VeVj_tdJxy-1ruNXJ5YV7v5g341" style=
+"text-decoration:underline; color:#000 !important"><b style"font-weig=
+ht:600">Try Letterbird</b></a>, the little contact form that could.
+                  </p>
+
+                </td>
+              </tr>
+
+            </table>
+
+            <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pl10" valign"top" style"border=
+-collapse:collapse; padding-top:15px; padding-right:20px; padding-left:10px=
+">
+
+                  <p class"grey" style"color:#5A5A5A !important; font=
+-size:16px; font-weight:400; line-height:23px; margin:0; margin-bottom:15px=
+; padding:0">Classifieds are paid ads that support DD and are seen by our 3=
+6,000 subscribers each week.</p>
+                  <p class"pb5" style"color:#000; font-size:16px; fon=
+t-weight:400; line-height:23px; margin:0; margin-bottom:15px; padding:0; pa=
+dding-bottom:5px"><a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.densediscovery.com%2Fadvertise/1/0100018de73eef11-3b5b0ca2-e30c-4026-b21=
+1-9e167124aa53-000000/KRxXEXSJ1n4VNAzLr1fojWn-8EkfJmZkRirTOm-kkgg341" cl=
+ass"btn btn-grey" style"text-decoration:none !important; border-radiu=
+s:2px; display:inline-block; padding:3px 8px 4px 8px; text-align:center; ba=
+ckground:#5A5A5A; color:#fff !important" align"center"><b style"font-=
+weight:600">Book yours =E2=86=92</b></a> </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+                   =20
+         =20
+          <tr><td class"spc" style"border-collapse:collapse; font-siz=
+e:1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+          <tr>
+            <td class"hl box-green" align"left" style"border-colla=
+pse:collapse; background:#dbf0e7; border-bottom:2px solid #FFF; padding:15p=
+x 20px 15px 20px">
+
+              <h1 style"color:#000; font-size:21px; font-weight:600; lin=
+e-height:23px; margin:0; mso-line-height-rule:exactly; padding:0">The Week =
+in a GIF</h1>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td align"left" class"box-green" style"border-collapse=
+:collapse; background:#dbf0e7">
+
+            <!--[if mso]>
+            <table border"0" cellpadding"0" cellspacing"0" width=
+"100%">
+            <tr><td width"65%" valign"top"><![endif]-->
+
+            <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt20 pr10 pb5 pl20" valign"top" style"bo=
+rder-collapse:collapse; padding-top:20px; padding-right:10px; padding-botto=
+m:5px; padding-left:20px">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">
+                    <img src"https://www.densediscovery.com/archive/277/=
+gif.gif" width"100%" height"auto" class"img" loading"lazy" styl=
+e"-ms-interpolation-mode:bicubic; display:block; max-height:900px; max-w=
+idth:416px; width:100%">
+                  </p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+            <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt15 pr20 pb5 pl10 mobt0" valign"top" style=
+"border-collapse:collapse; padding-top:15px; padding-right:20px; padding=
+-bottom:5px; padding-left:10px">
+
+                  <p style"color:#000; font-size:16px; font-weight:400; =
+line-height:23px; margin:0; margin-bottom:15px; padding:0">Reply with your =
+favourite GIF and it might get featured here in a future issue.</p>
+
+                </td>
+              </tr>
+            </table>
+
+            <!--[if mso]></td></tr></table><![endif]-->
+
+            </td>
+          </tr>
+
+         =20
+
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+        <tr><td style"border-collapse:collapse">
+         =20
+          <p class"pt15 pb5 pr20 pl20" style"color:#000; font-size:16=
+px; font-weight:400; line-height:23px; margin:0; margin-bottom:15px; paddin=
+g:0; padding-top:15px; padding-right:20px; padding-bottom:5px; padding-left=
+:20px; text-align:center" align"center">DD is supported by <a href"ht=
+tps://t.densediscovery.com/CL0/https:%2F%2Fwww.densediscovery.com%2Ffriends=
+%2F/2/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/dAr89XyH=
+2FQs2HlQMkp4KQi1lr1U4nyLEJvtmRmfqE0341" style"text-decoration:underli=
+ne; color:#000 !important">Friends</a> and the modern family office of <a h=
+ref"https://t.densediscovery.com/CL0/https:%2F%2Fwww.pardon.com%2F%3Futm=
+_sourceDenseDiscovery-277/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e1=
+67124aa53-000000/AXO0n7YnZCpW1-eCe4oUlhlDc-4QjSLib6D-v-D-DWE341" style=
+"text-decoration:underline; color:#000 !important"><img src"https://w=
+ww.densediscovery.com/img/sponsor-pardon.jpg" width"90" height"auto" =
+loading"lazy" style"-ms-interpolation-mode:bicubic; display:inline-bl=
+ock; margin-bottom:-0.5px; padding-left:3px; padding-right:3px" alt"Pard=
+on"></a>.</p>
+       =20
+        </td></tr>
+
+
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+</table>
+
+
+<table border"0" width"100%" cellpadding"0" cellspacing"0" bgco=
+lor"#f2f2f2" style"border-spacing:0; mso-table-lspace:0; mso-table-rs=
+pace:0">
+  <tr>
+    <td align"center" valign"top" style"border-collapse:collapse; =
+background-color:#f2f2f2" bgcolor"#f2f2f2">
+
+      <table border"0" width"640" cellpadding"0" cellspacing"0"=
+ class"footer" style"border-spacing:0; mso-table-lspace:0; mso-table-=
+rspace:0; max-width:640px; width:640px">
+
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+        <tr>
+
+          <td align"left" style"border-collapse:collapse">
+
+            <table width"100%" border"0" cellpadding"0" cellspacin=
+g"0" align"left" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+              <tr>
+                <td class"pt20 pr20 pl20 pb10" valign"top" style"b=
+order-collapse:collapse; padding-top:20px; padding-right:20px; padding-bott=
+om:10px; padding-left:20px; text-align:center" align"center">
+
+                    <h1 class"pb15" style"color:#000; font-size:21px;=
+ font-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly;=
+ padding:0; padding-bottom:15px">Enjoyed this issue? Share it: </h1>
+
+                    <p class"share" style"color:#000; font-size:16px;=
+ font-weight:400; line-height:23px; margin:0; margin-bottom:15px; padding:1=
+2px 5px 15px 5px; background:#fff; border:2px dashed #000; border-radius:40=
+px; text-align:center" align"center">
+                      <a href"https://t.densediscovery.com/CL0/https:%2F=
+%2Fwww.densediscovery.com%2Fissues%2F277/2/0100018de73eef11-3b5b0ca2-e30c-4=
+026-b211-9e167124aa53-000000/kf17fNugsafVQ0jINzvv7kBXlW2aIASqMEb7trBeBIs=
+341" style"text-decoration:underline; color:#000 !important"><b style=
+"font-weight:600">densediscovery.com/issues/277</b></a>
+                    </p>
+
+                </td>
+              </tr>
+            </table>
+
+          </td>
+
+        </tr>
+
+        <tr>
+          <td align"left" style"border-collapse:collapse">
+
+          <!--[if mso]>
+          <table border"0" cellpadding"0" cellspacing"0" width"=
+100%">
+          <tr><td width"65%" valign"top"><![endif]-->
+
+          <table width"416" border"0" cellpadding"0" cellspacing=
+"0" align"left" class"fr" style"border-spacing:0; mso-table-lsp=
+ace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt20 pr20 pb5 pl20" valign"top" style"bord=
+er-collapse:collapse; padding-top:20px; padding-right:20px; padding-bottom:=
+5px; padding-left:20px">
+   =20
+                             =20
+
+              <p class"sm" style"color:#000; font-size:14px; font-wei=
+ght:400; line-height:19px; margin:0; margin-bottom:15px; padding:0"><b styl=
+e"font-weight:600">Julian, a reminder of your Friend benefits:</b></p>
+
+              <div class"dd-friend mb20" style"margin-bottom:20px; ba=
+ckground-image:url(https://www.densediscovery.com/img/friends-line.jpg); ba=
+ckground-repeat:repeat-x; background-size:auto 3px; font-size:1px; height:2=
+px" height"2">=C2=A0</div>
+
+              <p class"sm pb10" style"color:#000; font-size:14px; fon=
+t-weight:400; line-height:19px; margin:0; margin-bottom:15px; padding:0; pa=
+dding-bottom:10px">You have full access to the <a href"https://t.densedi=
+scovery.com/CL0/https:%2F%2Findex.densediscovery.com/1/0100018de73eef11-3b5=
+b0ca2-e30c-4026-b211-9e167124aa53-000000/gex_bifa9cDH_jyzdjOTG7tsJoA3Tv8Z3B=
+o3IQ5XnvI341" style"text-decoration:underline; color:#000 !important"=
+><b style"font-weight:600">DD Index</b></a>, a searchable catalogue of a=
+ll previous issues of DD. Use the password <span class"code" style"bo=
+rder:1px solid #000; display:inline-box; font-size:13px; padding:0 2px 1px =
+2px; white-space:nowrap">DD#friends#only</span> to log in. <br><br>
+   =20
+              In addition to <b style"font-weight:600">discounts</b> thr=
+oughout DD, you also get $10 off classifieds and $25 off sponsor slots. Use=
+ the code <span class"code" style"border:1px solid #000; display:inli=
+ne-box; font-size:13px; padding:0 2px 1px 2px; white-space:nowrap">DD#frien=
+ds#only</span> when <a href"https://t.densediscovery.com/CL0/https:%2F%2=
+Fwww.densediscovery.com%2Fadvertise%2F/2/0100018de73eef11-3b5b0ca2-e30c-402=
+6-b211-9e167124aa53-000000/GaPYk7Z5D_eeFPuKdaKxyqInvHYPsa0PwePf9kWMwtI34=
+1" style"text-decoration:underline; color:#000 !important">booking</a>. =
+<br><br>
+
+                            Friends can <b style"font-weight:600">disabl=
+e ads</b> in DD. To hide sponsor and classified ads in future issues, <a hr=
+ef"https://t.densediscovery.com/CL0/https:%2F%2Fwww.densediscovery.com%2=
+Fchange-ads.php%3Fidc7c6cc57-0117-11eb-a3d0-06b4694bee2a%26timestamp1=
+725165826%26emailbleeckerj%2540gmail.com%26hide_ads/1/0100018de73eef1=
+1-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/ifxE0qYj-YSVRAzdCjNGaAoLg2A1u=
+hFD4RIkvhMexHQ341" style"text-decoration:underline; color:#000 !impor=
+tant">change your setting here</a>.=20
+                            <br><br>
+
+              To manage your subscription, including updating your payment =
+details or cancelling your subscription, <a href"https://t.densediscover=
+y.com/CL0/https:%2F%2Fapp.moonclerk.com%2Fmanage%2F1zjaqauioz6yc/1/0100018d=
+e73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/oryi0JytxrwPVVte8wxYN6=
+rqHIhxSDYiIclniOuvhb4341" style"text-decoration:underline; color:#000=
+ !important">log in to your Friends account</a>.</p>
+
+              <p class"sm grey pb20" style"color:#5A5A5A !important; =
+font-size:14px; font-weight:400; line-height:19px; margin:0; margin-bottom:=
+15px; padding:0; padding-bottom:20px">Please don=E2=80=99t share the above =
+password/code publicly. It=E2=80=99s a little secret between friends.</p>
+             =20
+             =20
+             =20
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td><td width"35%" valign"top"><![endif]-->
+
+          <table width"224" border"0" cellpadding"0" cellspacing=
+"0" align"right" class"fr" style"border-spacing:0; mso-table-ls=
+pace:0; mso-table-rspace:0">
+            <tr>
+              <td class"pt20 pr20 pl10 mobt0" valign"top" style"bo=
+rder-collapse:collapse; padding-top:20px; padding-right:20px; padding-left:=
+10px">
+
+                                <p class"sm pb5 mb0" style"color:#000=
+; font-size:14px; font-weight:400; line-height:19px; margin:0; margin-botto=
+m:0; padding:0; padding-bottom:5px">
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.densediscovery.com%2Fchange-email.php%3Fidc7c6cc57-0117-11eb-a3d0-06b=
+4694bee2a%26emailbleeckerj%2540gmail.com%26timestamp1725165826%26name=
+Julian/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/Hi=
+GzECxIwUN_7JAqo4Hb7XF6oPCBiRvvwgj1QBwFNYs341" style"text-decoration:u=
+nderline; color:#000 !important">Change email address</a>
+                </p>
+                <p class"sm pb5 mb0" style"color:#000; font-size:14px=
+; font-weight:400; line-height:19px; margin:0; margin-bottom:0; padding:0; =
+padding-bottom:5px">
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.densediscovery.com%2Fpause.php%3Fidc7c6cc57-0117-11eb-a3d0-06b4694bee=
+2a/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/uXwYIYmDc=
+jgAL-IFC3OLHMEG82LbiPDnVXvQhlsDBkg341" style"text-decoration:underlin=
+e; color:#000 !important">Pause subscription</a>
+                </p>
+                <p class"sm" style"color:#000; font-size:14px; font-w=
+eight:400; line-height:19px; margin:0; margin-bottom:15px; padding:0">=20
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fa=
+.densediscovery.com%2Funsubscribe%3Fep1%26laf4eb42f-c7b0-11ea-a3d0-06=
+b4694bee2a%26lcc7c6cc57-0117-11eb-a3d0-06b4694bee2a%26p44adc3c0-d4e7-=
+11ee-9316-c14c6ca1331c%26ptcampaign%26pv4%26spa1708980552%26t17=
+08981677%26sbd0c4278a1564d499269604dc5835046cacae5296aa70d5256a9ca65ec6a=
+cd6e/1/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e167124aa53-000000/ZZruAzA=
+l9YCu7eaqG93q492LANp-EsrjviotfSC0kIA341" style"text-decoration:underl=
+ine; color:#000 !important">Unsubscribe</a>
+                </p>
+               =20
+                <p class"sm" style"color:#000; font-size:14px; font-w=
+eight:400; line-height:19px; margin:0; margin-bottom:15px; padding:0">
+                  <a href"https://t.densediscovery.com/CL0/https:%2F%2Fw=
+ww.densediscovery.com%2Fadvertise%2F/3/0100018de73eef11-3b5b0ca2-e30c-4026-=
+b211-9e167124aa53-000000/OesN_EmT77v4b1Cf3LEAvfGgFr9jlGMrxGkVCXHNoPI341"=
+ style"text-decoration:underline; color:#000 !important">Advertise in DD=
+</a>
+                </p>
+
+                <p class"sm grey" style"color:#5A5A5A !important; fon=
+t-size:14px; font-weight:400; line-height:19px; margin:0; margin-bottom:15p=
+x; padding:0">Published by:<br><a href"https://t.densediscovery.com/CL0/=
+https:%2F%2Fwww.brizk.com/2/0100018de73eef11-3b5b0ca2-e30c-4026-b211-9e1671=
+24aa53-000000/zD4204S6IfoYOs__JQKTH2aIrmQyyxsrR1nvfdWCl6s341" class"g=
+rey" style"text-decoration:underline; color:#5A5A5A !important">Kai</a> =
+/ Offscreen Media<br>Duckett St, Brunswick, VIC, 3056, Australia</p>
+
+
+              </td>
+            </tr>
+          </table>
+
+          <!--[if mso]></td></tr></table><![endif]-->
+
+          </td>
+        </tr>
+
+        <tr><td class"spc" style"border-collapse:collapse; font-size:=
+1px; line-height:1; padding-top:25px">=C2=A0</td></tr>
+
+      </table>
+
+    </td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+<img alt"" src"http://t.densediscovery.com/CI0/0100018de73eef11-3b5b0=
+ca2-e30c-4026-b211-9e167124aa53-000000/mZyhOIu7WvgdD7gDt3dw1AT62HiIRJFexf52=
+gus07Mc341" style"display: none; width: 1px; height: 1px;">
+</body>
+</html>

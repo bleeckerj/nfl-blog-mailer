@@ -34,6 +34,38 @@ def process_html_with_premailer(html_content, output_file_path):
         
         sm_style_tag = fresh_soup.new_tag('style')
         sm_style_tag.string = "@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');"
+        sm_style_tag.string += """
+            @font-face {
+            src: url('https://backoffice.nearfuturelaboratory.com/fonts/formadjr/FormaDJRVariable[opsz,slnt,wdth,wght].woff2') format("woff2"),
+                url('https://backoffice.nearfuturelaboratory.com/fonts/formadjr/FormaDJRVariable[opsz,slnt,wdth,wght].woff') format("woff");
+            font-family: 'FormaDJRVariable';
+            font-style: normal;
+            font-weight: normal;
+}
+            @font-face {
+            src: url('https://backoffice.nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Regular.woff2') format("woff2"),
+                url('https://backoffice.nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Regular.woff') format("woff");
+            font-family: 'WarblerText';
+            font-style: normal;
+            font-weight: 400;
+            }
+
+            @font-face {
+            src: url('https://backoffice.nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Italic.woff2') format("woff2"),
+                url('https://backoffice.nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Italic.woff') format("woff");
+            font-family: 'WarblerText';
+            font-style: italic;
+            font-weight: 400;
+            }
+
+            @font-face {
+            src: url('https://backoffice.nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Bold.woff2') format("woff2"),
+                url('https://backoffice.nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Bold.woff') format("woff");
+            font-family: 'WarblerText';
+            font-style: normal;
+            font-weight: 700;
+            }
+        """
         fresh_soup.head.append(sm_style_tag)
         foo = str(fresh_soup.prettify())
         # Write the processed HTML back to a new file
@@ -53,8 +85,8 @@ def process_html_with_premailer(html_content, output_file_path):
 #         output_path = sys.argv[2]
 #         process_html_with_premailer(input_path, output_path)
 # Path to your HTML and CSS files
-html_file_path = '/Users/julian/Code/astro-minimal/nfl-backoffice/dist/blog/emailified/2024/02/nora-young-imagine-harder/index.html'
-css_file_paths = ['/Users/julian/Code/astro-minimal/nfl-backoffice/src/styles/email_responsive.css', '/Users/julian/Code/astro-minimal/nfl-backoffice/src/styles/email_styles.css']
+html_file_path = '/Users/julian/Code/nfl-backoffice/dist/blog/2024/02/w7-2024/index.html'
+css_file_paths = ['/Users/julian/Code/nfl-backoffice/src/styles/email_responsive.css', '/Users/julian/Code/nfl-backoffice/src/styles/email_styles.css']
 base_url = 'https://backoffice.nearfuturelaboratory.com/'
 directory_name = os.path.basename(os.path.dirname(html_file_path))
 
@@ -83,9 +115,10 @@ abs_html_content = make_urls_absolute(modified_html_content, base_url)
 
 # Read and combine CSS files
 combined_css_content = ''
-for css_file_path in css_file_paths:
-    with open(css_file_path, 'r') as css_file:
-        combined_css_content += css_file.read() + '\n'
+if css_file_paths.count != 0:
+    for css_file_path in css_file_paths:
+        with open(css_file_path, 'r') as css_file:
+            combined_css_content += css_file.read() + '\n'
 
 # Read the HTML file
 # with open(html_file_path, 'r') as html_file:
