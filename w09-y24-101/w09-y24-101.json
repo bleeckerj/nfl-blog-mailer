@@ -25,7 +25,7 @@
     },
     "elements": [
         {
-            "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
+            "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/03/Love-Hulten-NES-square.webp",
             "background_color" : "#f2f2f2",
             "main_copy" : "The quick brown fox jumps over the lazy black dog.",
             "font_family" : "Roslindale",
@@ -41,11 +41,11 @@
     "elements" :  [
         {
             "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
-            "text_color" : "#f0f0f0",
-            "light_text_color" : "#070707",
+            "text_color" : "#000000",
+            "light_text_color" : "#0f0f0f",
             "link_ref" : "https://nearfuturelaboratory.com",
-            "title" : "title",
-            "subtitle" : "subtitle",
+            "title" : "Title",
+            "subtitle" : "Subtitle",
             "main_copy" : "This is the main copy",
             "font_family" : "Roslindale",
             "font_style" : "normal"
@@ -102,8 +102,8 @@
                 "user_callout" : "In the &#127911;-podcasts channel @florianlow posted",
                 "font_family" : "Roslindale",
                 "font_style" : "normal",
-                "text_color" : "#f0f0f0",
-                "light_text_color" : "#070707",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
                 "link_ref" : "https://nearfuturelaboratory.com",
                 "link_text" : "SpecFi: Necessary Tomorrows",
                 "post_copy" : "The \"Necessary Tomorrows\" podcast, presented by Doha Debates and Al Jazeera Podcasts, blends speculative fiction with documentary elements, inviting listeners to explore potential futures shaped by the interactions between humans, artificial intelligence, and the natural world, as envisioned by science fiction writers and actualized by activists and scientists."
