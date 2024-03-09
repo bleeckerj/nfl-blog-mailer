@@ -1,0 +1,47 @@
+<!-- INTRO Start -->
+<tr>
+    <td align="left" style="border-collapse: collapse;">
+      <!-- start subject-line.html -->
+      <!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="50%" valign="top"><![endif]-->
+      <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="320">
+        <tbody>
+          <tr>
+            <td class="padt15 padr10 padl20" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
+              <h1 style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: {{ item['text_color']}};margin: 0;padding: 0;">
+                {{ item['short_title']}}
+              </h1>
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--[if mso]></td><td width="50%" valign="top" class="browser"><![endif]-->
+      <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row browser" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;text-align: right;" width="320">
+        <tbody>
+          <tr>
+            <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+              <p class="small grey" style="font-size: 14px;line-height: 19px;font-weight: 400;color: {{ item['light_text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;"><a class="grey" href="{{item['view_online_url']}}" style="text-decoration: underline;color: {{ item['light_text_color']}} !important;">View/share online</a> →</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--[if mso]></td></tr></table><![endif]-->
+    </td>
+  </tr>
+  <!-- end subject-line.html -->
+  <!-- start main-toc.html -->
+  <tr>
+    <td align="left" class="padt20 padl20 padr20 padb10" style="border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;">
+      <p class="large" style="font-size: 21px;line-height: 30px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">
+{{ item['main_toc_text'] }}
+      </p>
+      <!-- start salutation -->
+      <p class="small grey padt20" style="font-size: 14px;line-height: 19px;font-weight: 400;color: #707070 !important;padding: 0;margin: 0;margin-bottom: 15px;padding-top: 20px;">{{ item['salutation'] }}</p>
+        <!-- end salutation -->
+    </td>
+  </tr>
+  <!-- INTRO End -->

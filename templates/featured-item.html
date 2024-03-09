@@ -1,12 +1,12 @@
 <!-- start featured-item.html-->
 <tr>
-    <td>
+    <td style="background:{{ item['background_color'] }}">
         <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="320">
             <tbody>
               <tr>
                 <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-                  <p style="font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">
-                    <img src="https://backoffice.nearfuturelaboratory.com/images/blog/2024/02/IMG_7497_900px.JPG" alt="⊂(◉‿◉)つ"" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
+                  <p style="font-family: '{{ item['font_family'] }}'; '{{ item['font_style'] }}' font-size: 16px;line-height: 23px;font-weight: 400;color: {{ item['text_color'] }};padding: 0;margin: 0;margin-bottom: 15px;">
+                    <img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ"" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
                   </p>
                 </td>
               </tr>
@@ -19,11 +19,11 @@
               <tr>
                 <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
                   <h2 class="padb5" style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                    <a href="https://backoffice.nearfuturelaboratory.com/blog/2024/02/chapman-university-bensussen-lecture-in-the-arts/" style="text-decoration: underline;color: #000000 !important;">Chapman University Bensussen Lecture in the Arts
+                    <a href="{{ item['link_ref']}}" style="text-decoration: underline;color:{{ item['text_color'] }} !important;">{{ item['title']}}
                     </a></h2>
-                  <h3 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">A beautiful opportunity to see the shape of arts education nowadays.</h3>
-                  <p style="font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">I was invited to visit studios and classes at Chapman University, and to deliver the annual Bensussen Lecture in the Arts<br>
-                    <a href="https://backoffice.nearfuturelaboratory.com/blog/2024/02/chapman-university-bensussen-lecture-in-the-arts/" style="text-decoration: underline;color: #000000 !important;">Read More</a> ⇒</p>
+                  <h3 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: {{ item['light_text_color']}} !important;">A beautiful opportunity to see the shape of arts education nowadays.</h3>
+                  <p style="font-family: '{{ item['font_family'] }}';  '{{ item['font_style'] }}; font-size: 16px;line-height: 23px;font-weight: 400;color:{{ item['text_color' ]}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy'] }}<br>
+                    <a href="{{ item['link_ref'] }}" style="text-decoration: underline;color:{{ item['text_color' ]}} !important;">Read More</a> ⇒</p>
                 </td>
               </tr>
               </tbody>
