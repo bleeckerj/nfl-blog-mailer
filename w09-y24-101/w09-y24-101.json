@@ -19,6 +19,26 @@
                 "salutation" : "This is the constantly evolving Near Future Laboratory Back Office Newsletter. You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>My thesis here is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.<br>Our goal is to unlock your potential to make sense of and find value in creative practices and bring about meaningful tangible change. Call it innovation, if you like.<br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br>Please help me by supporting this work.<br>You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, (2) join the NFL Discord by becoming a subscribing member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>, (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential, (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
             }  
         ]},
+    "box-item-header" : {
+        "metadata" : {
+            "template_name" : "box-item-header.html"
+        },
+        "elements" : [
+            {
+                "header_text" : "Support Small Scale Stuff"
+            }
+        ]
+    },
+    "box-item-header-2" : {
+        "metadata" : {
+            "template_name" : "box-item-header.html"
+        },
+        "elements" : [
+            {
+                "header_text" : "Book Haul"
+            }
+        ]
+    },
     "box-item" : {
     "metadata" : {
         "template_name" : "box-item.html"
@@ -27,13 +47,28 @@
         {
             "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/03/Love-Hulten-NES-square.webp",
             "background_color" : "#f2f2f2",
-            "main_copy" : "The quick brown fox jumps over the lazy black dog.",
+            "main_copy" : "You can back this awe-inspiring work published by Volume a curated publishing platform enabling the creation of high-quality illustrated books on visual culture. Apparatum is the debut monograph from the Jules Verne of device design.",
             "font_family" : "Roslindale",
             "font_style" : "normal",
             "link_ref" : "https://nearfuturelaboratory.com",
             "text_color" : "#000000"
         }  
     ]},
+    "box-item-2" : {
+        "metadata" : {
+            "template_name" : "box-item.html"
+        },
+        "elements": [
+            {
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/03/Love-Hulten-NES-square.webp",
+                "background_color" : "#dbf0e6",
+                "main_copy" : "This is a great book",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "text_color" : "#000000"
+            }  
+        ]},
     "featured-item" : {
     "metadata" : {
         "template_name" : "featured-item.html"
