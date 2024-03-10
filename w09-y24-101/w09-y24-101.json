@@ -7,14 +7,13 @@
             {
                 "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
                 "background_color" : "#f2f2f2",
-                "main_copy" : "The quick brown fox jumps over the lazy black dog.",
                 "font_family" : "Roslindale",
                 "font_style" : "normal",
                 "link_ref" : "https://nearfuturelaboratory.com",
-                "main_toc_text" : "➫ Chapman University Bensussen Lecture in the Arts<br>➫ SxSW 2024 Panel Preparations.<br>➫ A PoemOS Project<br>➫ Circular Economy Futures",
+                "main_toc_text" : "➫ General Seminar S05E01 AI Futures<br>➫ SxSW 2024 Panel Preparations.<br>➫ A PoemOS Project<br>➫ Circular Economy Futures",
                 "text_color" : "#000000",
                 "light_text_color" : "#070707",
-                "short_title" : "It was Week 10 of 2024 at Near Future Laboratory, and some things happened.",
+                "short_title" : "It was Week 09 of 2024 at Near Future Laboratory, and some things happened.",
                 "view_online_url" : "%SOMETHINGSOMETHING%",
                 "salutation" : "This is the constantly evolving Near Future Laboratory Back Office Newsletter. You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>My thesis here is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.<br>Our goal is to unlock your potential to make sense of and find value in creative practices and bring about meaningful tangible change. Call it innovation, if you like.<br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br>Please help me by supporting this work.<br>You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, (2) join the NFL Discord by becoming a subscribing member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>, (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential, (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
             }  
@@ -29,7 +28,7 @@
             }
         ]
     },
-    "box-item-header-2" : {
+    "box-item-header_2" : {
         "metadata" : {
             "template_name" : "box-item-header.html"
         },
@@ -47,10 +46,10 @@
         {
             "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/03/Love-Hulten-NES-square.webp",
             "background_color" : "#f2f2f2",
-            "main_copy" : "You can back this awe-inspiring work published by Volume a curated publishing platform enabling the creation of high-quality illustrated books on visual culture. Apparatum is the debut monograph from the Jules Verne of device design.",
+            "main_copy" : "<b>Futures Brought To Life</b> is a volume that explores our understandings of being and doing futures; being in a future as an experience and doing the imagination of possible futures with others. It features essays from The Yes Men, Superflux, Scott Smith & Susan Cox-Smith, Extrapolation Factory, Eva-Maria Spreitzer, Judith Mahler, tons more and even me. Put out by the fine souls at <a href='https://www.timesup.org/'Time's Up</a> there in Linz, Austria.",
             "font_family" : "Roslindale",
             "font_style" : "normal",
-            "link_ref" : "https://nearfuturelaboratory.com",
+            "link_ref" : "https://www.timesup.org/publications/futures-brought-life-publication",
             "text_color" : "#000000"
         }  
     ]},
@@ -92,14 +91,14 @@
         },
         "elements" : [
             {
-                "image_url" : "http://backoffice.nearfuturelaboratory.com/ad-images/house/2024/AndroidsDream_BookAndFoilPack_02_101823_1945_0180_NEBULA.webp",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/blog/2024/03/GS_S05E01_AI_Futures__600px.jpg",
                 "text_color" : "#f0f0f0",
                 "light_text_color" : "#070707",
-                "link_ref" : "https://shop.nearfuturelaboratory.com/products/androids-dream-of-electric-sheep",
-                "link_text" : "Androids Dream of Electric Sheep",
-                "title" : "SHOP OF FROM AN ADJACENT TIMELINE",
-                "subtitle" : "subtitle",
-                "main_copy" : "Our latest artifact from a possible future in which the Sony Walkman failed..and the Sony Aibo caught on globally, and Sony dominated in the world of domesticated robots, spurring a 1980s revolution in artificial intelligence. This book tells the story of the P.K. Dick classic 'Do Androids Dream of Electric Sheep', only as a counter factual in which, yeah, of course they do..all intelligent beings dream, right HAL?<p style=\"font-size: 14px;line-height: 15px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;\">But wait! Includes Flash Cards Of <a href=\"https://androidsdream.ai\" style=\"text-decoration: underline;color: #000000 !important;\">All Major Manufacturers Makes and Models</a> of Honeywell & Pepperidge Farms Electronic Sheep!</p><p style=\"font-size: 15px;line-height: 14px;font-weight: 600;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;\"><a href=\"https://androidsdream.ai\" style=\"text-decoration: underline;color: #000000 !important;\"><a href=\"https://shop.nearfuturelaboratory.com/products/androids-dream-of-electric-sheep\" style=\"text-decoration: underline;color: #000000 !important;\">Buy your set now!</a>",
+                "link_ref" : "https://lu.ma/nearfuturelaboratory",
+                "link_text" : "General Seminar S05E01",
+                "title" : "What's for breakfast in an AI future?",
+                "subtitle" : "General Seminar Imagines Harder",
+                "main_copy" : "Let's cut through the hype, the noise, the prognostications, and predictions — and ask ourselves, \"Yeah. Okay. AI. But what's for breakfast in an AI future when it's all said and done? And how did we prepare it? What's 'work' in an AI future and what do I do, and how did I learn how to do it? What might it be like to vacuum a dirty rug or take the dog for a walk? How do we book a vacation or arrange for pickleball lessons? How might we make a dinner reservation — and get to the restaurant? Who's our date to that dinner and how did we meet?\" <a href='https://lu.ma/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Reserve your seat now!</a>",
                 "font_family" : "Roslindale",
                 "font_style" : "normal",
                 "background_color" : "#E1EFE6"
@@ -134,14 +133,125 @@
         },
         "elements" : [
             {
-                "user_callout" : "In the &#127911;-podcasts channel @florianlow posted",
+                "user_callout" : "In the 🧰-artificial-intelligence channel @fkvrichard posted",
                 "font_family" : "Roslindale",
                 "font_style" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://nearfuturelaboratory.com",
-                "link_text" : "SpecFi: Necessary Tomorrows",
-                "post_copy" : "The \"Necessary Tomorrows\" podcast, presented by Doha Debates and Al Jazeera Podcasts, blends speculative fiction with documentary elements, inviting listeners to explore potential futures shaped by the interactions between humans, artificial intelligence, and the natural world, as envisioned by science fiction writers and actualized by activists and scientists."
+                "link_ref" : "https://www.sciencedirect.com/science/article/pii/S2713374523000316",
+                "link_text" : "How does generative artificial intelligence impact student creativity?",
+                "post_copy" : "Creativity has existed since the dawn of humankind and is something humans inherently possess as a capacity and a process. Creativity is applied in everyday activities (Kaufman & Beghetto, 2009; Richards, 2007) and in situations where solutions to problems are at the center of creative activities and artistic endeavors. With the growing interest in generative Artificial Intelligence (AI) and the availability of technical AI chatbot tools such as Chat-GPT, Google Bard, Microsoft Bing, Jasper, and others, the authors’ study explores if and how students can enhance their creative thinking skills, in particularly their divergent thinking skills, through the use of Chat-GPT-3."
+            },
+            {
+                "user_callout" : "In the Berlin channel @janmuehlig posted",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "https://www.meetup.com/de-DE/zukunft-schreiben/events/299534891/",
+                "link_text" : "How does generative artificial intelligence impact student creativity?",
+                "post_copy" : "<b>On March 16</a>, we will do our next Future Writing workshop. This time we imagine (harder) what forests will be for us. Our aim is to create small speculative stories that inspire and potentially lead to 'how might we ...'. In German (English version following soon)."
+            },
+            {
+                "user_callout" : "In the 📵offgrid-futures channel @Mateusz posted",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "http://newamerica.org/resilient-communities/resilient-futures/portable-network-kits-diy-wifi-response-recovery-and-resilience/",
+                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
+                "post_copy" : "The Resilient Networks NYC initiative, supported by the New York City Economic Development Corporation's RISE program, collaborates with local partners in five neighborhoods to develop community-owned mesh networks designed for resilience in flood-prone areas, with ongoing efforts to build emergency communications capacity through Portable Network Kits."
+            },
+            {
+                "user_callout" : "In the 🎧-podcasts channel @Drew Wiberg posted",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "https://pca.st/rzguuihd",
+                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
+                "post_copy" : "Gabby Morris, an award-winning designer and Regenerative Futures lecturer at Glasgow School of Art, discusses her innovative projects and emphasizes the importance of educational methods that foster optimism, creativity, and systemic thinking towards cultivating regenerative futures."
+            },
+            {
+                "user_callout" : "In the 📝-general channel this was posted",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "https://drive.google.com/file/d/1Uk3DT7fMwCB0w_OFocBTm-i1N6mO0gDH/view",
+                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
+                "post_copy" : "The file titled \"CYBER - The End of Vice.mp3\" is an audio file with a MPEG format, hosted on Google Drive. This digital object possesses a size of 31 megabytes and features an unspecified duration. According to the metadata provided, it was created and subsequently modified on the 26th of February, with initial creation at 3:49 PM followed by a modification one minute later at 3:50 PM. The ownership of the file is attributed to an individual named Tim Peterson."
+            },{
+                "user_callout" : "In the 🍿-films-and-shorts channel @Julian posted",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "https //www.theverge.com/24066233/her-ai-film-spike-jonze-joaquin-phoenix-scarlett-johansson",
+                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
+                "post_copy" : "Spike Jonze's film \"Her\" continues to offer profound insights into artificial intelligence, exploring complex emotions in human-AI relationships with a nuance and depth that surpasses many of its contemporaries, even a decade after its release. Released over a decade ago, it continues to provide a nuanced depiction of artificial intelligence (AI) relationships, far surpassing many of its contemporary works in the genre. The Verge's Sheon Han argued that the film's strength lies in its exploration of the human-like AI's emotional complexities rather than dystopian fears of AI dominance. "
+            }
+
+        ]
+    },
+    "accessory-item-header" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html"
+        },
+        "elements" : [
+            {
+                "title" : "NFL Discord Members' Projects",
+                "subtitle" : "Stay Creative",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f"
+            }
+        ]
+    },
+    "accessory-item" : {
+        "metadata" : {
+            "template_name" : "accessory-item.html"
+        },
+        "elements" : [
+            {
+                "title" : "Gabby Morris",
+                "subtitle" : "Creative, systems thinking, experiential designer and futurist.",
+                "author" : "@GabsMode",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://images.squarespace-cdn.com/content/v1/65508daeaec3cc59c417770e/864b3fc9-0138-4c58-a3b4-dd4d67c6133d/Image.jpeg?format=2500w",
+                "main_copy" : "Gabby is an award-winning designer dedicated to making complex and important issues tangible and delightful, and creating future experiences that foster imagination, and inspire thoughtful, critical reflection on our individual and collective futures. The mission? To ignite your senses, spark your imagination, and challenge you to look at the world from new angles. Gabby’s work is a guide to feeling the future and imagining the unimaginable.",
+                "link_ref" : "https://www.gabbymorris.co.uk/"
+
+            },
+            {
+                "title" : "Bryan Boyer & Urban Technology at University of Michigan",
+                "subtitle" : "Urban Futures",
+                "author" : "@nayrbreyob",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0aa1455-f505-434b-8c80-12988c783dc0_5444x4083.jpeg",
+                "main_copy" : "Bryan Boyer has been doing the good work developing the Urban Technology program at University of Michigan. His regular weeknotes newsletter from the front lines of education, design, and the built environment is a must read if any of those things matter to you. He's been in Oslo confering with colleagues at AHO, the Oslo School of Architecture and Design, here with <a href='https://aho.no/en/aho-staff/einarsne'>Einar Sneve Martinussen</a> and pillow head.",
+                "link_ref" : "https://urbantechnology.substack.com/p/"
+
+            },
+            {
+                "title" : "Taryn O'Neill",
+                "subtitle" : "Filmmaker & futurist",
+                "author" : "@futuretaryn",
+                "font_family" : "Roslindale",
+                "font_style" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://backofffice.nearfuturelaboratory.com/images/outbox/issues/w10y24/Scirens-2021_TT-Homepage-circle.jpg",
+                "main_copy" : "O'Neill is a filmmaker and futurist at the intersection of entertainment, science & technology who is passionate about creating stories to unite audiences around visions of better futures. Taryn just directed the 'hopeful futures' short film '<a href='https://www.youtube.com/watch?v=H0CnJNU1E9s&ab_channel=CenterforScienceandtheImagination'>The Assignment</a>' for ASU's Center for Science and the Imagination, producing and writing with her Scirens co-founder <a href='https://www.tamarakrinsky.com/'>Tamara Krinsky</a>.",
+                "link_ref" : "https://www.tarynoneill.com/"
+
             }
         ]
     }
