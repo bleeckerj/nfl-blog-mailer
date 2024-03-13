@@ -1,13 +1,13 @@
                <!-- start box-item.html -->
 
               <tr>
-                <td align="left" style="background: #f2f2f2;border-collapse: collapse; border-radius: 0.8rem;">
+                <td align="left" style="{{ item['background_color']}}" ;border-collapse: collapse; border-radius: 0.8rem;">
 
                   <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="416">
                     <tbody>
                       <tr>
                         <td class="padt20 padr10 padl20" style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-left: 20px;" valign="top">
-                          <p class="marb0" style="font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 0;">
+                          <p class="marb0" style="font-family: "{{ item['font_family'] }}"; font-style: "{{ item['font_style']}}"; font-color: {{ item['text_color']}}; font-size: 16px;line-height: 23px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 0;">
                             <img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="290" height="auto" class="img" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;margin-bottom: 0.8rem;">
                           </p>
                         </td>
@@ -20,7 +20,7 @@
                     <tbody>
                       <tr>
                         <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-                          <p style="font-family: \"{{ item['font_family'] }}\"; font-style: {{ item['font_style']}} font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">
+                          <p style="font-family: "{{ item['font_family'] }}"; font-style: {{ item['font_style']}}; font-color: {{ item['text_color']}}; font-size: 16px;line-height: 23px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 15px;">
                             {{ item['main_copy']}}</a>
                           </p>
                         </td>

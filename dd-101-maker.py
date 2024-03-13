@@ -26,7 +26,8 @@ env = Environment(loader=FileSystemLoader('templates'))
 #     print(item['image_url'])
 for section_name, section_content in data.items():
     template_name = section_content['metadata']['template_name']
-    print(f"Section: {section_name}, Template: {template_name}")
+    ordinal = section_content['metadata']['ordinal'];
+    print(f"Section: {section_name}, Template: {template_name}, Order: {ordinal})");
     template_name = data[section_name]['metadata']['template_name']
     template = env.get_template(template_name)
 

@@ -1,14 +1,5 @@
 
                 <!-- start accessory-item.html-->
-                <tr>
-                    <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
-                  </tr>
-                  <tr>
-                    <td align="left" class="headline" style="border-collapse: collapse;border-bottom: 2px solid #FFFFFF;padding-top: 15px;padding-right: 20px;padding-left: 20px;padding-bottom: 15px;">
-                      <h1 style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin: 0;padding: 0;">NFL Discord Members' Projects <a class="h1byline grey browser" href="" style="text-decoration: none;text-align: right;display: inline-block;font-size: 12px;line-height: 25px;font-weight: 400;float: right;color: #707070 !important;">Stay Creative</a>
-                      </h1>
-                    </td>
-                  </tr>
                   <tr>
                     <td align="left" style="border-collapse: collapse;">
   
@@ -19,8 +10,8 @@
                         <tbody>
                           <tr>
                             <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-                              <p style="font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">
-                                <img src="https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/GnomeSchool_2.png" alt="⊂(◉‿◉)つ" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
+                              <p style="font-family: {{ item['font_family'] }}; font-style: {{ item['font_style'] }}; font-weight: {{ item['font_weight']}}; font-size: 16px; line-height: 23px;color: {{ item['text-color']}};padding: 0;margin: 0;margin-bottom: 15px;">
+                                <img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
                               </p>
                             </td>
                           </tr>
@@ -33,10 +24,10 @@
                           <tr>
                             <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
                               <h2 class="padb5" style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                                <a href="https://open.spotify.com/show/72eX3jpELLn0F6JSNCRO1K?si=50cd349767794b5f" style="text-decoration: underline;color: #000000 !important;">Gnome School
-                                </a> ↻</h2>
-                              <h3 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 18px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">@DrewWiberg</h3>
-                              <p style="font-size: 15px;line-height: 20px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">In your downtime between shifts at the algae farm, tune into Gnome School, helpfully sponsored by Borwick's Baking Powder, Sunlight Soap, and Oxo. Listening to Gnome School allows you to almost experience, from wherever you are in the climate wastes, the harmony of nature and spirit in homes strategically sited around symbolic mid-western mound placements featuring rooftop gardens and light-piping roofs.</p><p style="font-size: 15px;line-height: 20px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;"><a href="https://open.spotify.com/show/72eX3jpELLn0F6JSNCRO1K?si=50cd349767794b5f" style="text-decoration: underline;color: #000000 !important;">Check It ↻</a>.</p>
+                                <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">{{ item['title']}}
+                                </a> ↻</h2> : {{ item['subtitle']}}
+                              <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 16px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">{{ item['author_username']}}</p>
+                              <p style="font-family: {{ item['font-family'] }}; font-style: {{ item['font-style'] }}; font-weight: {{ item['font_weight']}}; font-size: 15px;line-height: 20px; color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{item['main_copy']}}</p><p style="font-size: 15px;line-height: 15px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;"><a href="{{ item['link_ref']}}" style="text-decoration: underline;color:{{ item['text_color']}} !important;">Check It ↻</a>.</p>
                             </td>
                           </tr>
                         </tbody>
