@@ -1,93 +1,107 @@
 {
     "toc-head-item" : {
         "metadata" : {
-            "template_name" : "toc-head-item.html"
+            "template_name" : "toc-head-item.html",
+            "ordinal" : 1
         },
         "elements": [
             {
                 "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
                 "background_color" : "#f2f2f2",
-                "font_family" : "Roslindale",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "link_ref" : "https://nearfuturelaboratory.com",
-                "main_toc_text" : "➫ General Seminar S05E01 AI Futures<br>➫ SxSW 2024 Panel Preparations.<br>➫ A PoemOS Project<br>➫ Circular Economy Futures",
+                "main_toc_text" : "➫ Futures Brought To Life<br>➫ Street Signs from A Future<br>➫ General Seminar Season 05<br>➫ Casual Islands LA Unconference",
                 "text_color" : "#000000",
                 "light_text_color" : "#070707",
                 "short_title" : "It was Week 09 of 2024 at Near Future Laboratory, and some things happened.",
                 "view_online_url" : "%SOMETHINGSOMETHING%",
-                "salutation" : "This is the constantly evolving Near Future Laboratory Back Office Newsletter. You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>My thesis here is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.<br>Our goal is to unlock your potential to make sense of and find value in creative practices and bring about meaningful tangible change. Call it innovation, if you like.<br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br>Please help me by supporting this work.<br>You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, (2) join the NFL Discord by becoming a subscribing member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>, (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential, (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
+                "salutation" : "This is the constantly evolving Near Future Laboratory Back Office Newsletter. You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>My thesis here is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.<br>Our goal is to unlock your potential to make sense of and find value in creative practices and bring about meaningful, tangible change. Call that 'innovation', if you like.<br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br>Please help me by supporting this work.<br>How? You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, (2) join the NFL Discord by becoming a sustaining member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>, (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential, (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
             }  
         ]},
     "box-item-header" : {
         "metadata" : {
-            "template_name" : "box-item-header.html"
+            "template_name" : "box-item-header.html",
+            "ordinal" : 2
         },
         "elements" : [
             {
-                "header_text" : "Support Small Scale Stuff"
-            }
-        ]
-    },
-    "box-item-header_2" : {
-        "metadata" : {
-            "template_name" : "box-item-header.html"
-        },
-        "elements" : [
-            {
-                "header_text" : "Book Haul"
+                "header_text" : "Support Small Scale Stuff",
+                "background_color" : "#f0e2a2"
             }
         ]
     },
     "box-item" : {
-    "metadata" : {
-        "template_name" : "box-item.html"
-    },
-    "elements": [
-        {
-            "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/03/Love-Hulten-NES-square.webp",
-            "background_color" : "#f2f2f2",
-            "main_copy" : "<b>Futures Brought To Life</b> is a volume that explores our understandings of being and doing futures; being in a future as an experience and doing the imagination of possible futures with others. It features essays from The Yes Men, Superflux, Scott Smith & Susan Cox-Smith, Extrapolation Factory, Eva-Maria Spreitzer, Judith Mahler, tons more and even me. Put out by the fine souls at <a href='https://www.timesup.org/'Time's Up</a> there in Linz, Austria.",
-            "font_family" : "Roslindale",
-            "font_style" : "normal",
-            "link_ref" : "https://www.timesup.org/publications/futures-brought-life-publication",
-            "text_color" : "#000000"
-        }  
-    ]},
-    "box-item-2" : {
         "metadata" : {
-            "template_name" : "box-item.html"
+            "template_name" : "box-item.html",
+            "ordinal" : 3
         },
         "elements": [
             {
-                "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/03/Love-Hulten-NES-square.webp",
-                "background_color" : "#dbf0e6",
-                "main_copy" : "This is a great book",
-                "font_family" : "Roslindale",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/public/ad-images/toolbelt/w-290px-fpo.png",
+                "background_color" : "#f0f0f0",
+                "main_copy" : "<b>Futures Brought To Life</b> is a volume that explores our understandings of being and doing futures; being in a future as an experience and doing the imagination of possible futures with others. It features essays from The Yes Men, Superflux, Scott Smith & Susan Cox-Smith, Extrapolation Factory, Eva-Maria Spreitzer, Judith Mahler, tons more, and even me! Put out by the fine souls at <a href='https://www.timesup.org/'>Time's Up</a> there in Linz, Austria.",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
-                "link_ref" : "https://nearfuturelaboratory.com",
+                "font_weight" : "normal",
+                "link_ref" : "https://www.timesup.org/publications/futures-brought-life-publication",
+                "text_color" : "#000000"
+            }  
+        ]},
+    "box-item-header_2" : {
+        "metadata" : {
+            "template_name" : "box-item-header.html",
+            "ordinal" : 4
+        },
+        "elements" : [
+            {
+                "header_text" : "Book Haul",
+                "background_color" : "#f2f2f2"
+            }
+        ]
+    },
+    "box-item-2" : {
+        "metadata" : {
+            "template_name" : "box-item.html",
+            "ordinal" : 5
+        },
+        "elements": [
+            {
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/book-haul/2024/03/flowcharting/2023-06-21-113503--gta-edition-flowcharting-cover.jpg",
+                "background_color" : "#dbf0e6",
+                "main_copy" : "<b>Flowcharting: From Abstractionism to Algorithmics In Art And Architecture</b> is an argument for the way Imagination, Art and the creative consciousness operates at the vanguard of meaningful cultural evoltuion. The rational modern — the other pole of the creative consciousness - turned bureaucratic between the 1930s and 1960s, Matthew Allen, the author, argues. He goes on to describe how artists, designers and architects anticipated the computer by adopting 'serial effects.' This shift was a cherished dream of modernism, replacing composition with organization as a basis of design. Beautiful book design in the hand. Also available from the publisher as an Open Access PDF.",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "link_ref" : "https://verlag.gta.arch.ethz.ch/en/gta:book_5dc5d27c-6304-4aaa-8bc0-b704f5482efc",
                 "text_color" : "#000000"
             }  
         ]},
     "featured-item" : {
     "metadata" : {
-        "template_name" : "featured-item.html"
+        "template_name" : "featured-item.html",
+        "ordinal" : 6
     },
     "elements" :  [
         {
-            "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
+            "image_url" : "https://images.unsplash.com/photo-1612150138861-f3767ca6d6e7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&ixid=M3wxMjQyMjF8MHwxfHNlYXJjaHwxNnx8bG9zJTIwYW5nZWxlc3xlbnwwfDJ8fHwxNzA0MjM4NzYyfDI&ixlib=rb-4.0.3&q=80&w=800&h=800",
             "text_color" : "#000000",
             "light_text_color" : "#0f0f0f",
-            "link_ref" : "https://nearfuturelaboratory.com",
-            "title" : "Title",
-            "subtitle" : "Subtitle",
-            "main_copy" : "This is the main copy",
-            "font_family" : "Roslindale",
-            "font_style" : "normal"
+            "link_ref" : "https://lu.ma/causal-islands-la",
+            "title" : "Casual Islands LA",
+            "subtitle" : "IRL F2F Unconferences Are Back!",
+            "main_copy" : "Causal Islands LA is about the future of computing, and connecting people across different specializations and disciplines to come together – to get off of their islands and coordinate, collaborate, and amplify their dreams & visions as to what computing <em>should</em> be notwithstanding what Elon, Sam, and Sundar think.",
+            "font_family" : "FormaDJRVariable",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "background_color" : "#f3f4ff"
         }   
     ]},
     "featured-special" : {
         "metadata" : {
-            "template_name" : "featured-special.html"
+            "template_name" : "featured-special.html",
+            "ordinal" : 7
         },
         "elements" : [
             {
@@ -99,43 +113,24 @@
                 "title" : "What's for breakfast in an AI future?",
                 "subtitle" : "General Seminar Imagines Harder",
                 "main_copy" : "Let's cut through the hype, the noise, the prognostications, and predictions — and ask ourselves, \"Yeah. Okay. AI. But what's for breakfast in an AI future when it's all said and done? And how did we prepare it? What's 'work' in an AI future and what do I do, and how did I learn how to do it? What might it be like to vacuum a dirty rug or take the dog for a walk? How do we book a vacation or arrange for pickleball lessons? How might we make a dinner reservation — and get to the restaurant? Who's our date to that dinner and how did we meet?\" <a href='https://lu.ma/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Reserve your seat now!</a>",
-                "font_family" : "Roslindale",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "background_color" : "#E1EFE6"
-            }
-        ]
-    },
-    "box-feature-items" : {
-        "metadata" : {
-            "template_name" : "box-feature.html"
-        },
-        "elements" : [
-            {
-                "callout" : "Join the Near Future Laboratory Discord",
-                "font_family" : "Roslindale",
-                "font_style" : "normal",
-                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/site/LaboratoryGuy_ComeToWhereTheFutureIs__300px.webp",
-                "text_color" : "#f0f0f0",
-                "link_ref" : "https://nearfuturelaboratory.com",
-                "link_text_1" : "Join Us",
-                "link_text_2" : "Join the NFL Community",
-                "subtitle" : "The Near Future Laboratory Has A Community. We Do Futures Projects at the Vanguard of The Not True *<em>Yet</em>",
-                "main_copy" : "↯ A Magazine from a Future with AI<br>↯ A Magazine from a Future of Cinema<br>↯ A Magazine from a Fashion Future<br>↯ General Seminar's Starting Up!<br>↯ Foresight Futures Super Seminar Soon!↯ Weekly Office Hours & Coffee Calls",
-                "light_text_color" : "#070707",
-                "background_color" : "hsl(0, 0%, 94%)"
-     
             }
         ]
     },
     "discord-callout-item" : {
         "metadata" : {
-            "template_name" : "discord-callout-item.html"
+            "template_name" : "discord-callout-item.html",
+            "ordinal" : 9
         },
         "elements" : [
             {
-                "user_callout" : "In the 🧰-artificial-intelligence channel @fkvrichard posted",
-                "font_family" : "Roslindale",
+                "user_callout" : "In the 🧰-artificial-intelligence channel @fkvrichard posted this",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
                 "link_ref" : "https://www.sciencedirect.com/science/article/pii/S2713374523000316",
@@ -143,19 +138,21 @@
                 "post_copy" : "Creativity has existed since the dawn of humankind and is something humans inherently possess as a capacity and a process. Creativity is applied in everyday activities (Kaufman & Beghetto, 2009; Richards, 2007) and in situations where solutions to problems are at the center of creative activities and artistic endeavors. With the growing interest in generative Artificial Intelligence (AI) and the availability of technical AI chatbot tools such as Chat-GPT, Google Bard, Microsoft Bing, Jasper, and others, the authors’ study explores if and how students can enhance their creative thinking skills, in particularly their divergent thinking skills, through the use of Chat-GPT-3."
             },
             {
-                "user_callout" : "In the Berlin channel @janmuehlig posted",
-                "font_family" : "Roslindale",
+                "user_callout" : "In the Berlin channel @janmuehlig posted this",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
                 "link_ref" : "https://www.meetup.com/de-DE/zukunft-schreiben/events/299534891/",
                 "link_text" : "How does generative artificial intelligence impact student creativity?",
-                "post_copy" : "<b>On March 16</a>, we will do our next Future Writing workshop. This time we imagine (harder) what forests will be for us. Our aim is to create small speculative stories that inspire and potentially lead to 'how might we ...'. In German (English version following soon)."
+                "post_copy" : "<b>On March 16</b>, we will do our next Future Writing workshop. This time we imagine (harder) what forests will be for us. Our aim is to create small speculative stories that inspire and potentially lead to 'how might we ...'. In German (English version following soon)."
             },
             {
-                "user_callout" : "In the 📵offgrid-futures channel @Mateusz posted",
-                "font_family" : "Roslindale",
+                "user_callout" : "In the 📵offgrid-futures channel @Mateusz posted this",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
                 "link_ref" : "http://newamerica.org/resilient-communities/resilient-futures/portable-network-kits-diy-wifi-response-recovery-and-resilience/",
@@ -163,32 +160,35 @@
                 "post_copy" : "The Resilient Networks NYC initiative, supported by the New York City Economic Development Corporation's RISE program, collaborates with local partners in five neighborhoods to develop community-owned mesh networks designed for resilience in flood-prone areas, with ongoing efforts to build emergency communications capacity through Portable Network Kits."
             },
             {
-                "user_callout" : "In the 🎧-podcasts channel @Drew Wiberg posted",
-                "font_family" : "Roslindale",
+                "user_callout" : "In the 🎧-podcasts channel @Drew Wiberg posted this",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
                 "link_ref" : "https://pca.st/rzguuihd",
-                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
+                "link_text" : "Gabby Morris & Regenerative Futures",
                 "post_copy" : "Gabby Morris, an award-winning designer and Regenerative Futures lecturer at Glasgow School of Art, discusses her innovative projects and emphasizes the importance of educational methods that foster optimism, creativity, and systemic thinking towards cultivating regenerative futures."
             },
             {
                 "user_callout" : "In the 📝-general channel this was posted",
-                "font_family" : "Roslindale",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
                 "link_ref" : "https://drive.google.com/file/d/1Uk3DT7fMwCB0w_OFocBTm-i1N6mO0gDH/view",
-                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
-                "post_copy" : "The file titled \"CYBER - The End of Vice.mp3\" is an audio file with a MPEG format, hosted on Google Drive. This digital object possesses a size of 31 megabytes and features an unspecified duration. According to the metadata provided, it was created and subsequently modified on the 26th of February, with initial creation at 3:49 PM followed by a modification one minute later at 3:50 PM. The ownership of the file is attributed to an individual named Tim Peterson."
+                "link_text" : "Vice Media ex-employees sh*t talk on Vice Media's own podcast feed",
+                "post_copy" : "Vice Media fires everyone but forgets to turn off the podcast backend 🤦🏽‍♂️ and a few journalist leave their final, erm..<em>reflections</em> when they find the podcast backend still accessible.<br>The file titled \"CYBER - The End of Vice.mp3\" is an audio file with a MPEG format. This digital object possesses a size of 31 megabytes and features an unspecified duration. According to metadata, it was created and subsequently modified on the 26th of February, with initial creation at 3:49 PM followed by a modification one minute later at 3:50 PM. The ownership of the file is attributed to an individual named <span style='background-color: #000000;'>REDACTED</span>."
             },{
-                "user_callout" : "In the 🍿-films-and-shorts channel @Julian posted",
-                "font_family" : "Roslindale",
+                "user_callout" : "In the 🍿-films-and-shorts channel @Julian posted this",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
                 "link_ref" : "https //www.theverge.com/24066233/her-ai-film-spike-jonze-joaquin-phoenix-scarlett-johansson",
-                "link_text" : "Portable Network Kits provide easy to assemble WiFi hotspots for times of disaster — a simpler alternative to building mesh networks.",
+                "link_text" : "Film circulates dreams of possible futures.",
                 "post_copy" : "Spike Jonze's film \"Her\" continues to offer profound insights into artificial intelligence, exploring complex emotions in human-AI relationships with a nuance and depth that surpasses many of its contemporaries, even a decade after its release. Released over a decade ago, it continues to provide a nuanced depiction of artificial intelligence (AI) relationships, far surpassing many of its contemporary works in the genre. The Verge's Sheon Han argued that the film's strength lies in its exploration of the human-like AI's emotional complexities rather than dystopian fears of AI dominance. "
             }
 
@@ -196,14 +196,16 @@
     },
     "accessory-item-header" : {
         "metadata" : {
-            "template_name" : "accessory-item-header.html"
+            "template_name" : "accessory-item-header.html",
+            "ordinal" : 10
         },
         "elements" : [
             {
-                "title" : "NFL Discord Members' Projects",
+                "title" : "Featured Discord Member Project",
                 "subtitle" : "Stay Creative",
-                "font_family" : "Roslindale",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f"
             }
@@ -211,48 +213,89 @@
     },
     "accessory-item" : {
         "metadata" : {
-            "template_name" : "accessory-item.html"
+            "template_name" : "accessory-item.html",
+            "ordinal" : 11
         },
         "elements" : [
-            {
-                "title" : "Gabby Morris",
-                "subtitle" : "Creative, systems thinking, experiential designer and futurist.",
-                "author" : "@GabsMode",
-                "font_family" : "Roslindale",
-                "font_style" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "image_url" : "https://images.squarespace-cdn.com/content/v1/65508daeaec3cc59c417770e/864b3fc9-0138-4c58-a3b4-dd4d67c6133d/Image.jpeg?format=2500w",
-                "main_copy" : "Gabby is an award-winning designer dedicated to making complex and important issues tangible and delightful, and creating future experiences that foster imagination, and inspire thoughtful, critical reflection on our individual and collective futures. The mission? To ignite your senses, spark your imagination, and challenge you to look at the world from new angles. Gabby’s work is a guide to feeling the future and imagining the unimaginable.",
-                "link_ref" : "https://www.gabbymorris.co.uk/"
-
-            },
-            {
-                "title" : "Bryan Boyer & Urban Technology at University of Michigan",
-                "subtitle" : "Urban Futures",
-                "author" : "@nayrbreyob",
-                "font_family" : "Roslindale",
-                "font_style" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "image_url" : "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0aa1455-f505-434b-8c80-12988c783dc0_5444x4083.jpeg",
-                "main_copy" : "Bryan Boyer has been doing the good work developing the Urban Technology program at University of Michigan. His regular weeknotes newsletter from the front lines of education, design, and the built environment is a must read if any of those things matter to you. He's been in Oslo confering with colleagues at AHO, the Oslo School of Architecture and Design, here with <a href='https://aho.no/en/aho-staff/einarsne'>Einar Sneve Martinussen</a> and pillow head.",
-                "link_ref" : "https://urbantechnology.substack.com/p/"
-
-            },
             {
                 "title" : "Taryn O'Neill",
                 "subtitle" : "Filmmaker & futurist",
                 "author" : "@futuretaryn",
-                "font_family" : "Roslindale",
+                "font_family" : "RoslindaleText",
                 "font_style" : "normal",
+                "font_weight" : "normal",
                 "text_color" : "#000000",
                 "light_text_color" : "#0f0f0f",
-                "image_url" : "https://backofffice.nearfuturelaboratory.com/images/outbox/issues/w10y24/Scirens-2021_TT-Homepage-circle.jpg",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w10y24/Scirens-2021_TT-Homepage-circle.jpg",
                 "main_copy" : "O'Neill is a filmmaker and futurist at the intersection of entertainment, science & technology who is passionate about creating stories to unite audiences around visions of better futures. Taryn just directed the 'hopeful futures' short film '<a href='https://www.youtube.com/watch?v=H0CnJNU1E9s&ab_channel=CenterforScienceandtheImagination'>The Assignment</a>' for ASU's Center for Science and the Imagination, producing and writing with her Scirens co-founder <a href='https://www.tamarakrinsky.com/'>Tamara Krinsky</a>.",
                 "link_ref" : "https://www.tarynoneill.com/"
 
             }
         ]
-    }
+    },
+    "box-feature-item" : {
+        "metadata" : {
+            "template_name" : "box-feature.html",
+            "ordinal" : 8
+        },
+        "elements" : [
+            {
+                "callout" : "Join the Near Future Laboratory Discord",
+                "font_family" : "RoslindaleText",
+                "subtitle_font_family" : "FormaDJRVariable",
+                "subtitle_font_style" : "normal",
+                "subtitle_font_weight" : "normal",
+                "font_style" : "normal",
+                "header_font_weight" : "bold",
+                "font_weight" : "normal",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/site/LaboratoryGuy_ComeToWhereTheFutureIs__300px.webp",
+                "text_color" : "#000000",
+                "link_ref" : "https://patreon.com/nearfuturelaboratory.com",
+                "link_text_1" : "Join Us",
+                "link_text_2" : "Join the NFL Community",
+                "subtitle" : "The Near Future Laboratory Has A Community. We Do Futures Projects at the Vanguard of The Not True *<em>Yet</em>",
+                "main_copy" : "↯ A Magazine <em>from</em> an AI Future<br>↯ A Magazine <em>from</em> a Future of Cinema<br>↯ A Magazine <em>from</em> a Fashion Future<br>↯ General Seminar's Starting Up!<br>↯ Foresight Futures Super Seminar Soon!<br>↯ Weekly Office Hours & Coffee Calls",
+                "value_prop" : "✳Paid Subscribers Get Discord Access✳",
+                "light_text_color" : "#6d6b57",
+                "background_color" : "hsl(0, 0%, 94%)"
+     
+            }
+        ]
+    },
+    "full-width-item-header" : {
+        "metadata" : {
+            "template_name" : "full-width-item-header.html",
+            "ordinal" : 12
+        },
+        "elements" : [
+            {
+                "header_text" : "<strong>Artifact from a Possible Future</strong><br>A Future of Humane Protein Harvesting",
+                "background_color" : "#b7cac0",
+                "font_family" : "Space Mono",
+                "font_style" : "bold",
+                "font_weight" : "700"
+    
+            }
+        ]
+    },
+    "full-width-item" : {
+        "metadata" : {
+            "template_name" : "full-width-item.html",
+            "ordinal" : 13
+    },
+    "elements" :  [
+        {
+            "image_url" : "/Users/julian/Code/nfl-backoffice/public/ad-images/toolbelt/w-290px-fpo.png",
+            "text_color" : "#000000",
+            "light_text_color" : "#0f0f0f",
+            "link_ref" : "https://nearfuturelaboratory.com",
+            "title" : "Jocko's Hand Choked Elk Meats",
+            "subtitle" : "A possible future of humane meat harvesting.",
+            "main_copy" : "100% blockchain authenticated free-range J-Elk™ Live Large in the Choked Elk Mountain Range. They are treated humanely, living amongst their own. They are never tagged, nor hunted. When harvest time comes around, we engage a maximum of 4 adults in close-quarters hand-to-hoof death matches giving our Elk a fighting chance at survival.<br><br>Choked Elk Meats' Elk are never physically, verbally nor emotionally shamed, and we never nozzle our matches on the UFC Underverse Feed unlike the other guys' farms.<br><br>Our <strong>Super Champions</strong>, having survived four (4) Eth Seasons of matches with our Certified Jiu-Jitsu Masters, have earned their right to live their natural life — and to die a natural death.<br><br>With Choked Elk Mountain J-Elk®, you know you are getting a bounty that fought a good fight, and died an honorable \"Death by Human Combat.\"<br>Choked Elk Mountain Meats: The Future of Humane Protein Harvesting™.",
+            "font_family" : "RoslindaleText",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "background_color" : "#b7cac0"
+        }   
+    ]}
 }
