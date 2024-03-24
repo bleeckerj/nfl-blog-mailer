@@ -13,8 +13,12 @@ with open(args.json_file, 'r') as file:
     data = json.load(file)
 
 file_directory = os.path.dirname(os.path.abspath(args.json_file))
+templates_directory = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates/static')
 # Set up Jinja2 environment
 env = Environment(loader=FileSystemLoader('templates'))
+
+# List to keep track of the generated file names
+generated_files = []
 
 # Step 2: Parse 'content_typ_1'
 #box_items = data['box-items']
@@ -45,6 +49,32 @@ for section_name, section_content in data.items():
             file.write(rendered_content)
         print(f'File {file_name} created successfully.')
 
-    # Note: Replace 'your_file.json' with the path to your JSON file
-    # Replace 'templates' with the path to your template directory
-    # Replace 'your_template_name.html' with the name of your actual template file
+        # Add the file name to the list of generated files
+        generated_files.append(full_path)
+
+top_file_path = os.path.join(templates_directory, 'top.html')
+bottom_file_path = os.path.join(templates_directory, 'bottom.html')
+
+
+# Get the base name of the JSON file without its extension
+base_name = os.path.splitext(os.path.basename(args.json_file))[0]
+
+# Construct the final HTML file name using the base name
+final_file_name = f"{base_name}.html"
+final_file_path = os.path.join(file_directory, final_file_name)
+
+# Concatenate all files together into the final HTML file
+with open(final_file_path, 'w') as final_file:
+    if os.path.exists(top_file_path):
+        with open(top_file_path, 'r') as file:
+            final_file.write(file.read())
+    
+    for file_path in generated_files:
+        with open(file_path, 'r') as file:
+            final_file.write(file.read())
+    
+    if os.path.exists(bottom_file_path):
+        with open(bottom_file_path, 'r') as file:
+            final_file.write(file.read())
+
+print(f'All content successfully concatenated into {final_file_path}')

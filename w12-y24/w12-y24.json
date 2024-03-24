@@ -1,0 +1,311 @@
+{
+    "toc-head-item" : {
+        "metadata" : {
+            "template_name" : "toc-head-item.html",
+            "ordinal" : 1
+        },
+        "elements": [
+            {
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
+                "background_color" : "#f2f2f2",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ General Seminar Digests<br>➫ NFL Podcast N°087<br>➫ Magazine from an AI Future<br>➫ New Member Feature",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 12 of 2024 at Near Future Laboratory, and some things happened.",
+                "view_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "This is the constantly evolving Near Future Laboratory Back Office Newsletter. You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>My thesis here is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.<br>Our goal is to unlock your potential to make sense of and find value in creative practices and bring about meaningful, tangible change. Call that 'innovation', if you like.<br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br>Please help me by supporting this work.<br>How? You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, (2) join the NFL Discord by becoming a sustaining member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>, (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential, (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
+            }  
+        ]},
+    "box-item-header_2" : {
+        "metadata" : {
+            "template_name" : "box-item-header.html",
+            "ordinal" : 4
+        },
+        "elements" : [
+            {
+                "header_text" : "Book Haul",
+                "background_color" : "#f0f0f0"
+            }
+        ]
+    },
+    "box-item" : {
+        "metadata" : {
+            "template_name" : "box-item.html",
+            "ordinal" : 3
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#f0f0f0",
+                "main_copy" : "",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "link_ref" : "",
+                "text_color" : "#000000"
+            }  
+        ]},
+    "box-item-2" : {
+        "metadata" : {
+            "template_name" : "box-item.html",
+            "ordinal" : 5
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#f0f0f0",
+                "main_copy" : "",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "link_ref" : "",
+                "text_color" : "#000000"
+            }  
+        ]},
+    "featured-item" : {
+    "metadata" : {
+        "template_name" : "featured-item.html",
+        "ordinal" : 6
+    },
+    "elements" :  [
+        {
+            "image_url" : "",
+            "text_color" : "#000000",
+            "light_text_color" : "#0f0f0f",
+            "link_ref" : "",
+            "title" : "",
+            "subtitle" : "",
+            "main_copy" : "",
+            "font_family" : "FormaDJRVariable",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "background_color" : "#f0f0f0"
+        }   
+    ]},
+    "featured-item-2" : {
+        "metadata" : {
+            "template_name" : "featured-item.html",
+            "ordinal" : 7
+        },
+        "elements" :  [
+            {
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/blog/2024/03/signs-of-change/IMG_7800__1200px.jpg",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "title" : "",
+                "subtitle" : "",
+                "main_copy" : "",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "background_color" : "#f0f0f0"
+            }   
+        ]},
+    "featured-special" : {
+        "metadata" : {
+            "template_name" : "featured-special.html",
+            "ordinal" : 7
+        },
+        "elements" : [
+            {
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/blog/2024/03/GS_S05E01_AI_Futures__600px.jpg",
+                "text_color" : "#f0f0f0",
+                "light_text_color" : "#070707",
+                "link_ref" : "https://lu.ma/nearfuturelaboratory",
+                "link_text" : "General Seminar S05E01",
+                "title" : "What's for breakfast in an AI future?",
+                "subtitle" : "General Seminar Imagines Harder",
+                "main_copy" : "Let's cut through the hype, the noise, the prognostications, and predictions — and ask ourselves, \"Yeah. Okay. AI. But what's for breakfast in an AI future when it's all said and done? And how did we prepare it? What's 'work' in an AI future and what do I do, and how did I learn how to do it? What might it be like to vacuum a dirty rug or take the dog for a walk? How do we book a vacation or arrange for pickleball lessons? How might we make a dinner reservation — and get to the restaurant? Who's our date to that dinner and how did we meet?\" <br><br><a href='https://lu.ma/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Reserve your seat now!</a>",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "background_color" : "#faf5ec"
+            }
+        ]
+    },
+    "discord-callout-item" : {
+        "metadata" : {
+            "template_name" : "discord-callout-item.html",
+            "ordinal" : 9
+        },
+        "elements" : [
+            {
+                "user_callout" : "",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "link_text" : "",
+                "post_copy" : ""
+            },
+            {
+                "user_callout" : "",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "link_text" : "",
+                "post_copy" : ""
+            },
+            {
+                "user_callout" : "",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "link_text" : "",
+                "post_copy" : ""
+            },
+            {
+                "user_callout" : "",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "link_text" : "",
+                "post_copy" : ""
+            },
+            {
+                "user_callout" : "",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "link_text" : "",
+                "post_copy" : "."
+            },{
+                "user_callout" : "",
+                "font_family" : "RoslindaleText",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "",
+                "link_text" : "",
+                "post_copy" : ""
+            }
+
+        ]
+    },
+    "accessory-item-header" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#f0f0f0",
+            "ordinal" : 10
+        },
+        "elements" : [
+            {
+                "title" : "New NFL Discord Member",
+                "subtitle" : "Community & Creative Culture",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#f0f0f0"
+            }
+        ]
+    },
+    "accessory-item" : {
+        "metadata" : {
+            "template_name" : "accessory-item.html",
+            "ordinal" : 11
+        },
+        "elements" : [
+            {
+                "title" : "Tristan Dwyer",
+                "subtitle" : "",
+                "author" : "",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "",
+                "main_copy" : "O'Neill is a filmmaker and futurist at the intersection of entertainment, science & technology who is passionate about creating stories to unite audiences around visions of better futures. Taryn just directed the 'hopeful futures' short film '<a href='https://www.youtube.com/watch?v=H0CnJNU1E9s&ab_channel=CenterforScienceandtheImagination'>The Assignment</a>' for ASU's Center for Science and the Imagination, producing and writing with her Scirens co-founder <a href='https://www.tamarakrinsky.com/'>Tamara Krinsky</a>.",
+                "link_ref" : "https://www.tarynoneill.com/",
+                "background_color" : "#f0f0f0"
+            }
+        ]
+    },
+    "box-feature-item" : {
+        "metadata" : {
+            "template_name" : "box-feature.html",
+            "ordinal" : 8
+        },
+        "elements" : [
+            {
+                "callout" : "Join the Near Future Laboratory Discord",
+                "font_family" : "RoslindaleText",
+                "subtitle_font_family" : "FormaDJRVariable",
+                "subtitle_font_style" : "normal",
+                "subtitle_font_weight" : "normal",
+                "font_style" : "normal",
+                "header_font_weight" : "bold",
+                "font_weight" : "normal",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/site/LaboratoryGuy_ComeToWhereTheFutureIs__300px.webp",
+                "text_color" : "#000000",
+                "link_ref" : "https://patreon.com/nearfuturelaboratory",
+                "link_text_1" : "Join Us",
+                "link_text_2" : "Join the NFL Community",
+                "subtitle" : "The Near Future Laboratory Has A Community. We Do Futures Projects at the Vanguard of The Not True *<em>Yet</em>",
+                "main_copy" : "↯ A Magazine <em>from</em> an AI Future<br>↯ A Magazine <em>from</em> a Future of Cinema<br>↯ A Magazine <em>from</em> a Fashion Future<br>↯ General Seminar's Starting Up!<br>↯ Foresight Futures Super Seminar Soon!<br>↯ Weekly Office Hours & Coffee Calls",
+                "value_prop" : "✳Paid Subscribers Get Discord Access✳",
+                "light_text_color" : "#a5a5a5",
+                "background_color" : "#f0f0f0"
+     
+            }
+        ]
+    },
+    "full-width-item-header" : {
+        "metadata" : {
+            "template_name" : "full-width-item-header.html",
+            "ordinal" : 12
+        },
+        "elements" : [
+            {
+                "header_text" : "<strong>Artifact from a Possible Future</strong><br>A Future of Humane Protein Harvesting",
+                "background_color" : "#ffaf59",
+                "font_family" : "Space Mono",
+                "font_style" : "bold",
+                "font_weight" : "700"
+    
+            }
+        ]
+    },
+    "full-width-item" : {
+        "metadata" : {
+            "template_name" : "full-width-item.html",
+            "ordinal" : 13
+    },
+    "elements" :  [
+        {
+            "image_url" : "https://backoffice.nearfuturelaboratory.com/images/artifacts-from-futures/ChokedElkMountainMeats_HQ_007_O_3x2_121821_1659-01.jpg",
+            "text_color" : "#00000",
+            "light_text_color" : "#0f0f0f",
+            "link_ref" : "https://shop.nearfuturelaboratory.com/products/the-work-kit-of-design-fiction-2023-mj-edition",
+            "title" : "Jocko's Hand Choked Elk Meats",
+            "subtitle" : "The Honorably Harvested Protein™",
+            "main_copy" : "100% blockchain authenticated free-range J-Elk™ Live Large in the Choked Elk Mountain Range. They are treated humanely, living amongst their own. They are never tagged, nor hunted. When harvest time comes around, we engage a maximum of 4 adults in close-quarters hand-to-hoof death matches giving our Elk a fighting chance at survival.<br><br>Choked Elk Meats' Elk are never physically, verbally nor emotionally shamed, and we never nozzle our matches on the UFC Underverse Feed unlike the other guys' farms.<br><br>Our <strong>Super Champions</strong>, having survived four (4) Eth Seasons of matches with our Certified Jiu-Jitsu Masters, have earned their right to live their natural life — and to die a natural death.<br><br>With Choked Elk Mountain J-Elk®, you know you are getting a bounty that fought a good fight, and died an honorable \"Death by By Mortal Combat.\"<br><br>Choked Elk Mountain Meats: The Honorably Harvested Protein™.",
+            "font_family" : "Roboto Mono",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "background_color" : "#e0e0f0"
+        }   
+    ]}
+}
