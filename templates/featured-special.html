@@ -4,8 +4,8 @@
                 </tr>
                 <tr>
                   <td align="left" style="border-top-left-radius: 0.8rem; border-top-right-radius: 0.8rem; border-collapse: collapse;border-bottom: 0px solid #FFFFFF;padding-top: 15px;padding-right: 20px;padding-left: 20px; padding-bottom: 15px; background-color:{{ item['background_color']}}">
-                    <h1 style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin: 0;padding: 0;"><a href="{{ item['link_ref']}}" style="text-decoration: none; display: inline-block; font-size: 1.2rem;color:#5f5454">{{ item['link_text']}}</a><a href="{{ item['link_ref']}}" style="text-decoration: none;display: inline-block;font-size: 12px;line-height: 25px;font-weight: 400;float: right;color: #6d6b57 !important;">{{ item['title']}}</a>
-                    </h1>
+                    <p style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}';font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin: 0;padding: 0;"><a href="{{ item['link_ref']}}" style="text-decoration: none; display: inline-block; font-size: 1.2rem;color:#5f5454">{{ item['link_text']}}</a><a href="{{ item['link_ref']}}" style="text-decoration: none;display: inline-block;font-size: 12px;line-height: 25px;font-weight: 400;float: right;color: #6d6b57 !important;">{{ item['title']}}</a>
+                    </p>
                   </td>
                 </tr>
                 <tr>
@@ -18,8 +18,8 @@
                       <tbody>
                         <tr>
                           <td class="padt20 padr10 padl20 padb5" style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-bottom: 5px;padding-left: 20px;" valign="top">
-                            <p style="font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">
-                              <img src="{{item['image_url']}}" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%; border-radius: 0.8rem;">
+                            <p style="font-family: '{{ item['font_family'] }}'; font-size: 16px;line-height: 23px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">
+                              <a href='{{ item['link_ref']}}'><img src="{{item['image_url']}}" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%; border-radius: 0.8rem;"></a>
                             </p>
                           </td>
                         </tr>
@@ -31,10 +31,10 @@
                       <tbody>
                         <tr>
                           <td class="padt15 padr20 padl10 padb5 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-bottom: 5px;padding-left: 10px;" valign="top">
-                            <h2 class="padb5" style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                              <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">{{ item['link_text']}}</a> →</h2>
-                            <h3 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 18px;font-weight: 400;margin: 0;padding: 0 0 5px 0; color: #6d6b57 !important;">{{ item['subtitle']}}</h3>
-                            <p style="font-size: 14px;line-height: 18px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy'] }} 
+                            <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}';font-size: 16px;line-height: 23px;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+                              <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">{{ item['link_text']}}</a> →</p>
+                            <p style="mso-line-height-rule: exactly;font-size: 16px;line-height: 18px;font-weight: 400;margin: 0;padding: 0 0 5px 0; color: #6d6b57 !important;">{{ item['subtitle']}}</p>
+                            <p style="font-family: '{{ item['font_family'] }}'; font-size: 14px;line-height: 18px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy'] }} 
                               </p>
                           </td>
                         </tr>
