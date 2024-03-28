@@ -1,0 +1,438 @@
+{
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#fefefe",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ Creative Vitality Summit 2024<br>➫ ASIC, but not the chip<br>➫ <br>➫ <br>➫ Artifacts from a Possible Future",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 13 of 2024 at Near Future Laboratory, and some things happened.",
+                "view_online_url" : "https://backoffice.nearfuturelaboratory.com/outbox/2024/w13-y24.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>We found some artifacts from adjacent nows or alternative pasts. The future just happens to be the thing we anticipate but the kind of consciousness prepared to not predict but create has to luxuriate in the marvel of possibility, not just prognostication. When someone is reluctant to accept the possibility that the trajectory of human creativity is or is not going to obtain some stated objective that is so well-indoctrinated in the milieu of futures topics, I remind them that for some reason wheels on luggage didn't happen just because we had wheels and we had luggage. Or that 'jogging' used to not be 'a thing'.<br>Both took the efforts of human persistence and an ability to dream where the milieu at the moment was simply unable to see the possibility.<br>This is what we do here at Near Future Laboratory. We Imagine Harder, living with the unusual, the skeptical, the eclectic, the other possibilities and alternatives. Join us.<br><br><strong>My thesis is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.</strong><br><br>Our purpose is to unlock your potential to make sense of and find value in creative practices and bring about meaningful, tangible change. Call that 'innovation', if you like.<br><br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br><br>You can help by supporting this work.<br><br>How? You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, like our speculation on electronic intelligence, Androids Dream of Electric Sheep 👇🏽; (2) join the NFL Discord by becoming a sustaining member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>; (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential; (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
+            }  
+        ]},
+    "featured-special-2": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "/Users/julian/Code/nfl-backoffice/public/ad-images/toolbelt/w-290px-fpo.png",
+                "text_color": "#000000",
+                "light_text_color": "#000000",
+                "link_color" : "#000000",
+                "link_ref": "https://www.westaf.org/creative-vitality-summit/",
+                "link_text": "Registration",
+                "category_text" : "Events",
+                "title": "Creative Vitality™ Summit 2024",
+                "subtitle": "April 9 – 10, 2024",
+                "main_copy": "Now in its third year, the Creative Vitality™ Summit will bring together artists, designers, technologists, arts advocates, and policy experts to consider the impact of new economic models, new forms of investment, and technological change in arts, culture, and the creative economy. Registration for this virtual event is now open!",
+                "font_family": "Roslindale",
+                "font_style": "",
+                "font_weight": "",
+                "background_color": "#fff29b",
+                "border_width" : "2px",
+                "border_color" : "#000000"
+            }
+        ]
+    },
+    "featured-special": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "title": "",
+                "subtitle": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "featured-special-3": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "title": "",
+                "subtitle": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "box-item-header_2": {
+        "metadata": {
+            "template_name": "box-item-header.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "header_text": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "box-item": {
+        "metadata": {
+            "template_name": "box-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "background_color": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "link_ref": "",
+                "text_color": ""
+            }
+        ]
+    },
+    "accessory-item-header-2": {
+        "metadata": {
+            "template_name": "accessory-item-header.html",
+            "background_color": "",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title": "",
+                "subtitle": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "image-right-1": {
+        "metadata": {
+            "template_name": "image-right.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "name": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "image-right-2": {
+        "metadata": {
+            "template_name": "image-right.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "name": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "box-feature-item": {
+        "metadata": {
+            "template_name": "box-feature.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "callout": "",
+                "font_family": "",
+                "subtitle_font_family": "",
+                "subtitle_font_style": "",
+                "subtitle_font_weight": "",
+                "font_style": "",
+                "header_font_weight": "",
+                "font_weight": "",
+                "image_url": "",
+                "text_color": "",
+                "link_ref": "",
+                "link_text_1": "",
+                "link_text_2": "",
+                "subtitle": "",
+                "main_copy": "",
+                "value_prop": "",
+                "light_text_color": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "accessory-item-header-3": {
+        "metadata": {
+            "template_name": "accessory-item-header.html",
+            "background_color": "",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title": "",
+                "subtitle": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "accessory-item-2": {
+        "metadata": {
+            "template_name": "accessory-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title": "",
+                "subtitle": "",
+                "author": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "main_copy": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "box-item-header-3": {
+        "metadata": {
+            "template_name": "box-item-header.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "header_text": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "discord-callout-item": {
+        "metadata": {
+            "template_name": "discord-callout-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            },
+            {
+                "user_callout": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "link_text": "",
+                "post_copy": ""
+            }
+        ]
+    },
+    "accessory-item-header": {
+        "metadata": {
+            "template_name": "accessory-item-header.html",
+            "background_color": "",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title": "",
+                "subtitle": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "accessory-item": {
+        "metadata": {
+            "template_name": "accessory-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "name": "",
+                "first_name": "",
+                "subtitle": "",
+                "author": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "main_copy": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "full-width-item-header": {
+        "metadata": {
+            "template_name": "full-width-item-header.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "header_text": "",
+                "background_color": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": ""
+            }
+        ]
+    },
+    "full-width-item": {
+        "metadata": {
+            "template_name": "full-width-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "title": "",
+                "subtitle": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "background_color": ""
+            }
+        ]
+    }
+}
