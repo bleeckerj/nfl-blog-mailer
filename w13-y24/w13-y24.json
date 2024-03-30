@@ -1,437 +1,455 @@
 {
-    "toc-head-item" : {
-        "metadata" : {
-            "template_name" : "toc-head-item.html",
-            "ordinal" : 1
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
         },
         "elements": [
-            {
-                "image_url" : "https://backoffice.nearfuturelaboratory.com/ad-images/2024/02/BLEECKER_STUFF__ITTIH_2_600px.png",
-                "background_color" : "#fefefe",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "link_ref" : "https://nearfuturelaboratory.com",
-                "main_toc_text" : "➫ General Seminar Digests<br>➫ NFL Podcasts N°85,86,87<br>➫ New Member Feature<br>➫ Suppose the Sony Aibo Was A Runaway Success?<br>➫ Artifacts from a Possible Future",
-                "text_color" : "#000000",
-                "light_text_color" : "#070707",
-                "short_title" : "It was Week 12 of 2024 at Near Future Laboratory, and some things happened.",
-                "view_online_url" : "https://backoffice.nearfuturelaboratory.com/outbox/2024/w13-y24.html",
-                "share_online_url" : "%FORWARD2FRIEND%",
-                "salutation" : "This week we've got one new podcast up and two audio/video 'digests' from the AI Futures General Seminar I ran last Wednesday and you're reading the constantly evolving Near Future Laboratory Back Office Newsletter. You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br>We found some artifacts from adjacent nows or alternative pasts. The future just happens to be the thing we anticipate but the kind of consciousness prepared to not predict but create has to luxuriate in the marvel of possibility, not just prognostication. When someone is reluctant to accept the possibility that the trajectory of human creativity is or is not going to obtain some stated objective that is so well-indoctrinated in the milieu of futures topics, I remind them that for some reason wheels on luggage didn't happen just because we had wheels and we had luggage. Or that 'jogging' used to not be 'a thing'.<br>Both took the efforts of human persistence and an ability to dream where the milieu at the moment was simply unable to see the possibility.<br>This is what we do here at Near Future Laboratory. We Imagine Harder, living with the unusual, the skeptical, the eclectic, the other possibilities and alternatives. Join us.<br><br><strong>My thesis is that the work we do is not a zero-sum game. We work with individuals, organizations, big brands, and educational institutions to reignite an appreciation of our existentially vital capability to Imagine possibility.</strong><br><br>Our purpose is to unlock your potential to make sense of and find value in creative practices and bring about meaningful, tangible change. Call that 'innovation', if you like.<br><br>We seek others — individuals, institutions, brands, companies — who want to collaborate, coordinate, and amplify this goal.<br><br>You can help by supporting this work.<br><br>How? You can (1) grab something from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, like our speculation on electronic intelligence, Androids Dream of Electric Sheep 👇🏽; (2) join the NFL Discord by becoming a sustaining member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a>; (3) <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">commission us</a> to help you invest in your future and your potential; (4) <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
-            }  
-        ]},
-
-    "featured-special-2" : {
-        "metadata" : {
-            "template_name" : "featured-special.html",
-            "ordinal" : 7
-        },
-        "elements" : [
             {
                 "image_url" : "",
+                "background_color" : "#fdfdfd",
+                "title_font_family" : "FormaDJRVariable",
+                "font_family" : "WarblerText-Regular",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "font_size" : "18px",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ Creative Vitality Summit 2024<br>➫ SuperSeminar 007 Futures & Foresight April 24th<br>➫ Seen in the NFL Discord<br>➫ Object Fetish<br>➫ Book Haul<br>➫ Artifacts from a Possible Future",
                 "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_color" : "#ff69eb",
-                "link_ref" : "",
-                "link_text" : "",
-                "title" : "A digest of General Seminar S05E01 - AI Futures",
-                "subtitle" : "What's for breakfast in an AI future?",
-                "main_copy" : "Digests from the 10AM and 3PM session of General Seminar Season 05 Episode 01 are now up on Youtube and your podcast feeds! <br>You can find the 10AM session <a href='https://podcasts.apple.com/us/podcast/n-085-whats-for-breakfast-in-an-ai-future-part-1/id1546452193?i=1000650272926'  style=\"text-decoration: underline;color: #000000 !important;\">here to listen 🎧</a> and <a href='https://youtu.be/EPKVvvFaAuI?si=xn-kKCFFbv7Jdikg'  style=\"text-decoration: underline;color: #000000 !important;\">here to watch 📺</a>.<br>What did we do? We found artifacts from possible futures in which AI is as normal, ordinary, and everyday as wheels on luggage and televisions we talk to General Seminar is Near Future Laboratory's platform for sense-making in which we excavate artifacts from possible futures rather than make predictions and prognostications. This is the Design Fiction approach to imagining into possible futures. To learn more about General Seminar sign up for the <a href='https://nearfuturelaboratory.com' style=\"text-decoration: underline;color: #000000 !important;\">Near Future Laboratory's</a> newsletter at and see past General Seminars at <a href='https://generalseminar.com' style=\"text-decoration: underline;color: #000000 !important;\">https://generalseminar.com</a><br><br><a href='https://podcasts.apple.com/us/podcast/n-086-whats-for-breakfast-in-an-ai-future-part-2/id1546452193?i=1000650272814' style=\"text-decoration: underline;color: #000000 !important;\">Listen now</a> or <a href='e4f0ef' style=\"text-decoration: underline;color: #000000 !important;\">Watch on Youtube</a>!",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "background_color" : "#f2f2f7"
-            }
-        ]
-    },
-    "featured-special" : {
-        "metadata" : {
-            "template_name" : "featured-special.html",
-            "ordinal" : 7
-        },
-        "elements" : [
-            {
-                "image_url" : "http://backoffice.nearfuturelaboratory.com/images/blog/2024/03/nfl-podcast-episode-087/EPISODE_085_Taryn_O_Neil_Tamara_Krinsky_600px.jpg",
-                "text_color" : "#f0f0f0",
                 "light_text_color" : "#070707",
-                "link_color" : "#"
-                "link_ref" : "https://podcasts.apple.com/us/podcast/n-087-taryn-oneil-tamara-krinsky/id1546452193?i=1000650297258",
-                "link_text" : "NFL Podcast Episode 087",
-                "title" : "Science & storytelling for more habitable futures",
-                "subtitle" : "Science + Story",
-                "main_copy" : "Taryn O'Neil and Tamara Krinsky are the creative force behind ⁠⁠Scirens⁠⁠, a creative team working at the intersection of science & storytelling, creative entertainment that encourages curiosity and imaginative thinking to shape a new vision for a rapidly changing world. <br><br><a href='https://podcasts.apple.com/us/podcast/n-087-taryn-oneil-tamara-krinsky/id1546452193?i=1000650297258' style=\"text-decoration: underline;color: #000000 !important;\">Listen now</a>",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "background_color" : "#a19fa1"
-            }
-        ]
-    },
-    "featured-special-3" : {
-        "metadata" : {
-            "template_name" : "featured-special.html",
-            "ordinal" : 7
-        },
-        "elements" : [
-            {
-                "image_url" : "http://backoffice.nearfuturelaboratory.com/images/outbox/issues/w12y24/north-of-patient-podcast.png",
-                "text_color" : "#f0f0f0",
-                "light_text_color" : "#070707",
-                "link_ref" : "https://www.youtube.com/watch?v=Xld7lEPKMUk&ab_channel=PuneetSeth",
-                "link_text" : "Futures of Health",
-                "title" : "North of Patient Podcast",
-                "subtitle" : "Puneet Seth's 'North of Patient' podcast imagining futures of healthcare",
-                "main_copy" : "Puneet stubmled upon Near Future Laboratory while listening to my conversation with <a href='https://podcasts.apple.com/us/podcast/how-to-set-our-imagination-free-to-build-the/id263242885?i=1000643951512' style=\"text-decoration: underline;color: #000000 !important;\">Nora Young on the CBC's Spark radio show</a>. He decided to launch a podcast discussing and imagining into possible futures for his knowledge and practice domain — healthcare. I was humbled to be his first guest. Give some support and listen, and write a review to encourage the algorithm to share this effort. Now's not the time to be a dour cynic! Help us help us. It's hard work to put this kind of material out on the world, particularly when you do so with a sense of optimism and critical awareness of the challenges (Puneet's an M.D. so, like..he knows that important domain needs to Imagine Harder.) The podcast is up on <a href='https://podcasts.apple.com/ca/podcast/north-of-patient/id1737128473?i=1000649946796' style=\"text-decoration: underline;color: #000000 !important;\">Apple</a>, <a href='https://podcasters.spotify.com/pod/show/puneet-seth3/episodes/Episode-1-Julian-Bleecker---Design-Fiction-and-how-an-imagination-can-help-us-see-the-future-of-healthcare-e2hc2si' style=\"text-decoration: underline;color: #000000 !important;\">Spotify</a>, and <a href='https://www.youtube.com/watch?v=Xld7lEPKMUk' style=\"text-decoration: underline;color: #000000 !important;\">Youtube</a> to boot! And Puneet is musing as well <a href='https://puneetseth.substack.com/p/episode-1-julian-bleecker-design'  style=\"text-decoration: underline;color: #000000 !important;\">on his Substack</a>. Subscribe, rank generously, share liberally, and disseminate widely!",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "background_color" : "#f0f0e4"
-            }
-        ]
-    },
-    "box-item-header_2" : {
-        "metadata" : {
-            "template_name" : "box-item-header.html",
-            "ordinal" : 4
-        },
-        "elements" : [
-            {
-                "header_text" : "Open Source",
-                "background_color" : "#f2f2f2"
-            }
-        ]
-    },
-    "box-item" : {
-        "metadata" : {
-            "template_name" : "box-item.html",
-            "ordinal" : 3
+                "short_title" : "It was Week 13 of 2024 at Near Future Laboratory, and some things happened.",
+                "view_online_url" : "https://backoffice.nearfuturelaboratory.com/outbox/2024/w13-y24.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br><br>Please consider becoming a participant in the Near Future Laboratory creative collaborative by becoming a supporter on <a href='https://patreon.com/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Patreon</a>.<br><br>It was the 13th week of two thousand and twenty four and a recurring theme was the recognition that an inability to dream of the world one wants to inhabit is a good way to ensure that one will never hold that world closely enough to make it a lived reality.<br><br>What took them so long to put wheels on luggage? I mean…it’s not like they had to invent anything.<br><br>How could it be that ‘jogging’ wasn’t something that, you know — just *was?<br><br>If you cannot sense, see, imagine, feel what could be, it's highly likely that it will not become a lived reality.<br><br>We celebrate dreamers, those who convince themselves of the possibility of their dreams despite the doubters.<br><br>In the imposed doubting lies the perspiration we often hear of — the hard work of translating the not true *yet into something you can point at and discuss, and hold, and turn on, and try, and ponder what the world would like if…<br><br>We celebrate dreamers because they do the hard work of translating the dream into reality, which then becomes the surprising and exciting, perhaps seasoned with skepticism. Onward the dream floats in this new stew of confusion as reality mingles with the dream poking and prodding it, checking to see if it is in fact worthy of occupying the reality of more than the dreamer.<br><br>Should the dream prove to be resonant enough to reveal its practical utility or for its resonance and ability to fill the various voids, gaps, and longings in our psyches, the dream becomes normal — no longer a dream but the thing that fills the gap between what was and the future.<br><br>If thinking and arranging your understanding of what is and what could be, or understanding the methods and techniques you need to appreciate how to see and sense the unanticipated and unexpected possibilities that we casually refer to as ‘the future’, then you should join the Near Future Laboratory, participate in our futuring and sense-making programs, platforms, and projects, and learn more about the ways we bring Imagination and Structure into rich, world-changing collaboration. Everything that will be once was the not true *yet. It’s Time to Imagine Harder. We’ve got some serious work to do. We need your help.<br><br>How?<br><br>Become a part of the NFL Discord by becoming a sustaining member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a><br><br>If you don't already have our books and work kits, pick them up from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/products/holiday-bundle-of-all-the-design-fiction\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a><br><br><a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">connect with us</a> to help you make sense of your organization's future. And please <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
+            }  
+        ]},
+    "featured-special-2": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
         },
         "elements": [
             {
-                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w12y24/tldraw-image_600px.jpg",
-                "background_color" : "#f2f2f2",
-                "main_copy" : "tldraw is a library for creating infinite canvas experiences in React. Pretty remarkable..leastways, I think so. Someone showed how they were building physics and data into this project in a demo the other day at Casual Islands LA, an unconference I went to. It's truly remarkable what potential humans have to create beautiful things without the usual $$ incentives. Awesome.",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "link_ref" : "https://github.com/tldraw",
-                "text_color" : "#000000"
-            }  
-        ]},
-        "accessory-item-header-2" : {
-            "metadata" : {
-                "template_name" : "accessory-item-header.html",
-                "background_color" : "#f0f0f0",
-                "ordinal" : 10
-            },
-            "elements" : [
-                {
-                    "title" : "The Shop of Artifacts From Adjacent Nows and Alternative Could Have Beens",
-                    "subtitle" : "Near Future Laboratory Shop",
-                    "font_family" : "FormaDJRVariable",
-                    "font_style" : "normal",
-                    "font_weight" : "normal",
-                    "text_color" : "#000000",
-                    "light_text_color" : "#0f0f0f",
-                    "background_color" : "#f0f0f0"
-                }
-            ]
+                "image_url": "/Users/julian/Code/nfl-backoffice/public/images/outbox/issues/w13y24/west-af-2024-03-29_17-37-52.jpeg",
+                "text_color": "#0f0f0f",
+                "light_text_color": "#000000",
+                "link_color" : "#000000",
+                "link_ref": "https://www.westaf.org/creative-vitality-summit/",
+                "link_text": "Creative Vitality™ Summit 2024",
+                "category_text" : "Events",
+                "title": "Creative Vitality™ Summit 2024",
+                "subtitle": "April 9 – 10, 2024",
+                "main_copy": "Check this out — I'll be hosting a discussion of creativity in the era of AI at the Creative Vitality™ Summit. <br>\"What's that,\" you ask?<br>Now in its third year, the Creative Vitality™ Summit will bring together artists, designers, technologists, arts advocates, and policy experts to consider the impact of new economic models, new forms of investment, and technological change in arts, culture, and the creative economy. <em>Registration for this virtual event is free and is now open!</em>",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "background_color": "var(--brightblue)",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"            }
+        ]
+    },
+    "featured-special": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
         },
-        "image-right-1" : {
-            "metadata" : {
-                "template_name" : "image-right.html",
-                "ordinal" : 11
-            },
-            "elements" : [
-                {
-                    "name" : "Imagine harder dad hat",
-                    "main_copy" : "This hat is a remnant from a bulk lot of merchandise materials manufactured in anticipation of Apple's ill-fated 'Imagine Harder' advertising campaign. A small quantity were found in a storage locker in the transitional grain storage FOB in Toughwater, Standard North Texas and is offered for delivery *only within the United States due to logistics restrictions and constraints. Adjustable, one-size fits most humanoids. Brushed twill. Black with embroidered slogans. In 1977 when the world's most earnest and ambitious computer company...",
-                    "font_family" : "FormaDJRVariable",
-                    "font_style" : "normal",
-                    "font_weight" : "400",
-                    "text_color" : "#000000",
-                    "light_text_color" : "#0a0a0a",
-                    "image_url" : "https://shop.nearfuturelaboratory.com/cdn/shop/files/Imagine_Harder_DadHat_01_031824_1807_31_600px.png?v=1711319948",
-                    "link_ref" : "https://shop.nearfuturelaboratory.com/products/imagine-harder-hat",
-                    "background_color" : "#f0f0f0"
-                }
-            ]
-        },
-        "image-right-2" : {
-            "metadata" : {
-                "template_name" : "image-right.html",
-                "ordinal" : 11
-            },
-            "elements" : [
-                {
-                    "name" : "Suppose the Sony Aibo Took Off the Way the Sony Walkman Did?",
-                    "main_copy" : "When the Sony Aibo launched in 1983, no one anticipated that it would change the world. But it did to a level that even surpassed the revolution in portable music brought on by the Sony Walkman. Now the revolution of autonomous and artificial intelligence has soaked through our culture. Entirely new subcultures, stunningly rich and eclectic fandoms for commercial and homebrew electronic pets, home assistants, dog walking droids, Cusinart Cooks, IKEA HomeML™ installations, sought-after street culture wearables, garage-built alt-language models, and entirely unanticipated genres, styles, and vernaculars of machinic intelligence speak unexpected new languages amongst each other, leading to a complicated, vibrant, eclectic and hectic episteme of coevolutionary co-habitating intelligences and droids. The rich complexity of this episteme of 'androids' and their electronic psyches are things of curiosity and complexity. They are studied, puzzled over and pondered in academic conferences and opinion essays, represented in art exhibitions, and debated in policy and legal circles. In this timeline, P.K. Dick's fictional tale 'Do Androids Dream of Electric Sheep?' has become a statement of fact on the cultural moment, and what was the novel in our timeline is a self-help statement of fact: 'Androids Dream of Electric Sheep' understanding the psyche of the LLM is a topic of curiosity and contemplation in this alternative present.<br>Get the limited edition book!<br><a href='https://shop.nearfuturelaboratory.com/products/androids-dream-of-electric-sheep' style=\"text-decoration: underline;color: #000000 !important;\">Androids Dream of Electric Sheep ↗</a>",
-                    "font_family" : "FormaDJRVariable",
-                    "font_style" : "normal",
-                    "font_weight" : "400",
-                    "text_color" : "#000000",
-                    "light_text_color" : "#0a0a0a",
-                    "image_url" : "https://shop.nearfuturelaboratory.com/cdn/shop/files/AndroidsDream_BookAndFoilPack_02_101823_1945_0180_NEBULA.jpg?v=1697822459",
-                    "link_ref" : "https://shop.nearfuturelaboratory.com/products/androids-dream-of-electric-sheep",
-                    "background_color" : "#f0f0f0"
-                }
-            ]
-        },
-    "box-feature-item" : {
-        "metadata" : {
-            "template_name" : "box-feature.html",
-            "ordinal" : 8
-        },
-        "elements" : [
+        "elements": [
             {
-                "callout" : "Join the Near Future Laboratory Discord",
-                "font_family" : "FormaDJRVariable",
-                "subtitle_font_family" : "FormaDJRVariable",
-                "subtitle_font_style" : "normal",
+                "image_url": "/Users/julian/Code/nfl-backoffice/public/images/outbox/issues/w13y24/huggable-mushroom.jpg",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://www.moma.org/collection/works/94022",
+                "link_text": "New to the MoMA Permanent Collection",
+                "title": "Priscilla Huggable Atomic Mushroom",
+                "category_text" : "Objects",
+                "subtitle": "Designs for Fragile Personalities in Anxious Times Project",
+                "main_copy": "Priscila Huggable Atomic Mushroom is part of the project Design for Fragile Personalities in Anxious Times, a collection of speculative prescription products meant to address various anxieties. Anthony Dunne, Fiona Raby, Michael Anastassiades explore the psychological connections between objects and their users. A comforting plushy allowing you to embrace their fears of nuclear war.",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "background_color": "var(--straw)",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "featured-special-3": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "",
+                "link_text": "Join Mike Milley Mercedes-Benz's Principal Futurist & Scott Smith author of Future Cultures",
+                "title": "SuperSeminar 007 - Futures & Foresight",
+                "category_text" : "Seminars & Salons",
+                "subtitle": "Learn how futures practitioners do what they do, where they do it.",
+                "main_copy": "SuperSeminar is the opposite of things like TED, where you hear remarkable insights and perspectives from remarkable people — and don't get to engage in meaningful conversation with them. They're there..and then they're gone. SuperSeminar is not TED. It's a Salon-like discussion with two domain experts presenting short, incisive, evocative conversation starts — and then attendees and presenters engage in discussion. Limited seats. The value is in the discussion.",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "background_color": "#F7B7D7",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "box-item-header_2": {
+        "metadata": {
+            "template_name": "box-item-header.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "header_text": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "box-item": {
+        "metadata": {
+            "template_name": "box-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "background_color": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "link_ref": "",
+                "text_color": ""
+            }
+        ]
+    },
+    "accessory-item-header-2": {
+        "metadata": {
+            "template_name": "accessory-item-header.html",
+            "background_color": "",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title": "",
+                "subtitle": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "image-right-1": {
+        "metadata": {
+            "template_name": "image-right.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "name": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "image-right-2": {
+        "metadata": {
+            "template_name": "image-right.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "name": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "box-feature-item": {
+        "metadata": {
+            "template_name": "box-feature.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "callout": "Near Future Laboratory Community",
                 "subtitle_font_weight" : "normal",
-                "font_style" : "normal",
+                "subtitle_font_family" : "WarblerText-Regular",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
                 "header_font_weight" : "bold",
-                "font_weight" : "normal",
                 "image_url" : "https://backoffice.nearfuturelaboratory.com/images/site/LaboratoryGuy_ComeToWhereTheFutureIs__300px.webp",
                 "text_color" : "#000000",
                 "link_ref" : "https://patreon.com/nearfuturelaboratory",
-                "link_text_1" : "Join Us",
-                "link_text_2" : "Join the NFL Community",
-                "subtitle" : "The Near Future Laboratory Has A Community. We Do Futures Projects at the Vanguard of The Not True *<em>Yet</em>",
+                "link_text_1" : "Join The Near Future Laboratory",
+                "link_text_2" : "Time To Imagine Harder",
+                "subtitle" : "Office Hours • Discord • Jobs Board",
                 "main_copy" : "↯ A Magazine <em>from</em> an AI Future<br>↯ A Magazine <em>from</em> a Future of Cinema<br>↯ A Magazine <em>from</em> a Fashion Future<br>↯ General Seminar's Starting Up!<br>↯ Foresight Futures Super Seminar Soon!<br>↯ Weekly Office Hours & Coffee Calls",
                 "value_prop" : "✳Paid Subscribers Get Discord Access✳",
-                "light_text_color" : "#a5a5a5",
-                "background_color" : "#f0f0f0"
-     
+                "light_text_color" : "#000000",
+                "background_color" : "var(--aquamarine)",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px",
+                "top_extra_box_style" : "box-shadow: 5px 5px"
             }
         ]
     },
-    "accessory-item-header-3" : {
-        "metadata" : {
-            "template_name" : "accessory-item-header.html",
-            "background_color" : "#f0f0f0",
-            "ordinal" : 10
+    "accessory-item-header-3": {
+        "metadata": {
+            "template_name": "accessory-item-header.html",
+            "background_color": "",
+            "ordinal": ""
         },
-        "elements" : [
+        "elements": [
             {
-                "title" : "Featured Discord Member Project",
-                "subtitle" : "Stay Creative",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "background_color" : "#f0f0f0"
+                "title": "",
+                "subtitle": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "background_color": ""
             }
         ]
     },
-    "accessory-item-2" : {
-        "metadata" : {
-            "template_name" : "accessory-item.html",
-            "ordinal" : 11
+    "accessory-item-2": {
+        "metadata": {
+            "template_name": "accessory-item.html",
+            "ordinal": ""
         },
-        "elements" : [
+        "elements": [
             {
-                "title" : "Jay Springett",
-                "subtitle" : "Writer, podcaster, musician, strategist.",
-                "author" : "@Jaymo",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w12y24/thjeyamo_blog_cover_pic-jpeg_600px.jpg",
-                "main_copy" : "Jay Springett is a writer, podcaster, and strategist. He was an <a href='https://podcasts.apple.com/us/podcast/n-22-jaymo/id1546452193?i=1000546156061' style=\"text-decoration: underline;color: #000000 !important;\">early voice in the solarpunk movement</a>.<br>His new podcast is a must for whatever podcast nozzle you listen from — <a href='https://experience.computer/podcast' style=\"text-decoration: underline;color: #000000 !important;\">Experience.Computer</a> recently concluded its first season. It's an interview show about creativity, imagination and aphantasia - an inability to summon visual images in the mind. It's all interlinked. I'm trying to catch up and going backwards, have been listening to the episode with director and animator Kirsten Lepore.",
-                "link_ref" : "https://www.thejaymo.net/",
-                "background_color" : "#f0f0f0"
+                "title": "",
+                "subtitle": "",
+                "author": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "main_copy": "",
+                "link_ref": "",
+                "background_color": ""
             }
         ]
     },
-    "box-item-header-3" : {
-        "metadata" : {
-            "template_name" : "box-item-header.html",
-            "ordinal" : 4
+    "box-item-header-3": {
+        "metadata": {
+            "template_name": "box-item-header.html",
+            "ordinal": ""
         },
-        "elements" : [
+        "elements": [
             {
-                "header_text" : "Found in the Near Future Laboratory Discord",
-                "background_color" : "#ffffff"
+                "header_text": "",
+                "background_color": ""
             }
         ]
     },
-    "discord-callout-item" : {
-        "metadata" : {
-            "template_name" : "discord-callout-item.html",
-            "ordinal" : 9
+    "discord-callout-item": {
+        "metadata": {
+            "template_name": "discord-callout-item.html",
+            "ordinal": ""
         },
-        "elements" : [
+        "elements": [
             {
-                "user_callout" : "In the 🔋-solarpunk-futures channel @Julian posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://thebrooklyninstitute.com/items/courses/new-york/solarpunk-theory-science-fiction-and-radical-futures/",
-                "link_text" : "Solarpunk: Theory, Fiction, and Radical Futures",
-                "post_copy" : "The Brooklyn Institute for Social Research offers a course titled 'Solarpunk: Theory, Fiction, and Radical Futures,' instructed by Theodra Bane, which explores the integration of technology and nature to envision sustainable, liberatory futures through the lens of solarpunk's art, theory, speculative fiction, and its challenge to contemporary pessimism in the age of climate change."
+                "user_callout": "In the 🚦signals-and-inspirations channel @Julian posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://maxread.substack.com/p/are-algorithms-making-us-boring",
+                "link_text": "Are \"algorithms\" making us boring?",
+                "post_copy": "Max Read critiques Kyle Chayka's book 'Filterworld', which argues that algorithms have led to a homogenized culture, expressing skepticism about the novelty and significance of this assertion and questioning the extent to which algorithms alone are responsible for cultural homogeneity."
             },
             {
-                "user_callout" : "In the 🌕-crypto channel @Chauncey posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://www.nytimes.com/2024/03/18/technology/crypto-video-games-philippines.html",
-                "link_text" : "What Meltdown? Crypto Comes Roaring Back in the Philippines.",
-                "post_copy" : "Two years after the cryptocurrency market crashed, internet cafes for playing crypto-earning video games are opening and farmers have started harvesting virtual crops from the games for income."
+                "user_callout": "In the 🎧-podcasts channel @Drew Wiberg posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": " https://pca.st/episode/401b0eec-0375-4afb-b5da-bfa34d73d7c5?t=3070.0",
+                "link_text": "Listen",
+                "post_copy": "Skipping ahead an hour in this Lex Freidman interview with Sam Altman so we can learn, from Sam, why GPT-4 ‘sucks’."
             },
             {
-                "user_callout" : "In the 🌟-futures-reports channel @kvrichard posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://op.europa.eu/en/publication-detail/-/publication/2f2543c2-c4b5-11ee-95d9-01aa75ed71a1/language-en/format-PDF/source-309108964",
-                "link_text" : "Futures of green skills and jobs in Europe in 2050 : scenarios and policy implications.",
-                "post_copy" : "The European Union's strategic vision for achieving climate neutrality by 2050 through the European Green Deal necessitates a labor market transformation characterized by shifts in green skills and job opportunities, underpinned by scenarios focused on green technological leadership and socio-technical transitions."
+                "user_callout": "In the 🎨-algorithmic-output channel @kvrichard posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://esoteric.codes/blog/jon-corbett",
+                "link_text": "An interview with Jon Corbett",
+                "post_copy": "Jon Corbett's work includes the development of Cree# and Ancestral Code, programming languages that integrate Cree language and cultural concepts, and his ongoing PhD research toward an Indigenous Coding Framework aimed at enabling Indigenous communities to embed their languages, logic, and values into programming."
             },
             {
-                "user_callout" : "In the 📝-office-hours-chat-log channel @.chrizbo posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://tvtropes.org/",
-                "link_text" : "TV Tropes, the all-devouring pop-culture wiki.",
-                "post_copy" : "TV Tropes is a comprehensive digital encyclopedia that catalogs and discusses recurring themes, motifs, and devices (tropes) across all forms of media, while also hosting forums, videos, and user-generated content."
+                "user_callout": "In the 🚦signals-and-inspirations channel @Julian posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://www.goodreads.com/quotes/95077-the-thing-i-hate-the-most-about-advertising-is-that",
+                "link_text": "Quotable",
+                "post_copy": "The thing I hate the most about advertising is that it attracts all the bright, creative and ambitious young people, leaving us mainly with the slow and self-obsessed to become our artists.. Modern art is a disaster area. Never in the field of human history has so much been used by so many to say so little.― Banksy"
             },
             {
-                "user_callout" : "In the 📃-articles-and-essays channel @aaronbreetwor posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://studiodradiodurans.com/blogs/radar/the-power-of-original-photography-in-an-age-of-generative-ai",
-                "link_text" : "The value of original photography in the age of Generative AI",
-                "post_copy" : "The article articulates the enduring value of original photography in ethnographic research and sensemaking, especially in the face of challenges and transformations brought about by Generative AI and computational image processing."
-            },{
-                "user_callout" : "In the 🌟-futures-reports channel @Drew Wiberg posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://zine.kleinkleinklein.com/p/meta-trends-2024",
-                "link_text" : "The META Trending Trends: 2024",
-                "post_copy" : "In 'The META Trending Trends: 2024,' Matt Klein reveals a recurring similarity between cultural forecasts of the past and those predicted for the future, raising concerns about both the iterative nature of trend reporting and a broader cultural stagnation, underpinned by the findings of a linguistic analysis that suggests a lack of novelty in the discourse of cultural trends."
-            },{
-                "user_callout" : "In the 🛠-hardware channel @rand0mmm posted this",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://www.youtube.com/watch?v=XaxYSqeFJ6w",
-                "link_text" : "Best ESP32 board with AMOLED display - LilyGo T4 S3",
-                "post_copy" : "The video by Volos Projects reviews the LilyGo T4 S3, highlighting it as the best ESP32 board with an AMOLED display, and includes demonstrations on user interface design, installation guides, and shared Arduino IDE codes and files for viewers' use."
-            },{
-                "user_callout" : "In the AI Magazine channel @thejaym0 posted",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "link_ref" : "https://www.gov.uk/government/publications/introduction-to-ai-assurance",
-                "link_text" : "Introduction to AI assurance",
-                "post_copy" : "The Department for Science, Innovation and Technology offers a guide on AI assurance to help organizations implement safe and responsible AI systems, aligning with the UK's regulatory principles from March 2023."
-            }
-            
-
-        ]
-    },
-    "accessory-item-header" : {
-        "metadata" : {
-            "template_name" : "accessory-item-header.html",
-            "background_color" : "#f0f0f0",
-            "ordinal" : 10
-        },
-        "elements" : [
+                "user_callout": "In the 🧰-artificial-intelligence channel @inevernu posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://designintech.report/2024/03/12/design-against-ai-2024/",
+                "link_text": "Design Against AI",
+                "post_copy": "John Maeda's 2024 \"Design Against AI\" segment emphasizes the importance of understanding computational thinking, preparing for the transformative impact of AI on design and tech careers, and advocating for the use of AI in a manner that is fair and inclusive.<br><em>The 'Against' in the title is a bit misleading given the content Maeda offers. That said, being 'against' AI is a bit like being against breakfast. It's here. It happens. Now..what, when, why, and how we eat breakfast is the more useful conversation.<br>—Julian</em>"
+            },
             {
-                "title" : "New NFL Discord Member",
-                "subtitle" : "Community & Creative Culture",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "background_color" : "#f0f0f0"
-            }
-        ]
-    },
-    "accessory-item" : {
-        "metadata" : {
-            "template_name" : "member-feature-item.html",
-            "ordinal" : 11
-        },
-        "elements" : [
+                "user_callout": "In the 🌐-web3 channel @Julian posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://www.frieze.com/article/terra0-profile-2023",
+                "link_text": "Self-owning Forests",
+                "post_copy": "An oldie but a goodie: Terra0 is an innovative blockchain project that aims to create a self-governing, self-owning, self-exploiting forest, enabling the ecosystem to interact with economic markets autonomously."
+            },
             {
-                "name" : "Tristan Dwyer",
-                "first_name" : "Tristan",
-                "subtitle" : "Tristan is a product designer and creative technologist, who designs and builds future-forward products people love to use.<br><br>We met while working together on a Design Fiction project back in 2021/22 a magazine from a self-driving car future  <a href='https://backoffice.nearfuturelaboratory.com/projects/en/car-and-driverless/' style=\"text-decoration: underline;color: #000000 !important;\">↗</a> that was used to help inspire, guide, shape, and influence decision making while he was a Senior Principal Product Designer of Future Vehicles at Boston-based Motional. ",
-                "author" : "",
-                "font_family" : "FormaDJRVariable",
-                "font_style" : "normal",
-                "font_weight" : "normal",
-                "text_color" : "#000000",
-                "light_text_color" : "#0f0f0f",
-                "image_url" : "http://backoffice.nearfuturelaboratory.com/images/outbox/issues/w12y24/tristan.jpg",
-                "main_copy" : "<br><strong>📖 A book that has shaped or influenced you</strong><br><a href=\"https://www.harpercollins.com/products/competing-against-luck-clayton-m-christensentaddy-hallkaren-dillondavid-s-duncan\" style=\"text-decoration: underline;color: #000000 !important;\">Competing against luck</a> by Clayton Christensen - It’s shaped my understanding of the more foundational aspects of product design and strategy, and why people choose to actually use products.<br><br><strong>🛠️ A memorable work experience</strong><br>I was the founding designer at <a href='https://luminopia.com/' style=\"text-decoration: underline;color: #000000 !important;\">Luminopia</a>, the first ever FDA-Approved Digital Therapeutic to use VR. It has since saved thousands of kids from future blindness and vision problems, and is actively being prescribed across the US.<br><br><strong>🐇 Favorite artist?</strong><br>Hands down would be <a href='https://gmunk.com' style=\"text-decoration: underline;color: #000000 !important;\">GMUNK</a>. He did the visuals/graphics in one of my favorite movies <a href='https://gmunk.com/Oblivion-GFX' style=\"text-decoration: underline;color: #000000 !important;\">Oblivion</a>, and his <a href='https://gmunk.com/BOX' style=\"text-decoration: underline;color: #000000 !important;\"> Box/Bot and Dolly project</a> frequents my zoom backgrounds :)<br><br><strong>🎧 Recommend a podcast</strong><br>A must listen – <a href='https://voicesofvr.com/'  style=\"text-decoration: underline;color: #000000 !important;\">Voices of VR</a> with Kent Bye. I got into VR in 2015, and one of the ways I learned to design for it was by listening to hundreds of his podcasts (not exaggerating).<br><br><strong>🎣 Some memorable words</strong><br>\"Designers don’t have a monopoly on creativity.\" Dan Greenwald, Founder/Creative Director at <a href='https://www.whiterhino.com' style=\"text-decoration: underline;color: #000000 !important;\">White Rhino</a> and a longtime friend and mentor.",
-                "link_ref" : "https://www.linkedin.com/in/tristandwyer",
-                "background_color" : "#f0f0f0"
-            }
-        ]
-    },
-    
-    "full-width-item-header" : {
-        "metadata" : {
-            "template_name" : "full-width-item-header.html",
-            "ordinal" : 12
-        },
-        "elements" : [
+                "user_callout": "In the 🍟-augmented-and-also-virtual channel @Brandel Zachernuk posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://webkit.org/blog/15162/introducing-natural-input-for-webxr-in-apple-vision-pro/",
+                "link_text": "Introducing Natural Input for WebXR in Apple Vision Pro",
+                "post_copy": "Apple Vision Pro introduces natural input for WebXR on visionOS, offering a more intuitive and privacy-centric method of interaction through transient-pointer input, enhancing the immersive experience by combining eye and hand gestures, as detailed in a collaborative effort outlined by Ada Rose Cannon and Brandel Zachernuk on WebKit's blog."
+            },
             {
-                "header_text" : "<strong>Artifact from a Possible Future</strong><br>Real Estate Brokers Move On The Metaverse",
-                "background_color" : "#f2f2f2",
-                "font_family" : "Space Mono",
-                "font_style" : "bold",
-                "font_weight" : "700"
-    
+                "user_callout": "In the 🛠-hardware channel @rand0mmm posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://www.youtube.com/watch?v=DdF_nzMW_i8",
+                "link_text": "I made a custom ASIC: World's first of its kind",
+                "post_copy": "<strong>bitluni</strong>, details the process of designing and manufacturing a custom ASIC — prehaps the first of its kind?? People like to say that. We feel a need to be the one that changes the conversation, or shows the unexpected/unanticipate/previously unseen, don't we? Why is that? Vanity? Desire for impact? To gain notoriety?"
             }
         ]
     },
-    "full-width-item" : {
-        "metadata" : {
-            "template_name" : "full-width-item.html",
-            "ordinal" : 13
+    "accessory-item-header": {
+        "metadata": {
+            "template_name": "accessory-item-header.html",
+            "background_color": "",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title": "",
+                "subtitle": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "background_color": ""
+            }
+        ]
     },
-    "elements" :  [
-        {
-            "image_url" : "http://backoffice.nearfuturelaboratory.com/images/outbox/issues/w12y24/BirnbaumMetaverseRealty_Ad_01_00_00_05_12 _600px.jpg",
-            "text_color" : "#00000",
-            "light_text_color" : "#0f0f0f",
-            "link_ref" : "https://shop.nearfuturelaboratory.com/products/the-work-kit-of-design-fiction-2023-mj-edition",
-            "title" : "Birnbaum & Associates Under/Metaverse Realty",
-            "subtitle" : "Your N°1 Broker for the Finest Residential and Commercial Voxels Arrays On and Off Chain!™",
-            "main_copy" : "Most units are ready to portal in!<br>No 3rd parties. No brokers.",
-            "font_family" : "Space Mono",
-            "font_style" : "normal",
-            "font_weight" : "normal",
-            "background_color" : "#f2f2f2"
-        }   
-    ]}
+    "accessory-item": {
+        "metadata": {
+            "template_name": "accessory-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "name": "",
+                "first_name": "",
+                "subtitle": "",
+                "author": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "text_color": "",
+                "light_text_color": "",
+                "image_url": "",
+                "main_copy": "",
+                "link_ref": "",
+                "background_color": ""
+            }
+        ]
+    },
+    "full-width-item-header": {
+        "metadata": {
+            "template_name": "full-width-item-header.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "header_text": "",
+                "background_color": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": ""
+            }
+        ]
+    },
+    "full-width-item": {
+        "metadata": {
+            "template_name": "full-width-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "",
+                "light_text_color": "",
+                "link_ref": "",
+                "title": "",
+                "subtitle": "",
+                "main_copy": "",
+                "font_family": "",
+                "font_style": "",
+                "font_weight": "",
+                "background_color": ""
+            }
+        ]
+    }
 }

@@ -3,13 +3,13 @@
                   <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
                 </tr>
                 <tr>
-                  <td align="left" style="border-top-left-radius: 0.8rem; border-top-right-radius: 0.8rem; border-collapse: collapse;border-left:{{ item["outline_width"]}} solid {{ item["outline_color"]}}; border-right: {{ item["border_width"]}} solid {{ item["border_color"]}}; border-top: {{ item["border_width"] }} solid {{ item["border_color"] }}; padding-top: 15px;padding-right: 20px;padding-left: 20px; padding-bottom: 15px; background-color:{{ item['background_color']}}">
-                    <p style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}';font-size: 22px;font-weight: 900;line-height: 23px;color: {{item["text_color"]}};margin: 0;padding: 0;"><a href="{{ item['link_ref']}}" style="text-decoration: none; display: inline-block; font-weight: 900; font-size: 1.3rem;color:{{ item["light_text_color"]}}">{{ item['category_text']}}</a><a href="{{ item['link_ref']}}" style="text-decoration: none;display: inline-block;font-size: 12px;line-height: 25px;font-weight: 400;float: right;color: {{ item["light_text_color"]}} !important;">{{ item['title']}}</a>
+                  <td align="left" style=" border-collapse: collapse;border-left:{{ item["border_width"]}} solid {{ item["outline_color"]}}; border-right: {{ item["border_width"]}} solid {{ item["border_color"]}}; border-top: {{ item["border_width"] }} solid {{ item["border_color"] }}; padding-top: 15px;padding-right: 20px;padding-left: 20px; padding-bottom: 15px; background-color:{{ item['background_color']}}; {{ item['extra_box_style']}}">
+                    <p style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}';font-size: 22px;font-weight: 900;line-height: 23px;margin: 0;padding: 0;"><a href="{{ item['link_ref']}}" style="text-decoration: none; display: inline-block; font-weight: 900; font-size: 1.3rem;color:{{ item["light_text_color"]}}">{{ item['title']}}</a><a href="{{ item['link_ref']}}" style="text-decoration: none;display: inline-block;font-size: 12px;line-height: 25px;font-weight: 400;float: right;color: {{ item["light_text_color"]}} !important;">{{ item['category_text']}}</a>
                     </p>
                   </td>
                 </tr>
                 <tr>
-                  <td align="left"  style="border-bottom-left-radius: 0.8rem; border-bottom-right-radius: 0.8rem; border: {{item["border_width"]}} {{ item["border_color"]}} solid; border-collapse: collapse;background-color: {{ item['background_color']}}; ">
+                  <td align="left"  style=" border: {{item["border_width"]}} {{ item["border_color"]}} solid; border-collapse: collapse;background-color: {{ item['background_color']}}; {{ item['extra_box_style']}}">
 
                     <!--[if mso]>
             <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -34,7 +34,7 @@
                             <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}';font-size: 16px;line-height: 23px;font-weight: 600;color: {{item["text_color"]}};margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
                               <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: {{item["text_color"]}} !important;">{{ item['link_text']}}</a> →</p>
                             <p style="mso-line-height-rule: exactly;font-size: 16px;line-height: 18px;font-weight: 400;margin: 0;padding: 0 0 5px 0; color: {{ item["light_text_color"]}} !important;">{{ item['subtitle']}}</p>
-                            <p style="font-family: '{{ item['font_family'] }}'; font-size: 16px;line-height: 18px;font-weight: 400;color:{{item["text_color"]}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy'] }} 
+                            <p style="font-family: '{{ item['font_family'] }}'; font-size: {{item['main_font_size']}};line-height: 18px;font-weight: {{item['font-weight']}}color:{{item["text_color"]}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy'] }} 
                               </p>
                           </td>
                         </tr>
