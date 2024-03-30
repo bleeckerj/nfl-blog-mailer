@@ -3,7 +3,7 @@
                 <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
               </tr>
                <tr>
-                <td align="left" class="headline" style="background-color: {{ item['background_color']}};border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 20px;padding-bottom: 0px;border-top-left-radius: 0.8rem; border-top-right-radius: 0.8rem;">
+                <td align="left" class="headline" style="border-left:{{ item["border_width"]}} solid {{ item["outline_color"]}}; border-right: {{ item["border_width"]}} solid {{ item["border_color"]}}; border-top: {{ item["border_width"] }} solid {{ item["border_color"] }}; background-color: {{ item['background_color']}};border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 20px;padding-bottom: 0px;border-top-left-radius: {{ item['radius']}}; border-top-right-radius: {{ item['radius']}};">
                   <p style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin: 0;padding: 0;">{{ item['header_text']}}</p>
                 </td>
               </tr>

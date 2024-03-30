@@ -111,8 +111,11 @@
         },
         "elements": [
             {
-                "header_text": "",
-                "background_color": ""
+                "header_text": "Hello",
+                "background_color": "#B6D9C6",
+                "radius" : "0.2rem",
+                "border_width" : "3px",
+                "border_color" : "#000000"
             }
         ]
     },
@@ -123,14 +126,17 @@
         },
         "elements": [
             {
-                "image_url": "",
-                "background_color": "",
-                "main_copy": "",
-                "font_family": "",
+                "image_url": "/Users/julian/Code/nfl-backoffice/public/ad-images/toolbelt/w-290px-fpo.png",
+                "background_color": "#B6D9C6",
+                "main_copy": "What the heck is this here?",
+                "font_family": "FormaDJRVariable",
                 "font_style": "",
-                "font_weight": "",
+                "font_weight": "900",
                 "link_ref": "",
-                "text_color": ""
+                "text_color": "",
+                "radius" : "0.2rem",
+                "border_width" : "3px",
+                "border_color" : "#000000"
             }
         ]
     },
@@ -225,56 +231,76 @@
             }
         ]
     },
-    "accessory-item-header-3": {
-        "metadata": {
-            "template_name": "accessory-item-header.html",
-            "background_color": "",
-            "ordinal": ""
+    "accessory-item-header-3" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#CCCCC8",
+            "ordinal" : 10
         },
-        "elements": [
+        "elements" : [
             {
-                "title": "",
-                "subtitle": "",
-                "font_family": "",
-                "font_style": "",
-                "font_weight": "",
-                "text_color": "",
-                "light_text_color": "",
-                "background_color": ""
+                "title" : "Featured Discord Member Project",
+                "subtitle" : "Stay Creative",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#CCCCC8",
+                "radius" : "1rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
             }
         ]
     },
-    "accessory-item-2": {
-        "metadata": {
-            "template_name": "accessory-item.html",
-            "ordinal": ""
+    "accessory-item-3" : {
+        "metadata" : {
+            "template_name" : "accessory-item.html",
+            "ordinal" : 11
         },
-        "elements": [
+        "elements" : [
             {
-                "title": "",
-                "subtitle": "",
-                "author": "",
-                "font_family": "",
-                "font_style": "",
-                "font_weight": "",
-                "text_color": "",
-                "light_text_color": "",
-                "image_url": "",
-                "main_copy": "",
-                "link_ref": "",
-                "background_color": ""
+                "title" : "Jay Springett",
+                "subtitle" : "Writer, podcaster, musician, strategist.",
+                "author" : "@Jaymo",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w12y24/thjeyamo_blog_cover_pic-jpeg_600px.jpg",
+                "main_copy" : "Jay Springett is a writer, podcaster, and strategist. He was an <a href='https://podcasts.apple.com/us/podcast/n-22-jaymo/id1546452193?i=1000546156061' style=\"text-decoration: underline;color: #000000 !important;\">early voice in the solarpunk movement</a>.<br>His new podcast is a must for whatever podcast nozzle you listen from — <a href='https://experience.computer/podcast' style=\"text-decoration: underline;color: #000000 !important;\">Experience.Computer</a> recently concluded its first season. It's an interview show about creativity, imagination and aphantasia - an inability to summon visual images in the mind. It's all interlinked. I'm trying to catch up and going backwards, have been listening to the episode with director and animator Kirsten Lepore.",
+                "link_ref" : "https://www.thejaymo.net/",
+                "background_color" : "#CCCCC8",
+                "radius" : "1rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+
             }
         ]
     },
-    "box-item-header-3": {
-        "metadata": {
-            "template_name": "box-item-header.html",
-            "ordinal": ""
+    "accessory-item-header-4" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#f0f0f0",
+            "ordinal" : 10
         },
-        "elements": [
+        "elements" : [
             {
-                "header_text": "",
-                "background_color": ""
+                "title" : "Seen in the Near Future Laboratory Discord",
+                "subtitle" : "Not The Usual Signals",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#f0f0f0",
+                "radius" : "1rem",
+                "border_width" : "0px",
+                "border_color" : "#000000",
+                "extra_box_style" : "padding-bottom: 15px;"
             }
         ]
     },
@@ -290,6 +316,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://maxread.substack.com/p/are-algorithms-making-us-boring",
                 "link_text": "Are \"algorithms\" making us boring?",
@@ -301,6 +328,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": " https://pca.st/episode/401b0eec-0375-4afb-b5da-bfa34d73d7c5?t=3070.0",
                 "link_text": "Listen",
@@ -312,6 +340,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://esoteric.codes/blog/jon-corbett",
                 "link_text": "An interview with Jon Corbett",
@@ -323,6 +352,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://www.goodreads.com/quotes/95077-the-thing-i-hate-the-most-about-advertising-is-that",
                 "link_text": "Quotable",
@@ -334,6 +364,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://designintech.report/2024/03/12/design-against-ai-2024/",
                 "link_text": "Design Against AI",
@@ -345,6 +376,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://www.frieze.com/article/terra0-profile-2023",
                 "link_text": "Self-owning Forests",
@@ -356,6 +388,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://webkit.org/blog/15162/introducing-natural-input-for-webxr-in-apple-vision-pro/",
                 "link_text": "Introducing Natural Input for WebXR in Apple Vision Pro",
@@ -367,6 +400,7 @@
                 "font_style": "normal",
                 "font_weight": "400",
                 "text_color": "#000000",
+                "background_color" : "#f0f0f0",
                 "light_text_color": "#0f0f0f",
                 "link_ref": "https://www.youtube.com/watch?v=DdF_nzMW_i8",
                 "link_text": "I made a custom ASIC: World's first of its kind",
