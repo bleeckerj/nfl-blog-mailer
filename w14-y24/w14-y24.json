@@ -1,0 +1,306 @@
+{
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#fdfdfd",
+                "title_font_family" : "FormaDJRVariable",
+                "font_family" : "WarblerText-Regular",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "font_size" : "18px",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ <br>➫ <br>➫ d<br>➫ <br>➫ <br>",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 14 of 2024 at Near Future Laboratory, and some things happened.",
+                "view_online_url" : "https://backoffice.nearfuturelaboratory.com/outbox/2024/w14-y24.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "It was the 14th week of two thousand and twenty four and a recurring theme was the recognition that an inability to dream of the world one wants to inhabit is a good way to ensure that one will never hold that world closely enough to make it a lived reality.<br><br>[******]<br>You are one of 17,000 subscribers who appreciate the value of a futures-oriented mindset.<br><br>Please consider becoming a participant in the Near Future Laboratory creative collaborative by becoming a supporter on <a href='https://patreon.com/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Patreon</a>.<br><br>If thinking and arranging your understanding of what is and what could be, or understanding the methods and techniques you need to appreciate how to see and sense the unanticipated and unexpected possibilities that we casually refer to as ‘the future’, then you should join the Near Future Laboratory, participate in our futuring and sense-making programs, platforms, and projects, and learn more about the ways we bring Imagination and Structure into rich, world-changing collaboration. Everything that will be once was the not true *yet. It’s Time to Imagine Harder. We’ve got some serious work to do. We need your help.<br><br>How?<br><br>Become a part of the NFL Discord by becoming a sustaining member at <a href=\"https://patreon.com/nearfuturelaboratory\" style=\"text-decoration: underline;color: #000000 !important;\">patreon.com/nearfuturelaboratory</a><br><br>If you don't already have our books and work kits, pick them up from our 100% independently designed, manufactured, and published books and tools over at <a href=\"https://shop.nearfuturelaboratory.com/products/holiday-bundle-of-all-the-design-fiction\" style=\"text-decoration: underline;color: #000000 !important;\">shop.nearfuturelaboratory.com</a>, you can <a href=\"https://backoffice.nearfuturelaboratory.com/contact\" style=\"text-decoration: underline;color: #000000 !important;\">connect with us</a> to help you make sense of your organization's future. And please <a href=\"%FORWARD2FRIEND%\" style=\"text-decoration: underline;color: #000000 !important;\">amplify this by </a>sharing with friends and colleagues."
+            }  
+        ]},
+        "featured-special-3": {
+            "metadata": {
+                "template_name": "featured-special.html",
+                "ordinal": ""
+            },
+            "elements": [
+                {
+                    "image_url": "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w13y24/SuperSeminar_S02_ART__SS_ART.JPG",
+                    "text_color": "#000000",
+                    "light_text_color": "#0f0f0f",
+                    "link_ref": "https://superseminar.school",
+                    "link_text": "Join Mike Milley Mercedes-Benz's Principal Futurist & Scott Smith author of Future Cultures",
+                    "title": "SuperSeminar S02/E01 - Futures & Foresight",
+                    "category_text" : "Learning & Development",
+                    "subtitle": "Learn how futures and foresight practitioners do what they do, where they do it.",
+                    "main_copy": "SuperSeminar is the opposite of things like TED, where you hear remarkable insights and perspectives from remarkable people — and don't get to engage in meaningful conversation with them. They're there..and then they're gone. SuperSeminar is not TED. It's a Salon-like discussion with two domain experts presenting short, incisive, evocative conversation starts — and then attendees and presenters engage in discussion. Limited seats. The value is in the opportunity for discussion.",
+                    "font_family": "FormaDJRVariable",
+                    "main_font_size" : "18px",
+                    "font_style": "bold",
+                    "font_weight": "800",
+                    "background_color": "#fee440",
+                    "border_width" : "3px",
+                    "border_color" : "#000000",
+                    "extra_box_style" : "box-shadow: 5px 5px"
+                }
+            ]
+        },
+    "featured-special-2": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "#0f0f0f",
+                "light_text_color": "#000000",
+                "link_color" : "#000000",
+                "link_ref": "",
+                "link_text": "",
+                "category_text" : "Events",
+                "title": "",
+                "subtitle": "April 9 – 10, 2024",
+                "main_copy": "Check this out — I'll be hosting a discussion of creativity in the era of AI at the Creative Vitality™ Summit. <br>\"What's that,\" you ask?<br>Now in its third year, the Creative Vitality™ Summit will bring together artists, designers, technologists, arts advocates, and policy experts to consider the impact of new economic models, new forms of investment, and technological change in arts, culture, and the creative economy. <strong>Registration for this virtual event is free and is now open!</strong>",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "background_color": "#95defe",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"            }
+        ]
+    },
+    "featured-special": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "",
+                "link_text": "",
+                "title": "Priscilla Huggable Atomic Mushroom",
+                "category_text" : "Objects",
+                "subtitle": "Designs for Fragile Personalities in Anxious Times Project",
+                "main_copy": "Priscila Huggable Atomic Mushroom is part of the project Design for Fragile Personalities in Anxious Times, a collection of speculative prescription products meant to address various anxieties, and now part of the permanent collection at MoMA. Priscila is a comforting plushy allowing you to embrace your fears of nuclear war. Anthony Dunne, Fiona Raby, Michael Anastassiades explore the psychological connections between objects and their users.",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "background_color": "#F7B7D7",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "box-feature-item": {
+        "metadata": {
+            "template_name": "box-feature.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "callout": "Near Future Laboratory Community",
+                "subtitle_font_weight" : "normal",
+                "subtitle_font_family" : "WarblerText-Regular",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "header_font_weight" : "bold",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/site/LaboratoryGuy_ComeToWhereTheFutureIs__300px.webp",
+                "text_color" : "#000000",
+                "link_ref" : "https://patreon.com/nearfuturelaboratory",
+                "link_text_1" : "Join The Near Future Laboratory",
+                "link_text_2" : "Time To Imagine Harder",
+                "subtitle" : "Office Hours • Discord • Jobs Board",
+                "main_copy" : "↯ A Magazine <em>from</em> an AI Future<br>↯ A Magazine <em>from</em> a Future of Cinema<br>↯ A Magazine <em>from</em> a Fashion Future<br>↯ General Seminar's Starting Up!<br>↯ Foresight Futures Super Seminar Soon!<br>↯ Weekly Office Hours & Coffee Calls",
+                "value_prop" : "✳Paid Subscribers Get Discord Access✳",
+                "light_text_color" : "#000000",
+                "background_color" : "#77F2B4",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px",
+                "top_extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "accessory-item-header-4" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#f0f0f0",
+            "ordinal" : 10
+        },
+        "elements" : [
+            {
+                "title" : "Seen in the Near Future Laboratory Discord",
+                "subtitle" : "Not Your Usual Weak Signals 📡",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#f0f0f0",
+                "radius" : "1rem",
+                "border_width" : "0px",
+                "border_color" : "#000000",
+                "extra_box_style" : "padding-bottom: 15px;"
+            }
+        ]
+    },
+    "discord-callout-item": {
+        "metadata": {
+            "template_name": "discord-callout-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "user_callout": "In the 🚦signals-and-inspirations channel @Julian posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "background_color" : "#f0f0f0",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "",
+                "link_text": "Are \"algorithms\" making us boring?",
+                "post_copy": ""
+            }
+        ]
+    },
+    "accessory-item-header-3" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#CCCCC8",
+            "ordinal" : 10
+        },
+        "elements" : [
+            {
+                "title" : "New Near Future Laboratory Discord Member Project",
+                "subtitle" : "We're Here",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#CCCCC8",
+                "radius" : "1rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "accessory-item-3" : {
+        "metadata" : {
+            "template_name" : "accessory-item.html",
+            "ordinal" : 11
+        },
+        "elements" : [
+            {
+                "title" : "Ian Chalmers",
+                "subtitle" : "",
+                "author" : "",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w13y24/chris-butler-profile.jpeg",
+                "main_copy" : "",
+                "link_ref" : "",
+                "background_color" : "#CCCCC8",
+                "radius" : "1rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+
+            }
+        ]
+    },
+    "box-item-header-2" : {
+        "metadata" : {
+            "template_name" : "box-item-header.html",
+            "ordinal" : 4
+        },
+        "elements" : [
+            {
+                "header_text" : "What is the value of data？",
+                "background_color" : "#B6D9C6",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "radius" : "0.2rem"
+            }
+        ]
+    },
+    "box-item-2": {
+        "metadata": {
+            "template_name": "box-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w13y24/qbits-go-round-and-round-making-data_600px.jpg",
+                "background_color": "#B6D9C6",
+                "main_copy": "Imagine a future where data acts as a liquid asset, influencing not just economic models but also personal identity and societal values.<br>In this episode of \"Looking Outside,\" host and Friend Of The Lab <strong>Jo Lapore</strong> delves into the evolving concepts of value, data ownership, and the transformative potential of emerging economic systems with guest <strong>Michael Clarke</strong>, a digital strategy and transformation expert from MasterCard and author of \"The Data Revolution, The New Currency View\".",
+                "font_family": "FormaDJRVariable",
+                "font_style": "",
+                "font_weight": "600",
+                "link_ref": "https://podcasts.apple.com/us/podcast/looking-outside/id1605254815",
+                "link_text": "Have a Listen ",
+                "text_color": "#000000",
+                "radius" : "0.2rem",
+                "border_width" : "3px",
+                "border_color" : "#000000"
+            }
+        ]
+    },
+    "full-width-item-header" : {
+        "metadata" : {
+            "template_name" : "full-width-item-header.html",
+            "ordinal" : 12
+        },
+        "elements" : [
+            {
+                "header_text" : "<strong>Artifact from Today's Futures</strong><br>Garbage Disposal Futures",
+                "background_color" : "#f2f2f2",
+                "font_family" : "Space Mono",
+                "font_style" : "bold",
+                "font_weight" : "700"
+    
+            }
+        ]
+    },
+    "full-width-item" : {
+        "metadata" : {
+            "template_name" : "full-width-item.html",
+            "ordinal" : 13
+    },
+    "elements" :  [
+        {
+            "image_url" : "/Users/julian/Code/nfl-backoffice/public/images/outbox/issues/w14y24/waste-free-futures_garbage-disposal_900px.jpg",
+            "text_color" : "#00000",
+            "light_text_color" : "#0f0f0f",
+            "link_ref" : "https://shop.nearfuturelaboratory.com/products/the-work-kit-of-design-fiction-2023-mj-edition",
+            "title" : "Welcome To The Waste Free Future",
+            "subtitle" : "Effortless to use. Intelligent tech™",
+            "main_copy" : "",
+            "font_family" : "Space Mono",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "background_color" : "#f2f2f2"
+        }   
+    ]}
+    
+}
