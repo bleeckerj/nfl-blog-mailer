@@ -20,7 +20,7 @@
                 "short_title" : "It was Week 14 of 2024 at Near Future Laboratory, and some things happened.",
                 "view_online_url" : "https://backoffice.nearfuturelaboratory.com/outbox/2024/w14-y24.html",
                 "share_online_url" : "%FORWARD2FRIEND%",
-                "salutation" : "It was the 14th week of two thousand and twenty four and a recurring theme was the recognition that an inability to dream of the world one wants to inhabit is a good way to ensure that one will never hold that world closely enough to make it a lived reality.<br><br>Week 14 was also the week that I announced Season 02 of <a href='https://superseminar.school' style=\"text-decoration: underline;color: #000000 !important;\">SuperSeminar</a>, the Learning & Development platform I started last year in which I bring to you interlocutors who will bring to you the kinds of insights and experiences that will evolve your professional skillset.<br><br>SuperSeminar Season 02 is focussed exclusively on Futures, Foresight and Innovation practices within large commercial organizations.<br><br>In Episode 01, we have presentations from <a href='https://www.linkedin.com/in/mike-milley-270104/' style=\"text-decoration: underline;color: #000000 !important;\">Mike Milley</a>, Principal Futurist at Mercedes-Benz North America, and Scott Smith, co-author of the fantastic <a href='https://a.co/d/fqj4RSA' style=\"text-decoration: underline;color: #000000 !important;\">Future Cultures</a> and <a href='https://a.co/d/cKyHj7g' style=\"text-decoration: underline;color: #000000 !important;\">How To Future</a>.<br><br>In Episode 02 we'll have <a href='https://superseminar.school/seminar/s02/e02' style=\"text-decoration: underline;color: #000000 !important;\">Radha Mistry</a> back again from Season 01. You'll remember Radha, formerly of Autodesk and now Associate Principal Americas Foresight Leader at Arup. We'll also have <a href='https://superseminar.school/seminar/s02/e02' style=\"text-decoration: underline;color: #000000 !important;\">Paul Ferraiolo</a>, who leads BMW Designworks' Los Angeles Creative Consulting Team, bringing his experience in design strategy from working with Rolls-Royce, Samsung and other large organizations.<br><br><a href='https://superseminar.school' style=\"text-decoration: underline;color: #000000 !important;\">Learn more about SuperSeminar</a> and grab your ticket soon — I deliberately keep these small and intimate. <br><br>SuperSeminar is not a stadium show - it's a small salon designed to facilitate discussion, deep dives into topics such as how to integrate a futures-oriented practice within your organization and best approaches for representing the value of a strategic futures to leadership.<br><br>Also — please consider becoming a participant in the Near Future Laboratory creative collaborative by becoming a supporter on <a href='https://patreon.com/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Patreon</a>. All paid Patreon supporters receive discounts to SuperSeminar as well as an invitation to our creative community on Discord and invitations to join weekly Office Hours."
+                "salutation" : "It was the 15th week of two thousand and twenty four and a recurring theme <br><br>Also — please consider becoming a participant in the Near Future Laboratory creative collaborative by becoming a supporter on <a href='https://patreon.com/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Patreon</a>. All paid Patreon supporters receive discounts to SuperSeminar as well as an invitation to our creative community on Discord and invitations to join weekly Office Hours."
             }  
         ]},
         
@@ -58,15 +58,15 @@
         },
         "elements": [
             {
-                "image_url": "https://metalabel.imgix.net/QmaroZCFh4JbKbbGqiqXpKWuQRCVVLxNyhywvyKubryRDp?w=1668&fit=min&auto=format",
+                "image_url": "",
                 "text_color": "#000000",
                 "light_text_color": "#0f0f0f",
-                "link_ref": "https://darkforest.metalabel.com/dfc",
+                "link_ref": "",
                 "link_text": "Read more about this release",
-                "title": "The Dark Forest Anthology of the Internet",
+                "title": "Maybe that Design Disaster Book?",
                 "category_text" : "Book Haul",
-                "subtitle": "A first edition, physical copy of the 208-page book drop.",
-                "main_copy": "This is a book about how to survive on the internet. It’s about the cozy web, the dark web, the dark forest, the clear net, the dark net, and a new social world emerging around us.<br>The original “Dark Forest Theory of the Internet” essay was published by Yancey Strickler in a private newsletter sent to 500 readers. The concept of the Dark Forest captured a feeling and sense of danger online that an increasing number of people shared.",
+                "subtitle": "A Book",
+                "main_copy": "The design disaster book or whatever it was?",
                 "font_family": "FormaDJRVariable",
                 "main_font_size" : "18px",
                 "font_style": "bold",
@@ -147,66 +147,6 @@
                 "link_ref": "https://open.spotify.com/show/7xlRxnooUnl48JVo726YXn",
                 "link_text": "The Santiago Boys Podcast",
                 "post_copy": "Listen to The Santiago Boys on Spotify. The Santiago Boys is a nine-part podcast about a group of radical utopians around Salvador Allende, Chile's socialist president. Undeterred by the Cold War and machinations of their enemies and aided by an eccentric British consultant, they try to wrestle control over technology from multinationals and intelligence agencies and use it to create a more egalitarian economy. As their dream gets crushed by Pinochet's bloody coup, the Santiago Boys find an unexpected afterlife - and in Silicon Valley of all places. The series is written and presented by Evgeny Morozov, a leading technology critic."
-            },
-            {
-                "user_callout": "In the 🔋-solarpunk-futures channel @Julian posted this",
-                "font_family": "FormaDJRVariable",
-                "font_style": "normal",
-                "font_weight": "400",
-                "text_color": "#000000",
-                "background_color" : "#f0f0f0",
-                "light_text_color": "#0f0f0f",
-                "link_ref": "https://thebrooklyninstitute.com/items/courses/new-york/solarpunk-theory-science-fiction-and-radical-futures/",
-                "link_text": "Solarpunk: Theory, Fiction, and Radical Futures",
-                "post_copy": "The Brooklyn Institute for Social Research offers an online course titled 'Solarpunk: Theory, Fiction, and Radical Futures,' instructed by Theodra Bane, exploring the integration of technology and nature through solarpunk's vision of sustainable futurism, communalism, and speculative fiction, aimed at reimagining modes of energy consumption and societal structures amidst climate change."
-            },
-            {
-                "user_callout": "In the 🔩-tools-and-resources channel @.chrizbo posted this",
-                "font_family": "FormaDJRVariable",
-                "font_style": "normal",
-                "font_weight": "400",
-                "text_color": "#000000",
-                "background_color" : "#f0f0f0",
-                "light_text_color": "#0f0f0f",
-                "link_ref": "https://uxdesign.cc/creativity-requires-just-enough-confusion-eecb6c720130",
-                "link_text": "Creativity requires just enough confusion",
-                "post_copy": "Chris Butler advocates for integrating a moderate level of confusion in team settings as a catalyst for innovation and creativity, highlighting its utility in reframing problems and generating novel solutions by leveraging randomness and established strategies such as Oblique Strategies, albeit with modifications to suit specific professional contexts."
-            },
-            {
-                "user_callout": "In the 🔩-tools-and-resources channel @.chrizbo posted this",
-                "font_family": "FormaDJRVariable",
-                "font_style": "normal",
-                "font_weight": "400",
-                "text_color": "#000000",
-                "background_color" : "#f0f0f0",
-                "light_text_color": "#0f0f0f",
-                "link_ref": "https://www.openculture.com/2018/12/behold-original-deck-oblique-strategies-cards-handwritten-brian-eno.html",
-                "link_text": "Behold the Original Deck of Oblique Strategies Cards, Handwritten by Brian Eno Himself",
-                "post_copy": "Brian Eno and painter Peter Schmidt created the original deck of Oblique Strategies cards in 1974, a set of 115 handwritten cards designed to spark creative connections, now considered collector's items and having undergone several production iterations since their inception."
-            },
-            {
-                "user_callout": "In the 🔋-solarpunk-futures channel @kvrichard posted this",
-                "font_family": "FormaDJRVariable",
-                "font_style": "normal",
-                "font_weight": "400",
-                "text_color": "#000000",
-                "background_color" : "#f0f0f0",
-                "light_text_color": "#0f0f0f",
-                "link_ref": "https://shop.design-museum.de/en/products/transform-designing-the-future-of-energy",
-                "link_text": "Transform! Designing the Future of Energy",
-                "post_copy": "The energy transition – the shift away from fossil fuels to CO2-free energies – is of central importance in mitigating the effects of climate change. How can today’s designs contribute to bringing about a genuine energy transition? Transform! brings together around 100 groundbreaking examples: from everyday products us"
-            },
-            {
-                "user_callout": "In the 🧰-artificial-intelligence channel @pegaunisusicorn posted this",
-                "font_family": "FormaDJRVariable",
-                "font_style": "normal",
-                "font_weight": "400",
-                "text_color": "#000000",
-                "background_color" : "#f0f0f0",
-                "light_text_color": "#0f0f0f",
-                "link_ref": "https://hume.ai",
-                "link_text": "The AI toolkit to measure, understand, and improve how technology affects human emotion",
-                "post_copy": "Hume AI specializes in developing empathic artificial intelligence technologies, such as an emotionally intelligent conversational voice API and APIs for interpreting emotional expressions and custom modeling, all aimed at enhancing human well-being through improved emotional understanding and response."
             }
         ]
     },
@@ -273,9 +213,9 @@
         },
         "elements" : [
             {
-                "name" : "Ian Chalmers",
-                "first_name" : "Ian",
-                "subtitle" : "<a href='https://www.linkedin.com/in/ianchalmers/?originalSubdomain=ca' style=\"text-decoration: underline;color: #000000 !important;\">Ian is a Design Entrepreneur</a>, founder and Creative Director of <a href='pivot.design' style=\"text-decoration: underline;color: #000000 !important;\">Pivot Design Group</a>, an experience design consultancy in Toronto. Pivot Design Group specializes in design research, experience design and service design creating sustainable outcomes for our clients. Since it's founding 25 years ago, the studio has evolved a distinctive experience design brand, balancing creativity, critical analysis and intuitive thinking through the lens of research and design.<br>Ian also organizes events for <a href='designmeets.ca' style=\"text-decoration: underline;color: #000000 !important;\">designmeets.ca</a>. Ian is also <a href='https://www.instagram.com/ianchalmers' style=\"text-decoration: underline;color: #000000 !important;\">@ianchalmers</a>",
+                "name" : "Kevin Nørby Andersen",
+                "first_name" : "Kevin",
+                "subtitle" : "I design products and tools across bits and atoms that extend human ability to think and create through my design studio <a href='https://superultra.dk' style=\"text-decoration: underline;color: #000000 !important;\">superultra.dk</a>",
                 "author_username" : "Julian",
                 "font_family" : "FormaDJRVariable",
                 "font_style" : "normal",
@@ -284,7 +224,7 @@
                 "light_text_color" : "#0f0f0f",
                 "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w14y24/IanChalmers_600px.jpg",
                 "main_copy" : "<br><strong>🧱 An artifact you find interesting</strong><br>I have a reproduction of a medical clay tablet from Sumeria, 2400 BCE. It's remarkable because it still contains its data after all these millennia and is beautifully ergonomic at the human scale, unlike the compact computers we carry in our hands<br><br><strong>📽 A film that has shaped or influenced who you are today</strong><br>Blade Runner, 1982 Ridley Scott's Director's Cut: for its sci-fi objects and experiences, lighting and textures, and ultimately what it means to be human.<br><br><strong>🎧 A podcast worth listening to</strong><br><a href='https://podcasts.apple.com/us/podcast/spark/id263242885' style=\"text-decoration: underline;color: #000000 !important;\">Spark!</a><br><br><strong>What else?</strong><br>My father worked at NASA in Langley, Virginia, when NASA was established. He was a flight test engineer for the Mercury Mission and part of Gemini. He died at age 49. I have always been curious about his time at NASA. He was passionate about Sci-Fi, books, movies and shows. My mother often said that while watching Star Trek, he would comment on the mathematical possibilities of Star Trek creator Gene Roddenberry's inventions.",
-                "link_ref" : "https://www.linkedin.com/in/ianchalmers/?originalSubdomain=ca",
+                "link_ref" : "https://www.kevinandersen.dk/",
                 "background_color" : "#f0f0f0",
                 "radius" : "0.2rem",
                 "border_width" : "3px",

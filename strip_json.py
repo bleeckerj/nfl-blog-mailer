@@ -28,5 +28,5 @@ def process_json_file(file_path):
         print(f"An error occurred: {e}")
 
 # Example usage:
-file_path = "./w13-y24/w13-y24.json"
+file_path = "./w20-y24.json/w20-y24.json"
 process_json_file(file_path)

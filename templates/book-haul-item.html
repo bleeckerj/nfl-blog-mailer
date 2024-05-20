@@ -1,0 +1,40 @@
+
+                <!-- start book-haul-item.html-->
+                <tr>
+                  <td align="left" style=" background-color: {{item['background_color']}}; border-collapse: collapse;   border-left: {{ item['border_width_left']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width_right']}} solid {{ item['border_color'] }}; border-bottom: {{ item['border_width_bottom']}} solid {{ item['border_color'] }}; border-bottom-left-radius: {{ item['bottom_left_radius']}}; border-bottom-right-radius: {{ item['bottom_right_radius']}}; border-top-left-radius: {{ item['top_left_radius']}}; {{ item['extra_box_style'] }};">
+
+                    <!--[if mso]>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr><td width="50%" valign="top"><![endif]-->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
+                      <tbody>
+                        <tr>
+                          <td class="padt15 padr20 padl10" style="border-collapse: collapse;  padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+                              <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">
+                              <img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
+                              </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
+                      <tbody>
+                        <tr>
+                          <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
+                            <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+                              <a href="{{ item['link_ref']}}" style="font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; text-decoration: underline;color: #000000 !important;">{{ item['title']}}
+                              </a> →</p>
+                              <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">{{ item['subtitle']}}</p>
+                            <p style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-style: '{{ item['font-style'] }}'; font-size: 12px;line-height: 16px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">{{ item['author_username']}}</p>
+                            <p style="font-family: '{{ item['font_family'] }}'; font-style: '{{ item['font-style'] }}'; font-weight: '{{ item['font_weight']}}'; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{item['main_copy']}}</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td></tr></table><![endif]-->
+                  </td>
+                </tr>
+                <!-- end accessory-item.html-->

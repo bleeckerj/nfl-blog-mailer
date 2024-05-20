@@ -1,0 +1,369 @@
+{
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#fdfdfd",
+                "title_font_family" : "FormaDJRVariable",
+                "font_family" : "WarblerText-Regular",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "font_size" : "18px",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ Design Meets Design Fiction<br>➫ Super Seminar<br>➫ Book Haul<br>➫ Futures, Foresight, Innovation<br>➫ Found in the NFL Discord<br>➫ Etcetera<br>",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 14 of 2024 at Near Future Laboratory, and some things happened.",
+                "view_online_url" : "https://backoffice.nearfuturelaboratory.com/outbox/2024/w14-y24.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "It was the 20th week of two thousand and twenty four and a recurring theme <br><br>Also — please consider becoming a participant in the Near Future Laboratory creative collaborative by becoming a supporter on <a href='https://patreon.com/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Patreon</a>. All paid Patreon supporters receive discounts to SuperSeminar as well as an invitation to our creative community on Discord and invitations to join weekly Office Hours."
+            }  
+        ]},
+    "featured-special-2": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "https://nearfuturelaboratory.com/images/blog/2024/05/design-meets-design-fiction-unearthing-tomorrow/DM_Design-Fiction_Website-Image_900px.webp",
+                "img_border_radius" : "4px",
+                "text_color": "#0f0f0f",
+                "light_text_color": "#000000",
+                "link_color" : "#000000",
+                "link_ref": "https://designmeets.ca/events/designmeets-design-fiction-unearthing-tomorrow",
+                "link_text": "Online Event: Design Meets Design Fiction",
+                "category_text": "Events",
+                "title": "Design Meets Design Fiction",
+                "subtitle": "May 15 2:00PM EST (UTC-4)",
+                "main_copy": "Imagining Tomorrow: Exploring the intersection of science fiction and design<br>Design Fiction is a design-led approach to augmenting analytic research by grounding the implications of research into tangible, relatable artifacts. <br/><br/>Join me virtually on May 22nd at 2:00PM EST for a fun discussion about the relationships amongst design, science, fact, fiction and futures.",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "18px",
+                "font_style": "bold",
+                "font_weight": "800",
+                "background_color": "#f0f0f0",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px" 
+            }
+        ]
+    },
+    "book-haul-header": {
+        "metadata": {
+            "template_name" : "book-haul-header.html",
+            "ordinal": ""
+        },
+        "elements" : [
+            {
+                "title" : "Book Haul Stuff",
+                "subtitle" : "Utilities to invigorate & inspire.",
+                "font_family" : "FormaDJRVariable",
+                "font_size" : "15px",
+                "line_height" : "15px",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#F0F0F0",
+                "radius" : "2rem",
+                "border_color" : "#000000",
+                "border_width" : "0px",
+                "extra_box_style" : ""
+            }
+        ]
+    },
+    "book-haul": {
+        "metadata": {
+            "template_name" : "book-haul-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title" : "E.A.T. Experiments in Art and Technology: Open Ended",
+                "subtitle" : "Museum of Modern and Contemporary Art, Korea",
+                "author" : "Julian",
+                "background_color" : "#F0F0F0",
+                "font_family" : "Space Mono",
+                "font_size" : "14px",
+                "line_height" : "14px",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://nearfuturelaboratory.com/images/site/toolbelt/w-600px-fpo.jpg",
+                "main_copy" : "With two engineering degrees and a Ph.D. in History of Consciousness, I'm all about doing technology and social science and humanities simultaneously. Heisenberg once noted that the most important discoveries in human history occur at the intersection between two different avenues of thought. It's a mystery that it seems difficult today to be a polymath, as the world seems to prefer specialists over individuals with range and general interests. <br/>E.A.T. is a big interest of mine. It/They worked diligently to enact collaborations between artists and scientists in order to eradicate the binary opposition. This is the second catalog I've managed to get my mitts on. I got lucky at my local bookseller while taking a visiting friend to check out ths shop. ",
+                "link_ref" : "https://nearfuturelaboratory.com/books/",
+                "bottom_left_radius" : "0rem",
+                "bottom_right_radius" : "0rem",
+                "top_left_radius" : "0rem",
+                "top_right_radius" : "0rem",
+                "border_width_bottom" : "0px",
+                "border_width_top" : "0px",
+                "border_width_right" : "0px",
+                "border_width_left" : "0px",
+                "border_color" : "#000000"
+            },
+            {
+                "title" : "Reality Was Whatever Happened",
+                "subtitle" : "Octavia Butler AI And Other Possible Worlds.",
+                "author" : "Julian",
+                "background_color" : "#F0F0F0",
+                "font_family" : "Space Mono",
+                "font_size" : "14px",
+                "line_height" : "14px",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://nearfuturelaboratory.com/images/site/toolbelt/w-600px-fpo.jpg",
+                "main_copy" : "",
+                "link_ref" : "https://nearfuturelaboratory.com/books",
+                "bottom_left_radius" : "2rem",
+                "bottom_right_radius" : "2rem",
+                "top_left_radius" : "0rem",
+                "top_right_radius" : "0rem",
+                "border_width" : "0px",
+                "border_width_bottom" : "0px",
+                "border_width_top" : "0px",
+                "border_width_right" : "0px",
+                "border_width_left" : "0px",
+                "border_color" : "#000000"
+            }
+        ]
+    },
+    "featured-special-3": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "https://superseminar.school/images/s02e04/S02E04_Art_02_SQUARE_600px.png",
+                "img_border_radius" : "0px",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://superseminar.school/seminar/s02/e03/",
+                "link_text": "Foresight & Innovation Experts From Industry",
+                "title": "Futures, Foresight & Innovation",
+                "category_text" : "Learning & Development",
+                "subtitle": "Learn how futures and foresight practitioners do what they do, where they do it.",
+                "main_copy": "SuperSeminar Season 02 Episode 03 is up next. Come hear from our presenters <strong>Matt Klein, Head of Foresight at Reddit</strong> and <strong>Florian Lohse Senior Product Manager, R&D Strategy</strong>.<br/>SuperSeminar is a Salon-like discussion with two domain experts presenting incisive, conversation starters — and then we discuss. Limited seats. The value is in the opportunity for discussion.",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "main_font_size" : "16px",
+                "background_color": "#EDEDED",
+                "border_width" : "3px",
+                "border_color" : "#0f0f0f",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "accessory-item-header-4" : {
+        "metadata" : {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#EDEDED",
+            "ordinal" : 10
+        },
+        "elements" : [
+            {
+                "title" : "Seen in the Near Future Laboratory Discord",
+                "subtitle" : "Not Your Usual Weak Signals 📡",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#FDFDFD",
+                "radius" : "1rem",
+                "border_width" : "0px",
+                "border_color" : "#000000",
+                "extra_box_style" : "padding-bottom: 15px;"
+            }
+        ]
+    },
+    "discord-callout-items": {
+        "metadata": {
+            "template_name": "discord-callout-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "user_callout": "In the 🧢-generalists-club channel @Ryan Greene posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "background_color" : "#FDFDFD",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://www.youtube.com/watch?v=nNZgG8htns0",
+                "link_text": "Inside ILM | To be a Generalist",
+                "post_copy": "\"Inside ILM | To be a Generalist\" highlights the multifaceted proficiency of Industrial Light & Magic's generalists in disciplines such as modeling, lighting, texturing, FX, and more, offering insight into the unique aspects of the team."            
+            },
+            {
+                "user_callout": "In the 🏗-built-environment-futures channel @kvrichard posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "background_color" : "#F6FFE5",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://geoffboeing.com/2019/09/urban-street-network-orientation/",
+                "link_text": "Urban Street Network Orientation",
+                "post_copy": "Geoff Boeing's study \"Urban Spatial Order: Street Network Orientation, Configuration, and Entropy,\" published in Applied Network Science, investigates the configuration of street networks across 100 global cities using OpenStreetMap data, revealing significant variation in grid orientation, connectivity, and the spatial efficiency of urban layouts, with a notable contrast between gridded North American cities and more organic European ones."
+            },
+            {
+                "user_callout": "In the 🔋-solarpunk-futures channel @expedition.works posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "text_color": "#000000",
+                "background_color" : "#FDFDFD",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://en.m.wikipedia.org/wiki/Mean_center_of_the_United_States_population",
+                "link_text": "Mean center of the United States population",
+                "post_copy": "The mean center of the United States population, calculated by the U.S. Census Bureau using national census results, represents a point of balance on an imaginary flat surface where each person in the 50 states and the District of Columbia is equally weighted, and has moved steadily westward and slightly southward since 1790."
+            },
+            {
+                "user_callout": "In the 🥼-science-fiction-futures channel @Julian posted this",
+                "font_family": "FormaDJRVariable",
+                "font_style": "normal",
+                "font_weight": "400",
+                "bottom_left_radius" : "1em",
+                "bottom_right_radius" : "1em",
+                "text_color": "#000000",
+                "background_color" : "#F6FFE5",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://podcasts.apple.com/us/podcast/the-three-body-problem-and-the-rise/id73330715?i=1000654211898",
+                "link_text": "'The Three Body Problem' And the Rise of Chinese Science Fiction",
+                "post_copy": "The episode from \"On the Media\" discusses the trajectory of science fiction in China, charting its progress from a genre once critiqued as \"spiritual pollution\" towards achieving significant recognition and popularity. This narrative unfolds within the broader context of cultural and societal changes in China, reflecting shifts in attitudes towards speculative fiction and its role in exploring futuristic and technological themes. The examination includes a focus on notable works and authors, such as \"The Three Body Problem,\" which have played a pivotal role in propelling Chinese science fiction into the global literary spotlight. Through this lens, the episode contributes to the understanding of the dynamic landscape of science fiction in China, highlighting its evolution and the factors driving its current prominence and acclaim."
+            }
+
+        ]
+    },
+    "visually-inspiring-header": {
+        "metadata": {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#4EDFF9",
+            "ordinal": ""
+        },
+        "elements" : [
+            {
+                "title" : "1000 Words",
+                "subtitle" : "Found in the NFL Discord",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#EDEDED",
+                "radius" : "2rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "visually-inspiring" : {
+        "metadata" : {
+            "template_name" : "image-feature.html",
+            "ordinal" : 13
+    },
+    "elements" :  [
+        {
+            "image_url" : "https://cdn.discordapp.com/attachments/965624155473063976/1240695103430066417/https3A2F2Fsubstack-post-media.png?ex=664a21db&is=6648d05b&hm=f4ab3d2dc43e82972f81914cf9de5310ec2e36c7b64cbb3ea38df8ab9168c0b6&",
+            "background_color" : "#EDEDED",
+            "bottom_left_radius" : "2rem",
+            "bottom_right_radius" : "2rem",
+            "top_left_radius" : "0rem",
+            "top_right_radius" : "0rem",
+            "border_width_bottom" : "3px",
+            "border_width_top" : "0px",
+            "border_width_right" : "3px",
+            "border_width_left" : "3px",
+            "border_color" : "#000000",
+            "extra_box_style" : "box-shadow: 5px 5px"
+        }   
+    ]},
+    "accessory-item-header-3": {
+        "metadata": {
+            "template_name" : "accessory-item-header.html",
+            "background_color" : "#4EDFF9",
+            "ordinal": ""
+        },
+        "elements" : [
+            {
+                "title" : "New Bundle Of Materials",
+                "subtitle" : "Tools, Books, Artifacts",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "background_color" : "#4EDFF9",
+                "radius" : "1rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "accessory-item-3": {
+        "metadata": {
+            "template_name" : "accessory-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "title" : "Everything Everywhere All We Got",
+                "subtitle" : "All the books. All the artifacts. All the cards.",
+                "author" : "Julian",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "text_color" : "#000000",
+                "light_text_color" : "#0f0f0f",
+                "image_url" : "https://backoffice.nearfuturelaboratory.com/images/outbox/issues/w14y24/DesignFiction_EVERYTHING_BOX_01_040724_0735_28_900px.jpg",
+                "main_copy" : "So, I've put everything from the Near Future Laboratory Shop into one easy 25% off bundle. Look at all that stuff over there! All the books, including our latest artifact from the most likely alternative AI Android Future, Androids Dream of Electric Sheep and the collectors' card set. Of course, there are the best sellers as well — TBD Catalog, the product catalog that started all of this — and The Manual of Design Fiction and its 'part 2' 'It's Time To Imagine Harder'. <br><br><span style='font-family: FormaDJRVariable; font-variation-settings: \"wght\" 500; '>Everything Everywhere All We Got for 25% off!</span>",
+                "link_ref" : "https://shop.nearfuturelaboratory.com/products/everything-everywhere-all-we-got",
+                "background_color" : "#4EDFF9",
+                "radius" : "1rem",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    },
+    "featured-special-4-GRID_GHOST": {
+        "metadata": {
+            "template_name": "featured-special.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url": "https://nearfuturelaboratory.com/ad-images/2024/04/Grid_Ghost_The_Mixtape.webp",
+                "img_border_radius" : "4px",
+                "text_color": "#000000",
+                "light_text_color": "#0f0f0f",
+                "link_ref": "https://nearfuturelaboratory.com/webring/gnome-school-002/",
+                "link_text": "Have a listen",
+                "title": "Grid Ghost: The Mixtape",
+                "category_text" : "Imagine Harder Web Ring",
+                "subtitle": "Produced by the enigmatic Grid Ghost",
+                "main_copy": "This mixtape is a blast from a solarpunk future that turned sour. Experience beats and hooks that challenge the boundaries of time and music. Introducing \"Grid Ghost - The Mixtape,\" a collection of futuristic beats that's fresh out of a time machine adventure. Created by the activist and producer Grid Ghost, this mixtape represents the voices of the underserved in a dystopian Solarpunk future. Get ready to have your musical world turned upside down with face-melting beats and otherworldly hooks that will transport you to a new musical dimension.Gnome School Records",
+                "font_family": "FormaDJRVariable",
+                "main_font_size" : "15px",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "background_color": "#FEE440",
+                "border_width" : "3px",
+                "border_color" : "#000000",
+                "extra_box_style" : "box-shadow: 5px 5px"
+            }
+        ]
+    }
+}

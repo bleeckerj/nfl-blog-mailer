@@ -6,7 +6,7 @@
           <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
         </tr>
                <tr>
-                <td align="center" class="headline" style="background-color: {{ item['background_color']}};border-collapse: collapse;border-bottom: 0px solid #F0F0F0;padding-top: 15px;padding-right: 0px;padding-left: 0px;padding-bottom: 15px;border-top-left-radius: 0.8rem; border-top-right-radius: 0.8rem;">
+                <td align="center" class="headline" style="background-color: {{ item['background_color']}};border-collapse: collapse;border-left: {{ item['border_width']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width']}} solid {{ item['border_color'] }};  border-top: {{ item['border_width']}} solid {{ item['border_color'] }}; border-top-left-radius: {{item['radius'] }}; border-top-right-radius: {{item['radius'] }};{{ item['extra_box_style'] }};padding-top: 15px;padding-right: 0px;padding-left: 0px;padding-bottom: 15px;border-top-left-radius: 0.8rem; border-top-right-radius: 0.8rem;">
                   <p style="mso-line-height-rule: exactly;font-size: 20px;font-family: {{ item['font-family'] }}; font-style: {{ item['font-style']}}; font-weight: {{item['font-weight']}}; line-height: 22px;color: #000000;margin: 0;padding: 0;">{{ item['header_text']}}</p>
                 </td>
               </tr>
