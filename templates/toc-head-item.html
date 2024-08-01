@@ -10,7 +10,7 @@
         <tbody>
           <tr>
             <td class="padt15 padr10 padl20" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-              <p style="font-family: '{{ item['title_font_family'] }}'; mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: {{ item['text_color']}};margin: 0;padding: 0;">
+              <p style="font-family: '{{ item['title_font_family'] }}'; mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: normal;color: {{ item['text_color']}};margin: 0;padding: 0;">
                 {{ item['short_title']}}
               </p>
               
@@ -24,8 +24,8 @@
         <tbody>
           <tr>
             <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-              <p class="small grey" style="font-family: '{{ item['font_family'] }}';font-size: 15px;line-height: 19px;font-weight: 400;color: {{ item['text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;">
-                <a class="grey" href="{{item['view_online_url']}}" style="text-decoration: underline;color: {{ item['light_text_color']}} !important;">View</a>/<a class="grey" href="{{item['share_online_url']}}" style="text-decoration: underline;color: {{ item['light_text_color']}}  !important;">share online</a> →</p>
+              <p class="small grey" style="font-family: '{{ item['font_family'] }}';font-size: 15px;line-height: normal;font-weight: 400;color: {{ item['text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;">
+                <webversion>View web version</webversion> →</p>
             </td>
           </tr>
         </tbody>
@@ -37,11 +37,11 @@
   <!-- end subject-line.html -->
   <tr>
     <td align="left" class="padt20 padl20 padr20 padb10" style="background-color: {{ item['background_color']}}; border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;">
-      <p class="large" style="font-family: '{{ item['title_font_family'] }}';font-size: 21px;line-height: 24px;font-weight: 400;color:{{ item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">
+      <p class="large" style="font-family: '{{ item['title_font_family'] }}';font-size: 21px;line-height: normal;font-weight: 400;color:{{ item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">
 {{ item['main_toc_text'] }}
       </p>
       <!-- start salutation -->
-      <p class="small grey padt20" style="font-family: '{{ item['font_family'] }}';font-size: {{ item['font_size']}};line-height: 19px;font-weight: 400;color: {{ item['text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;padding-top: 20px;">{{ item['salutation'] }}</p>
+      <p class="small grey padt20" style="font-family: '{{ item['font_family'] }}';font-size: {{ item['font_size']}};line-height: normal;font-weight: 400;color: {{ item['text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;padding-top: 20px;">{{ item['salutation'] }}</p>
         <!-- end salutation -->
     </td>
   </tr>

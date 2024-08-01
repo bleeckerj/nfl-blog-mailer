@@ -1,0 +1,42 @@
+,
+        "full-width-item-header" : {
+            "metadata" : {
+                "template_name" : "full-width-item-header.html",
+                "ordinal" : 12
+            },
+            "elements" : [
+                {
+                    "header_text" : "Imagine Harder Summit",
+                    "background_color" : "#FEFEFE",
+                    "font_family" : "Space Mono",
+                    "font_style" : "bold",
+                    "font_weight" : "700",
+                    "radius" : "0px",
+                    "border_color" : "#FFFFFF",
+                    "border_width" : "0px"
+        
+                }
+            ]
+        },
+        "full-width-item" : {
+            "metadata" : {
+                "template_name" : "full-width-item.html",
+                "ordinal" : 13
+        },
+        "elements" :  [
+            {
+                "image_url" : "https://nearfuturelaboratory.com/images/projects/2023-image-harder-summit/CAM_A_23092023_FX30_102437_0013-topaz-denoise-enhance-2x-faceai-sharpen__1200px.jpg",
+                "image_corner_radius" : "4px",
+                "text_color" : "#00000",
+                "light_text_color" : "#0f0f0f",
+                "link_ref" : "https://detroit.imaginesharder.com",
+                "title" : "Detroit Imagines Harder",
+                "subtitle" : "Design Fiction Workshop / Summit / Film Festival",
+                "main_copy" : "Last fall I prototyped an event 👆🏽 that gathered about 24 people together just outside of Detroit at the Affleck House — a gorgeous Frank Lloyd Wright house.<br/><br/>We got together to wonder about the future of creative practices and imagine how we might evolve what design has become to better serve the goal of creating more habitable worlds — within academia, professional commercial work, and independent studio practices.<br/><br/>There was so much awesome energy and enthusiasm within the gathering that we're doing it again, only bigger with more hands-on workshop activities, plenty of time for discussions, growing networks, building associations and collaborations.<br/><br/>Our topic: the future of work — or, more expansively: what are possible futures of organizing human creative potential. The workshop component will be a bit like the famous TBD Catalog Workshop where we looked into the future and described what we saw in the form of a product catalog.<br/><br/>This time we'll imagine the future of work — in the form of something like an 'employee handbook'. What are roles and responsibilities? Is 'employee' an archaic term in this future? How do we participate in the overall 'value creation' of the organization? Has what we today understand as a 'company' (which has its own rich history of evolution from previous forms of organizing human potential) now completely different in structure and meaning? It's a rich topic area and I can think of no better way to imagine into it than creating an artifact like this – and I want you to join us!",
+                "font_family" : "Space Mono",
+                "font_style" : "normal",
+                "font_weight" : "normal",
+                "font_size" : "16px",
+                "background_color" : "#FAFAFA"
+            }   
+        ]}

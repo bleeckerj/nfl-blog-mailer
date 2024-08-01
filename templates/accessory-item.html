@@ -25,11 +25,13 @@
                         <tbody>
                           <tr>
                             <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-                              <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-size: 16px;line-height: 23px;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                                <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">{{ item['title']}}
-                                </a> →</p>{{ item['subtitle']}}
-                              <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 16px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">{{ item['author_username']}}</p>
-                              <p style="font-family: '{{ item['font_family'] }}'; font-style: '{{ item['font-style'] }}'; font-weight: '{{ item['font_weight']}}'; font-size: '{{ item['font_size']}}';line-height: 18px; color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{item['main_copy']}}</p>
+                              <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['title_font_family'] }}'; font-size: {{item['title_font_size']}}; line-height: normal;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+                                <a href="{{ item['link_ref']}}" style="text-decoration: none;color: #000000 !important;">{{ item['title']}}
+                                </a> →<br/>
+                                <a href="{{ item['link_ref']}}" style="text-decoration: none;color: #000000 !important;">{{ item['subtitle']}}</a>
+                              </p>
+                              <p style="mso-line-height-rule: exactly;font-size: {{item['font_size']}}; line-height: {{item['line_height']}}; font-weight: 400; margin: 0; padding: 0 0 5px 0; color: #707070 !important;">{{ item['author_username']}}</p>
+                              <p style="font-family: '{{ item['font_family'] }}'; font-style: {{ item['font-style'] }}; font-weight: '{{ item['font_weight']}}'; font-size: {{ item['font_size']}};line-height: {{item['line_height']}}; color: #000000; padding: 0; margin: 0; margin-bottom: 15px;">{{item['main_copy']}}</p>
                             </td>
                           </tr>
                         </tbody>

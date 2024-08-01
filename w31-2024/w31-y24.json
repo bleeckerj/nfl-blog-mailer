@@ -1,0 +1,395 @@
+{
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#fdfdfd",
+                "title_font_family" : "FormaDJRVariable",
+                "font_family" : "FormaDJRVariable",
+                "font_style" : "italic",
+                "font_weight" : "bold",
+                "font_size" : "16px",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ Detroit Imagines Harder<br/>➫ Two New Podcasts<br/>➫ A Tale of Geocities Aesthetics<br>➫ Farm Fresh Book Haul(s)<br/>➫ From the NFL Discord<br/>➫ Office Hours N°224<br/>",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 31 of 2024 at Near Future Laboratory, and a bunch of things happened.",
+                "view_online_url" : "https://nearfuturelaboratory.com/outbox/2024/w31-y24.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "It was the 31st week of two thousand and twenty four and — boy — it's been a busy summer. Let's start with the Magazine from an AI Future, which is skipping along with collaborators across the globe — Sweden, Brooklyn, Singapore, Tokyo, Los Angeles. Time zone coordinations are zany.<br/><br/>We've been busy organizing this year's <a href='https://detroit.imaginesharder.com'>Imagine Harder Summit</a> coordinating with our wonderful team on the ground there in Detroit.<br/><br/>Oh! Have a look at the updated index of <a href='https://nearfuturelaboratory.com/projects'>NFL Projects</a> and <a href='https://nearfuturelaboratory.com/services'>Services</a> on the updated 'web' 'site'!<br/><br/>I've got two new podcasts just released 👇🏽<br/><br/>Also, if you're an RSS type of person, you'll want to keep an eye out in the <a href='https://nearfuturelaboratory.com/rss.xml'>RSS feed</a> for new posts, projects, the studio Library, and more.<br/><br/>And check this out: soon paid Patreon supporters will have full access to a wonderfully more serene NFL Digest of the best items posted in the Discord. (I'm super excited about that one, particularly for those of you who have an understandable and completely acceptable allergy to the discordant nature of Discord! This'll be like Benadryl for your brain & eyeballs!)<br/><br/>Speaking of Patreon, if you're reading this and haven't joined us, please consider becoming a participant in the Near Future Laboratory community by becoming a supporter on <a href='https://patreon.com/nearfuturelaboratory' style=\"text-decoration: underline;color: #000000 !important;\">Patreon</a>. For a limited time, if you get an annual Professional Participation Package on Patreon and you will receive all four books for free — and of course that comes with access to the NFL Discord, discounts to SuperSeminar, invitations to join weekly Office Hours — and we'll find time for a 1 on 1 coffee chat! ☕+📞<br/><br/>(P.S. I just had one slot open up for professional mentoring this fall! <a href='https://nearfuturelaboratory.com/contact'>Contact me </a>if you'd like to learn more.)"
+            }  
+            ]},
+            "full-width-item-header" : {
+                "metadata" : {
+                    "template_name" : "full-width-item-header.html",
+                    "ordinal" : 12
+                },
+                "elements" : [
+                    {
+                        "header_text" : "Imagine Harder Summit",
+                        "background_color" : "#FEFEFE",
+                        "font_family" : "Space Mono",
+                        "font_style" : "normal",
+                        "font_weight" : "normal",
+                        "radius" : "0px",
+                        "border_color" : "#FFFFFF",
+                        "border_width" : "0px"
+                        
+                    }
+                ]
+            },
+            "full-width-item" : {
+                "metadata" : {
+                    "template_name" : "full-width-item.html",
+                    "ordinal" : 13
+                },
+                "elements" :  [
+                    {
+                        "image_url" : "https://nearfuturelaboratory.com/images/projects/2023-image-harder-summit/CAM_A_23092023_FX30_102437_0013-topaz-denoise-enhance-2x-faceai-sharpen__1200px.jpg",
+                        "image_corner_radius" : "4px",
+                        "text_color" : "#000000",
+                        "light_text_color" : "#0f0f0f",
+                        "link_ref" : "https://detroit.imaginesharder.com",
+                        "title" : "Detroit Imagines Harder",
+                        "subtitle" : "Design Fiction Workshop / Summit / Film Festival",
+                        "main_copy" : "Last fall I prototyped an event 👆🏽 that gathered about 24 people together just outside of Detroit at the Affleck House — a gorgeous Frank Lloyd Wright house.<br/><br/>We got together to wonder about the future of creative practices and imagine how we might evolve what design has become to better serve the goal of creating more habitable worlds — within academia, professional commercial work, and independent studio practices.<br/><br/>There was so much awesome energy and enthusiasm within the gathering that <a href='https://detroit.imaginesharder.com'>we're doing it again</a>, only bigger with more hands-on workshop activities, plenty of time for discussions, growing networks, building associations and collaborations.<br/><br/>Our topic: the future of work — or, more expansively: what are possible futures of organizing human creative potential. The workshop component will be a bit like the famous TBD Catalog Workshop where we looked into the future and described what we saw in the form of a product catalog.<br/><br/>This time we'll imagine the future of work — in the form of something like an 'employee handbook'. What are roles and responsibilities? Is 'employee' an archaic term in this future? How do we participate in the overall 'value creation' of the organization? Has what we today understand as a 'company' (which has its own rich history of evolution from previous forms of organizing human potential) now completely different in structure and meaning? It's a rich topic area and I can think of no better way to imagine into it than creating an artifact like this – and I want you to join us!",
+                        "font_family" : "Space Mono",
+                        "font_style" : "normal",
+                        "font_weight" : "normal",
+                        "font_size" : "16px",
+                        "line_height" : "18px",
+                        "background_color" : "#FAFAFA"
+                    }
+                    ]},
+                    
+                    
+                    
+                    "featured-special-2": {
+                        "metadata": {
+                            "template_name": "featured-special.html",
+                            "ordinal": ""
+                        },
+                        "elements": [
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/book-haul/2024/07/towards-the-realm-of-materiality/towards-the-realm-of-materiality.gif",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://nearfuturelaboratory.com/blog/2024/07/the-imagination-of-pk-dick/",
+                                "link_text": "Towards the Realm of Materiality",
+                                "category_text": "Book Haul",
+                                "title": "Philip K. Dick Imagined Our Future?",
+                                "subtitle": "A new book in the library + blog post",
+                                "title_font_family": "FormaDJRVariable",
+                                "main_copy": "A collection of featured essays, projects, and plenty of illustrations revealing the expansive imagination of Philip K. Dick.<br/><br/><a href='https://nearfuturelaboratory.com/blog/2024/07/the-imagination-of-pk-dick/'>Read the blog post</a> and have a look at the <a href='https://nearfuturelaboratory.com/library/2024/07/towards-the-realm-of-materiality/'>book details in the NFL Library</a>.",
+                                "font_family": "Space Mono",
+                                "main_font_size" : "16px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "font_style": "normal",
+                                "font_weight": "normal",
+                                "background_color": "#f0f0f0",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            },
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/book-haul/2024/04/some-ways-of-thinking-about-the-future/some-ways-of-thinking-about-the-future_8985__1200px.webp",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://nearfuturelaboratory.com/library/2024/04/some-ways-of-thinking-about-the-future/",
+                                "link_text": "Some Ways of Thinking About The Future",
+                                "category_text": "Book Haul",
+                                "title": "From Deep In The Archives",
+                                "subtitle": "A crisp typewritten resumé of approaches and methodologies",
+                                "title_font_family": "FormaDJRVariable",
+                                "main_copy": "This was written in 1975 by Janice Tait who, at 95, is still up and about! I wrote blindly to her hoping for the best — and got an email reply within the hour!<br/><br/>Curious about all of this? I put her website along with <a href='https://nearfuturelaboratory.com/library/2024/04/some-ways-of-thinking-about-the-future/'>some photos of the book in the NFL Library</a>, (along with a screenshot of the email she sent me..she's a big 2001 fan and confessed to watching it every year!)",
+                                "font_family": "Space Mono",
+                                "main_font_size" : "16px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "font_style": "normal",
+                                "font_weight": "normal",
+                                "background_color": "#f0f0f0",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            }
+                        ]
+                    }, 
+                    "featured-special-3": {
+                        "metadata": {
+                            "template_name": "featured-special.html",
+                            "ordinal": ""
+                        },
+                        "elements": [
+                            {
+                                "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/18/c5/19/18c519ea-c110-beaf-1223-2792171f5ac9/mza_3892211998181029678.jpg/552x0w.webp",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://podcasts.apple.com/us/podcast/n-090-kyle-ng-brain-dead-fashion-for-futuring/id1546452193?i=1000663021288",
+                                "link_text": "NFL Podcast Episode 090",
+                                "category_text": "Listen",
+                                "title": "A Chat With Friend of the Laboratory Brain Dead Creative Director Kyle Ng",
+                                "subtitle": "Creating A Lifestyle, A Community, and a Brand",
+                                "main_copy": "Kyle Ng, creative director and founder of the brand Brand Dead came on the podcast a couple of weeks ago. I've known Kyle for, jeepers — nearly 20 years now. We met when, as a high schooler, he visited USC's Film School while I was a professor there. Listen and learn why I told him (and his dad!) that he shouldn't bother with college.",
+                                "font_family": "Space Mono",
+                                "title_font_family": "FormaDJRVariable",
+                                "title_font_weight" : "bold",
+                                "main_font_size" : "16px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "background_color": "#c6ffff",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            }
+                        ]
+                        },"accessory-item-header-1" : {
+                            "metadata" : {
+                                "template_name" : "accessory-item-header.html",
+                                "background_color" : "#EDEDED",
+                                "ordinal" : 10
+                            },
+                            "elements" : [
+                                {
+                                    "title" : "Seen in the Near Future Laboratory Discord",
+                                    "subtitle" : "Not Your Usual Weak Signals 📡",
+                                    "font_family" : "FormaDJRVariable",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "background_color" : "#FAFAFA",
+                                    "radius" : "1rem",
+                                    "border_width" : "0px",
+                                    "border_color" : "#000000",
+                                    "extra_box_style" : "padding-bottom: 15px;"
+                                }
+                            ]
+                        }, 
+                        
+                        
+                        "discord-callout-item-0": {
+                            "metadata": {
+                                "template_name": "discord-callout-item.html",
+                                "ordinal": ""
+                            },
+                            "elements" : [
+                                {
+                                    "user_callout": "In the 📝-general channel @Julian posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#d5eea4",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "http://www.metamodernism.org/",
+                                    "title": "The Metamodernist Manifesto | Luke Turner (2011)",
+                                    "link_text": "Item 7 of the Metamodernist Manifesto",
+                                    "post_copy": "Just as science strives for poetic elegance, artists might assume a quest for truth. All information is grounds for knowledge, whether empirical or aphoristic, no matter its truth-value. We should embrace the scientific-poetic synthesis and informed naivety of a magical realism. Error breeds sense."
+                                    
+                                    
+                                },
+                                {
+                                    "user_callout": "In the 📝-general channel @markoahtisaari posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#fAfAfA",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://helsinkifestival.fi/ami",
+                                    "link_text": "World Premiere",
+                                    "title": "Irish artist Kevin Abosch’s AI-powered film to have its world premiere on the Night of the Arts on 15 August | Helsinki Festival",
+                                    "post_copy": "Kevin Abosch's AI-generated film <em>Am I?</em> will premiere at the Helsinki Festival's Night of the Arts on August 15, 2024, marking it as the first synthetic feature film, and will be followed by a discussion involving the artist and festival directors."
+                                },
+                                {
+                                    "user_callout": "In the europe channel @janmuehlig posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#d5eea4",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://glasgow2024.org/",
+                                    "link_text": "Worldcon Glasgow",
+                                    "title": "Glasgow 2024, a Worldcon for Our Futures",
+                                    "post_copy": "Glasgow 2024 is poised to be a prominent World Science Fiction Convention (Worldcon), taking place in Glasgow, Scotland, from August 8 to 12, 2024. This event, titled Worldcon for Our Futures aims to gather a diverse community of fans, creators, and scholars to celebrate speculative fiction's impact on culture and society."
+                                },
+                                {
+                                    "user_callout": "In the 🧰-artificial-intelligence channel @(Kevin) SkepticalDesign posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#fAfAfA",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://futurism.com/the-byte/amazon-echo-use-reality",
+                                    "link_text":"10,000 people made a kitchen timer",
+                                    "title": "Amazon Horrified by What People Actually Use Alexa For",
+                                    "post_copy": "Amazon's Alexa, launched in 2014 as a voice assistant integrated into Echo devices, was originally envisioned as a tool to promote product sales on Amazon’s marketplace. However, the reality of how consumers engage with Alexa has led to significant concerns within the company. Instead of driving substantial sales, users primarily utilize Alexa for basic functions such as setting alarms and checking the time. This trend has prompted comments from former employees, highlighting a disconnect between corporate expectations and actual user behavior, with one stating, <em>'We worried we’ve hired 10,000 people and we’ve built a smart timer.'</em>"
+                                },
+                                {
+                                    "user_callout": "In the 🎧-podcasts channel @OmakaseChef posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#d5eea4",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://the-santiago-boys.com/",
+                                    "title": "The Santiago Boys",
+                                    "link_text": "A podcast about Project Cybersyn",
+                                    "post_copy": "The Santiago Boys presents a narrative about a group of engineers and a British management consultant who, during the Allende era in Chile, sought to disrupt the existing power dynamics of corporations and intelligence agencies. This story reflects an ambitious attempt to showcase the potential of technology and innovation in challenging established systems. The engineers, driven by a vision of societal improvement, worked to use their skills and knowledge to create alternatives to traditional corporate structures. Their endeavor was marked by both idealism and the stark realities of political instability, shedding light on the broader context of technological advancement during a tumultuous historical period."
+                                },
+                                {
+                                    "user_callout": "In the 🎨-web-n-design-aesthetic channel @Brandel Zachernuk posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#fAfAfA",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://www.cameronsworld.net",
+                                    "link_text" : "Remember Geocities? No? Well then..",
+                                    "title": "Cameron's World",
+                                    "post_copy": "Cameron's World is as a nostalgic homage to the early days of the internet, specifically the decade-long era of GeoCities, a popular web-hosting service that allowed users to create their own personal web pages. Curated by Cameron Askin with technical support from Anthony Hughes and music by Robin Hughes, this site compiles an array of text and graphics sourced from the archives of GeoCities, which thrived from 1994 until its closure in 2009, amassing over 38 million individual pages. 💀👾"
+                                },
+                                
+                                {
+                                    "user_callout": "In the 🛠-hardware channel @rand0mmm posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#d5eea4",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://youtube.com/watch?v=WKIs_u5jr1s&si=Qj_VkzBAPGwLk0md",
+                                    "link_text": "A Dot Matrix Pickup Truck",
+                                    "title": "I turned my pickup truck into a printer",
+                                    "post_copy": "Some guy turned his pickup truck into the world's largest dot matrix printer, and he's leaving drive-by messages in front of his friends' homes. It's like skywriting but on the road. And-also, everything that's happened has happened before..👇🏽"            
+                                },
+                                {
+                                    "user_callout": "In the 🛠-hardware channel @Julian posted this",
+                                    "font_family": "FormaDJRVariable",
+                                    "font_style": "normal",
+                                    "font_weight": "400",
+                                    "text_color": "#000000",
+                                    "background_color" : "#fAfAfA",
+                                    "light_text_color": "#0f0f0f",
+                                    "link_ref": "https://blog.nearfuturelaboratory.com/2009/07/07/chalkbot-versus-graffitiwriter/",
+                                    "link_text": "Printer Error -206",
+                                    "title": "Chalkbot Versus GraffitiWriter...Round One! Ready....FIGHT! - Near Future Laboratory",
+                                    "post_copy": "Remember <a href='https://www.deeplocal.com/nike-chalkbot'>Nike Chalkbot</a> back in 2009? It was a robot designed to promote cancer awareness during the Tour de France back in the day by chalking messages on the road or in the median along the TdF route.<br/>There were a whole bunch of these kinds of projects including <a href='https://web.archive.org/web/20000829071001/http://www.appliedautonomy.com/gw.html'>Grafitti Writer</a> in 2000 by the (defunct?) Institute for Applied Autonomy, and Josh Kindberg's 2004 project '<a href='https://artforsocialchangetoolkit.wordpress.com/policy/bikes-against-bush/'>Bikes Against Bush</a>'  which <a href='https://www.nytimes.com/2007/03/25/nyregion/25infiltrate.html'>got Josh tossed in the pokey</a> and his <a href='https://www.youtube.com/watch?v=URS_7FY4krU&ab_channel=Rocketboom'>bike confiscated forever</a>!",
+                                    "bottom_left_radius": "1rem",
+                                    "bottom_right_radius": "1rem"
+                                }
+                                
+                                
+                                
+                                
+                            ]
+                        },
+                        
+                        "featured-special-4": {
+                            "metadata": {
+                                "template_name": "featured-special.html",
+                                "ordinal": ""
+                            },
+                            "elements": [
+                                {
+                                    "image_url": "https://nearfuturelaboratory.com/images/podcast-images/nfl_podcast_s01e091_91_email.jpg",
+                                    "img_border_radius" : "0px",
+                                    "text_color": "#0f0f0f",
+                                    "light_text_color": "#000000",
+                                    "link_color" : "#000000",
+                                    "link_ref": "https://podcasts.apple.com/us/podcast/n-091-imagine-as-hard-as-philip-k-dick-with-tobias-revell/id1546452193?i=1000663466919",
+                                    "link_text": "NFL Podcast Episode 091",
+                                    "category_text": "Listen More",
+                                    "title": "Speaking of PKD and Smart Appliances",
+                                    "subtitle": "Podcast Episode 091 — Tobias Revell & Sci-Fi Worldbuilding",
+                                    "main_copy": "To go along with the release of Towards the Realm of Materiality up there, I got on the horn with Tobias and we had a tidy little chat about the interminglings of science-fiction, design fiction and speculative design. Tobias, as you'll recall, is part of the foresight team there at Arup, the enormous AEC consulting firm, as well as a thought-leader within the futures-oriented design space. Fun!",
+                                    "font_family": "Space Mono",
+                                    "title_font_family": "FormaDJRVariable",
+                                    "title_font_size" : "18px",
+                                    "title_font_weight" : "bold",
+                                    "main_font_size" : "14px",
+                                    "main_line_height" : "19px",
+                                    "font_style": "bold",
+                                    "font_weight": "800",
+                                    "background_color": "#f0f0f0",
+                                    "border_width" : "3px",
+                                    "border_color" : "#000000",
+                                    "extra_box_style" : "" 
+                                }
+                            ]
+                        },
+                        "accessory-item-header-3": {
+                            "metadata": {
+                                "template_name" : "accessory-item-header.html",
+                                "background_color" : "#4EDFF9",
+                                "ordinal": ""
+                            },
+                            "elements" : [
+                                {
+                                    "title" : "Office Hours N°224",
+                                    "subtitle" : "Weekly Community Meets",
+                                    "font_family" : "FormaDJRVariable",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "background_color" : "#d6fff7",
+                                    "radius" : "1rem",
+                                    "border_width" : "1px",
+                                    "border_color" : "#000000",
+                                    "extra_box_style" : "box-shadow: 5px 5px"
+                                }
+                            ]
+                        },
+                        "accessory-item-3": {
+                            "metadata": {
+                                "template_name" : "accessory-item.html",
+                                "ordinal": ""
+                            },
+                            "elements": [
+                                {
+                                    "title" : "Weekly What's Bubbling in Your 🧠 Call",
+                                    "subtitle" : "RSVP",
+                                    "author" : "Julian",
+                                    "title_font_family" : "FormaDJRVariable",
+                                    "title_font_size" : "18px",
+                                    "font_family" : "Space Mono",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "font_size" : "14px",
+                                    "line_height" : "19px",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "image_url" : "https://nearfuturelaboratory.com/images/site/hq/OFFICE_HOURS_ART_SQUARE_600px.jpg",
+                                    "main_copy" : "Every Friday, like clockwork, for the last 224 weeks I've hosted Office Hours. A chance to unwind from the week, connect, share, and (perhaps like last week) get a fascinating tour of someone's quite curious childhood home.<br/>It's open. It's polite. It's easy going & casual. We tend to focus on creative practice, technology, culture, jobs, and stay away from politics and shittalking.",
+                                    "link_ref" : "https://lu.ma/xniox7w0",
+                                    "background_color" : "#d6fff7",
+                                    "radius" : "1rem",
+                                    "border_width" : "1px",
+                                    "border_color" : "#000000",
+                                    "extra_box_style" : "box-shadow: 5px 5px"
+                                }
+                            ]
+                        }
+                        
+                        
+                    }
