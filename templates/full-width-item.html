@@ -21,10 +21,14 @@
             <tbody>
               <tr>
                 <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-                  <p style="mso-line-height-rule: exactly; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }};font-weight: 600; color: #000000;margin: 0; padding: 0 0 15px 0; padding-bottom: 5px; font-family: '{{ item['font_family'] }}'; style:'{{ item['font_style'] }};">
-                    <a href="{{ item['link_ref']}}" style="text-decoration: underline;color:{{ item['text_color'] }} !important;">{{ item['title']}}</a></p>
-                  <p style="mso-line-height-rule: exactly; font-size: {{ item['font_size'] }}; font-family: '{{ item['font_family'] }}'; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height'] }};  font-weight: 400; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important;">{{ item['subtitle']}}</p>
-                  <p style="mso-line-height-rule: exactly; font-size: {{ item['font_size'] }}; font-family: '{{ item['font_family'] }}'; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height'] }}; font-weight: 400; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important; ">{{ item['main_copy'] }}<br><br>
+
+                  <span style="mso-line-height-rule: exactly; font-size: 22px; line-height: 22px;font-weight: bold; color: #000000;margin: 0; padding: 0 0 15px 0; padding-bottom: 5px; font-family: '{{ item['font_family'] }}'; style:'{{ item['font_style'] }};">
+                    <a href="{{ item['link_ref']}}" style="text-decoration: underline;color:{{ item['text_color'] }} !important;">{{ item['title']}}</a></span>
+                    <br/><br/>
+                  <p style="mso-line-height-rule: exactly; font-size: 20px; font-family: '{{ item['font_family'] }}'; font-style:{{ item['font_style'] }}; line-height: 22px;  font-weight: bold; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important;">{{ item['subtitle']}}</p>
+                  
+                  <span style="mso-line-height-rule: exactly; font-size: {{ item['font_size'] }}; font-family: '{{ item['font_family'] }}'; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height'] }}; font-weight: normal; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important; ">{{ item['main_copy'] }}</span>
+                  <br><br>
                     <a href="{{ item['link_ref'] }}" style="text-decoration: underline; color:{{ item['text_color' ]}} !important;">Read More</a> ⇒</p>
                 </td>
               </tr>

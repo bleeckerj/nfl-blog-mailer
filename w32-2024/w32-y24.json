@@ -1,0 +1,514 @@
+{
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#fdfdfd",
+                "title_font_family" : "FormaDJRVariable",
+                "font_family" : "Space Mono",
+                "font_style" : "italic",
+                "font_weight" : "bold",
+                "font_size" : "18px",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ Two New Books<br/>➫ Four Books & Free Shipping!<br/>➫ The Age of AI<br>➫ Detroit Imagines Harder<br/>➫ School of the Possible<br/>➫ Underconsumption Core<br/>",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 32 of 2024 at Near Future Laboratory, and a bunch of things happened.",
+                "view_online_url" : "https://nearfuturelaboratory.com/outbox/2024/w32-y24.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "It was the 32nd week of two thousand and twenty four and this won't be the last newsletter that's got lots of weird AI stuff. But it was also the week of a blog post that was inspired by two things: another diagram; and a dive into the discourse of metamodernism."
+            }]},
+
+            "full-width-item-header-0" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item-header.html",
+                                "ordinal" : 12
+                            },
+                            "elements" : [
+                                {
+                                    "header_text" : "Theory Blog",
+                                    "background_color" : "#FEFEFE",
+                                    "font_family" : "Space Mono",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "radius" : "0px",
+                                    "border_color" : "#FFFFFF",
+                                    "border_width" : "0px"
+                                    
+                                }
+                            ]
+                        },
+                        "full-width-item-0" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item.html",
+                                "ordinal" : 13
+                            },
+                            "elements" :  [
+                                {
+                                    "image_url" : "https://nearfuturelaboratory.com/images/blog/2024/08/fiction+facts=futures/FactsFictionsFutures_01_GRAY.webp",
+                                    "image_corner_radius" : "4px",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "link_ref" : "https://nearfuturelaboratory.com/blog/2024/08/fictionfactsfutures/",
+                                    "title" : "Wondering about Goals, Insights, Actions",
+                                    "subtitle" : "",
+                                    "main_copy" : "Design Fiction operates in the dynamic space between barely possibile and pragmatic reality, playfully messing with the tension between the <em>not true *yet</em> and what could be(come). Design Fiction seeks to materialize imagined possibilities into artifacts that help us sense into, challenge, and expand our current understanding of the world.<br/><br/>Rolling around the meaning of all this has been a pastime that sometimes feels useful, sometimes feels avoidant. But let's say it is useful for a moment and continue to wonder what the heck is going on when we create a quirky artifact from a possible future and it feels <em>full</em> of all kinds of potential: a thing that seems like a not-so-bad commercial idea (hey! start a company again!) at the same time it feels like an ironic quirk that one laughs at because it's so...silly (cf 'Aspect' below).<br/><br/>I've felt this tension clear up a bit while on a shallow dive into the Metamodern stream.<br/><br/>Oh so briefly: Metamodernism names and describes a cultural, intellectual, and artistic movement that is characterized by a dynamic interplay between sincerity and irony, optimism and skepticism, hope and doubt. There's plenty you can discover <a href='https://www.tandfonline.com/doi/full/10.3402/jac.v2i0.5677'>both as theory</a> and <a href='https://whatismetamodern.com/metamodernism-catalog/'>examples of what is metamodern</a>.<br/><br/>Theory mixes in the mind and fixes itself to whatever sense-making one might be doing at the moment, and at the moment I have been pondering ways of making Design Fiction make sense so as to make it work in the work that I happen to be working on.<br/><br/>I've learned that theory is not something one can hope to 'apply' as if it were a formula to solve a problem, but rather more like the tastes a gravy is able to augment, summons forth, and attach to flavors. In the context of what I'm wondering now, and as I read/listen/watch more on the Metamodern while also working on various DF projects, things come to mind that augment things that were barely legible such as that DF bridges the gap bewteen what is, what could and what should be/come. DF oscillates between the possible and the <em>not true *yet</em>, doing so to generate new ideas, provoke thought & discussion, and put one on the path to inspired action and innovation.<br/><br/>DF is not just things 'made up' or speculations — they are materialized probes and experiments. They are prototypes in the pragmatic 'engineering' sense of things.<br/><br/>(And I'll say it again, again: Design Fiction is not writing fiction about things. DF is an artifact that has come from a world, not a story about a world. There are other words for prose-based stories about worlds such as 'fiction', 'speculative fiction', 'science-fiction', etcetera. Why one would feel the need to rename these remarkable creative and well-established prose forms continues to elude me.)",
+                                    "font_family" : "Space Mono",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "font_size" : "18px",
+                                    "line_height" : "18px",
+                                    "background_color" : "#FAFAFA"
+                                }
+                        ]},
+                        "full-width-item-2" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item.html",
+                                "ordinal" : 13
+                            },
+                            "elements" :  [
+                                {
+                                    "image_url" : "https://nearfuturelaboratory.com/images/artifacts-from-futures/kohler-bold-moves-8080/kohler_2024-08-10_12-33-23.webp",
+                                    "image_corner_radius" : "4px",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "link_ref" : "https://nearfuturelaboratory.com/blog/2024/08/fictionfactsfutures/",
+                                    "title" : "Kohler Mark II",
+                                    "subtitle" : "The Bold Moves of Kohler",
+                                    "main_copy" : "",
+                                    "font_family" : "Space Mono",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "font_size" : "16px",
+                                    "line_height" : "18px",
+                                    "background_color" : "#FAFAFA"
+                                }
+                        ]},
+
+            "featured-special-2": {
+                        "metadata": {
+                            "template_name": "featured-special.html",
+                            "ordinal": ""
+                        },
+                        "elements": [
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/book-haul/2018/02/made-up-designs-fictions/made-up-designs-fictions_9066__1200px.webp",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://nearfuturelaboratory.com/library/2018/02/made-up-designs-fictions/",
+                                "link_text": "Contemporary analysis of speculation as an important part of practice today.",
+                                "category_text": "Book Haul",
+                                "title": "Made Up: Design's Fiction",
+                                "subtitle": "A new book in the library",
+                                "title_font_family": "FormaDJRVariable",
+                                "main_copy": "Essays, interviews, and narratives by Bruce Sterling, Fiona Raby, Julian Bleecker, Benjamin Bratton, Norman Klein and other significant voices in 'the field'.",
+                                "font_family": "Space Mono",
+                                "main_font_size" : "16px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "font_style": "normal",
+                                "font_weight": "normal",
+                                "background_color": "#f0f0f0",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            },
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/book-haul/2024/05/the-machine-as-seen-at-the-end-of-the-mechanical-age/gif/the-machine-as-seen.gif",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://nearfuturelaboratory.com/library/2024/05/the-machine-as-seen-at-the-end-of-the-mechanical-age/",
+                                "link_text": "The Machine as Seen at the End of the Mechanical Age",
+                                "category_text": "Book Haul",
+                                "title": "The Machine",
+                                "subtitle": "An exploration of the intersection between technology and art in the Western world",
+                                "title_font_family": "FormaDJRVariable",
+                                "main_copy": "Rather than offering a comprehensive historical account, this exhibition catalog from 1968 presents a collection of artist-based reflections on technological advancements, particularly noting the significant increase in such art+technology work during the 20th century.",
+                                "font_family": "Space Mono",
+                                "main_font_size" : "16px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "font_style": "normal",
+                                "font_weight": "normal",
+                                "background_color": "#f0f0f0",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            }
+                        ]
+                    }, 
+                    "accessory-item-header-3" : {
+                        "metadata" : {
+                            "template_name" : "accessory-item-header.html",
+                            "background_color" : "#CCCCC8",
+                            "ordinal" : 10
+                        },
+                        "elements" : [
+                            {
+                                "title" : "Free Shipping!",
+                                "subtitle" : "Haul Some Books!",
+                                "font_family" : "FormaDJRVariable",
+                                "font_style" : "normal",
+                                "font_weight" : "normal",
+                                "text_color" : "#000000",
+                                "light_text_color" : "#0f0f0f",
+                                "background_color" : "#9cedff",
+                                "radius" : "0.5rem",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px"
+                            }
+                        ]
+                    },
+                    "accessory-item-3" : {
+                        "metadata" : {
+                            "template_name" : "accessory-item.html",
+                            "ordinal" : 11
+                        },
+                        "elements" : [
+                            {
+                                "title" : "Four Book Design Fiction Set",
+                                "subtitle" : "All the books shipped free.",
+                                "author" : "Julian",
+                                "font_family" : "FormaDJRVariable",
+                                "font_style" : "normal",
+                                "font_weight" : "normal",
+                                "text_color" : "#000000",
+                                "light_text_color" : "#0f0f0f",
+                                "image_url" : "https://shop.nearfuturelaboratory.com/cdn/shop/files/DesignFiction_FourBooksAndCollectingCardsBox_02_070424_0847_NEBULA.jpg?v=1720108809&width=600",
+                                "main_copy" : "Speaking of Book Hauls, for a few days I'm shipping the Four Book Design Fiction set — which (btw) includes the awesome Electronic Sheep Training Cards — for nothing at all.<br><br>Includes The Manual (of course..) TBD Catalog (pairs nicely..), Imagine Harder, and Androids Dream!<br><br>Discount applied automagically!<br><br><span style='font-family: FormaDJRVariable; font-variation-settings: \"wght\" 500; '><a href='https://shop.nearfuturelaboratory.com/products/the-manual-of-design-fiction-paperback'>Get Your Freely Shipped Books</a></span>",
+                                "link_ref" : "https://shop.nearfuturelaboratory.com/products/the-manual-of-design-fiction-paperback",
+                                "background_color" : "#9cedff",
+                                "radius" : "0.5rem",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px;"
+                                
+                            }
+                        ]
+                    },
+"accessory-item-header-1" : {
+                    "metadata" : {
+                        "template_name" : "accessory-item-header.html",
+                        "background_color" : "#EDEDED",
+                        "ordinal" : 10
+                    },
+                    "elements" : [
+                        {
+                            "title" : "Seen in the Near Future Laboratory Discord",
+                            "subtitle" : "Not Your Usual Weak Signals 📡",
+                            "font_family" : "FormaDJRVariable",
+                            "font_style" : "normal",
+                            "font_weight" : "normal",
+                            "text_color" : "#000000",
+                            "light_text_color" : "#0f0f0f",
+                            "background_color" : "#F0F0F0",
+                            "radius" : "1rem",
+                            "border_width" : "0px",
+                            "border_color" : "#000000",
+                            "extra_box_style" : "padding-bottom: 15px;"
+                        }
+                    ]
+                }, 
+                "discord-callout-item-0": {
+                    "metadata": {
+                        "template_name": "discord-callout-item.html",
+                        "ordinal": ""
+                    },
+                    "elements" : [
+                        {
+                            "user_callout": "In the 🛠-whats-ai-good-for-anyway channel @Julian posted this",
+                            "font_family": "FormaDJRVariable",
+                            "font_style": "normal",
+                            "font_weight": "400",
+                            "text_color": "#000000",
+                            "background_color" : "#d5eea4",
+                            "light_text_color": "#0f0f0f",
+                            "link_ref": "https://www.newyorker.com/culture/open-questions/in-the-age-of-ai-what-makes-people-unique",
+                            "link_text": "In the Age of A.I., What Makes People Unique?",
+                            "title": "In the Age of A.I., What Makes People Unique?",
+                            "post_copy": "In a future where A.I. can compose heartfelt poetry and tackle complex tasks with ease, humanity grapples with an identity crisis, questioning its unique value in a digital world that seems increasingly capable of imitating emotions and intellect—one haircut conversation at a time."
+                        },
+                        {
+                            "user_callout": "In the 📝-general channel @bulldogandfisk posted this",
+                            "font_family": "FormaDJRVariable",
+                            "font_style": "normal",
+                            "font_weight": "400",
+                            "text_color": "#000000",
+                            "background_color" : "#fafafa",
+                            "light_text_color": "#0f0f0f",
+                            "link_ref": "https://www.youtube.com/watch?v=n1VcqmSceMw",
+                            "link_text": "What Successful Programmers Do That Others Don't: Dave Cutler",
+                            "title": "What Successful Programmers Do That Others Don't: Dave Cutler",
+                            "post_copy": "In a recent presentation on the channel Dave's Garage, renowned software engineer Dave Cutler discusses the distinguishing habits and practices of successful programmers. Cutler outlines key behaviors that set these individuals apart from their peers, emphasizing the importance of a proactive and disciplined approach to problem-solving and continuous learning. According to Cutler, successful programmers cultivate a mindset geared towards exploration and innovation, which allows them to adapt to the evolving challenges in technology."
+                        },
+                        {
+                            "user_callout": "In the 📃-articles-and-essays channel @(Kevin) SkepticalDesign posted this",
+                            "font_family": "FormaDJRVariable",
+                            "font_style": "normal",
+                            "font_weight": "400",
+                            "text_color": "#000000",
+                            "background_color" : "#d5eea4",
+                            "light_text_color": "#0f0f0f",
+                            "link_ref": "https://good.services/blog/88v68b4vmdzyl815xs65incq6ypau3",
+                            "link_text": "Can we end austerity-era service design?  — Good Services",
+                            "title": "Can we end austerity-era service design?  — Good Services",
+                            "post_copy": "As society grapples with the remnants of austerity, a beleaguered library emerges as the unlikely hero, transforming from musty book depository to vibrant hub of community support—and perhaps reminding us all what it means to require nothing at all."
+                        },
+                        {
+                            "user_callout": "In the 🔋-solarpunk-futures channel @futuretaryn posted this",
+                            "font_family": "FormaDJRVariable",
+                            "font_style": "normal",
+                            "font_weight": "400",
+                            "text_color": "#000000",
+                            "background_color" : "#fAfAfA",
+                            "light_text_color": "#0f0f0f",
+                            "link_ref": "https://www.plurality-university.org/projects/lentreprise-qui-vient",
+                            "link_text": "Futures of Corporations | Plurality University Network",
+                            "title": "Futures of Corporations | Plurality University Network",
+                            "post_copy": "The Plurality University Network launched the Emerging Enterprise project to address a gap in foresight concerning the future of corporations amid rapid changes in climate, technology, and recurring societal crises. From 2020 to 2022, the initiative engaged representatives from over 40 French businesses and one trade union, CFDT, along with academic researchers, to envision twelve fictional corporate models for the year 2050."
+                        },
+                        {
+                            "user_callout": "In the ∮-futures-futures channel @Julian posted this",
+                            "font_family": "FormaDJRVariable",
+                            "font_style": "normal",
+                            "font_weight": "400",
+                            "text_color": "#000000",
+                            "background_color" : "#d5eea4",
+                            "light_text_color": "#0f0f0f",
+                            "link_ref": "https://www.elgaronline.com/edcollbook/book/9781035301607/9781035301607.xml",
+                            "link_text": "Handbook of Futures Studies",
+                            "title": "Handbook of Futures Studies",
+                            "post_copy": "The Handbook of Futures Studies, edited by Roberto Poli, serves as a comprehensive resource exploring the burgeoning field of Futures Studies and its implications for decision-making in contemporary contexts. The Handbook delineates how engaging with futures thinking can enhance analytical and anticipatory skills for individuals and organizations alike, promoting better choices through heightened awareness of potential scenarios."
+                            },
+                            {
+                                "user_callout": "In the 🔐👮🏼-security channel @Julian posted this",
+                                "font_family": "FormaDJRVariable",
+                                "font_style": "normal",
+                                "font_weight": "400",
+                                "text_color": "#000000",
+                                "background_color" : "#fafafa",
+                                "light_text_color": "#0f0f0f",
+                                "link_ref": "https://www.lawfaremedia.org/article/the-crowdstrike-outage-and-market-driven-brittleness",
+                                "link_text": "The CrowdStrike Outage and Market-Driven Brittleness",
+                                "title": "The CrowdStrike Outage and Market-Driven Brittleness",
+                                "post_copy": "The recent outage caused by CrowdStrike, a mid-sized tech firm, highlights critical vulnerabilities within global internet infrastructure. This incident led to significant disruptions across various sectors, affecting airlines, hospitals, and financial institutions, ultimately resulting in nearly 7,000 flight cancellations and casualties to vital emergency services and media outlets. The incident underscores the intricate and interconnected nature of today’s digital landscape, where even minor software issues can have widespread repercussions."
+                    }
+                        
+                        ]
+                        },
+ 
+                        
+                        "full-width-item-header" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item-header.html",
+                                "ordinal" : 12
+                            },
+                            "elements" : [
+                                {
+                                    "header_text" : "Imagine Harder Summit",
+                                    "background_color" : "#FEFEFE",
+                                    "font_family" : "Space Mono",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "radius" : "0px",
+                                    "border_color" : "#FFFFFF",
+                                    "border_width" : "0px"
+                                    
+                                }
+                            ]
+                        },
+                        "full-width-item" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item.html",
+                                "ordinal" : 13
+                            },
+                            "elements" :  [
+                                {
+                                    "image_url" : "https://nearfuturelaboratory.com/images/projects/2023-image-harder-summit/CAM_A_23092023_FX30_102437_0013-topaz-denoise-enhance-2x-faceai-sharpen__1200px.jpg",
+                                    "image_corner_radius" : "4px",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "link_ref" : "https://detroit.imaginesharder.com",
+                                    "title" : "Detroit Imagines Harder",
+                                    "subtitle" : "Design Fiction Workshop / Summit / Film Festival",
+                                    "main_copy" : "Last fall I prototyped an event 👆🏽 that gathered about 24 people together just outside of Detroit at the Affleck House — a gorgeous Frank Lloyd Wright house.<br/><br/>We got together to wonder about the future of creative practices and imagine how we might evolve what design has become to better serve the goal of creating more habitable worlds — within academia, professional commercial work, and independent studio practices.<br/><br/>There was so much awesome energy and enthusiasm within the gathering that <a href='https://detroit.imaginesharder.com'>we're doing it again</a>, only bigger with more hands-on workshop activities, plenty of time for discussions, growing networks, building associations and collaborations.<br/><br/>Our topic: the future of work — or, more expansively: what are possible futures of organizing human creative potential. The workshop component will be a bit like the famous TBD Catalog Workshop where we looked into the future and described what we saw in the form of a product catalog.<br/><br/>This time we'll imagine the future of work — in the form of something like an 'employee handbook'. What are roles and responsibilities? Is 'employee' an archaic term in this future? How do we participate in the overall 'value creation' of the organization? Has what we today understand as a 'company' (which has its own rich history of evolution from previous forms of organizing human potential) now completely different in structure and meaning? It's a rich topic area and I can think of no better way to imagine into it than creating an artifact like this – and I want you to join us!",
+                                    "font_family" : "Space Mono",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "font_size" : "16px",
+                                    "line_height" : "18px",
+                                    "background_color" : "#FAFAFA"
+                                }
+                        ]},                        
+                        
+"accessory-item-header-0" : {
+    "metadata" : {
+        "template_name" : "accessory-item-header.html",
+        "background_color" : "#CCCCC8",
+        "ordinal" : 10
+    },
+    "elements" : [
+        {
+            "title" : "Social Media in the Era of AI",
+            "subtitle" : "",
+            "font_family" : "FormaDJRVariable",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "text_color" : "#000000",
+            "light_text_color" : "#0f0f0f",
+            "background_color" : "#CCCCC8",
+            "radius" : "1rem",
+            "border_width" : "3px",
+            "border_color" : "#000000",
+            "extra_box_style" : "box-shadow: 5px 5px"
+        }
+    ]
+},
+"accessory-item-0" : {
+    "metadata" : {
+        "template_name" : "accessory-item.html",
+        "ordinal" : 11
+    },
+    "elements" : [
+        {
+            "title" : "Every user other than you is AI",
+            "subtitle" : "",
+            "author" : "@pegaunisusicorn",
+            "font_family" : "FormaDJRVariable",
+            "font_style" : "normal",
+            "font_weight" : "normal",
+            "text_color" : "#000000",
+            "light_text_color" : "#0f0f0f",
+            "image_url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/e1/a0/fce1a0e3-f902-cbba-d941-08c73dbea42a/517415a5-337a-4d7e-94a6-c410a1f32cbb_1.png/314x0w.webp",
+            "main_copy" : "@pegaunisusicorn came across this weird app Aspect — a peculiar social media network(??) that consists solely of AI \"users\", with no real humans participating. I mean..except for you(?)<br/>Developed to address concerns about the prevalence of bots on traditional platforms, Aspect offers a simplified version of social media, where you engage exclusively with AI entities, which is another way of saying 'bot', I guess. It's got all of your familiar social media features like Instagram: you share photos and receive comments from AI-generated accounts. (Bots!) You can DM, and for your trouble you don't have to deal with normal humans.<br/>The app claims to enhance the user experience by eliminating the uncertainty of engaging with bots — you just know you're only engaging with bots. This may be for you if you feel like you get overlooked in conventional social media settings, as AI has the capacity to provide feedback without the delays associated with human engagement. They'll just like whatever you do like crazy.<br/>I almost feel professionally jealous of this little gizmo. It'd be a superlative piece of Design Fiction or a bit of software merch from an episode of \"Black Mirror.\" But, I think it's really real, which is different.",
+            "link_ref": "https://bgr.com/tech/in-this-bizarre-new-social-media-app-every-user-other-than-you-is-ai/",
+            "link_text": "",
+            "background_color" : "#CCCCC8",
+            "radius" : "1rem",
+            "border_width" : "3px",
+            "border_color" : "#000000",
+            "extra_box_style" : "box-shadow: 5px 5px"
+
+        }
+    ]
+},
+
+"featured-special-3": {
+                        "metadata": {
+                            "template_name": "featured-special.html",
+                            "ordinal": ""
+                        },
+                        "elements": [
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/podcast-images/nfl_podcast_s01e088_88.webp",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://podcasts.apple.com/us/podcast/n-088-dave-gray-school-of-the-possible/id1546452193?i=1000654887223",
+                                "link_text": "NFL Podcast Episode 088",
+                                "category_text": "Listen",
+                                "title": "A Chat With Friend of the Laboratory Dave Gray",
+                                "subtitle": "Dave Gray School of the Possible",
+                                "main_copy": "What if school was a place where we could test our theories by creating prototypes, proposals, and provocations; where experiments were encouraged, where people could play, practice, and prepare for life and work?",
+                                "font_family": "FormaDJRVariable",
+                                "title_font_family": "FormaDJRVariable",
+                                "title_font_weight" : "bold",
+                                "main_font_size" : "16px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "background_color": "#fafafa",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            }
+                        ]
+                    },
+                    
+            "box-item-header-0" : {
+                "metadata" : {
+                    "template_name" : "box-item-header.html",
+                    "ordinal" : 4
+                },
+                "elements" : [
+                    {
+                        "header_text" : "Work in the Era of AI",
+                        "background_color" : "#B6D9C6",
+                        "border_width" : "3px",
+                        "border_color" : "#000000",
+                        "radius" : "0.5rem"
+                    }
+                ]
+            },
+            "box-item-0": {
+            "metadata": {
+                "template_name": "box-item.html",
+                "ordinal": ""
+            },
+            "elements": [
+                {
+                    "image_url": "https://nearfuturelaboratory.com/images/site/hq/HQ_007_D_O_3x2_030922_2041.webp",
+                    "background_color": "#B6D9C6",
+                    "main_copy": "The podcast episode titled \"Being Human Now 6 - Work\" addresses the impact of artificial intelligence (AI) on the job market. While there is a prevalent narrative indicating that AI will inevitably replace many jobs, the discussion encourages a deeper examination of this claim. It suggests that beneath the rhetoric of automation lies a critical need for distinctly human skills that cannot be replicated by machines.",
+                    "font_family": "FormaDJRVariable",
+                    "font_style": "",
+                    "font_weight": "600",
+                    "link_ref": "https://podcasts.apple.com/us/podcast/spark/id263242885?i=1000664096391",
+                    "link_text": "Listen to Spark",
+                    "text_color": "#000000",
+                    "radius" : "0.5rem",
+                    "border_width" : "3px",
+                    "border_color" : "#000000"
+                }
+            ]
+            },
+"box-item-header-10" : {
+                    "metadata" : {
+                        "template_name" : "box-item-header.html",
+                        "ordinal" : 4
+                    },
+                    "elements" : [
+                        {
+                            "header_text" : "Tired of Influencers, TikTok Users Try ‘Underconsumption Core’ to Cut Costs",
+                            "background_color" : "#f6d24f",
+                            "border_width" : "3px",
+                            "border_color" : "#000000",
+                            "radius" : "0.5rem"
+                        }
+                    ]
+                },    
+"box-item-10": {
+                "metadata": {
+                    "template_name": "box-item.html",
+                    "ordinal": ""
+                },
+                "elements": [
+                    {
+                        "image_url": "https://static01.nyt.com/images/2024/07/18/multimedia/00xp-underconsumption-meghan-top/00xp-underconsumption-meghan-top-superJumbo.jpg?quality=75&auto=webp",
+                        "background_color": "#f6d24f",
+                        "main_copy": "In a marked shift from its previous role as a consumer-driven platform, TikTok now embraces the ‘Underconsumption Core’ movement, advocating for reduced consumption amid growing concerns over sustainability and mental well-being. This change reflects a broader societal reconsideration of consumerism's impact, as users increasingly seek to balance their digital engagement with more mindful practices.",
+                        "font_family": "FormaDJRVariable",
+                        "font_style": "",
+                        "font_weight": "600",
+                        "link_ref": "https://www.nytimes.com/2024/07/25/style/tiktok-underconsumption-influencers.html?unlocked_article_code=1._k0.ydM0.P7sg12L-xzu3&smid=url-share",
+                        "link_text": "Tired of Influencers, TikTok Users Try ‘Underconsumption Core’ to Cut Costs",
+                        "text_color": "#000000",
+                        "radius" : "0.5rem",
+                        "border_width" : "3px",
+                        "border_color" : "#000000"
+                    }
+                ]
+            }
+    }
