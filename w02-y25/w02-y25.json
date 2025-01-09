@@ -1,0 +1,199 @@
+{
+    "toc-head-item": {
+        "metadata": {
+            "template_name": "toc-head-item.html",
+            "ordinal": ""
+        },
+        "elements": [
+            {
+                "image_url" : "",
+                "background_color" : "#fdfdfd",
+                "title_font_family" : "FormaDJRVariable",
+                "font_family" : "Space Mono",
+                "font_style" : "italic",
+                "font_weight" : "bold",
+                "font_size" : "18px",
+                "link_ref" : "https://nearfuturelaboratory.com",
+                "main_toc_text" : "➫ A Tribute To Nicolas ♤<br/>➫ Future Feelings with Radha 🔉<br/>➫ Newspaper from An AI Future 🗞<br/>",
+                "text_color" : "#000000",
+                "light_text_color" : "#070707",
+                "short_title" : "It was Week 02 of 2025 at Near Future Laboratory, Nicolas Nova was a beautiful guy.",
+                "view_online_url" : "https://nearfuturelaboratory.com/outbox/2025/w02-y25.html",
+                "share_online_url" : "%FORWARD2FRIEND%",
+                "salutation" : "It was the 2nd week of two thousand and twenty five and it could've gone better. I miss him, and-also feel a vigorous energy to carry the good work forward in his name."
+            }]},
+
+            "full-width-item-header-0" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item-header.html",
+                                "ordinal" : 12
+                            },
+                            "elements" : [
+                                {
+                                    "header_text" : "Nicolas Nova (1977-2024)",
+                                    "background_color" : "#FEFEFE",
+                                    "font_family" : "Helvetica",
+                                    "font_size" : "24px",
+                                    "font_style" : "normal",
+                                    "font_weight" : "bold",
+                                    "radius" : "0px",
+                                    "border_color" : "#FFFFFF",
+                                    "border_width" : "0px"
+                                    
+                                }
+                            ]
+                        },
+                        "full-width-item-0" : {
+                            "metadata" : {
+                                "template_name" : "full-width-item.html",
+                                "ordinal" : 13
+                            },
+                            "elements" :  [
+                                {
+                                    "image_url" : "https://nearfuturelaboratory.com/images/blog/2025/01/JCB_27082019_002641_0430_SQ_600px.jpg",
+                                    "image_corner_radius" : "4px",
+                                    "text_color" : "#000000",
+                                    "light_text_color" : "#0f0f0f",
+                                    "link_ref" : "https://nearfuturelaboratory.com/blog/2025/01/nicolas-nova-1977-2024/",
+                                    "title" : "Nicolas Nova",
+                                    "title_font_size" : "30px",
+                                    "title_font_family" : "Helvetica",
+                                    "subtitle" : "",
+                                    "main_copy" : "Nicolas Nova was a gentle man in an era in which human interaction became less than gentle. He was one of my first and most consistent internet-era collaborators.<br/><br/> I remember quite clearly where I was standing when I first received an email message from him — it was at the first house I lived in in Venice Beach. I had an office room in the front of the house and a stand-up desk. It was early in the morning, probably winter as I remember there being a kind of twilight outside. In reflection, at that time, email was still a bit special and to get an email of substance from a stranger was like getting a letter in the mail from an IRL human.<br/><br/>Nicolas inquired to me, asking for permission(!) to ‘reblog’ a post I had put up on my site — I don’t recall if it was on Techkwondo or Near Future Laboratory’s little research blog which was on Drupal back in those days. (Near Future Laboratory was just a name for my website and not a multistory facility with hallway and technicians adjusting and configuring humming tesseracts). I don’t even recall specifically what the project was he wanted to ‘reblog’ — maybe something about an automator for the Playstation Controller I was building at the time as he was (persistently) curious about game controllers, had a massive collection of them in milk crates and such, and ended up creating this beautiful set of cards of silhouettes of game controllers, I think with Laurent Bolli in Lausanne.<br/><br/>And, of course he systematically categorized them into a thoughtful taxonomy. That’s just what he did. Regardless, I do remember feeling excited that something I had put on the network had reached the attention of someone sitting in Switzerland. As a strategem to delay the conclusion to our email conversation, I asked him simply what was it to ‘reblog’? With that, a brotherly, collegial, collaborative relationship began.<br/><br/>He came to visit in Los Angeles on at least two occasions that I can recall. The most memorable was when he took an apartment literally across the street from my house — or it may’ve been across the street from a previous house when we had moved two blocks over. In any case, it gave us ample opportunity to commune and punt around Venice and Los Angeles more generally. He was far more intrepid in his modes of transportation. He took the N°33 bus all the way from Venice Beach to Downtown Los Angeles and from there transfered to a tram to finish his crosstown adventure in Pasadena where he was in residence at Art Center College of Design, teaching a course of some description. (It was the course that led to the Curious Rituals project.)<br/><br/>Some might say this mass transit preference was the European in him, but I saw it more as the curious observer looking for patterns in the evolving behaviors and personalities that would board and disembark as he went across town. That would’ve been a multi-hour passage in the best of cases, as it would take an hour or more by the potentially more direct crossing by car.<br/><br/>Despite Nicolas’ bewilderingly untimely passing, I know Nicolas’ influence will continue in full-force amongst all of those he touched, and all of those who will continue to work and cite his influence. As a collaborator once told me ages ago — ‘credit is cheap’. Let’s continue to remember the way Nicolas’ work shaped our perspectives, ways of thinking, ways of knowing and dedicate our work to create more habitable, curious, and creative worlds as he was always doing.<br/><br/>Rest easy, my friend. Say hello to Sascha and Beatriz for me.",
+                                    "font_family" : "Helvetica",
+                                    "font_style" : "normal",
+                                    "font_weight" : "normal",
+                                    "font_size" : "18px",
+                                    "line_height" : "20px",
+                                    "background_color" : "#FAFAFA"
+                                }
+                        ]},
+
+            "featured-special-2": {
+                        "metadata": {
+                            "template_name": "featured-special.html",
+                            "ordinal": ""
+                        },
+                        "elements": [
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/book-haul/2024/12/beatriz-da-costa-undisciplinary-tactics/book/JCB_21122024_112033_7530.webp",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://nearfuturelaboratory.com/library/2024/12/beatriz-da-costa-undisciplinary-tactics/",
+                                "link_text": "Beatriz da Costa: Undisciplinary Tactics",
+                                "category_text": "Book Haul",
+                                "title": "Beatriz da Costa’s Artistic Legacy",
+                                "subtitle": "",
+                                "main_copy": "Beatriz was a trailblazer in the art+technology realm, putting the precepts of ‘tactical media’ to work with her environmental monitoring and public health awareness project Pigeon Blog and much more. I had the great good fortune to consider Beatriz a friend and inspiration. This book is a fitting tribute to her work and her spirit.",
+                                "font_family": "Monospace",
+                                "font_weight" : "normal",
+                                "title_font_family": "WarblerText",
+                                "title_font_weight" : "bold",
+                                "main_font_size" : "15px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "background_color": "#fafafa",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black"  
+                            }
+                        ]
+                    },                     
+"featured-special-3": {
+                        "metadata": {
+                            "template_name": "featured-special.html",
+                            "ordinal": ""
+                        },
+                        "elements": [
+                            {
+                                "image_url": "https://nearfuturelaboratory.com/images/talks/2025/01/future-feelings-episode-06/FF-EP6-IG-Carousel_1_600px.jpg",
+                                "img_border_radius" : "0px",
+                                "text_color": "#0f0f0f",
+                                "light_text_color": "#000000",
+                                "link_color" : "#000000",
+                                "link_ref": "https://podcasts.apple.com/us/podcast/06-future-feelings-with-radha-mistry-julian-bleeker/id1774063437?i=1000682986134",
+                                "link_text": "Future Feelings Episode 06",
+                                "category_text": "Listen",
+                                "title": "Radha Mistry's Podcast",
+                                "subtitle": "",
+                                "main_copy": "The producers over at Deem Journal asked me if I wanted to postpone the release of this episode in light of Nicolas' passing. While I can appreciate the reverance of somber reflection, I much prefer having it released in celebration of the inspiration and intrepid non-stop attitude Nicolas had and shared. Have a listen and be sure to subscribe to Future Feelings and share widely!",
+                                "font_family": "Monospace",
+                                "font_weight" : "normal",
+                                "title_font_family": "WarblerText",
+                                "title_font_weight" : "bold",
+                                "main_font_size" : "15px",
+                                "main_line_height" : "19px",
+                                "title_font_size" : "18px",
+                                "subtitle_font_size" : "18px",
+                                "background_color": "#fafafa",
+                                "border_width" : "3px",
+                                "border_color" : "#000000",
+                                "extra_box_style" : "box-shadow: 5px 5px black" 
+                            }
+                        ]
+                    },
+                    
+            "box-item-header-0" : {
+                "metadata" : {
+                    "template_name" : "box-item-header.html",
+                    "ordinal" : 4
+                },
+                "elements" : [
+                    {
+                        "header_text" : "Get Your Newspaper from An AI Future!",
+                        "background_color" : "#F0F0F0",
+                        "border_width" : "3px",
+                        "border_color" : "#000000",
+                        "radius" : "0.5rem"
+                    }
+                ]
+            },
+            "box-item-0": {
+            "metadata": {
+                "template_name": "box-item.html",
+                "ordinal": ""
+            },
+            "elements": [
+                {
+                    "image_url": "https://nearfuturelaboratory.com/images/projects/2024/newspaper-from-an-artificially-intelligent-future/newspaper-from-an-ai-future-2024.gif",
+                    "background_color": "#F0f0f0",
+                    "main_copy": "Applied Intelligence: ‘Tomorrow's News Today’ — a Design Fiction artifact I created in a two week sprint that imagines a world where artificial intelligence is mundane, woven seamlessly into the fabric of everyday life. This was created ahead of a workshop I led at the British Academy with a group of researchers, developers, entrepreneurs and policy leaders. It was a way to provoke discussion about the implications of AI in society, and to explore the potential of Design Fiction as a tool for thinking about the future. The newspaper is a collection of speculative news articles, advertisements, and classifieds that reflect the AI-driven world of 2025. It's a fun artifact that grounds many of the ideas we've been discussing in the studio, some software projects I'm working on and, more generally, the musings and ponderings as to the AI future that are not just about machines answering your questions. (P.S. Sascha Pohflepp is in here — a little easter egg nod to my old friend. See if you can find it.)",
+                    "font_family": "Monospace",
+                    "font_style": "",
+                    "font_weight": "600",
+                    "link_ref": "https://nearfuturelaboratory.com/projects/2024/newspaper-from-an-artificially-intelligent-future/",
+                    "link_text": "Get Your Copy (Limited Availability!)",
+                    "text_color": "#000000",
+                    "radius" : "0.5rem",
+                    "border_width" : "3px",
+                    "border_color" : "#000000"
+                }
+            ]
+            },
+            "full-width-item-2" : {
+                "metadata" : {
+                    "template_name" : "full-width-item.html",
+                    "ordinal" : 13
+                },
+                "elements" :  [
+                    {
+                        "image_url" : "https://nearfuturelaboratory.com/images/artifacts-from-futures/fluke-torque-8080-turing-clamp/fluke-torque-8080-turing-clamp-01.png",
+                        "image_corner_radius" : "4px",
+                        "text_color" : "#000000",
+                        "light_text_color" : "#0f0f0f",
+                        "link_ref" : "https://nearfuturelaboratory.com/library/2024/12/applied-intelligence-issue-001/",
+                        "title" : "Fluke Torque 8080 Turing Clamp",
+                        "subtitle" : "The Professional's Choice",
+                        "main_copy" : "",
+                        "font_family" : "Space Mono",
+                        "font_style" : "normal",
+                        "font_weight" : "normal",
+                        "font_size" : "16px",
+                        "line_height" : "19px",
+                        "background_color" : "#FAFAFA"
+                    }
+            ]}
+    }

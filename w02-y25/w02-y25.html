@@ -1,0 +1,597 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  
+  <!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG></o:AllowPNG>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gt mso 15]>
+<style type="text/css" media="all">
+  /* Outlook 2016 Height Fix */
+  table, tr, td {border-collapse: collapse;}
+  tr { font-size:0px; line-height:0px; border-collapse: collapse; }
+</style>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="date=no">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/formadjr/FormaDJRVariable[opsz,slnt,wdth,wght].woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/formadjr/FormaDJRVariable[opsz,slnt,wdth,wght].woff') format("woff");
+    font-family: 'FormaDJRVariable';
+    font-style: bold;
+    font-variation-settings: "wght" 600;
+  }
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/formadjr/FormaDJRVariable[opsz,slnt,wdth,wght].woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/formadjr/FormaDJRVariable[opsz,slnt,wdth,wght].woff') format("woff");
+    font-family: 'FormaDJRVariable';
+    font-style: normal;
+    font-variation-settings: "wght" 400;
+  }
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Regular.woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Regular.woff') format("woff");
+    font-family: 'WarblerText';
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+  src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Italic.woff2') format("woff2"),
+       url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Italic.woff') format("woff");
+  font-family: 'WarblerText';
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Bold.woff2') format("woff2"),
+       url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Bold.woff') format("woff");
+  font-family: 'WarblerText';
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-BoldItalic.woff2') format("woff2"),
+       url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-BoldItalic.woff') format("woff");
+  font-family: 'WarblerText';
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('https://nearfuturelaboratory.com//fonts/roslindale/RoslindaleVariable[opsz,slnt,wdth,wght].woff2') format("woff2"),
+       url('https://nearfuturelaboratory.com//fonts/roslindale/RoslindaleVariable[opsz,slnt,wdth,wght].woff') format("woff");
+  font-family: 'RoslindaleVariable';
+}
+  
+</style>
+<style media="screen" type="text/css">
+  @media screen and (max-width:599px) {
+    .force-row,
+    .container,
+    .body,
+    .footer {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    table {
+    width: 100% !important;
+    max-width: 100% !important;
+    }
+    .header {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+    .padl20 {
+      padding-left: 12px !important
+    }
+    .padr20 {
+      padding-right: 12px !important
+    }
+    .padl10 {
+      padding-left: 12px !important
+    }
+    .padr10 {
+      padding-right: 12px !important
+    }
+    .padt20 {
+      padding-top: 12px !important
+    }
+    .mobt0 {
+      padding-top: 0 !important
+    }
+    .mobb15 {
+      margin-bottom: 15px !important
+    }
+    .headline {
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+    }
+    .large,
+    h1 {
+      font-size: 19px !important;
+      line-height: 27px !important;
+    }
+    .spacer {
+      padding-top: 15px !important;
+    }
+    .browser {
+      display: none !important;
+    }
+    .align-left {
+      text-align: left
+    }
+    a.h1byline {
+      line-height: 12px !important;
+      padding-top: 8px;
+      font-size: 10px !important;
+    }
+    .rounded-box {
+      border-radius: 0.5rem !important;
+    }
+  }
+</style>
+
+<!--[if mso]>
+<style type="text/css">
+  body, table, td, h1, h2, h3, p {font-family: Arial, sans-serif !important;}
+</style>
+<![endif]-->
+<style media="screen" type="text/css">
+  .ios-footer a {
+    color: #aaaaaa !important;
+    text-decoration: underline;
+  }
+  .yshortcuts a {
+    border-bottom: none !important;
+  }
+  .ExternalClass {
+    width: 100%;
+  }
+  .ExternalClass,
+  .ExternalClass p,
+  .ExternalClass span,
+  .ExternalClass font,
+  .ExternalClass td,
+  .ExternalClass div {
+    line-height: 100%;
+  }
+  .ReadMsgBody {
+    width: 100%;
+    background-color: #ebebeb;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+  a[href^="x-apple-data-detectors:"],
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+<style>
+  /* CSS HEX */
+  
+  :root {
+    --orange-color: #FFA500;
+    --aquamarine: #77F2B4;
+    --amethyst: #9b5de5ff;
+    --lavender-pink: #F7B7D7;
+    --maize: #fee440ff;
+    --timberwolf: #CCCCC8;
+    --celadon: #B6D9C6;
+    --brightblue: #95defe;
+    --straw: #F7F49C;
+  }
+</style>
+</head>
+<body  style="margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  
+  <!-- HEADER -->
+
+      
+      <!-- BODY -->
+      <table border="0" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+        <tbody>            
+            <tr>
+              <td align="center" style="padding-left: 10px; padding-right: 10px; background-color: #FFFFFF;border-collapse: collapse;" valign="top">
+                
+                <!-- 660px container (white background) -->
+                <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 660px;max-width: 660px;">
+                  <tbody>
+                    <!-- end top.html --><!-- INTRO Start --><!-- start toc-head-item_1 -->
+
+<tr>
+  <td align="center" style="background-color: #fdfdfd;border-collapse: collapse;" valign="top">      
+    <!-- start subject-line.html -->
+      <!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="50%" valign="top"><![endif]-->
+      <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="320">
+        <tbody>
+          <tr>
+            <td class="padt15 padr10 padl20" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
+              <p style="font-family: 'FormaDJRVariable'; mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: normal;color: #000000;margin: 0;padding: 0;">
+                It was Week 02 of 2025 at Near Future Laboratory, Nicolas Nova was a beautiful guy.
+              </p>
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--[if mso]></td><td width="50%" valign="top" class="browser"><![endif]-->
+      <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row browser" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;text-align: right;" width="320">
+        <tbody>
+          <tr>
+            <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+              <p class="small grey" style="font-family: 'Space Mono';font-size: 15px;line-height: normal;font-weight: 400;color: #000000 !important;padding: 0;margin: 0;margin-bottom: 15px;">
+                <a style="text-decoration: none;" href="https://nearfuturelaboratory.com/outbox/2025/w02-y25.html">View web version</a> →</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--[if mso]></td></tr></table><![endif]-->
+    </td>
+  </tr>
+  <!-- end subject-line.html -->
+  <tr>
+    <td align="left" class="padt20 padl20 padr20 padb10" style="background-color: #fdfdfd; border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;">
+      <p class="large" style="font-family: 'FormaDJRVariable';font-size: 21px;line-height: normal;font-weight: 400;color:#000000;padding: 0;margin: 0;margin-bottom: 15px;">
+➫ A Tribute To Nicolas ♤<br/>➫ Future Feelings with Radha 🔉<br/>➫ Newspaper from An AI Future 🗞<br/>
+      </p>
+      <!-- start salutation -->
+      <span class="small grey padt20" style="font-family: 'Space Mono'; font-size: 18px; line-height: normal; font-weight: normal; color: #000000 !important;padding: 0;margin: 0;margin-bottom: 15px;padding-top: 20px;">It was the 2nd week of two thousand and twenty five and it could've gone better. I miss him, and-also feel a vigorous energy to carry the good work forward in his name.</span>
+        <!-- end salutation -->
+    </td>
+  </tr>
+  <!-- INTRO End --><!-- end toc-head-item.html -->    <!-- start full-width-item-header.html-->
+    <!-- mayday mayday mayday -->
+    <!-- <table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+      <tbody> -->
+        <tr>
+          <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+        </tr>
+               <tr>
+                <td align="center" class="headline" style="background-color: #FEFEFE; border-collapse: collapse; border-left: 0px solid #FFFFFF; border-right: 0px solid #FFFFFF;  border-top: 0px solid #FFFFFF; border-top-left-radius: 0px; border-top-right-radius: 0px; ; padding-top: 15px;padding-right: 0px; padding-left: 0px ;padding-bottom: 15px;">
+                  <span style="mso-line-height-rule: exactly; font-size: 24px; font-family: 'Helvetica'; font-style: normal; font-weight: bold; line-height: normal; color: #000000; margin: 0; padding: 0;">Nicolas Nova (1977-2024)</span>
+                </td>
+              </tr>
+              <!-- </tbody>
+              </table> -->
+    <!-- end full-width-item-header.html --><!-- start full-width-item.html-->
+<tr style="border-left:  solid ; border-right:  solid ;  border-top:  solid ; border-top-left-radius: ; border-top-right-radius: ;;">
+    <td style="background:#FAFAFA; ">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600px">
+            <tbody>
+              <tr>
+                <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+                  <p style="font-family: 'Helvetica'; font-size: '30px';  line-height: 20px; font-weight: 400; color: #000000;padding: 0; margin: 0; margin-bottom: 15px;">
+                    <a href="https://nearfuturelaboratory.com/blog/2025/01/nicolas-nova-1977-2024/"><img src="https://nearfuturelaboratory.com/images/blog/2025/01/JCB_27082019_002641_0430_SQ_600px.jpg" alt="⊂(◉‿◉)つ" width="600px" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px; max-width: 600px; width: 100%; border-radius: 4px;"></a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </td>
+    </tr>
+    <tr>
+      <td style="background:#FAFAFA; border-bottom-left-radius: 0.8rem; border-bottom-right-radius: 0.8rem;">
+        <!--[if mso]></td><td width="100%" valign="top"><![endif]-->
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="600">
+            <tbody>
+              <tr>
+                <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
+
+                  <span style="mso-line-height-rule: exactly; font-size: 18px; line-height: 20px; font-weight: bold; color: #000000;margin: 0; padding: 0 0 15px 0; padding-bottom: 5px; font-family: 'Helvetica';">
+                    <a href="https://nearfuturelaboratory.com/blog/2025/01/nicolas-nova-1977-2024/" style="text-decoration: underline;color:#000000 !important;">Nicolas Nova</a></span>
+                    <br/>
+                  <p style="mso-line-height-rule: exactly; font-size: 18px;  font-family: 'Helvetica'; font-style:normal; line-height: 20px;  font-weight: bold; margin: 0; padding: 0 0 5px 0; color: #0f0f0f !important;"></p>
+                  
+                  <span style="mso-line-height-rule: exactly; font-size: 18px; font-family: 'Helvetica'; font-style:normal; line-height: 20px; font-weight: normal; margin: 0; padding: 0 0 5px 0; color: #0f0f0f !important; ">Nicolas Nova was a gentle man in an era in which human interaction became less than gentle. He was one of my first and most consistent internet-era collaborators.<br/><br/> I remember quite clearly where I was standing when I first received an email message from him — it was at the first house I lived in in Venice Beach. I had an office room in the front of the house and a stand-up desk. It was early in the morning, probably winter as I remember there being a kind of twilight outside. In reflection, at that time, email was still a bit special and to get an email of substance from a stranger was like getting a letter in the mail from an IRL human.<br/><br/>Nicolas inquired to me, asking for permission(!) to ‘reblog’ a post I had put up on my site — I don’t recall if it was on Techkwondo or Near Future Laboratory’s little research blog which was on Drupal back in those days. (Near Future Laboratory was just a name for my website and not a multistory facility with hallway and technicians adjusting and configuring humming tesseracts). I don’t even recall specifically what the project was he wanted to ‘reblog’ — maybe something about an automator for the Playstation Controller I was building at the time as he was (persistently) curious about game controllers, had a massive collection of them in milk crates and such, and ended up creating this beautiful set of cards of silhouettes of game controllers, I think with Laurent Bolli in Lausanne.<br/><br/>And, of course he systematically categorized them into a thoughtful taxonomy. That’s just what he did. Regardless, I do remember feeling excited that something I had put on the network had reached the attention of someone sitting in Switzerland. As a strategem to delay the conclusion to our email conversation, I asked him simply what was it to ‘reblog’? With that, a brotherly, collegial, collaborative relationship began.<br/><br/>He came to visit in Los Angeles on at least two occasions that I can recall. The most memorable was when he took an apartment literally across the street from my house — or it may’ve been across the street from a previous house when we had moved two blocks over. In any case, it gave us ample opportunity to commune and punt around Venice and Los Angeles more generally. He was far more intrepid in his modes of transportation. He took the N°33 bus all the way from Venice Beach to Downtown Los Angeles and from there transfered to a tram to finish his crosstown adventure in Pasadena where he was in residence at Art Center College of Design, teaching a course of some description. (It was the course that led to the Curious Rituals project.)<br/><br/>Some might say this mass transit preference was the European in him, but I saw it more as the curious observer looking for patterns in the evolving behaviors and personalities that would board and disembark as he went across town. That would’ve been a multi-hour passage in the best of cases, as it would take an hour or more by the potentially more direct crossing by car.<br/><br/>Despite Nicolas’ bewilderingly untimely passing, I know Nicolas’ influence will continue in full-force amongst all of those he touched, and all of those who will continue to work and cite his influence. As a collaborator once told me ages ago — ‘credit is cheap’. Let’s continue to remember the way Nicolas’ work shaped our perspectives, ways of thinking, ways of knowing and dedicate our work to create more habitable, curious, and creative worlds as he was always doing.<br/><br/>Rest easy, my friend. Say hello to Sascha and Beatriz for me.</span>
+                  <br><br>
+                    <a href="https://nearfuturelaboratory.com/blog/2025/01/nicolas-nova-1977-2024/" style="text-decoration: underline; color:#000000 !important;">Read More</a> ⇒</p>
+                </td>
+              </tr>
+              </tbody>
+              </table>
+        
+    </td>
+</tr>
+<!-- end full-width-item.html-->                <!-- start featured-special.html-->
+                <tr>
+                  <td class="spacer" style="border-collapse: collapse; font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+                </tr>
+                <tr>
+                  <td align="left" style=" border-collapse: collapse;border-left:3px solid #000000; border-right: 3px solid #000000; border-top: 3px solid #000000; padding-top: 15px; padding-right: 20px; padding-left: 20px; padding-bottom: 15px; background-color:#fafafa; box-shadow: 5px 5px black">
+                    <p style="mso-line-height-rule: exactly; font-family: 'WarblerText'; font-size: 18px; font-weight: bold; line-height: normal; margin: 0;padding: 0;">
+                      <a href="https://nearfuturelaboratory.com/library/2024/12/beatriz-da-costa-undisciplinary-tactics/" style="text-decoration: none; display: inline-block; color:#000000">Beatriz da Costa’s Artistic Legacy</a>
+                      <a href="https://nearfuturelaboratory.com/library/2024/12/beatriz-da-costa-undisciplinary-tactics/" style="text-decoration: none;display: inline-block; font-size: 12px;line-height: 25px; font-weight: 400; float: right;color: #000000 !important;">Book Haul</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left"  style="border: 3px #000000 solid; border-collapse: collapse;background-color: #fafafa; box-shadow: 5px 5px black">
+
+                    <!--[if mso]>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td width="35%" valign="top"><![endif]-->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
+                      <tbody>
+                        <tr>
+                          <td class="padt20 padr10 padl20 padb5" style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-bottom: 5px;padding-left: 20px;" valign="top">
+                            <p style="padding: 0;margin: 0;margin-bottom: 15px;">
+                              <a href='https://nearfuturelaboratory.com/library/2024/12/beatriz-da-costa-undisciplinary-tactics/'><img src="https://nearfuturelaboratory.com/images/book-haul/2024/12/beatriz-da-costa-undisciplinary-tactics/book/JCB_21122024_112033_7530.webp" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%; border-radius: 0px;"></a>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td><td width="65%" valign="top"><![endif]-->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="360">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-bottom: 5px;padding-left: 10px;" valign="top">
+                            <p style="mso-line-height-rule: exactly; font-family: 'WarblerText'; font-size: 18px; line-height: 19px; font-weight: bold; color: #0f0f0f; margin: 0;padding: 0 0 15px 0;">
+                              <a href="https://nearfuturelaboratory.com/library/2024/12/beatriz-da-costa-undisciplinary-tactics/" style="text-decoration: underline; color: #0f0f0f !important;">Beatriz da Costa: Undisciplinary Tactics</a> →</p>
+                            <p style="mso-line-height-rule: exactly; font-size: 18px; line-height: normal; font-weight: bold; margin: 0;padding: 0 0 10px 0; color: #000000 !important;"></p>
+                            <p style="font-family: 'Monospace'; font-size: 15px; line-height: 19px; font-weight: normal; color:#0f0f0f;padding: 0; margin: 0; margin-bottom: 15px;">Beatriz was a trailblazer in the art+technology realm, putting the precepts of ‘tactical media’ to work with her environmental monitoring and public health awareness project Pigeon Blog and much more. I had the great good fortune to consider Beatriz a friend and inspiration. This book is a fitting tribute to her work and her spirit. 
+                              </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td></tr></table><![endif]-->
+                  </td>
+                </tr>
+                <!-- end featured-special.html-->                <!-- start featured-special.html-->
+                <tr>
+                  <td class="spacer" style="border-collapse: collapse; font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+                </tr>
+                <tr>
+                  <td align="left" style=" border-collapse: collapse;border-left:3px solid #000000; border-right: 3px solid #000000; border-top: 3px solid #000000; padding-top: 15px; padding-right: 20px; padding-left: 20px; padding-bottom: 15px; background-color:#fafafa; box-shadow: 5px 5px black">
+                    <p style="mso-line-height-rule: exactly; font-family: 'WarblerText'; font-size: 18px; font-weight: bold; line-height: normal; margin: 0;padding: 0;">
+                      <a href="https://podcasts.apple.com/us/podcast/06-future-feelings-with-radha-mistry-julian-bleeker/id1774063437?i=1000682986134" style="text-decoration: none; display: inline-block; color:#000000">Radha Mistry's Podcast</a>
+                      <a href="https://podcasts.apple.com/us/podcast/06-future-feelings-with-radha-mistry-julian-bleeker/id1774063437?i=1000682986134" style="text-decoration: none;display: inline-block; font-size: 12px;line-height: 25px; font-weight: 400; float: right;color: #000000 !important;">Listen</a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left"  style="border: 3px #000000 solid; border-collapse: collapse;background-color: #fafafa; box-shadow: 5px 5px black">
+
+                    <!--[if mso]>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td width="35%" valign="top"><![endif]-->
+                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
+                      <tbody>
+                        <tr>
+                          <td class="padt20 padr10 padl20 padb5" style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-bottom: 5px;padding-left: 20px;" valign="top">
+                            <p style="padding: 0;margin: 0;margin-bottom: 15px;">
+                              <a href='https://podcasts.apple.com/us/podcast/06-future-feelings-with-radha-mistry-julian-bleeker/id1774063437?i=1000682986134'><img src="https://nearfuturelaboratory.com/images/talks/2025/01/future-feelings-episode-06/FF-EP6-IG-Carousel_1_600px.jpg" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%; border-radius: 0px;"></a>
+                            </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td><td width="65%" valign="top"><![endif]-->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="360">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-bottom: 5px;padding-left: 10px;" valign="top">
+                            <p style="mso-line-height-rule: exactly; font-family: 'WarblerText'; font-size: 18px; line-height: 19px; font-weight: bold; color: #0f0f0f; margin: 0;padding: 0 0 15px 0;">
+                              <a href="https://podcasts.apple.com/us/podcast/06-future-feelings-with-radha-mistry-julian-bleeker/id1774063437?i=1000682986134" style="text-decoration: underline; color: #0f0f0f !important;">Future Feelings Episode 06</a> →</p>
+                            <p style="mso-line-height-rule: exactly; font-size: 18px; line-height: normal; font-weight: bold; margin: 0;padding: 0 0 10px 0; color: #000000 !important;"></p>
+                            <p style="font-family: 'Monospace'; font-size: 15px; line-height: 19px; font-weight: normal; color:#0f0f0f;padding: 0; margin: 0; margin-bottom: 15px;">The producers over at Deem Journal asked me if I wanted to postpone the release of this episode in light of Nicolas' passing. While I can appreciate the reverance of somber reflection, I much prefer having it released in celebration of the inspiration and intrepid non-stop attitude Nicolas had and shared. Have a listen and be sure to subscribe to Future Feelings and share widely! 
+                              </p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td></tr></table><![endif]-->
+                  </td>
+                </tr>
+                <!-- end featured-special.html-->               <!-- start box-item-header.html-->
+               <tr>
+                <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+              </tr>
+               <tr>
+                <td align="left" class="headline" style="border-left:3px solid ; border-right: 3px solid #000000; border-top: 3px solid #000000; background-color: #F0F0F0;border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 20px;padding-bottom: 0px;border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem;">
+                  <p style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin: 0;padding: 0;">Get Your Newspaper from An AI Future!</p>
+                </td>
+              </tr>
+              <!-- end start-item-header.html -->               <!-- start box-item.html -->
+              <tr>
+                <td align="left" style="border-left:3px solid ; border-right: 3px solid #000000; border-bottom: 3px solid #000000;background-color: #F0f0f0;border-collapse: collapse; border-bottom-left-radius: 0.5rem; border-bottom-right-radius: 0.5rem;">
+
+                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
+                    <tbody>
+                      <tr>
+                        <td class="padt20 padr10 padl20" style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-left: 20px; padding-bottom: 20px;" valign="top">
+                          <p class="marb0" style="font-family: 'Monospace'; font-style: ; font-color: #000000; font-size: 16px;line-height: 23px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 0;">
+                            <a href="https://nearfuturelaboratory.com/projects/2024/newspaper-from-an-artificially-intelligent-future/"><img src="https://nearfuturelaboratory.com/images/projects/2024/newspaper-from-an-artificially-intelligent-future/newspaper-from-an-ai-future-2024.gif" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%;"></a>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                
+                  <!--[if mso]></td><td width="35%" valign="top"><![endif]-->
+                  <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
+                    <tbody>
+                      <tr>
+                        <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 10px;" valign="top">
+                          <p style="font-family: 'Monospace'; font-style: ; font-color: #000000; font-size: 15px;line-height: 18px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 15px;">
+                            Applied Intelligence: ‘Tomorrow's News Today’ — a Design Fiction artifact I created in a two week sprint that imagines a world where artificial intelligence is mundane, woven seamlessly into the fabric of everyday life. This was created ahead of a workshop I led at the British Academy with a group of researchers, developers, entrepreneurs and policy leaders. It was a way to provoke discussion about the implications of AI in society, and to explore the potential of Design Fiction as a tool for thinking about the future. The newspaper is a collection of speculative news articles, advertisements, and classifieds that reflect the AI-driven world of 2025. It's a fun artifact that grounds many of the ideas we've been discussing in the studio, some software projects I'm working on and, more generally, the musings and ponderings as to the AI future that are not just about machines answering your questions. (P.S. Sascha Pohflepp is in here — a little easter egg nod to my old friend. See if you can find it.)
+                            <br><br>
+                    <a href="https://nearfuturelaboratory.com/projects/2024/newspaper-from-an-artificially-intelligent-future/" style="text-decoration: underline;color:#000000 !important;">Get Your Copy (Limited Availability!)</a>⇨</p>
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!--[if mso]></td></tr></table><![endif]-->
+                </td>
+              </tr>
+              <!-- end box-item.html --><!-- start full-width-item.html-->
+<tr style="border-left:  solid ; border-right:  solid ;  border-top:  solid ; border-top-left-radius: ; border-top-right-radius: ;;">
+    <td style="background:#FAFAFA; ">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600px">
+            <tbody>
+              <tr>
+                <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+                  <p style="font-family: ''; font-size: '';  line-height: 19px; font-weight: 400; color: #000000;padding: 0; margin: 0; margin-bottom: 15px;">
+                    <a href="https://nearfuturelaboratory.com/library/2024/12/applied-intelligence-issue-001/"><img src="https://nearfuturelaboratory.com/images/artifacts-from-futures/fluke-torque-8080-turing-clamp/fluke-torque-8080-turing-clamp-01.png" alt="⊂(◉‿◉)つ" width="600px" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px; max-width: 600px; width: 100%; border-radius: 4px;"></a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </td>
+    </tr>
+    <tr>
+      <td style="background:#FAFAFA; border-bottom-left-radius: 0.8rem; border-bottom-right-radius: 0.8rem;">
+        <!--[if mso]></td><td width="100%" valign="top"><![endif]-->
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="600">
+            <tbody>
+              <tr>
+                <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
+
+                  <span style="mso-line-height-rule: exactly; font-size: 16px; line-height: 19px; font-weight: bold; color: #000000;margin: 0; padding: 0 0 15px 0; padding-bottom: 5px; font-family: 'Space Mono';">
+                    <a href="https://nearfuturelaboratory.com/library/2024/12/applied-intelligence-issue-001/" style="text-decoration: underline;color:#000000 !important;">Fluke Torque 8080 Turing Clamp</a></span>
+                    <br/>
+                  <p style="mso-line-height-rule: exactly; font-size: 16px;  font-family: 'Space Mono'; font-style:normal; line-height: 19px;  font-weight: bold; margin: 0; padding: 0 0 5px 0; color: #0f0f0f !important;">The Professional's Choice</p>
+                  
+                  <span style="mso-line-height-rule: exactly; font-size: 16px; font-family: 'Space Mono'; font-style:normal; line-height: 19px; font-weight: normal; margin: 0; padding: 0 0 5px 0; color: #0f0f0f !important; "></span>
+                  <br><br>
+                    <a href="https://nearfuturelaboratory.com/library/2024/12/applied-intelligence-issue-001/" style="text-decoration: underline; color:#000000 !important;">Read More</a> ⇒</p>
+                </td>
+              </tr>
+              </tbody>
+              </table>
+        
+    </td>
+</tr>
+<!-- end full-width-item.html--><!-- FOOTER 2 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto; text-align: center;">
+  <tr>
+    <td style="text-align: center; padding-bottom: 12px; padding-top: 24px;">
+      <img alt="Near Future Laboratory" src="https://nearfuturelaboratory.com/images/site/NFL_LOGO__NFL_BLUEISH_200px.png" style="margin: 0 auto; display: block; max-width: 100%; height: auto; -ms-interpolation-mode: bicubic;" width="auto" height="auto">
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: #F8F8F8; border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+  <tbody>
+    <tr>
+      <td align="center" style="background-color: #f8f8f8;border-collapse: collapse;" valign="top">
+
+        <!-- 600px container -->
+        <table border="0" cellpadding="0" cellspacing="0" class="footer" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt; width: 600px; max-width: 600px;">
+          <tbody>
+            <tr>
+              <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+            </tr>
+            <tr>
+              <td align="left" style="border-collapse: collapse;">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 20px; padding-bottom: 10px;" valign="top">
+                        <p style="mso-line-height-rule: exactly;font-family: FormaDJRVariable;font-variation-settings: 'wght' 400; font-size: 20px;line-height: 20px;color: #000000;margin: 0;padding: 0;padding-bottom: 0px;">Colophon</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 0px;padding-right: 20px;padding-left: 20px;" valign="top">
+                        <!-- <h1 class="padb15" style="mso-line-height-rule: exactly;font-family: FormaDJRVariable; font-size: 24px;font-style: normal;line-height: 23px;color: #000000;margin: 0;padding: 0;padding-bottom: 15px;">Amplify This</h1> -->
+                        <p class="share" style="font-size: 9px;line-height: 20px;font-weight: 400;color: #000000;padding: 15px 5px;margin: 0;margin-bottom: 15px;border-radius: 6px; border: 1px #5f5f5f;background: #f0f0f0;text-align: center;">
+                          <a href="https://nearfuturelaboratory.com/outbox/issues/2025/w02-y25.html" style="text-decoration: underline;color: #000000 !important;"><b style="font-size: 18px; font-weight: 400;">nearfuturelaboratory.com/outbox/issues/2025/w02-y25.html</b></a>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 20px; padding-bottom: 10px;" valign="top">
+                        <!-- <p style="mso-line-height-rule: exactly;font-family: FormaDJRVariable;font-variation-settings: 'wght' 300; font-size: 14px;line-height: 14px;color: #000000;margin: 0;padding: 0;padding-bottom: 0px;">With Gratitude to Kai Brach who has been running the newsletter <a href="https://densediscovery.com">Dense Discovery</a> for ages and who is a <a href="https://densediscovery.com/notes/behind-the-scenes/">DIY hero of mine</a>. This email template — another one in my process of 'prototyping in public' — is completely based on his template design, done in the spirit of building and refining to personal taste. Who knows what will come in the next newsletter; I sure don't know. Getting off the Silicon Stacks as much as possible feels right.</p> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 20px;padding-bottom: 5px;" valign="top">
+                        <p style="font-family: 'FormaDJRVariable'; font-variation-settings: 'wght' 600; font-size: 14px;line-height: 19px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">Our hypothesis is that Imagination is our evolutionary advantage.</p>
+                        <p style="font-size: 14px;line-height: 19px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px; font-family: 'FormaDJRVariable'; font-variation-settings: 'wght' 400;">Our global headquarters is located in a small backyard studio in Venice Beach, California, and our community is geographically distributed and centered online, at the moment, in the Near Future Laboratory Discord, which you can join by becoming a paying subscriber on <a href="https://patreon.com/nearfuturelaboratory"style="text-decoration: underline;font-size: 14px;line-height: 19px;color: #000000 !important;">Patreon</a> or <a href="https://nearfuturelaboratory.substack.com/" style="text-decoration: underline;font-size: 14px;line-height: 19px;color: #000000 !important;">Substack</a>.</p>
+                        <p style="font-family: 'FormaDJRVariable'; font-variation-settings: 'wght' 500;font-size: 14px;line-height: 19px;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">Get in touch. Take a look at <a href="https://nearfuturelaboratory.com/services">our services</a> or <a href="https://nearfuturelaboratory.com/contact" style="text-decoration: underline;color: #000000 !important;">contact me</a> to arrange a time to have a call and discuss ways we can be of service to your organization.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; font-family: 'Space Mono';font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px;line-height: 12px;">
+                        X <a href="https://www.twitter.com/nearfuturelab" style="font-family: 'Space Mono'; color: #fc00ac; font-weight: 400; text-decoration: underline;">@nearfuturelab</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; font-family: 'Space Mono'; font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px; line-height: 12px;">
+                        Instagram <a href="https://www.instagram.com/nearfuturelaboratory" style="color: #fc00ac; text-decoration: underline;">@nearfuturelaboratory</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; font-family: 'Space Mono'; font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px; line-height: 12px;">
+                        Instagram <a href="https://www.instagram.com/darthjulian" style="color: #fc00ac; text-decoration: underline;">@darthjulian</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; line-height: 12px; font-family: 'Space Mono';font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px; line-height: 12px;">
+                        Youtube <a href="https://www.youtube.com/@nearfuturelaboratory" style="color: #fc00ac; text-decoration: underline;">@nearfuturelaboratory</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; font-family: 'Space Mono'; color: #fc00ac; font-style: normal; font-weight: 300; padding-top:5rem; padding-bottom: 0rem; margin-bottom: 1rem; margin-top: 0rem; text-align: center;">
+                        © 2025 Near Future Laboratory LLC
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-family: 'Space Mono'; color: #fc00ac; font-style: normal; font-weight: 300; font-size: 14px; line-height: 15px; text-align: center; padding-top: 2px; padding-bottom: 20px;">
+                        Build Time: 2025-01-07T21:10:58-08:00<br/>
+                        Prepared for [Email]<br/>
+                        <a href="[unsubscribe]">unsubscribe</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
