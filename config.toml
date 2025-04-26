@@ -1,0 +1,4 @@
+[settings]
+templates_directory = "/Users/julian/Code/nfl-blog-mailer-tauri/src/templates"
+static_directory = "/Users/julian/Code/nfl-blog-mailer-tauri/src/templates/static"
+output_directory = ""  # Empty to use JSON file directory
