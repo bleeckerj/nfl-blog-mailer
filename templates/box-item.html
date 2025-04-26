@@ -1,35 +1,46 @@
-               <!-- start box-item.html -->
-              <tr>
-                <td align="left" style="border-left:{{ item["border_width"]}} solid {{ item["outline_color"]}}; border-right: {{ item["border_width"]}} solid {{ item["border_color"]}}; border-bottom: {{ item["border_width"] }} solid {{ item["border_color"] }};background-color: {{ item['background_color']}};border-collapse: collapse; border-bottom-left-radius: {{ item['radius']}}; border-bottom-right-radius: {{ item['radius']}};">
-
-                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
-                    <tbody>
-                      <tr>
-                        <td class="padt20 padr10 padl20" style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-left: 20px; padding-bottom: 20px;" valign="top">
-                          <p class="marb0" style="font-family: '{{ item['font_family'] }}'; font-style: {{ item['font_style']}}; font-color: {{ item['text_color']}}; font-size: 16px;line-height: 23px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 0;">
-                            <a href="{{item['link_ref']}}"><img src="{{item['image_url']}}" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%;"></a>
-                          </p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                
-                  <!--[if mso]></td><td width="35%" valign="top"><![endif]-->
-                  <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
-                    <tbody>
-                      <tr>
-                        <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 10px;" valign="top">
-                          <p style="font-family: '{{ item['font_family'] }}'; font-style: {{ item['font_style']}}; font-color: {{ item['text_color']}}; font-size: 15px;line-height: 18px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 15px;">
-                            {{ item['main_copy']}}
-                            <br><br>
-                    <a href="{{ item['link_ref'] }}" style="text-decoration: underline;color:{{ item['text_color' ]}} !important;">{{ item['link_text'] }}</a>⇨</p>
-                          </p>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  <!--[if mso]></td></tr></table><![endif]-->
-                </td>
-              </tr>
-              <!-- end box-item.html -->
+                              <!-- start box-item-header.html-->
+                              <tr>
+                                <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="headline" style="border-left: {{ item['border_width']}} solid {{ item['outline_color']}}; border-right: {{ item['border_width']}} solid {{ item['border_color']}}; border-top: {{ item['border_width'] }} solid {{ item['border_color'] }}; background-color: {{ item['header_background_color']}}; border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 20px;padding-bottom:10px;border-top-left-radius: {{ item['radius']}}; border-top-right-radius: {{ item['radius']}};">
+                                  <p style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin: 0;padding: 0;">{{ item['header_text']}}</p>
+                                </td>
+                              </tr>
+                              <!-- end start-item-header.html -->
+                              
+                              <!-- start box-item.html -->
+                              <tr>
+                                <td align="left" style="border-left:{{ item['border_width']}} solid {{ item['outline_color']}}; border-right: {{ item['border_width']}} solid {{ item['border_color']}}; border-bottom: {{ item['border_width'] }} solid {{ item['border_color'] }};background-color: {{ item['background_color']}};border-collapse: collapse; border-bottom-left-radius: {{ item['radius']}}; border-bottom-right-radius: {{ item['radius']}};">
+                                  
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
+                                    <tbody>
+                                      <tr>
+                                        <td class="padt20 padr10 padl20" style="border-collapse: collapse; padding-top: 20px; padding-right: 20px;padding-left: 20px; padding-bottom: 20px;" valign="top">
+                                          <p class="marb0" style="font-family: {{ item['font_family'] }}; font-style: {{ item['font_style']}}; font-color: {{ item['text_color']}}; font-size: 16px;line-height: 23px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 0;">
+                                            <a href="{{item['link_ref']}}"><img src="{{item['image_url']}}" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 516px;width: 100%;"></a>
+                                          </p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  
+                                  <!--[if mso]></td><td width="35%" valign="top"><![endif]-->
+                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
+                                      <tbody>
+                                        <tr>
+                                          <td class="padt15 padr20 padl10" style="border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 10px;" valign="top">
+                                            <p style="font-family: {{ item['font_family'] }}; font-style: {{ item['font_style']}}; font-color: {{ item['text_color']}}; font-size: 15px;line-height: 18px;font-weight: 400;padding: 0;margin: 0;margin-bottom: 15px;">
+                                              {{ item['main_copy']}}
+                                              <br><br>
+                                              <a href="{{ item['link_ref'] }}" style="text-decoration: underline;color:{{ item['text_color' ]}} !important;">{{ item['link_text'] }}</a>⇨</p>
+                                            </p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    <!--[if mso]></td></tr></table><![endif]-->
+                                  </td>
+                                </tr>
+                                <!-- end box-item.html -->

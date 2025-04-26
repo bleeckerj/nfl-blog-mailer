@@ -1,43 +1,54 @@
 
-                <!-- start accessory-item.html-->
-                  <tr>
-                    <td align="left" style=" background-color: {{item['background_color']}}; border-collapse: collapse;   border-left: {{ item['border_width']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width']}} solid {{ item['border_color'] }}; border-bottom: {{ item['border_width']}} solid {{ item['border_color'] }}; border-bottom-left-radius: {{ item['radius']}}; border-bottom-right-radius: {{ item['radius']}}; {{ item['extra_box_style'] }};">
-  
-                      <!--[if mso]>
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                <tr><td width="50%" valign="top"><![endif]-->
-                      <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
-                        <tbody>
-                          <tr>
-                            <td class="padt15 padr20 padl10" style="border-collapse: collapse;  padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-                              <p style="font-family: '{{ item['font_family'] }}'; font-style: {{ item['font_style'] }}; font-weight: {{ item['font_weight']}}; font-size: 16px; line-height: 18px;color: {{ item['text-color']}};padding: 0;margin: 0;margin-bottom: 15px;">
-                                <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">
-                                <img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
-                                </a>
-                              </p>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-  
-                      <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
-                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
-                        <tbody>
-                          <tr>
-                            <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-                              <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['title_font_family'] }}'; font-size: {{item['title_font_size']}}; line-height: normal;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                                <a href="{{ item['link_ref']}}" style="text-decoration: none;color: #000000 !important;">{{ item['title']}}
-                                </a> →<br/>
-                                <a href="{{ item['link_ref']}}" style="text-decoration: none;color: #000000 !important;">{{ item['subtitle']}}</a>
-                              </p>
-                              <p style="mso-line-height-rule: exactly;font-size: {{item['font_size']}}; line-height: {{item['line_height']}}; font-weight: 400; margin: 0; padding: 0 0 5px 0; color: #707070 !important;">{{ item['author_username']}}</p>
-                              <p style="font-family: '{{ item['font_family'] }}'; font-style: {{ item['font-style'] }}; font-weight: '{{ item['font_weight']}}'; font-size: {{ item['font_size']}};line-height: {{item['line_height']}}; color: #000000; padding: 0; margin: 0; margin-bottom: 15px;">{{item['main_copy']}}</p>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-  
-                      <!--[if mso]></td></tr></table><![endif]-->
-                    </td>
-                  </tr>
-                  <!-- end accessory-item.html-->
+<!-- start accessory-item-header.html -->
+<tr>
+  <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+</tr>
+<tr>
+  <td align="left" class="headline" style="border-collapse: collapse; border-left: {{ item['border_width']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width']}} solid {{ item['border_color'] }};  border-top: {{ item['border_width']}} solid {{ item['border_color'] }}; border-top-left-radius: {{item['radius'] }}; border-top-right-radius: {{item['radius'] }};{{ item['extra_box_style'] }}; padding-top: 15px;padding-right: 20px;padding-left: 20px; background-color: {{item['header_background_color']}}">
+    <p style="mso-line-height-rule: exactly;font-family: {{ item['font_family'] }}; font-style: {{ item['font_style'] }}; font-weight: {{ item['font_weight']}}; font-size: 21px; font-weight: 600; line-height: 0px;color:{{ item['text_color']}};margin: 0; padding-bottom: 10px;">{{ item['title']}}
+    </p>
+  </td>
+</tr>
+<!-- end accessory-item-header.html -->
+<!-- start accessory-item.html-->
+<tr>
+  <td align="left" style="background-color: {{item['background_color']}}; border-collapse: collapse;   border-left: {{ item['border_width']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width']}} solid {{ item['border_color'] }}; border-bottom: {{ item['border_width']}} solid {{ item['border_color'] }}; border-bottom-left-radius: {{ item['radius']}}; border-bottom-right-radius: {{ item['radius']}}; {{ item['extra_box_style'] }};">
+    
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr><td width="50%" valign="top"><![endif]-->
+        <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="290">
+          <tbody>
+            <tr>
+              <td class="padt15 padr20 padl10" style="border-collapse: collapse;  padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+                <p style="font-family: {{ item['font_family'] }}; font-style: {{ item['font_style'] }}; font-weight: {{ item['font_weight']}}; font-size: 16px; line-height: 18px;color: {{ item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">
+                  <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: #000000 !important;">
+                    <img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="290" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 416px;width: 100%; border-radius: 0.8rem;">
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+          <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
+            <tbody>
+              <tr>
+                <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
+                  <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['title_font_family'] }}'; font-size: {{item['title_font_size']}}; line-height: normal;font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+                    <a href="{{ item['link_ref']}}" style="text-decoration: none;color: #000000 !important;">{{ item['title']}}
+                    </a> →<br/>
+                    <a href="{{ item['link_ref']}}" style="font-family: '{{ item['subtitle_font_family'] }}'; font-size: {{item['subtitle_font_size']}}; text-decoration: none;color: #000000 !important;">{{ item['subtitle']}}</a>
+                  </p>
+                  <p style="mso-line-height-rule: exactly;font-size: {{item['font_size']}}; line-height: {{item['line_height']}}; font-weight: 400; margin: 0; padding: 0 0 5px 0; color: #707070 !important;">{{ item['author_username']}}</p>
+                  <p style="font-family: {{ item['font_family'] }}; font-style: {{ item['font-style'] }}; font-weight: '{{ item['font_weight']}}'; font-size: {{ item['font_size']}};line-height: {{item['line_height']}}; color: #000000; padding: 0; margin: 0; margin-bottom: 15px;">{{item['main_copy']}}</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <!--[if mso]></td></tr></table><![endif]-->
+        </td>
+      </tr>
+      <!-- end accessory-item.html-->

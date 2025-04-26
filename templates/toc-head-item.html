@@ -1,48 +1,36 @@
-<!-- INTRO Start --><!-- start toc-head-item_1 -->
+<!-- INTRO Start --><!-- start toc-head-item.html -->
 
 <tr>
-  <td align="center" style="background-color: {{ item['background_color']}};border-collapse: collapse;" valign="top">      
-    <!-- start subject-line.html -->
-      <!--[if mso]>
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tr><td width="50%" valign="top"><![endif]-->
-      <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="320">
-        <tbody>
-          <tr>
-            <td class="padt15 padr10 padl20" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-              <p style="font-family: '{{ item['title_font_family'] }}'; mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: normal;color: {{ item['text_color']}};margin: 0;padding: 0;">
-                {{ item['short_title']}}
-              </p>
-              
-            </td>
-          </tr>
-        </tbody>
-      </table>
+  <td align="center" style="margin-bottom: 15px; background-color: {{ item['background_color']}};border-collapse: collapse;" valign="top">      
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-spacing: 0;">
+      <tr>
+        <!-- LEFT side: short_title -->
+        <td width="70%" align="left" valign="top" style="vertical-align: middle;">
+          <p style="font-family: {{ item['title_font_family'] }}; font-size: 21px; font-weight: 600; line-height: normal; color: {{ item['text_color']}}; margin: 0; padding: 15px 0px 15px 10px;">
+            {{ item['short_title']}}
+          </p>
+        </td>
+        
+        <!-- RIGHT side: view_online_url -->
+        <td width="30%" align="right" valign="top" style="vertical-align: middle;">
+          <p style="font-family: {{ item['url_font_family'] }}; font-size: 15px; line-height: normal; font-weight: 400; color: {{ item['text_color']}}; margin: 0; padding: 15px 15px 15px 0px;">
+            <a style="text-decoration: none;" href="{{ item['view_online_url'] }}">View web version</a> →
+          </p>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
 
-      <!--[if mso]></td><td width="50%" valign="top" class="browser"><![endif]-->
-      <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row browser" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;text-align: right;" width="320">
-        <tbody>
-          <tr>
-            <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-              <p class="small grey" style="font-family: '{{ item['font_family'] }}';font-size: 15px;line-height: normal;font-weight: 400;color: {{ item['text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;">
-                <a style="text-decoration: none;" href="{{ item['view_online_url'] }}">View web version</a> →</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <!--[if mso]></td></tr></table><![endif]-->
-    </td>
-  </tr>
-  <!-- end subject-line.html -->
-  <tr>
-    <td align="left" class="padt20 padl20 padr20 padb10" style="background-color: {{ item['background_color']}}; border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;">
-      <p class="large" style="font-family: '{{ item['title_font_family'] }}';font-size: 21px;line-height: normal;font-weight: 400;color:{{ item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">
-{{ item['main_toc_text'] }}
-      </p>
-      <!-- start salutation -->
-      <span class="small grey padt20" style="font-family: '{{ item['font_family'] }}'; font-size: {{ item['font_size']}}; line-height: normal; font-weight: normal; color: {{ item['text_color']}} !important;padding: 0;margin: 0;margin-bottom: 15px;padding-top: 20px;">{{ item['salutation'] }}</span>
-        <!-- end salutation -->
-    </td>
-  </tr>
-  <!-- INTRO End --><!-- end toc-head-item.html -->
+<!-- end subject-line.html -->
+<tr>
+  <td align="left" style="background-color: {{ item['background_color']}}; border-collapse: collapse; padding-top: 20px;padding-right: 20px;padding-bottom: 10px;padding-left: 10px;">
+    <p class="large" style="font-family: {{ item['title_font_family'] }}; font-size: 21px;line-height: normal; font-weight: 400; color:{{ item['text_color']}}; padding: 0;margin: 0;margin-bottom: 5px;">
+      {{ item['main_toc_text'] }}
+    </p>
+    <!-- start salutation -->
+    <span class="small grey" style="font-family: {{ item['salutation_font_family'] }}; font-size: {{ item['font_size'] }}; line-height: normal; font-weight: normal; color: {{ item['text_color'] }} !important;  margin: 0; margin-bottom: 15px; padding-top: 10px;">{{ item['salutation'] }}</span>
+    <!-- end salutation -->
+  </td>
+</tr>
+<!-- INTRO End --><!-- end toc-head-item.html -->

@@ -1,37 +1,36 @@
-                
-                <!-- start discord-callout-item.html -->
-                <tr>
-                  <td align="left" style="border-bottom-left-radius: {{ item['bottom_left_radius']}}; border-bottom-right-radius: {{ item['bottom_right_radius']}}; border-collapse: collapse; background-color: {{ item['background_color']}};">
-                    
-                    <!--[if mso]>
-              <table border="0" cellpadding="0" cellspacing="0" width="100%">
-              <tr><td width="35%" valign="top"><![endif]-->
-                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="224">
-                      <tbody>
-                        <tr>
-                          <td class="padt15 padr10 padl20" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-                            <h2 class="padb5" style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: {{ item['text_color']}}; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                              <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: {{item['text_color']}} !important;">
-                                {{ item['link_text'] }}
-                              </a> ➜</h2>
-                            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:{{ item['light_text_color']}} !important;">{{ item['user_callout']}}</p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+<!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: {{ item['bottom_left_radius']}}; border-bottom-right-radius: {{ item['bottom_right_radius']}}; border-collapse: collapse; background-color: {{ item['background_color']}};">
+    
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: {{ item['text_color']}}; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: {{item['text_color']}} !important;">
+                {{ item['link_text'] }}
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:{{ item['light_text_color']}} !important;">{{ item['user_callout']}}</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-                    <!--[if mso]></td><td width="65%" valign="top"><![endif]-->
-                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="416">
-                      <tbody>
-                        <tr>
-                          <td class="padt15 padr20 padl10 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-                            <p style="font-size: 16px;line-height: 20px;font-weight: {{item['font_weight']}} ;{{item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['post_copy']}}</p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;font-weight: {{item['font_weight']}};color: {{item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['post_copy']}}</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-                    <!--[if mso]></td></tr></table><![endif]-->
-                  </td>
-                </tr>
-                  <!-- end discord-callout-item.html -->
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td>
+</tr>
+<!-- end discord-callout-item.html -->

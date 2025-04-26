@@ -1,4 +1,14 @@
-
+                <!-- start accessory-item-header.html -->
+                <tr>
+                  <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+                </tr>
+                <tr>
+                  <td align="left" class="headline" style="border-collapse: collapse; border-left: {{ item['border_width']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width']}} solid {{ item['border_color'] }};  border-top: {{ item['border_width']}} solid {{ item['border_color'] }}; border-top-left-radius: {{item['radius'] }}; border-top-right-radius: {{item['radius'] }};{{ item['extra_box_style'] }}; padding-top: 15px;padding-right: 20px;padding-left: 10px; background-color: {{item['background_color']}}">
+                    <p style="mso-line-height-rule: exactly;font-family: {{ item['title_font_family'] }}; font-style: {{ item['title_font_style'] }}; font-weight: {{ item['title_font_weight']}}; font-size: 21px;font-weight: 600;line-height: 23px;color:{{ item['title_text_color']}};margin: 0;padding: 0;">{{ item['title']}} 
+                    </p>
+                  </td>
+                </tr>
+                <!-- end accessory-item-header.html -->
                 <!-- start book-haul-item.html-->
                 <tr>
                   <td align="left" style=" background-color: {{item['background_color']}}; border-collapse: collapse;   border-left: {{ item['border_width_left']}} solid {{ item['border_color'] }}; border-right: {{ item['border_width_right']}} solid {{ item['border_color'] }}; border-bottom: {{ item['border_width_bottom']}} solid {{ item['border_color'] }}; border-bottom-left-radius: {{ item['bottom_left_radius']}}; border-bottom-right-radius: {{ item['bottom_right_radius']}}; border-top-left-radius: {{ item['top_left_radius']}}; {{ item['extra_box_style'] }};">
@@ -22,13 +32,12 @@
                     <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="360">
                       <tbody>
                         <tr>
-                          <td class="padt15 padr10 padl20 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 20px;" valign="top">
-                            <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-                              <a href="{{ item['link_ref']}}" style="font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; text-decoration: underline;color: #000000 !important;">{{ item['title']}}
-                              </a> →</p>
-                              <p class="padb5" style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">{{ item['subtitle']}}</p>
-                            <p style="mso-line-height-rule: exactly;font-family: '{{ item['font_family'] }}'; font-style: '{{ item['font-style'] }}'; font-size: 12px;line-height: 16px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">{{ item['author_username']}}</p>
-                            <p style="font-family: '{{ item['font_family'] }}'; font-style: '{{ item['font-style'] }}'; font-weight: '{{ item['font_weight']}}'; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{item['main_copy']}}</p>
+                          <td  style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+                            <p  style="mso-line-height-rule: exactly; font-family: {{ item['lede_font_family'] }}; font-size: {{ item['lede_font_size'] }}; line-height: {{ item['line_height'] }}; font-weight: 600;color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+                              <a href="{{ item['link_ref']}}" style="font-family: {{ item['lede_font_family'] }}; font-size: {{ item['lede_font_size'] }}; line-height: {{ item['line_height'] }}; text-decoration: underline;color: #000000 !important;">{{ item['title']}}</a> →</p>
+                              <p style="mso-line-height-rule: exactly;font-family: {{ item['subtitle_font_family'] }}; font-size: {{ item['subtitle_font_size'] }}; line-height: {{ item['line_height'] }}; font-weight: 600; color: #000000;margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">{{ item['subtitle'] }}</p>
+                            <p style="mso-line-height-rule: exactly;font-family: {{ item['username_font_family'] }}; font-style: '{{ item['username_font_style'] }}'; font-size: 12px;line-height: 16px;font-weight: 400;margin: 0;padding: 0 0 5px 0;color: #707070 !important;">{{ item['author_username']}}</p>
+                            <p style="font-family: {{ item['main_copy_font_family'] }}; font-style: '{{ item['main_copy_font_style'] }}'; font-weight: '{{ item['main_copy_font_weight']}}'; font-size: {{ item['main_copy_font_size'] }}; line-height: {{ item['main_copy_line_height'] }}; color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">{{item['main_copy']}}</p>
                           </td>
                         </tr>
                       </tbody>

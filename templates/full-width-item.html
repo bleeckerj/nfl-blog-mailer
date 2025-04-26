@@ -19,10 +19,10 @@
     <td style="background-color: {{ item['background_color'] }}; ">
         <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600px">
             <tbody>
-              <tr><!-- mother of fucking hell -->
-                <td class="padt15" style="border-collapse: collapse;padding-top: 15px;" valign="top">
+              <tr>
+                <td class="padt15" style="border-collapse: collapse; padding-left: 10px; padding-right: 10px; padding-top: 15px;" valign="top">
                   <p style="font-family: '{{ item['title_font_family'] }}'; font-size: '{{ item['title_font_size'] }}';  line-height: {{ item['line_height'] }}; font-weight: 400; color: {{ item['text_color'] }};padding: 0; margin: 0; margin-bottom: 15px;">
-                    <a href="{{ item['link_ref']}}"><img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="600px" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px; max-width: 600px; width: 100%; border-radius: {{item['image_corner_radius'] }};"></a>
+                    <a href="{{ item['link_ref']}}"><img src="{{ item['image_url']}}" alt="⊂(◉‿◉)つ" width="600px" height="auto" style="-ms-interpolation-mode: bicubic;display: block; max-height: 900px; max-width: 600px; width: 100%; border-radius: {{item['image_corner_radius'] } };"></a>
                   </p>
                 </td>
               </tr>
@@ -31,19 +31,19 @@
     </td>
     </tr>
     <tr>
-      <td style="background:{{ item['background_color'] }}; border-bottom-left-radius: 0.8rem; border-bottom-right-radius: 0.8rem;">
+      <td style="background:{{ item['background_color'] }}; border-bottom-left-radius: {{ item['border-bottom-left-radius'] }}; border-bottom-right-radius: {{ item['border-bottom-right-radius'] }};">
         <!--[if mso]></td><td width="100%" valign="top"><![endif]-->
           <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="600">
             <tbody>
               <tr>
-                <td style="border-collapse: collapse;padding-top: 15px;" valign="top">
+                <td style="border-collapse: collapse;padding-top: 15px; padding-left: 10px; padding-right: 10px;" valign="top">
 
-                  <span style="mso-line-height-rule: exactly; font-size: {{ item['font_size']}}; line-height: {{ item['line_height']}}; font-weight: bold; color: #000000;margin: 0; padding: 0 0 15px 0; padding-bottom: 5px; font-family: '{{ item['font_family'] }}';">
+                  <span style="mso-line-height-rule: exactly; font-size: {{ item['font_size']}}; line-height: {{ item['line_height']}}; font-weight: bold; color: #000000;margin: 0; padding: 0 0 15px 0; padding-bottom: 5px; font-family: {{ item['font_family'] }};">
                     <a href="{{ item['link_ref']}}" style="text-decoration: underline; color: {{ item['text_color'] }} !important;">{{ item['title']}}</a></span>
                     <br/>
-                  <p style="mso-line-height-rule: exactly; font-size: {{ item['font_size']}};  font-family: '{{ item['font_family'] }}'; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height']}};  font-weight: bold; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important;">{{ item['subtitle']}}</p>
+                  <p style="mso-line-height-rule: exactly; font-size: {{ item['font_size']}};  font-family: {{ item['font_family'] }}; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height']}};  font-weight: bold; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important;">{{ item['subtitle']}}</p>
                   
-                  <span style="mso-line-height-rule: exactly; font-size: {{ item['font_size'] }}; font-family: '{{ item['font_family'] }}'; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height'] }}; font-weight: normal; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important; ">{{ item['main_copy'] }}</span>
+                  <span style="mso-line-height-rule: exactly; font-size: {{ item['font_size'] }}; font-family: {{ item['font_family'] }}; font-style:{{ item['font_style'] }}; line-height: {{ item['line_height'] }}; font-weight: normal; margin: 0; padding: 0 0 5px 0; color: {{ item['light_text_color']}} !important; ">{{ item['main_copy'] }}</span>
                   <br><br>
                     <a href="{{ item['link_ref'] }}" style="text-decoration: underline; color:{{ item['text_color' ]}} !important;">Read More</a> ⇒</p>
                 </td>
