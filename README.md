@@ -8,6 +8,12 @@ In the best case, the output would appear somewhere parallel to the input.
 
 For the NFL Blog, there is also a bunch of kruft at the bottom of the page that needs to be removed or replaced with something cleaner.
 
+---
+
+eg
+
+> python3 dd-101-maker.py w02-y25/w02-y25.json
+
 ----
 
 Add
