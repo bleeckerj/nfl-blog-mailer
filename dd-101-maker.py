@@ -50,9 +50,30 @@ parser.add_argument('--output', type=str, help='Directory to output generated fi
                    default=config["output_directory"])
 args = parser.parse_args()
 
-# Load the JSON data from the file provided as command line argument
+# Modified section for processing JSON list format
 with open(args.json_file, 'r') as file:
     data = json.load(file)
+
+# Handle both list and dictionary formats
+if isinstance(data, list):
+    print(f"JSON file contains a list with {len(data)} items")
+    # Keep track of original order
+    sections_in_order = []
+    # Convert to dictionary while preserving order
+    merged_data = {}
+    
+    for item in data:
+        if isinstance(item, dict):
+            for section_name, section_content in item.items():
+                merged_data[section_name] = section_content
+                sections_in_order.append(section_name)
+        else:
+            print(f"Warning: Skipping non-dictionary item in JSON list: {item}")
+    
+    data = merged_data
+else:
+    # If it's already a dictionary, just get the keys in order
+    sections_in_order = list(data.keys())
 
 # Set file directory (either from command line or based on input file)
 file_directory = args.output if args.output else os.path.dirname(os.path.abspath(args.json_file))
@@ -65,8 +86,8 @@ static_directory = args.static
 # Set up Jinja2 environment with the specified template directory
 env = Environment(loader=FileSystemLoader(templates_directory))
 
-# List to keep track of the generated file names
-generated_files = []
+# Dictionary to keep track of the generated file names by section
+generated_files = {}
 
 # Process each section in the JSON data
 for section_name, section_content in data.items():
@@ -91,6 +112,7 @@ for section_name, section_content in data.items():
         
         # Process each element in the section
         if 'elements' in section_content and isinstance(section_content['elements'], list):
+            section_generated_files = []
             for index, element in enumerate(section_content['elements'], start=1):
                 # Render the template with the current element's data
                 try:
@@ -104,10 +126,11 @@ for section_name, section_content in data.items():
                         file.write(rendered_content)
                     print(f'File {file_name} created successfully.')
     
-                    # Add the file name to the list of generated files
-                    generated_files.append(full_path)
+                    # Add the file name to the list of generated files for the section
+                    section_generated_files.append(full_path)
                 except Exception as e:
                     print(f"Error rendering template for section '{section_name}', element {index}: {e}")
+            generated_files[section_name] = section_generated_files
         else:
             print(f"Skipping section '{section_name}': missing or invalid 'elements' property")
     except Exception as e:
@@ -134,10 +157,12 @@ try:
         else:
             print(f"Warning: Top file '{top_file_path}' not found")
         
-        # Include all the generated content
-        for file_path in sorted(generated_files, key=lambda x: os.path.basename(x)):
-            with open(file_path, 'r') as file:
-                final_file.write(file.read())
+        # Include all the generated content following the original order from the JSON
+        for section_name in sections_in_order:
+            if section_name in generated_files:
+                for file_path in generated_files[section_name]:
+                    with open(file_path, 'r') as file:
+                        final_file.write(file.read())
         
         # Include the bottom part if it exists
         if os.path.exists(bottom_file_path):
