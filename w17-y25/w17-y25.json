@@ -1,0 +1,385 @@
+[
+  {
+    "toc-head-item": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "font_size": "14px",
+          "main_toc_text": "How not to get all agitated about these new weird intelligent inhabitants.",
+          "salutation": "Greetings from the near future",
+          "salutation_font_family": "'Space Mono',sans-serif, monospace",
+          "short_title": "AI Is A Collaborator, Not A Tool",
+          "text_color": "#0a0a0a",
+          "title_font_family": "RoslindaleVariable, WarblerText, Helvetica",
+          "url_font_family": "",
+          "view_online_url": "https://nearfuturelaboratory.com/outbox/issues/2025/w07-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "toc-head-item.html"
+      }
+    }
+  },
+  {
+    "subject-line": {
+      "elements": [
+        {
+          "week_number": "17",
+          "year": "2025"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "subject-line.html"
+      }
+    }
+  },
+  {
+    "full-width-item": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_bottom_left_radius": "0px",
+          "border_bottom_right_radius": "0px",
+          "border_color": "",
+          "border_top_left_radius": "0px",
+          "border_top_right_radius": "0px",
+          "border_width": "0px",
+          "font_size": "18px",
+          "image_corner_radius": "8px",
+          "image_url": "https://nearfuturelaboratory-cdn.s3.amazonaws.com/images/outbox/issues/w17y25/2025-04-26_14-53-19_600px.jpg",
+          "light_text_color": "#6a6a6a",
+          "link_ref": "Link Ref Lorem ipsum dolor sit amet.",
+          "main_copy": "I found an old (actually two old) issues of Byte magazine that happened to have as their cover story \"Artificial Intelligence\".\n<br/><br/>\n\nNow, that might not be so weird given everything that's going on. But it may be if I told you that the issues were from 1979 and 1981. And it starts one wondering: what kind of world would we be living in today if the AI from 45 years ago somehow, through some twist of technological counter-historical contingency, became ‘a thing’.\n<br/><br/>\n\nIn such a scenario, we would expect to see AI deeply intertwined with the aesthetics, cultural values, and technological aspects of that era, leading to a (possibly) very different trajectory in how machines interact with humans and shape society. \n<br/><br/>\n\nNow, before you antagonist start throwing around all manner of technical reasons for why this would be impossible, let me remind you that the meaning of AI is what we ascribe to it. And, n any case, imagine it's not me asking but, say, Neal Stephenson is asking you to help him imagine this adjacent timeline.\n<br/><br/>\n\nHere's how I'd set it up.\n<br/><br/>\n\nSay that, I dunno...someone at Cray Supercomputers back in the day was, like..“Hey...I got an idea! Suppose we create the CUDA architecture with this beast.”\n<br/><br/>\n\nAnd Seymour Cray was, like..“Oh wow. I'm not sure what you're talking about, but I feel like you're seem super excited and you've proven yourself to create some pretty interesting things so..you just might be on to something. Build your team! Take all the time you need. Let's see where you get!”\n<br/><br/>\n\nAnd then ‘it’ happens.\n<br/><br/>\n\nWhat is our world now when the sensibilities of the 1980s are poured into AI?\nSome like a Stephenson type character might write that story.\n<br/><br/>\nMe? I'm not so great at writing, but my dad was a newspaper man, so I told a version of this story in the form of a newspaper. ",
+          "main_copy_font_family": "WarblerText, serif",
+          "main_copy_font_size": "14px",
+          "main_copy_text_color": "#0a0a0a",
+          "read_more_link_ref": "https://nearfuturelaboratory.com/projects/2024/newspaper-from-an-artificially-intelligent-future/",
+          "subtitle": "In 1979 and 1981 Byte magazine, which was beautifully and nerdily futuristic, published issues featuring AI. What was that, then? And what would it have become had the home brew computer club folks somehow found a way through some contrivance and twist of fate, to conjure a kind of AI that took hold of the world?",
+          "text_color": "#0a0a0a",
+          "title": "The ‘AI’ That Could Have Been",
+          "title_font_family": "FormaDJRUI, Monaco, Arial",
+          "title_text_color": "#0a0a0a"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "full-width-item.html"
+      }
+    }
+  },
+  {
+    "action-button": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "button_background_color": "#FFFFFF",
+          "button_border_color": "",
+          "button_font_family": "Roboto Mono, Space Mono, monospace",
+          "button_font_size": "14px",
+          "button_link": "https://shop.nearfuturelaboratory.com/products/applied-intelligence-issue-n-001",
+          "button_text": "“Applied Intelligence” Issue 001",
+          "button_text_color": "#0a0a0a"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "action-button.html"
+      }
+    }
+  },
+  {
+    "spacer_0": {
+      "elements": [
+        {
+          "spacer_color": "#ffffff",
+          "spacer_height": "10px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "1",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "spacer_1": {
+      "elements": [
+        {
+          "spacer_color": "#0083fb",
+          "spacer_height": "10px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "2",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "spacer_2": {
+      "elements": [
+        {
+          "spacer_color": "#ffffff",
+          "spacer_height": "10px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "3",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "image-right": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "font_weight": "normal",
+          "image_url": "https://generalseminar.com/images/s06/e05/GS_S06E05_SQUARE_2_600px.webp",
+          "link_url": "https://generalseminar.com/seminar/s06/e05/",
+          "main_copy": "Imagine a future where you have a kind of shadow version of you — a muse, always learning, always wondering.<br/>Join me as we wander and wonder into a world in which Digital Twins are as normal, ordinary and everyday as corn flakes and usb cables.<br/>\nJoin me for General Seminar S06/E05 and we'll use Design Fiction to imagine what this world might be like. Half-baked? Full of 'All Fails'? What's the equivalent of tripping over the sofa while wearing VR goggles in the Digital Twins future?",
+          "main_copy_font_family": "Arial",
+          "title": "The Digital Twins Near Future",
+          "title_font_family": "FormaDJRUI, Monaco, Arial"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "image-right.html"
+      }
+    }
+  },
+  {
+    "image-feature": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "WarblerText, RoslindaleVariable, Trebuchet",
+          "font_size": "14px",
+          "font_style": "normal",
+          "font_weight": "normal",
+          "image_corner_radius": "8px",
+          "image_url": "https://nearfuturelaboratory-cdn.s3.amazonaws.com/images/outbox/issues/w17y25/limitless-step-brothers-01.jpg",
+          "line_height": "1em",
+          "link_color": "",
+          "link_ref": "",
+          "main_copy": "My nephews were incredulous that I had never seen the Will Farrell & John C. Reilly screwball comedy “Step Brothers” so, you know — let's watch it!<br/><br/>\nSeems I had forgotten to put my Limitless Pendant — these AI gewgaw Brad Barrish turned me onto. It basically listens and records and summarizes and let's you yap to yourselves conversations..or whatever it hears.<br/><br/>\nYou get it. (And some of you are probably all, like..incredulous that anyone would etcetera, etcetera..)<br/><br/>\nI'm game to try just about anything that won't result in a felony arrest so, sure. I'll give it a shot. It's been helpful in some contexts but I wouldn't say that I would miss it if it accidentally became dislodged from my shirt collar and rolled down a storm drain. We'll see.<br/><br/>\nBut this case, forgetting to turn it off while it was sitting in the next room on its charger, and watching “Step Brothers”, well...the next morning my ”summary of things to improve myself” was just, like..off the hook. I panicked, not realizing why I needed to not yell at my mom, work on shouting less, and be talk more calmly to family members.<br/><br/>\nThis is the tripping-on-the-sofa-while-in-VR of Digital Twins. This'll make a great bit in the next newspaper.",
+          "read_more_text": "",
+          "read_more_url": "",
+          "text_color": "#0a0a0a",
+          "title": "Speaking of Digital Twins..",
+          "title_color": "",
+          "title_font_family": "FormaDJRUI, Monaco, Arial",
+          "title_font_size": "18px",
+          "title_font_style": "normal",
+          "title_font_weight": "normal",
+          "title_line_height": "1em",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "image-feature.html"
+      }
+    }
+  },
+  {
+    "spacer_2": {
+      "elements": [
+        {
+          "spacer_color": "#ffffff",
+          "spacer_height": "20px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "3",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "book-haul-item": {
+      "elements": [
+        {
+          "author_username": "",
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width": "0px",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://generalseminar.com/images/s06/e04/GS_S06E04__SQUARE_600px.jpg",
+          "led_link_text": "General Seminar Workbook",
+          "lede_font_family": "",
+          "lede_font_size": "16px",
+          "lede_link_url": "https://generalseminar.com/worksheet/s06/e04",
+          "line_height": "1em",
+          "link_ref": "https://generalseminar.com/worksheet/s06/e04",
+          "main_copy": "General Seminar S06/E04 is coming up this Tuesday! That means the workbook is up and publicly available.<br/><br/>\nThere are still a few seats in the first session, and I opened up more in the second session.\n<br/><br/>\n<a href='https://generalseminar.com/seminar/s06/e04'>Grab your last minute seat!</a>",
+          "main_copy_font_family": "Roboto Mono",
+          "main_copy_font_size": "14px",
+          "main_copy_font_style": "normal",
+          "main_copy_font_weight": "normal",
+          "main_copy_line_height": "1em",
+          "radius": "0px",
+          "subtitle": "Research, thought-starters, exercises, and analysis of how imagination is the underpinning of strategy.",
+          "subtitle_font_family": "RoslindaleVariable, Roboto Mono",
+          "subtitle_font_size": "14px",
+          "title": "Science Fiction Is Strategy Workbook",
+          "title_font_family": "FormaDJRUI, Monaco, Arial",
+          "title_font_style": "normal",
+          "title_font_weight": "normal",
+          "title_text_color": "#0a0a0a",
+          "top_left_radius": "0px",
+          "username_font_family": "",
+          "username_font_style": "normal"
+        }
+      ],
+      "metadata": {
+        "ordinal": "4",
+        "template_name": "book-haul-item.html"
+      }
+    }
+  },
+  {
+    "spacer_2-3": {
+      "elements": [
+        {
+          "spacer_color": "#ffffff",
+          "spacer_height": "20px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "3",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "simple-text": {
+      "elements": [
+        {
+          "background_color": "#F0F0F0",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "FormaDJRUI, Helvetica, sans-serif",
+          "font_size": "18px",
+          "line_height": "1em",
+          "main_html": "Seen in the Near Future Laboratory Discord",
+          "text_color": "#0a0a0a",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "4",
+        "template_name": "simple-text.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-1": {
+      "elements": [
+        {
+          "background_color": "#e0edd4",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_weight": "normal",
+          "light_text_color": "#6a6a6a",
+          "link_text": "system-prompts-and-models-of-ai-tools",
+          "link_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "main_copy": "I managed to obtain FULL official v0, Manus, Cursor, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent & VSCode Agent system prompts and internal tools.  📜 Over 6,500+ lines of insights into their structure and functionality.<br/>\n⚠️ If you're an AI startup, make sure your data is secure. Exposed prompts or AI models can easily become a target for hackers.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@Sandro Pasquali"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-2": {
+      "elements": [
+        {
+          "background_color": "#ffffff",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_weight": "normal",
+          "light_text_color": "#6a6a6a",
+          "link_text": "How AI Made the Future Unthinkable",
+          "link_url": "https://nymag.com/intelligencer/article/for-big-tech-the-future-is-agi-what-about-the-rest-of-us.html ",
+          "main_copy": "New York Magazine article that seems to set out an inverse relationship between money spent on AI and ability to imagine a future other than one with trillionaires, hectacres of data centers, and autocracy.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian"
+        }
+      ],
+      "metadata": {
+        "ordinal": "2",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-3": {
+      "elements": [
+        {
+          "background_color": "#e0edd4",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_weight": "normal",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Ghostwriter",
+          "link_url": "https://nearfuturelaboratory.com/projects/2025/ghostwriter/ghostwriter/",
+          "main_copy": "If you have an engineering degree and you program, are you vibecoding because you have a good idea of what you're actually doing? I might've vibecoded a creative muse, dunno. But, it works, even if I only roughly know how it does (I mean, I know how the code works, but I remain mystified by the emanations that issue from gigabytes of data.)",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-4": {
+      "elements": [
+        {
+          "background_color": "#ffffff",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_weight": "normal",
+          "light_text_color": "#6a6a6a",
+          "link_text": "The Myth Beneath the Dream",
+          "link_url": "https://open.substack.com/pub/analyzingtrends/p/the-myth-beneath-the-dream",
+          "main_copy": "Narratology and Cultural Myths. GenAI and Future Imagining. How are cultural myths narrative-based forces that shape our dreams and set our aspirations. The author wonder if narratology and Generative AI can help us to understand these myths better — and imagine new possibilities for the future.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@(Kevin) SkepticalDesign"
+        }
+      ],
+      "metadata": {
+        "ordinal": "4",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  }
+]

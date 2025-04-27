@@ -10,7 +10,7 @@
         <tr>
           <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
             <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: {{ item['text_color']}}; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
-              <a href="{{ item['link_ref']}}" style="text-decoration: underline;color: {{item['text_color']}} !important;">
+              <a href="{{ item['link_url']}}" style="text-decoration: underline;color: {{item['text_color']}} !important;">
                 {{ item['link_text'] }}
               </a> ➜</h2>
             <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:{{ item['light_text_color']}} !important;">{{ item['user_callout']}}</p>
@@ -24,7 +24,7 @@
       <tbody>
         <tr>
           <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-            <p style="font-size: 16px;line-height: 20px;font-weight: {{item['font_weight']}};color: {{item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['post_copy']}}</p>
+            <p style="font-size: 16px;line-height: 20px;font-weight: {{item['font_weight']}};color: {{item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy']}}</p>
           </td>
         </tr>
       </tbody>
