@@ -138,7 +138,7 @@ for section_name, section_content in data.items():
 
 # Path to static HTML parts
 top_file_path = os.path.join(static_directory, 'top.html')
-bottom_file_path = os.path.join(static_directory, 'bottom.html')
+#bottom_file_path = os.path.join(static_directory, 'bottom.html')
 
 # Get the base name of the JSON file without its extension
 base_name = os.path.splitext(os.path.basename(args.json_file))[0]
@@ -165,11 +165,11 @@ try:
                         final_file.write(file.read())
         
         # Include the bottom part if it exists
-        if os.path.exists(bottom_file_path):
-            with open(bottom_file_path, 'r') as file:
-                final_file.write(file.read())
-        else:
-            print(f"Warning: Bottom file '{bottom_file_path}' not found")
+        # if os.path.exists(bottom_file_path):
+        #     with open(bottom_file_path, 'r') as file:
+        #         final_file.write(file.read())
+        # else:
+        #     print(f"Warning: Bottom file '{bottom_file_path}' not found")
     
     print(f'All content successfully concatenated into {final_file_path}')
 except Exception as e:
