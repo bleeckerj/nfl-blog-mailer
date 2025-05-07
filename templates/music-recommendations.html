@@ -1,0 +1,38 @@
+<tr>
+    <td align="left" class="box-red" style="border-collapse:collapse; background: {{ item['bg_color'] }}; padding:0 0 0 0;">
+      <!--[if mso]><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td width="35%" valign="top"><![endif]-->
+      <table width="224" border="0" cellpadding="0" cellspacing="0" align="left" class="fr">
+        <tr>
+          <td style="padding-top:20px; padding-right:10px; padding-bottom:5px; padding-left:20px;">
+            <p style="margin:0; margin-bottom:15px;">
+              <img src="{{ item['image_url'] }}" width="100%" height="auto" class="img" loading="lazy" style="-ms-interpolation-mode:bicubic; display:block; max-width:416px; width:100%;">
+            </p>
+            <p class="grey" style="color:{{ item['caption_color'] }} !important; font-size:16px; line-height:23px; margin:0; margin-bottom:15px;">
+              {{ item['image_caption'] }}
+            </p>
+          </td>
+        </tr>
+      </table>
+      <!--[if mso]></td><td width="65%" valign="top"><![endif]-->
+      <table width="416" border="0" cellpadding="0" cellspacing="0" align="right" class="fr">
+        <tr>
+          <td style="padding-top:15px; padding-right:20px; padding-left:10px;" valign="top">
+            {% for rec in item['recommendations'] %}
+            <h2 style="color:#000; font-size:16px; font-weight:600; line-height:23px; margin:0; padding:0 0 5px 0;">
+              <a href="{{ rec['link_url'] }}" style="text-decoration:underline; color:#000 !important;">{{ rec['title'] }}</a>
+                &nbsp;<a href="{{ rec['link_url'] }}" style="text-decoration:none !important; font-weight:600; color:#838383 !important;">{{ rec['cta_icon'] | default('[+]') }}</a>
+            </h2>
+            <p style="color:#84625D !important; font-size:16px; line-height:23px; margin:0 0 5px 0;">
+              {{ rec['subtitle'] }}
+            </p>
+            <p style="color:#000; font-size:16px; line-height:23px; margin:0 0 15px 0;">
+              {{ rec['main_copy'] }}
+            </p>
+            {% endfor %}
+          </td>
+        </tr>
+      </table>
+      <!--[if mso]></td></tr></table><![endif]-->
+    </td>
+  </tr>
+  

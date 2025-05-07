@@ -1,0 +1,34 @@
+<tr>
+    <td align="left" style="border-collapse:collapse">
+      <table width="224" border="0" cellpadding="0" cellspacing="0" align="left" class="fr">
+        <tr>
+          <td class="pt15 pr10 pl20" valign="top" style="padding-top:15px; padding-right:10px; padding-left:20px;">
+            <h2 style="font-size:16px; font-weight:600;">
+              <a href="{{ item['link_url'] }}" style="text-decoration:underline; color:#000 !important">
+                {{ item['title'] }}
+              </a>
+              {% if item['link_url'] %}
+                <a class="add" href="{{ item['link_url'] }}" style="text-decoration:none !important; font-weight:600; color:#838383 !important">
+                  {{ item['cta_icon'] }}
+                </a>
+              {% endif %}
+            </h2>
+            <h3 style="font-size:16px; font-weight:400; color:#5A5A5A !important;">
+              {{ item['tagline'] }}
+            </h3>
+          </td>
+        </tr>
+      </table>
+  
+      <table width="416" border="0" cellpadding="0" cellspacing="0" align="right" class="fr">
+        <tr>
+          <td class="pt15 pr20 pl10 mobt0" valign="top" style="padding-top:15px; padding-right:20px; padding-left:10px;">
+            <p style="font-size:16px; line-height:23px; color:#000;">
+              {{ item['description'] }}
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  

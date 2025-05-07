@@ -1,0 +1,38 @@
+<tr>
+  <td align="left" style="border-collapse:collapse">
+    <!--[if mso]><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td width="65%" valign="top"><![endif]-->
+    <table width="416" border="0" cellpadding="0" cellspacing="0" align="left" class="fr">
+      <tr>
+        <td valign="top" style="padding-top:15px; padding-right:10px; padding-left:20px;">
+          {% for ad in item['ads'] %}
+          <p style="color:#000; font-size:16px; font-weight:400; line-height:23px; margin:0 0 15px 0; padding:0;">
+            <a href="{{ ad['url'] }}" style="text-decoration:underline; color:#000 !important">
+              <b style="font-weight:600">{{ ad['title'] }}</b>
+            </a> – {{ ad['description'] }}
+            {% if ad['plus_link'] %}
+              &nbsp;<a class="add" href="{{ ad['plus_link'] }}" style="text-decoration:none !important; font-weight:600; color:#838383 !important">{{ ad['cta_icon'] | default("[+]") }}</a>
+            {% endif %}
+          </p>
+          <div class="line" style="border-bottom:2px solid #f2f2f2; display:block; height:2px; margin-bottom:15px;" height="2"></div>
+          {% endfor %}
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]></td><td width="35%" valign="top"><![endif]-->
+    <table width="224" border="0" cellpadding="0" cellspacing="0" align="right" class="fr">
+      <tr>
+        <td valign="top" style="padding-top:15px; padding-right:20px; padding-left:10px;">
+          <p style="color:#5A5A5A !important; font-size:16px; font-weight:400; line-height:23px; margin:0 0 15px 0;">
+            {{ item['sidebar_text'] }}
+          </p>
+          <p style="margin:0 0 15px 0; padding:0;">
+            <a href="{{ item['sidebar_cta_url'] }}" class="btn btn-grey" style="text-decoration:none !important; border-radius:2px; display:inline-block; padding:3px 8px 4px 8px; text-align:center; background:#5A5A5A; color:#fff !important;">
+              <b style="font-weight:600">{{ item['sidebar_cta_text'] }}</b>
+            </a>
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td>
+</tr>

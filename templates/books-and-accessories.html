@@ -1,0 +1,34 @@
+<tr>
+  <td align="left" style="border-collapse:collapse;">
+    <!--[if mso]><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td width="50%" valign="top"><![endif]-->
+    <table width="320" border="0" cellpadding="0" cellspacing="0" align="right" class="fr" style="border-spacing:0;">
+      <tr>
+        <td valign="top" style="padding-top:15px; padding-right:20px; padding-left:10px;">
+          <p style="color:#000; font-size:16px; font-weight:400; line-height:23px; margin:0; margin-bottom:15px; padding:0;">
+            <img src="{{ item['image'] }}" width="100%" height="auto" class="img" loading="lazy" style="-ms-interpolation-mode:bicubic; display:block; max-width:416px; width:100%;">
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+    <table width="320" border="0" cellpadding="0" cellspacing="0" align="left" class="fr" style="border-spacing:0;">
+      <tr>
+        <td valign="top" style="padding-top:15px; padding-right:10px; padding-left:20px;">
+          <h2 style="color:#000; font-size:16px; font-weight:600; line-height:23px; margin:0; padding:0 0 5px 0;">
+            <a href="{{ item['link_url'] }}" style="text-decoration:underline; color:#000 !important">{{ item['title'] }}</a>
+            {% if item['link_url'] %}
+              &nbsp;<a class="add" href="{{ item['link_url'] }}" style="text-decoration:none !important; font-weight:600; color:#838383 !important; font-size: large;">{{ item['cta_icon'] }}</a>
+            {% endif %}
+          </h2>
+          <h3 style="font-size:16px; font-weight:400; line-height:23px; margin:0; padding:0 0 5px 0; color:#5A5A5A !important">
+            {{ item['subtitle'] }}
+          </h3>
+          <p style="color:#000; font-size:16px; font-weight:400; line-height:23px; margin:0; margin-bottom:15px; padding:0;">
+            {{ item['main_copy'] }}
+          </p>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td>
+</tr>
