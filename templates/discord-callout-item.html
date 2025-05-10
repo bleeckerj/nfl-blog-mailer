@@ -5,9 +5,9 @@
     {% if item['image_url'] %}
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
       <tr>
-        <td align="center" style="padding: 15px 10px 0 10px;">
+        <td align="center" style="padding:0 10px;">
           <a href="{{ item['page_url']}}">
-            <img src="{{ item['image_url'] }}" alt="{{ item['image_alt'] | default('') }}" width="{{ item['image_width'] | default('560') }}" style="display: block; border: 0; max-width: 100%; width: {{ item['image_width'] | default('560') }}px; border-radius: 0.8rem;">
+            <img src="{{ item['image_url'] }}" alt="{{ item['image_alt'] | default('') }}" style="display: block; border: 0; max-width: 100%; width: {{ item['image_width'] | default('599') }}px; border-radius: 0.8rem;">
           </a>
         </td>
       </tr>
@@ -21,10 +21,10 @@
       
         <tr>
           <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
-            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: {{ item['text_color']}}; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+            <span style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: {{ item['text_color']}}; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
               <a href="{{ item['page_url']}}" style="text-decoration: underline;color: {{item['text_color']}} !important;">
                 {{ item['link_text'] }}
-              </a> ➜</h2>
+              </a> ➜</span>
             <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:{{ item['light_text_color']}} !important;">{{ item['user_callout']}}</p>
           </td>
         </tr>
@@ -36,7 +36,7 @@
       
         <tr>
           <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
-            <p style="font-size: 16px;line-height: 20px;color: {{item['text_color']}};padding: 0;margin: 0;margin-bottom: 15px;">{{ item['main_copy']}}</p>
+            <p style="font-size: 16px;line-height: 20px;color: {{item['text_color']}};padding: 10px 10px 10px 5px; margin: 0;margin-bottom: 15px;">{{ item['main_copy']}}</p>
           </td>
         </tr>
       
