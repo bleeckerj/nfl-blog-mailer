@@ -3,11 +3,11 @@
   <td align="center" bgcolor="{{ item['background_color'] }}" style="border-collapse: collapse; background-color: {{ item['background_color'] }}; border-left: {{ item['border_width'] }} solid {{ item['border_color'] }}; border-right: {{ item['border_width'] }} solid {{ item['border_color'] }}; border-top: {{ item['border_width'] }} solid {{ item['border_color'] }}; border-top-left-radius: {{ item['border_top_left_radius'] }}; border-top-right-radius: {{ item['border_top_right_radius'] }}; padding-top: 15px; padding-bottom: 15px;">
 
     <!-- Image Section -->
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="width: 100%; max-width: 600px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="width: 100%; max-width: 640px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
       <tr>
         <td align="center" style="padding: 0 10px;">
           <a href="{{ item['link_ref'] }}">
-            <img src="{{ item['image_url'] }}" alt="⊂(◉‿◉)つ" width="600" style="-ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 600px; height: auto; border-radius: {{ item['image_corner_radius'] }};">
+            <img src="{{ item['image_url'] }}" alt="⊂(◉‿◉)つ" width="600" style="-ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 640px; height: auto; border-radius: 0.8em;">
           </a>
         </td>
       </tr>
@@ -20,28 +20,28 @@
   <td align="center" bgcolor="{{ item['background_color'] }}" style="border-collapse: collapse; background-color: {{ item['background_color'] }}; border-bottom-left-radius: {{ item['border_bottom_left_radius'] }}; border-bottom-right-radius: {{ item['border_bottom_right_radius'] }};">
 
     <!-- Text Section -->
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="width: 100%; max-width: 600px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="width: 100%; max-width: 640px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
       <tr>
         <td align="left" style="padding: 15px 10px;">
 
           <!-- Title -->
           <p style="margin: 0 0 5px 0; font-weight: bold;">
-            <a href="{{ item['link_ref'] }}" style="text-decoration: underline; color: {{ item['title_text_color'] }} !important; font-family: {{ item['title_font_family'] }}; font-size: {{ item['font_size'] }};">{{ item['title'] }}</a>
+            <a href="{{ item['link_ref'] }}" style="text-decoration: underline; color: {{ item['title_text_color'] }} !important; font-size: 21px; line-height: 23px;">{{ item['title'] }}</a>
           </p>
 
           <!-- Subtitle -->
-          <p style="margin: 0 0 10px 0; font-weight: bold; color: {{ item['light_text_color'] }} !important;">
+          <p style="margin: 0 0 10px 0; font-weight: bold;">
             {{ item['subtitle'] }}
           </p>
 
           <!-- Main Copy -->
-          <p style="margin: 0 0 15px 0; font-weight: normal; color: {{ item['main_copy_text_color'] }} !important;font-family: {{ item['main_copy_font_family'] }}; font-size: {{ item['main_copy_font_size'] }};">
+          <p style="margin: 0 0 15px 0; font-weight: normal; font-size: 16px; line-height: 23px;">
             {{ item['main_copy'] }}
           </p>
 
           <!-- Read More Link -->
           <p style="margin: 0;">
-            <a href="{{ item['read_more_link_ref'] }}" style="text-decoration: underline; color: {{ item['text_color'] }} !important;">Read More ⇒</a>
+            <a href="{{ item['read_more_link_ref'] }}" style="text-decoration: underline;">Read More ⇒</a>
           </p>
 
         </td>

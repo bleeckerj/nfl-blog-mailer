@@ -1,8 +1,8 @@
 <!-- start image-feature.html-->
 <tr>
-  <td style="background-color: {{ item['background_color'] }}; border-collapse: collapse; border-left: {{ item['border_width_left'] }} solid {{ item['border_color'] }}; border-right: {{ item['border_width_right'] }} solid {{ item['border_color'] }}; border-bottom: {{ item['border_width_bottom'] }} solid {{ item['border_color'] }}; border-top: {{ item['border_width_top'] }} solid {{ item['border_color'] }}; border-bottom-left-radius: {{ item['bottom_left_radius'] }}; border-bottom-right-radius: {{ item['bottom_right_radius'] }}; border-top-left-radius: {{ item['top_left_radius'] }}; border-top-right-radius: {{ item['top_right_radius'] }};">
+  <td style="background-color: {{ item['background_color'] }}; border-collapse: collapse; border-bottom-left-radius: {{ item['bottom_left_radius'] }}; border-bottom-right-radius: {{ item['bottom_right_radius'] }}; border-top-left-radius: {{ item['top_left_radius'] }}; border-top-right-radius: {{ item['top_right_radius'] }};">
 
-    <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 600px;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 640px;">
       
 
         <!-- IMAGE -->
@@ -19,18 +19,18 @@
           <td style="border-collapse: collapse; padding: 15px 10px 20px 10px;" valign="top">
             
             <!-- Title -->
-            <p style="margin: 0 0 10px 0; font-family: {{ item['title_font_family'] }}; font-size: {{ item['title_font_size'] }}; line-height: {{ item['title_line_height'] }}; font-style: {{ item['title_font_style'] }}; font-weight: {{ item['title_font_weight'] }}; color: {{ item['title_color'] }};">
-              {{ item['title'] }}
-            </p>
+            <h1 class="pb5" style="color:#000; font-size:16px; font-weight:600; line-height:23px; margin:0; mso-line-height-rule:exactly; padding:0 0 15px 0; padding-bottom:5px">
+            {{ item['title'] }}
+            </h1>
 
             <!-- Main Copy -->
-            <p style="margin: 0 0 15px 0; font-family: {{ item['font_family'] }}; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; font-style: {{ item['font_style'] }}; font-weight: {{ item['font_weight'] }}; color: {{ item['text_color'] }};">
+            <p style="margin: 0 0 15px 0; font-weight: normal; font-size: 16px; line-height: 23px;">
               {{ item['main_copy'] }}
             </p>
 
             <!-- Read More Link -->
-            <p style="margin: 0; font-family: {{ item['font_family'] }}; font-size: {{ item['font_size'] }}; line-height: {{ item['line_height'] }}; font-style: {{ item['font_style'] }}; font-weight: {{ item['font_weight'] }};">
-              <a href="{{ item['read_more_url'] }}" style="text-decoration: underline; color: {{ item['link_color'] }} !important;">{{ item['read_more_text'] }}</a> <span style="color: {{ item['link_color'] }} !important;">⇒</span>
+            <p style="margin: 0 0 15px 0; font-weight: normal; font-size: 16px; line-height: 23px;">
+              <a href="{{ item['read_more_url'] }}" style="text-decoration: underline;">{{ item['read_more_text'] }}</a> <span>⇒</span>
             </p>
 
           </td>
