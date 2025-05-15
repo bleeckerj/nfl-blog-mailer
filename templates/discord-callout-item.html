@@ -1,11 +1,12 @@
 
 <tr>
-  <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="width: 100%; max-width: 640px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+  <td align="center" bgcolor="{{ item['bgcolor' ]}}" style="padding: 0;"> <!-- THIS WAS MISSING -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="force-row" style="width: 100%; max-width: 640px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 <!-- start discord-callout-item.html -->
     {% if item['image_url'] %}
 <tr>
 <td>
-<table border="0" cellpadding="0" cellspacing="0" width="100%" class="force-row">
+<table border="0" cellpadding="0" cellspacing="0" width="10%" class="force-row">
   <tr>
     <td align="center" style="padding:0 10px 0 0;">
       <a href="{{ item['page_url']}}">
@@ -49,8 +50,8 @@
 
 <!--[if mso]></td></tr></table><![endif]-->
   </td> <!-- This is the closing TD for the main content cell with the background color -->
-</tr> <!-- This closes the TR for the main copy content -->
-</table>
+</tr> <!-- This closes the TR withine main copy content -->
+</td> <!-- THIS WAS MISSING -->
 
 <!-- Spacer Row Adjust height and background color? -->
 <tr>
