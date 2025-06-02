@@ -1,0 +1,31 @@
+<!-- start full-width-item.html-->
+<tr>
+    <td align="center" bgcolor="{{ item['background_color'] }}" style="border-collapse: collapse; background-color: {{ item['background_color'] }}; border-left: {{ item['border_width'] }} solid {{ item['border_color'] }}; border-right: {{ item['border_width'] }} solid {{ item['border_color'] }}; border-top: {{ item['border_width'] }} solid {{ item['border_color'] }}; border-top-left-radius: {{ item['border_top_left_radius'] }}; border-top-right-radius: {{ item['border_top_right_radius'] }}; padding-top: 15px; padding-bottom: 15px;">
+        
+        <!-- Image Section -->
+        <table align="center" border="0" cellpadding="0" cellspacing="0" class="force-row" style="width: 100%; max-width: 640px; border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tr>
+                <td align="center" style="padding: 0 10px;">
+                    {% if item['link_ref'] %}
+                    <a href="{{ item['link_ref'] }}">
+                        <img src="{{ item['image_url'] }}" alt="⊂(◉‿◉)つ" width="600" style="-ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 640px; height: auto; border-radius: 0.8em;">
+                    </a>
+                    {% else %}
+                    <img src="{{ item['image_url'] }}" alt="⊂(◉‿◉)つ" width="600" style="-ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 640px; height: auto; border-radius: 0.8em;">
+                    {% endif %}
+                </td>
+            </tr>
+            {% if item['caption'] %}
+            <tr>
+                <td align="left" style="padding: 6px 10px 0 10px; font-size: 13px; color: #666; font-family: Inter, Arial, sans-serif;">
+                    {{ item['caption'] }}
+                </td>
+            </tr>
+            {% endif %}
+        </table>
+        
+    </td>
+</tr>
+
+
+<!-- end full-width-image.html-->
