@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  
+  <!--[if gte mso 9]><xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG></o:AllowPNG>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gt mso 15]>
+<style type="text/css" media="all">
+  /* Outlook 2016 Height Fix */
+  table, tr, td {border-collapse: collapse;}
+  tr { font-size:0px; line-height:0px; border-collapse: collapse; }
+</style>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="date=no">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+  
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/formadjr/FormaDJRUI-Bold.woff2') format("woff2"),
+    url('/fonts/formadjr/FormaDJRUI-Bold.woff') format("woff");
+    font-family: 'FormaDJRUI';
+    font-style: normal;
+    font-weight: bold;
+  }
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Regular.woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Regular.woff') format("woff");
+    font-family: 'WarblerText';
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Italic.woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Italic.woff') format("woff");
+    font-family: 'WarblerText';
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Bold.woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-Bold.woff') format("woff");
+    font-family: 'WarblerText';
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+  }
+  
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-BoldItalic.woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/warbler/WarblerTextV1.2-BoldItalic.woff') format("woff");
+    font-family: 'WarblerText';
+    font-weight: bold;
+    font-style: italic;
+    font-weight: 700;
+  }
+  
+  @font-face {
+    src: url('https://nearfuturelaboratory.com/fonts/roslindale/RoslindaleVariable[opsz,slnt,wdth,wght].woff2') format("woff2"),
+    url('https://nearfuturelaboratory.com/fonts/roslindale/RoslindaleVariable[opsz,slnt,wdth,wght].woff') format("woff");
+    font-family: 'RoslindaleVariable';
+  }
+  
+  @font-face {
+    font-family: "ChicagoKare";
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://nearfuturelaboratory.com/fonts/chicagokare-regular/ChicagoKare-Regular.woff2') format('woff2');
+  }
+  
+</style>
+<style media="screen" type="text/css">
+  @media screen and (max-width:599px) {
+    .force-row,
+    .container,
+    .body,
+    .footer {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    .headline {
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+    }
+    .large,
+    h1 {
+      font-size: 19px !important;
+      line-height: 27px !important;
+    }
+    .spacer {
+      padding-top: 15px !important;
+    }
+    .browser {
+      display: none !important;
+    }
+    .align-left {
+      text-align: left
+    }
+    a.h1byline {
+      line-height: 12px !important;
+      padding-top: 8px;
+      font-size: 10px !important;
+    }
+    .rounded-box {
+      border-radius: 0.5rem !important;
+    }
+    /* Stack columns instead of side-by-side */
+    .column-image,
+    .column-text {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    
+    /* Adjust padding for stacked layout */
+    .column-image {
+      padding-bottom: 0 !important;
+    }
+    
+    .padl20, .padr20, .padl10, .padr10 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+    
+    /* Make images fit the width */
+    img:not(.small-image) {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+    }   
+    
+    
+    /* Force tables to be 100% width */
+    table.force-row {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    
+    /* Add some space between stacked elements */
+    .column-image td {
+      padding-bottom: 0 !important;
+    }
+    
+  }
+  
+</style>
+
+<!--[if mso]>
+<style type="text/css">
+  body, table, td, h1, h2, h3, p {font-family: Arial, sans-serif !important;}
+</style>
+<![endif]-->
+<style media="screen" type="text/css">
+  .ios-footer a {
+    color: #aaaaaa !important;
+    text-decoration: underline;
+  }
+  .yshortcuts a {
+    border-bottom: none !important;
+  }
+  .ExternalClass {
+    width: 100%;
+  }
+  .ExternalClass,
+  .ExternalClass p,
+  .ExternalClass span,
+  .ExternalClass font,
+  .ExternalClass td,
+  .ExternalClass div {
+    line-height: 100%;
+  }
+  .ReadMsgBody {
+    width: 100%;
+    background-color: #ebebeb;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+  a[href^="x-apple-data-detectors:"],
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+<style>
+  /* CSS HEX */
+  
+  :root {
+    --orange-color: #FFA500;
+    --aquamarine: #77F2B4;
+    --amethyst: #9b5de5ff;
+    --lavender-pink: #F7B7D7;
+    --maize: #fee440ff;
+    --timberwolf: #CCCCC8;
+    --celadon: #B6D9C6;
+    --brightblue: #95defe;
+    --straw: #F7F49C;
+  }
+</style>
+</head>
+<body style="margin: 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+  
+  <div style="margin:0 auto;max-width:600px;width:100%;">
+    <!-- HEADER -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #ffffff; border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+      <tr>
+        <td align="center" style="padding: 15px 0;">
+          <img src="https://nearfuturelaboratory.com/images/site/logos/LaboratoryCircle_Guy_01_CircleTeal_200px.png" 
+          alt="Near Future Laboratory" 
+          width="120" 
+          class="small-image" 
+          style="-ms-interpolation-mode: bicubic; border: 0; display: block; max-width: 120px; width: 100%; height: auto;">
+        </td>
+        
+      </tr>
+    </table>
+    
+    <!-- BODY -->
+    <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;max-width: 600px;table-layout: fixed;margin: 0 auto;">    <tbody>            
+      <tr>
+        <td align="center" style="margin-bottom: 15px; background-color: #FFFFFF;border-collapse: collapse;" valign="top">
+          
+          <!-- 600px container (white background) -->
+          <table border="0" cellpadding="0" cellspacing="0" class="body" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;max-width: 600px;">
+            <tbody>
+              
+              <!-- end top.html --><!-- start text-feature.html-->
+<tr>
+    <td style="background-color: #FFFFFF; border-collapse: collapse; border-left: 0px solid ; border-right: 0px solid ; border-bottom: 0px solid ; border-top: 0px solid ; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-top-left-radius: 0px; border-top-right-radius: 0px;">
+  
+      <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 600px;">
+        <tbody>
+          <tr>
+            <td style="border-collapse: collapse; padding: 20px 20px 20px 10px;" valign="top">
+              
+              <!-- Dynamic HTML Text -->
+              <div style="font-family: monospace; font-size: 16px; line-height: 1em; color: #0a0a0a;">
+                It seems like we’re asking AI to feel with us now.
+<br/><br/>
+To hold our grief.
+<br/><br/>
+To help us make meaning.
+<br/><br/>
+To “understand” us.
+<br/><br/>
+Not excluding this — and Eliza somewhat anticipated our current predicament — what happens when "it" also starts representing us?
+<br/><br/>
+Not just as companions… but as 
+proxies.
+<br/><br/>
+For work. 
+<br/><br/>
+For relationships. 
+<br/><br/>
+For identity itself.
+<br/><br/>
+When the "it" is not just with us, but also taking action amongst other humans on our behalf?
+<br/><br/>
+Digital Twins — almost feels potentially more problematic. 
+<br/><br/>
+But hold on..
+<br/><br/>
+Suppose we worked really, really hard to imagine how that might be good rather than leading to an existential conflagration.
+<br/><br/>
+We're prone to identify the calamity. I get that. 
+<br/><br/>
+Remember Fredric Jameson?
+<br/><br/>
+“It's easier to imagine the end of the world than the end of capitalism.”
+Sure you do..or some variation therein.
+<br/><br/>
+I do this too. 
+<br/><br/>
+It's as if we're programmed to see the worst of all possible outcomes, particularly when we feel like we have no control.
+<br/><br/>
+What does this idea of a 'Digital Twin' (okay..not the most evocative naming there..) look like if it delivers non-extractive benefits?
+<br/><br/>
+If you've got 50 minutes with it per week rather than continuous always-on?
+<br/><br/>
+Just wondering outloud.
+<br/><br/><a href='https://generalseminar.com/seminar/s06/e05'>Wonder with me into our preferred near future ⇪</a>
+              </div>
+  
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  
+    </td>
+  </tr>
+  <!-- end text-feature.html-->
+  <!-- start spacer-feature.html-->
+<tr>
+    <td height="20px" style="height: 20px; background-color: #4cbfdf; font-size: 1px; line-height: 1px; border-collapse: collapse;">
+      &nbsp;
+    </td>
+  </tr>
+  <!-- end spacer-feature.html-->
+  <!-- SUBJECT LINE -->
+                    <!--[if mso]>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td width="50%" valign="top"><![endif]-->
+                    <table  border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+                      <tbody>
+                        <tr>
+                          <td style="border-collapse: collapse; padding-left: 10px;" valign="top">
+                            <p style="mso-line-height-rule: exactly;font-size: 21px;font-weight: 600;line-height: 23px;color: #000000;margin-bottom: 25px; padding: 0;">
+                              It was Week 18 of 2025 at Near Future Laboratory and some things were shared in the Discord.
+                            </p>
+                            
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>                <!-- start box-feature.html -->
+                <tr>
+                  <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-collapse: collapse; border-left: 0px solid ; border-right: 0px solid ; border-top: 0px solid ; background-color: #FFFFFF;padding-top: 15px;padding-right: 20px;padding-left: 20px; padding-bottom: 15px; ;">
+                    <span style="mso-line-height-rule: exactly;font-family: FormaDJRUI, Monaco, Arial; font-size: 18pt;font-weight: normal;line-height: 23px;color: #0a0a0a;margin: 0;padding: 0;">Resources for Designing Futures</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-collapse: collapse; background-color: #FFFFFF; border-left:0px solid ;border-bottom:0px solid ;border-right:0px solid ;;">
+                    <!--[if mso]>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr><td width="35%" valign="top"><![endif]-->
+              <table align="left" border="0" cellpadding="0" cellspacing="0"  style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 50%;" width="50%">
+                <tbody>
+                  <tr>
+                    <td style="border-collapse: collapse;padding-top: 20px;padding-right: 10px;padding-bottom: 5px;padding-left: ;" valign="top">
+                      <p style="padding: 0;margin: 0;margin-bottom: 15px;">
+                        <a href='https://iwabm.notion.site/Resources-for-Designing-Futures-1e0bc10f791b803da409ed2de569115e'><img src="https://iwabm.notion.site/image/attachment%3A5a5f5743-5001-41f6-858d-c67bd7d48ae9%3AArtboard_Copy_69.png?table=block&id=1e2bc10f-791b-809f-9e2e-cf8e062c2dbd&spaceId=a58a35cf-9ffa-4aff-ba10-10d9aa8e152e&width=840&userId=&cache=v2" alt="⊂(◉‿◉)つ" width="auto" height="auto" style="-ms-interpolation-mode: bicubic;display: block;max-height: 900px;max-width: 900px;width: 100%; border-radius: 0.8rem;"></a>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+                    <!--[if mso]></td><td width="65%" valign="top"><![endif]-->
+                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt; width: 50%;">
+                      <tbody>
+                        <tr>
+                          <td class="padt15 padr20 padl10 padb0 mobt0" style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-bottom: 15px;padding-left: 10px;" valign="top">
+                            <h2 style="mso-line-height-rule: exactly;font-size: 15px;line-height: 23px;font-weight: 600; color:#0a0a0a;margin: 0;padding: 0 0 5px 0;">
+                              <a href="https://iwabm.notion.site/Resources-for-Designing-Futures-1e0bc10f791b803da409ed2de569115e" style="text-decoration: underline;color:#0a0a0a !important;">Needs for New Design Education</a> →</h2>
+                            <p style="font-family: 'FormaDJRUI, Helvetica, Monaco, Arial'; font-style: 'normal';font-size: 14px;line-height: 15px;font-weight:  'normal';color: #6a6a6a;padding: 0;margin: 0;">Masaki Iwabuchi has pulled together a Notion document containing a rich catalog of resources for designerly approaches to futuring.</p>
+                            <p style="text-align: center; font-size: 15px;"></p>
+                                <p style="font-size: 15px;font-weight: normal;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 14px;">
+                              Despite advancements in science and technology, our future remains uncertain due to complex global challenges like climate change, international conflicts, and economic inequality. While designers excel at creating visually appealing and human-centered products, they often lack the expertise to tackle long-term societal issues.
+                            </p>
+                            <p class="small grey" style="font-size: 15px;line-height: 16px;font-weight: 'normal';color: #FFFFFF !important;padding: 0;margin: 0;margin-bottom: 15px;"><a href="https://iwabm.notion.site/Resources-for-Designing-Futures-1e0bc10f791b803da409ed2de569115e" style="text-decoration: underline;text-align: right;display: inline-block; float: left;color: #0a0a0a !important;">Masaki Iwabuchi Notion Resource</a></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!--[if mso]></td></tr></table><![endif]-->
+                  </td>
+                </tr>
+                <!-- end box-feature.html --><!-- start spacer-feature.html-->
+<tr>
+    <td height="20px" style="height: 20px; background-color: #ffffff; font-size: 1px; line-height: 1px; border-collapse: collapse;">
+      &nbsp;
+    </td>
+  </tr>
+  <!-- end spacer-feature.html-->
+  <!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #ddfab8;">
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 15px 10px 0 10px;">
+          <a href="https://generalseminar.com/seminar/s06/e05/">
+            <img src="https://generalseminar.com/images/s06/e05/GS_S06E05_SQUARE_2_600px.webp" alt="" width="560" style="display: block; border: 0; max-width: 100%; width: 560px; border-radius: 0.8rem;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://generalseminar.com/seminar/s06/e05/" style="text-decoration: underline;color: #0a0a0a !important;">
+                Digital Twins Are The Future Of Work?
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@julian</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">What if your career had a shadow version of you — always learning, always optimizing, always on? But who owns that twin, anyway? Who operates it? Where does it ‘reside’? Join us! General Seminar Season 6, Episode 5.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #FFFFFF;">
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 15px 10px 0 10px;">
+          <a href="https://pca.st/episode/03efc94c-6377-4ed3-9917-2c8fe97addd8">
+            <img src="https://play.pocketcasts.com/podcasts/0de94e80-f77e-0135-c25e-7d73a919276a/03efc94c-6377-4ed3-9917-2c8fe97addd8" alt="" width="560" style="display: block; border: 0; max-width: 100%; width: 560px; border-radius: 0.8rem;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://pca.st/episode/03efc94c-6377-4ed3-9917-2c8fe97addd8" style="text-decoration: underline;color: #0a0a0a !important;">
+                Revolutionising AI usability with Jakob Nielsen
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@DrewWiberg in<br/>⁠🦈-design-won’t-save-us⁠</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">UX legend Jakob Nielsen discusses why AI usability still lags behind (behind what?) and what needs to change.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #ddfab8;">
+    
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://huggingface.co/spaces/nari-labs/Dia-1.6B" style="text-decoration: underline;color: #0a0a0a !important;">
+                Free open-source realistic text to speech
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@julian in<br/>🛠-whats-ai-good-for-anyway</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">Dia is a 1.6B parameter text to speech model created by Nari Labs.
+
+Dia directly generates highly realistic dialogue from a transcript. You can condition the output on audio, enabling emotion and tone control. The model can also produce nonverbal communications like laughter, coughing, clearing throat, etc.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #ffffff;">
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 15px 10px 0 10px;">
+          <a href="https://lllyasviel.github.io/frame_pack_gitpage/">
+            <img src="https://lllyasviel.github.io/frame_pack_gitpage/img/logo.png" alt="" width="560" style="display: block; border: 0; max-width: 100%; width: 560px; border-radius: 0.8rem;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://lllyasviel.github.io/frame_pack_gitpage/" style="text-decoration: underline;color: #0a0a0a !important;">
+                FramePack
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@pegaunisusicorn in<br/> ⁠🛠-whats-ai-good-for-anyway⁠)</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">Generative video on your laptop? Open source? It's video diffusion, but feels like image diffusion.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #ddfab8;">
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 15px 10px 0 10px;">
+          <a href="https://youtu.be/eIP5bc-It8E">
+            <img src="https://i3.ytimg.com/vi/eIP5bc-It8E/hqdefault.jpg" alt="" width="560" style="display: block; border: 0; max-width: 100%; width: 560px; border-radius: 0.8rem;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://youtu.be/eIP5bc-It8E" style="text-decoration: underline;color: #0a0a0a !important;">
+                The Whiff of AI Aesthetic
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@julian in<br/>⁠🎬-videos⁠</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">Dream Logic Episode 1 (Kirby Ferguson): “It’s the start of a weekly conversation: musings, artist interviews, and long looks into the strange, evolving landscape of new creative tools. In this episode, Karin reflects on the unexpected freedoms and failures of this medium, and what she's noticed among peers in the design world. What it makes possible. What it doesn’t. It’s an open invitation to think differently.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #FFFFFF;">
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 15px 10px 0 10px;">
+          <a href="https://youtu.be/4fro_xPdj5E?si=6I2nOAV3Fabmkc96">
+            <img src="https://i3.ytimg.com/vi/4fro_xPdj5E/hqdefault.jpg" alt="" width="560" style="display: block; border: 0; max-width: 100%; width: 560px; border-radius: 0.8rem;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://youtu.be/4fro_xPdj5E?si=6I2nOAV3Fabmkc96" style="text-decoration: underline;color: #0a0a0a !important;">
+                "The Home of 1999" from the 1960s
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@julian in</br>🥖-domestic-futures)</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">In 1967, Philco-Ford produced a short film exploring what the "Home of the Future" might look like. We re-examine this film to see what they got right about the future - and what was wrong with the past.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #ddfab8;">
+    
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://www.forbes.com/sites/tonybradley/2025/04/24/one-prompt-can-bypass-every-major-llms-safeguards/" style="text-decoration: underline;color: #0a0a0a !important;">
+                One Prompt Can Bypass Every Major LLM’s Safeguards
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@pegaunisusicorn in<br/>🧰-artificial-intelligence⁠</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">Researchers have discovered a universal prompt injection technique that bypasses safety in all major LLMs, revealing critical flaws in current AI alignment methods.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #FFFFFF;">
+    
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="https://github.com/LearningCircuit/local-deep-research/blob/main/docs/release_notes/0.2.0.md" style="text-decoration: underline;color: #0a0a0a !important;">
+                Local Deep Research Release Notes
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@julian in<br/>🛠-whats-ai-good-for-anyway</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">Speaking of Digital Twins, Local Deep Research is an AI-powered assistant that transforms complex questions into comprehensive, cited reports by conducting iterative analysis using any LLM across diverse knowledge sources.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- start discord-callout-item.html -->
+<tr>
+  <td align="left" style="border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-collapse: collapse; background-color: #FFFFFF;">
+    
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 15px 10px 0 10px;">
+          <a href="">
+            <img src="https://img.youtube.com/vi/jxsyXc-LpKk/maxresdefault.jpg" alt="" width="560" style="display: block; border: 0; max-width: 100%; width: 560px; border-radius: 0.8rem;">
+          </a>
+        </td>
+      </tr>
+    </table>
+    
+
+    <!--[if mso]>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="30%" valign="top"><![endif]-->
+    <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="180">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 10px;padding-left: 10px;" valign="top">
+            <h2 style="mso-line-height-rule: exactly;font-size: 16px;line-height: 23px;font-weight: 600;color: #0a0a0a; margin: 0;padding: 0 0 15px 0;padding-bottom: 5px;">
+              <a href="" style="text-decoration: underline;color: #0a0a0a !important;">
+                Mountainhead Trailer
+              </a> ➜</h2>
+            <p style="mso-line-height-rule: exactly;font-size: 12px;line-height: 12px;font-weight: 200;margin: 0;padding: 0 0 5px 0;color:#6a6a6a !important;">@Patrick@Sentiers in<br/>🍿-films-and-shorts</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td><td width="70%" valign="top"><![endif]-->
+    <table align="right" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="400">
+      <tbody>
+        <tr>
+          <td style="border-collapse: collapse;padding-top: 15px;padding-right: 20px;padding-left: 10px;" valign="top">
+            <p style="font-size: 16px;line-height: 20px;color: #0a0a0a;padding: 0;margin: 0;margin-bottom: 15px;">A group of billionaire friends gather for a snowy trip while a global crisis unfolds and then drama.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--[if mso]></td></tr></table><![endif]-->
+  </td> <!-- This is the closing TD for the main content cell with the background color -->
+</tr> <!-- This closes the TR for the main content -->
+
+<!-- Spacer Row - Add this section -->
+<tr>
+  <td height="35" style="font-size: 15px; line-height: 15px; background-color: #FFFFFF;">&nbsp;</td> <!-- Adjust height and background as needed -->
+</tr>
+<!-- End Spacer Row -->
+
+<!-- end discord-callout-item.html --><!-- FOOTER 2 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto; text-align: center;">
+  <tr>
+    <td style="text-align: center; padding-bottom: 12px; padding-top: 24px;">
+      <img alt="Near Future Laboratory" src="https://nearfuturelaboratory.com/images/site/NFL_LOGO__NFL_BLUEISH_200px.png" class="small-image" style="margin: 0 auto; display: block; max-width: 120px; height: auto; -ms-interpolation-mode: bicubic;">
+    </td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: #F8F8F8; border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+  <tbody>
+    <tr>
+      <td align="center" style="background-color: #f8f8f8;border-collapse: collapse;" valign="top">
+
+        <!-- 600px container -->
+        <table border="0" cellpadding="0" cellspacing="0" class="footer" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt; width: 600px; max-width: 600px;">
+          <tbody>
+            <tr>
+              <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+            </tr>
+            <tr>
+              <td align="left" style="border-collapse: collapse;">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" class="force-row" style="border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 20px; padding-bottom: 10px;" valign="top">
+                        <p style="mso-line-height-rule: exactly;font-family: FormaDJRVariable;font-variation-settings: 'wght' 400; font-size: 20px;line-height: 20px;color: #000000;margin: 0;padding: 0;padding-bottom: 0px;">Colophon</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 0px;padding-right: 20px;padding-left: 20px;" valign="top">
+                        <!-- <h1 class="padb15" style="mso-line-height-rule: exactly;font-family: FormaDJRVariable; font-size: 24px;font-style: normal;line-height: 23px;color: #000000;margin: 0;padding: 0;padding-bottom: 15px;">Amplify This</h1> -->
+                        <p class="share" style="font-size: 9px;line-height: 20px;font-weight: 400;color: #000000;padding: 15px 5px;margin: 0;margin-bottom: 15px;border-radius: 6px; border: 1px #5f5f5f;background: #f0f0f0;text-align: center;">
+                          <a href="https://nearfuturelaboratory.com/outbox/issues/2025/w17-y25.html" style="text-decoration: underline;color: #000000 !important;"><b style="font-size: 18px; font-weight: 400;">nearfuturelaboratory.com/outbox/issues/2025/w17-y25.html</b></a>
+                        </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 20px; padding-bottom: 10px;" valign="top">
+                        <!-- <p style="mso-line-height-rule: exactly;font-family: FormaDJRVariable;font-variation-settings: 'wght' 300; font-size: 14px;line-height: 14px;color: #000000;margin: 0;padding: 0;padding-bottom: 0px;">With Gratitude to Kai Brach who has been running the newsletter <a href="https://densediscovery.com">Dense Discovery</a> for ages and who is a <a href="https://densediscovery.com/notes/behind-the-scenes/">DIY hero of mine</a>. This email template — another one in my process of 'prototyping in public' — is completely based on his template design, done in the spirit of building and refining to personal taste. Who knows what will come in the next newsletter; I sure don't know. Getting off the Silicon Stacks as much as possible feels right.</p> -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: center;border-collapse: collapse;padding-top: 20px;padding-right: 20px;padding-left: 20px;padding-bottom: 5px;" valign="top">
+                        <p style="font-family: 'FormaDJRVariable'; font-variation-settings: 'wght' 600; font-size: 14px;line-height: 19px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">Our hypothesis is that Imagination is our evolutionary advantage.</p>
+                        <p style="font-size: 14px;line-height: 19px;font-weight: 400;color: #000000;padding: 0;margin: 0;margin-bottom: 15px; font-family: 'FormaDJRVariable'; font-variation-settings: 'wght' 400;">Our global headquarters is located in a small backyard studio in Venice Beach, California, and our community is geographically distributed and centered online, at the moment, in the Near Future Laboratory Discord, which you can join by becoming a paying subscriber on <a href="https://patreon.com/nearfuturelaboratory"style="text-decoration: underline;font-size: 14px;line-height: 19px;color: #000000 !important;">Patreon</a> or <a href="https://nearfuturelaboratory.substack.com/" style="text-decoration: underline;font-size: 14px;line-height: 19px;color: #000000 !important;">Substack</a>.</p>
+                        <p style="font-family: 'FormaDJRVariable'; font-variation-settings: 'wght' 500;font-size: 14px;line-height: 19px;color: #000000;padding: 0;margin: 0;margin-bottom: 15px;">Get in touch. Take a look at <a href="https://nearfuturelaboratory.com/services">our services</a> or <a href="https://nearfuturelaboratory.com/contact" style="text-decoration: underline;color: #000000 !important;">contact me</a> to arrange a time to have a call and discuss ways we can be of service to your organization.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; font-family: 'Space Mono';font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px;line-height: 12px;">
+                        X <a href="https://www.twitter.com/nearfuturelab" style="font-family: 'Space Mono'; color: #fc00ac; font-weight: 400; text-decoration: underline;">@nearfuturelab</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; font-family: 'Space Mono'; font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px; line-height: 12px;">
+                        Instagram <a href="https://www.instagram.com/nearfuturelaboratory" style="color: #fc00ac; text-decoration: underline;">@nearfuturelaboratory</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; font-family: 'Space Mono'; font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px; line-height: 12px;">
+                        Instagram <a href="https://www.instagram.com/darthjulian" style="color: #fc00ac; text-decoration: underline;">@darthjulian</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; text-align: center; line-height: 12px; font-family: 'Space Mono';font-weight: 400; color: #fc00ac; text-decoration: normal; padding: 4px; line-height: 12px;">
+                        Youtube <a href="https://www.youtube.com/@nearfuturelaboratory" style="color: #fc00ac; text-decoration: underline;">@nearfuturelaboratory</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-size: 14px; font-family: 'Space Mono'; color: #fc00ac; font-style: normal; font-weight: 300; padding-top:5rem; padding-bottom: 0rem; margin-bottom: 1rem; margin-top: 0rem; text-align: center;">
+                        © 2025 Near Future Laboratory LLC
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="font-family: 'Space Mono'; color: #fc00ac; font-style: normal; font-weight: 300; font-size: 14px; line-height: 15px; text-align: center; padding-top: 2px; padding-bottom: 20px;">
+                        Build Time: 2025-01-07T21:10:58-08:00<br/>
+                        Prepared for [Email]<br/>
+                        <a href="[unsubscribe]">unsubscribe</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="spacer" style="border-collapse: collapse;font-size: 1px;line-height: 1;padding-top: 25px;"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

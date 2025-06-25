@@ -1,0 +1,268 @@
+[
+  {
+    "simple-text-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "WarblerText, Helvetica",
+          "font_size": "16px",
+          "line_height": "1em",
+          "main_html": "We often think of strategy as something cold, analytical, spreadsheet-driven. But more and more, I’m convinced that strategy is fundamentally a form of fiction—a way of telling a story about the future, then organizing people and resources to make that story real.\n<br/><br/>It’s not just about goals or roadmaps or five-year plans. It’s about imagination.\n<br/><br/>Strategy asks: What kind of world are we trying to bring into being? And perhaps more importantly: How do we evoke a sense of that place such that we can obtain alignment from our stakeholders, our community, our audience? How do we tell a rich, evocative story that our people can <em>feel</em> into a possible near future?\n<br/><br/>That’s where a particular kind of fiction comes in. I'm keen to call it 'Design Fiction', which is largely because I am a product kind of guy. I like to materialize possibility in the form of, well — cool, compelling, evocative, <em>stuff</em>.\n<br/><br/>Call it what you will, the point is that this kind of fictioning isn’t about falsehood — it’s about constructing a a kind of implied world coherent enough to wrap one's imagination, provocative enough to make someone feel its possibilities, curious enough to make one utter a simple, 'huh..', exciting enough to change us, and flexible enough to adapt. \n<br/><br/>Such a way of fictioning gives us permission to ask “what if?” and “why not?” — two questions that are often more catalytic than “how much will it cost?”\n<br/><br/>Designers, entrepreneurs, policy makers, brand leaders—we’re all in the business of future-making. Whether we admit it or not, we’re speculating. And speculation is a creative act. It requires intuition, imagination, and the willingness to sketch out a version of reality that hasn’t arrived yet.\n<br/><br/>When we stop thinking of strategy as planning and start thinking of it as storytelling, or evocative fictioning, something shifts. The work becomes more alive. The team becomes more aligned — not around a task list, but around a vision. And in that space between fiction and fact, real things start to happen.\n<br/><br/>I don’t just write vision decks or run ideation sessions — I build artifacts, from engineered things like the <a href='https://omata.com'>OMATA One</a> and more recently <a href=''>Vibewriter</a> to <a href='https://nearfuturelaboratory.com/library/2023/04/tbd-catalog-10th-anniversary-edition/'>product catalogs from the future</a> that imply a world of interconnected non-human intelligence. Tangible things. Strategic implications of emerging technologies, of brand expressions, experimental products, software provocations — things that make strategic intent something you can experience, hold in your hand, help facilitate discussions, help you act. This is Design Fiction —  work that complements and expands strategic and brand vision, helping to measure and ensure alignment within very kinetic cultural, social, technological contexts. If your team or organization are interested in this kind of work, I’d love to <a href='https://nearfuturelaboratory.com/contact'>talk with you about how we can collaborate</a>.\n<br/><br/>The value of this approach is that it allows us to explore the unknowns of our future in a way that’s not just theoretical, but practical. It’s about creating a shared vision that can guide our actions today, while also leaving room for adaptation and change as we move forward.\n<br/><br/>Augmenting aspiration and ‘slideware’ with disciplined Design Fiction represents a strategic commitment to the value of narrative as structure. This kind of fictioning brings creative practices into meaningful, actionable conversation with analytic processes. This is not merely a tactic, but rather a methodology: a way of operationalizing creative vision with clarity and rigor. It becomes a form of organizational discipline, aligning new ideas and technologies, cultural invention at the vanguard with stakeholder intent and surfacing the opportunities that shape long-term bets.\n<br/><br/>This idea has been on my mind a lot lately, particularly with the General Seminar '<a href='https://generalseminar.com/seminar/s06/e04/'>Strategy is Science Fiction</a>' a couple weeks back — and it came into sharper focus in my coffee conversation with Jarrett Fuller on <a href='https://podcasts.apple.com/us/podcast/n-097-jarrett-fuller-going-home/id1546452193?i=1000706088397'>Episode 097 of the Near Future Laboratory Podcast</a>.",
+          "text_color": "#0a0a0a",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "simple-text.html"
+      }
+    }
+  },
+  {
+    "book-haul-item-1": {
+      "elements": [
+        {
+          "author_username": "Julian",
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width": "0px",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://nearfuturelaboratory.com/images/events/2025/strategy-is-fiction-episode-097/EPISODE_097_ART_SQUARE_600px.jpg",
+          "led_link_text": "Episode 097",
+          "lede_font_family": "Helvetica",
+          "lede_font_size": "15px",
+          "lede_link_url": "https://podcasts.apple.com/us/podcast/n-097-jarrett-fuller-going-home/id1546452193?i=1000706088397",
+          "line_height": "1em",
+          "link_ref": "https://podcasts.apple.com/us/podcast/n-097-jarrett-fuller-going-home/id1546452193?i=1000706088397",
+          "main_copy": "We wandered into something I keep circling back to: the idea that strategy is a kind of science fiction. Not in the “space battles and robots” sense, but in the deeper way that science fiction gives us permission to imagine futures and then build toward them.",
+          "main_copy_font_family": "sans-serif",
+          "main_copy_font_size": "16px",
+          "main_copy_font_style": "normal",
+          "main_copy_font_weight": "normal",
+          "main_copy_line_height": "1em",
+          "radius": "0px",
+          "subtitle": "Jarrett Fuller discussing the entanglements of Imagination, Science Fiction, Strategy and Creativity.",
+          "subtitle_font_family": "FormaDJRUI, Helvetica, Monaco, Arial",
+          "subtitle_font_size": "12px",
+          "title": "",
+          "title_font_family": "FormaDJRUI, Monaco, Arial",
+          "title_font_style": "normal",
+          "title_font_weight": "normal",
+          "title_text_color": "#0a0a0a",
+          "username_font_family": "",
+          "username_font_style": "normal"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "book-haul-item.html"
+      }
+    }
+  },
+  {
+    "image-right-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "image_url": "https://nearfuturelaboratory.com/images/site/hq/HQ_007_D_O_3x2_030922_2041.webp",
+          "link_url": "https://generalseminar.com",
+          "main_copy": "Our next online General Seminar is coming up, May 12th and 14th!\nYou know how people are adding 'fractional' to their roles and titles? Imagine a world where you've got multiple fractionals, all agentic, trained by you through some facility to do the things you are uniquely capable of — and now these Digital Twins go forth and do so.<br/>\nWe'll discuss things like this in the next General Seminar! Strategy and product design starting with science-fiction!<br/>\nTickets are available over at <a href='https://generalseminar.com'>generalseminar.com</a>",
+          "main_copy_font_family": "Helvetica, sans-serif",
+          "main_copy_font_size": "16px",
+          "main_copy_font_style": "normal",
+          "main_copy_font_weight": "normal",
+          "main_copy_line_height": "1em",
+          "title": "Digital Twins?",
+          "title_font_family": "Helvetica, sans-serif"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "image-right.html"
+      }
+    }
+  },
+  {
+    "simple-text-2": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "FormaDJRUI, Helvetica, Monaco, Arial",
+          "font_size": "16px",
+          "line_height": "2em",
+          "main_html": "Seen in the Near Future Laboratory Discord",
+          "text_color": "#0a0a0a",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "simple-text.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F14da34c4-a898-4ac1-a720-f06b9e32cb4c_137x137.gif",
+          "light_text_color": "#6a6a6a",
+          "link_text": "How to live an intellectually rich life",
+          "main_copy": "“You did not slog through life, battling inhuman entrance examinations, irrational parental expectations and eight rounds of interviews to get this coveted job, only to do this data jugglery..Why are we chasing these vanity metrics, when the metrics themselves are poor indicators of reality?”",
+          "page_url": "https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich",
+          "text_color": "#0a0a0a",
+          "user_callout": "@dave_murphy"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-2": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://images-ext-1.discordapp.net/external/XN7fDdhEykEPQzW0K0BylFH1oytLEjWdnzNXGRBGGtA/%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3wxMTc3M3wwfDF8c2VhcmNofDQ4fHxzcHJpbmd8ZW58MHx8fHwxNzQ2MzY0MTIzfDA%26ixlib%3Drb-4.0.3%26q%3D80%26w%3D2000/https/images.unsplash.com/photo-1575721697801-937774cc44ab?format=webp&width=2088&height=1392",
+          "light_text_color": "#6a6a6a",
+          "link_text": "New challenges are old challenges",
+          "main_copy": "Exploring the trioptic design framework: Design is social, politic and aesthetic; Designing for AI: new challenges are old challenges",
+          "page_url": "https://utsavmamoria.substack.com/p/how-to-live-an-intellectually-rich",
+          "text_color": "#0a0a0a",
+          "user_callout": "@(Kevin)SkepticalDesign"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-4": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e2f2688-e25f-4c83-ba96-f8ab9018be6d_500x337.jpeg",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Revenge of the humanities",
+          "main_copy": "Like any technological revolution, AI is putting a premium on a new set of skills. Only this time, the skills might be best acquired in a writing workshop or a philosophy seminar.",
+          "page_url": "https://adjacentpossible.substack.com/p/revenge-of-the-humanities",
+          "text_color": "#0a0a0a",
+          "user_callout": "@Patrick@Sentiers in<br/>🛠-whats-ai-good-for-anyway⁠"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-3": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://cdn.discordapp.com/attachments/908206135989915688/1368654135578198138/1746026737825.png?ex=681901fe&is=6817b07e&hm=b219c66b9321be72375a5f6493eed76b5f87483870dba65320b91ca0b80c9828&",
+          "light_text_color": "#6a6a6a",
+          "link_text": "¯\\_(ツ)_/¯",
+          "main_copy": "",
+          "page_url": "https://nearfuturelaboratory.com",
+          "text_color": "#0a0a0a",
+          "user_callout": "@Sandro Pasquali in<br/>🦌-images-only-visually-inspiring"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "spacer-1": {
+      "elements": [
+        {
+          "spacer_color": "#000000",
+          "spacer_height": "4px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "simple-text": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "FormaDJRUI, Helvetica, Monaco, Arial",
+          "font_size": "16px",
+          "line_height": "1em",
+          "main_html": "<p style=\"text-align: center;\">\n  Join the <a href=\"https://patreon.com/nearfuturelaboratory\" style='color: #af00af;'>\n    Near Future Laboratory Discord community\n  </a>.\n</p>\n",
+          "text_color": "#0a0a0a",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "simple-text.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "test-here",
+          "build_year": "Test-there",
+          "html_file_name": "TEst"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  }
+]

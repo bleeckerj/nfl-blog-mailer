@@ -1,0 +1,132 @@
+[
+  {
+    "simple-text": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "Monaco, Helvetica, Monaco, Arial",
+          "font_size": "16px",
+          "line_height": "1em",
+          "main_html": "  1. Strategy isn’t a plan.<br/><br/>\n  2. It’s a provocation.<br/><br/>\n  3. A story about a future you’re willing to bet on.<br/><br/>\n  4. It’s not prediction.<br/><br/>\n  5. It’s preparation.<br/><br/>\n  6. Slide decks don’t move people.<br/><br/>\n  7. Artifacts do.<br/><br/>\n  8. Prototypes do.<br/><br/>\n  9. Worlds implied and imbued in an implication of a thing you can see, touch, and test.<br/><br/>\n  10. When I try to make sense of an idea I have, one that is liminal and something I felt more than I could articulate, I make a prototype, a piece of software or hardware that feels plausible, that functions, yet is mostly here to give some structure to an thought, a feeling, an instinct. The refinement of an idea, where the refining is process; new ideas effervesce from the process of making.<br/><br/>\n  11. I make a prototype to help me think, to help me see into an idea, to help me make sense.<br/><br/>\n  12. That, in my mind, is the essense of strategy.<br/><br/>\n  13. Strategy is making sense of what could be, enrolling stakeholders in that sense of possibility.",
+          "text_color": "#444444",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "simple-text.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://i0.wp.com/thejaymo.net/wp-content/uploads/2024/05/Thejaymo.net-Blog-Making-friends-with-ai-jpg.webp?resize=2048%2C1066&ssl=1",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Making Friends with AI",
+          "main_copy": "I don’t think anyone would argue very hard that yesterday’s GPT-4o showcase from OpenAI wasn’t impressive.",
+          "page_url": "https://thejaymo.net/2024/05/14/gpt-4o-must-die/ ",
+          "text_color": "#0a0a0a",
+          "user_callout": "@Jaymo"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-2": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://futurism.com/_next/image?url=https%3A%2F%2Fwordpress-assets.futurism.com%2F2025%2F03%2Fchatgpt-dependence-addiction.jpg&w=2048&q=75",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Something Bizarre Is Happening to People Who Use ChatGPT a Lot",
+          "main_copy": "ChatGPT \"power users,\" or those who use it the most, are becoming dependent upon — or even addicted to — the chatbot.",
+          "page_url": "https://futurism.com/the-byte/chatgpt-dependence-addiction",
+          "text_color": "#0a0a0a",
+          "user_callout": "@Julian in<br/>⁠🛠-whats-ai-good-for-anyway⁠"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-3": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://opponent.systems/public/opponent_dragon_loop_orange.png",
+          "light_text_color": "#6a6a6a",
+          "link_text": "opponent.systems",
+          "main_copy": "Dragon Time - our first product - features a disagreeable dragon who is cursed to be a good playmate to every child once a day via FaceTime. Dragon Time arrives fall 2025.",
+          "page_url": "https://opponent.systems/",
+          "text_color": "#0a0a0a",
+          "user_callout": "@anon"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-4": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Train Onchain to become a Digital Twin Rigger",
+          "main_copy": "Digital Twin rigger to support the setup and day-to-day maintenance of our expanding suite of digital twins—used across municipal services, facilities management, and light industrial operations. You’ll work with a small team to ensure our virtual models of buildings, equipment, and workflows stay accurate, functional, sync across ingestion endpoints and data flows.<br/><br/>\n<strong>\nDepartment: Bossenbrooks Operations Technology (OpTech)<br/>\nLocation: Paramus, NJ / Remote Optional (US Only)<br/>\nSchedule: Full-time, M–F, 9am–5pm (with occasional evening syncs)<br/>\nCompensation: $82,000–$95,000 + benefits\n</strong>",
+          "page_url": "https://generalseminar.com/",
+          "text_color": "#0a0a0a",
+          "user_callout": "@leitmoor"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "2025-05-06T08:18:54-07:00",
+          "build_year": "2025",
+          "html_file_name": "w19a-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  }
+]

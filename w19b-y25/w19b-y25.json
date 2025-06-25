@@ -1,0 +1,354 @@
+[
+  {
+    "centered-logo-image-1": {
+      "elements": [
+        {
+          "alt_text": "Near Future Laboratory Logo",
+          "image_url": "https://nearfuturelaboratory.com/images/site/logos/LaboratoryCircle_Guy_01_CircleTeal_200px.webp"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "centered-logo-image.html"
+      }
+    }
+  },
+  {
+    "subject-line-1": {
+      "elements": [
+        {
+          "end_phrase": "and we were thinking about the archetype of the prototype and design for quantum entanglements.",
+          "week_number": "19",
+          "year": "2025"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "subject-line.html"
+      }
+    }
+  },
+  {
+    "centered-logo-image-2": {
+      "elements": [
+        {
+          "alt_text": "An animated GIF of the OMATA One PCB exploded view",
+          "image_url": "https://nearfuturelaboratory.com/images/blog/2025/05/prototypes-are-like-thinking-plus-making/Omata-RETOPO_FULL-RIGGED_05_PCB_0506_115649.gif",
+          "width": "600px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "centered-logo-image.html"
+      }
+    }
+  },
+  {
+    "featured-essay-1": {
+      "elements": [
+        {
+          "main_content": "<div style=‘font-family: sans-serif !important;’>\n1. Prototypes are like thinking plus making.. you can't have one without the other.<br/><br/>\n2. I think of prototypes as a way to make sense of an idea. They are a way to think through a problem, to explore possibilities, and to communicate ideas. They are a bridge between the abstract and the concrete, between thought and action.\n<br/><br/>3. Prototypes are a way to make ideas tangible, to give them form and substance. They are a way to test ideas, to see how they work in the real world, and to learn from the process of making.\n<br/><br/>4. Here at the Near Future Laboratory, every thing I do involves this kind of process of thinking-to-make.\n<br/><br/>5. If you want to know more about this, check out our work on the <a href='https://omata.com'>Omata One</a>, a cycling computer that we designed and built in 2014. It was a prototype that helped us think through the design and functionality of the product, and it ultimately led to the creation of a successful product.\n<br/><br/>6. It started with a simple idea: to create a cycling computer that was easy to use, accurate, and beautiful. I wanted to feel what it was like to create a product that effervesced the analog-mechanical feel of what it is to ride a bicycle, but did not require a smartphone, nor was over-indexed on the visual semantics of the already overclocked digital world.\n<br/><br/>7. ”Modern but also mechanical.”\n<br/><br/>8. If this approach to imagining through physical / digital / software / hardware prototypes resonates with you, <a href=‘https://nearfuturelaboratory.com/contact'>get in touch</a>. I'm always looking to help organizations and teams catalyze their thinking, strategy, and product development through this kind of work. I am always looking for new projects and collaborations.<br/><br/>9. <a href='https://nearfuturelaboratory.com/blog/'>Read More about this topic on the blog →</a>\n</div>"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "featured-essay.html"
+      }
+    }
+  },
+  {
+    "spacer-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "spacer_height": "20px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "section-title-2": {
+      "elements": [
+        {
+          "bg_color": "#FFFFFF",
+          "title": "Futures of Aging: A Workshop"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "section-title.html"
+      }
+    }
+  },
+  {
+    "full-width-item-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_bottom_left_radius": "0px",
+          "border_bottom_right_radius": "0px",
+          "border_color": "",
+          "border_top_left_radius": "0px",
+          "border_top_right_radius": "0px",
+          "border_width": "0px",
+          "font_size": "16px",
+          "image_corner_radius": "8px",
+          "image_url": "https://nearfuturelaboratory.com/images/events/2025/sf-design-week/sf-design-week-002_SQUARE.webp",
+          "light_text_color": "#6a6a6a",
+          "link_ref": "https://sfdesignweek.org/event/designing-the-future-of-aging/",
+          "main_copy": "We are in the midst of a longevity revolution. This isn’t just about longer lifespans; it’s about living those years more fully. The number of people over 80 globally is projected to triple between 2020 and 2050. As this population expands, so does the diversity of their preferences, interests, opportunities, passions, and ambitions. They are not a monolithic group defined solely by age, but a vibrant tapestry of individuals.<br/><br/>\nJoin me, Near Future Laboratory, and my good friends over at <a href='https://www.ofage.design/'>AGE OF_</a> for a design fiction workshop to stretch our imaginations, spark unconventional thinking, and design a world where getting older unlocks new possibilities.",
+          "main_copy_font_family": "",
+          "main_copy_font_size": "16px",
+          "main_copy_text_color": "#0a0a0a",
+          "read_more_link_ref": "https://sfdesignweek.org/event/designing-the-future-of-aging/",
+          "subtitle": "A Workshop at SF Design Week",
+          "text_color": "#0a0a0a",
+          "title": "Designing the Future of Aging",
+          "title_font_family": "",
+          "title_text_color": "#0a0a0a"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "full-width-item.html"
+      }
+    }
+  },
+  {
+    "spacer-4": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "spacer_height": "30px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "books-section-title": {
+      "elements": [
+        {
+          "bg_color": "#FFFFFF",
+          "title": "Book Haul"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "section-title.html"
+      }
+    }
+  },
+  {
+    "books-and-accessories": {
+      "elements": [
+        {
+          "cta_icon": "❬✼❭",
+          "image": "https://nearfuturelaboratory.com/images/book-haul/2025/not-here-not-now/not-here-not-now_3072_SQ_600px.webp",
+          "link_url": "https://nearfuturelaboratory.com/library/2025/05/not-here-not-now/",
+          "main_copy": "<div style=\"line-height: 1.3em;\"> 🧨An open invitation to wield and weird imagination, considering it as a powerful instrument, not only for solving problems (whatever that may mean), but for envisioning entirely new realities. Fiction does not displace fact in design but instead sits alongside it, giving over to exploring possibilities and alternative ways of thinking. Time for more ontological plurality within design.</div>",
+          "subtitle": "Speculative Thought, Impossibility, and the Design Imagination ",
+          "title": "Not Here, Not Now"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "books-and-accessories.html"
+      }
+    }
+  },
+  {
+    "spacer-2": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "spacer_height": "10px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "section-title-3": {
+      "elements": [
+        {
+          "bg_color": "#FFFFFF",
+          "title": "Seen in the Near Future Laboratory Discord"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "section-title.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-0": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": false,
+          "light_text_color": "#6a6a6a",
+          "link_text": "Dan Hill: AI as infrastructure ",
+          "main_copy": "Like it or not, AI is a growing part of our infrastructure—not just the infrastructure of our phones, our computers, and the internet—but that of our physical world. It’s increasingly used to support the very fundamental systems that maintain our cities, hospitals, utilities, and educational systems. On some levels, this is cause for concern. After all, we’ve seen other implementations of AI (think riding-sharing services) that have not lived up to their promise but have instead aggravated some of the problems they sought to address.",
+          "page_url": "https://m.soundcloud.com/rosenfeld-media/dan-hill-designing-with-ai-2024 ",
+          "text_color": "#0a0a0a",
+          "user_callout": "(⁠🎧-podcasts⁠) via<br/> @(Kevin) SkepticalDesign"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": false,
+          "light_text_color": "#6a6a6a",
+          "link_text": "Star Wars Changed Visual Effects — AI Is Doing It Again",
+          "main_copy": "Rob Bredow shares how artist-driven innovation continues to blend old and new technology, offering hope that AI won’t replace creatives but instead will empower artists to create new, mind-blowing wonders for the big screen.",
+          "page_url": "https://youtu.be/E3Yo7PULlPs",
+          "text_color": "#0a0a0a",
+          "user_callout": "(⁠🛠-whats-ai-good-for-anyway⁠) via @Julian"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-2": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://img.youtube.com/vi/UlBTUUoC5nE/maxresdefault.jpg",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Mindsets and Misconceptions on AI",
+          "main_copy": "​In this talk, Dré Labre—future creative and co-founder of Never—shares a fresh perspective on how AI intersects with creativity. Rather than focusing on tools or techniques, he explores the deeper shifts in thinking required to work meaningfully with generative technology.",
+          "page_url": "https://futurespaces.com/recordings/mindsets-and-misconceptions-on-ai",
+          "text_color": "#0a0a0a",
+          "user_callout": "(⁠💯⛽🚫🛑-all-gas-no-brakes-📣⁠) via @Sandro Pasquali"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-3": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://images-ext-1.discordapp.net/external/RLR1vc4e4UE6zIT8Ifu-nU3p03B1p6btatjMk3xeKK4/%3Fw%3D960%26fit%3Dmax/https/assets.buttondown.email/images/78af5686-954e-46b9-a8c3-7789a4687085.png",
+          "light_text_color": "#6a6a6a",
+          "link_text": "How to be a tugboat captain",
+          "main_copy": "▶ “This week’s question comes to us from Christine Newton:”\n<br/>\n▶ ”Any words of advice on trying to find a job right now?”\n<br/>\n▶ “It’s hard.”",
+          "page_url": "https://buttondown.com/monteiro/archive/how-to-be-a-tugboat-captain/",
+          "text_color": "#0a0a0a",
+          "user_callout": "(⁠📃-articles-and-essays⁠) via @Mateusz"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-4": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://static.pocketcasts.com/discover/images/webp/480/a43339c0-cead-013d-1ace-0acc26574db2.webp",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Creative economic case studies (with actual numbers!)",
+          "main_copy": "Many creative conversations are more ethereal and emotional. What a work references, what it feels like to experience it.\n\nIn this week’s episode of New Creative Era, we do the opposite and deal strictly with the numbers. How much does it cost to print a book, to run a community, to make and produce work? How much does someone make? How do those economics actually work out?\n\nJosh and Yancey walk through the economic structures of two of their own projects: Do Not Research and the Dark Forest Collective.",
+          "page_url": "https://pca.st/episode/563c6c58-876d-406f-b8a1-4000115b496e ",
+          "text_color": "#0a0a0a",
+          "user_callout": "(⁠📃-articles-and-essays⁠) via @Mateusz"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "full-width-item": {
+      "elements": [
+        {
+          "background_color": "#d4e3fe",
+          "border_bottom_left_radius": "0px",
+          "border_bottom_right_radius": "0px",
+          "border_color": "",
+          "border_top_left_radius": "0px",
+          "border_top_right_radius": "0px",
+          "border_width": "0px",
+          "font_size": "16px",
+          "image_corner_radius": "8px",
+          "image_url": "https://generalseminar.com/images/s06/e05/GS_S06E05_SQUARE_2_600px.webp",
+          "light_text_color": "#6a6a6a",
+          "link_ref": "https://generalseminar.com",
+          "main_copy": "What if your career had a shadow version of you — always learning, always optimizing, always on?\n<br/>\nThey attend interviews. They negotiate gigs. They monitor your skills gaps and suggest micro-credentials. Maybe they even decide what you should be doing — and for whom.\n<br/>\nJoin me at the next General Seminar.",
+          "main_copy_font_family": "",
+          "main_copy_font_size": "16px",
+          "main_copy_text_color": "#0a0a0a",
+          "read_more_link_ref": "https://generalseminar.com",
+          "subtitle": "Digital Twins in an AI World",
+          "text_color": "#0a0a0a",
+          "title": "Working With AI",
+          "title_font_family": "",
+          "title_text_color": "#0a0a0a"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "full-width-item.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "2025-05-08T08:40:51-07:00",
+          "build_year": "2025",
+          "html_file_name": "w19b-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  }
+]

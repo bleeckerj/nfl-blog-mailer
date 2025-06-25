@@ -1,0 +1,392 @@
+[
+  {
+    "simple-text-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width_bottom": "0px",
+          "border_width_left": "0px",
+          "border_width_right": "0px",
+          "border_width_top": "0px",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "font_family": "monospace",
+          "font_size": "16px",
+          "line_height": "1em",
+          "main_html": "It seems like we’re asking AI to feel with us now.\n<br/><br/>\nTo hold our grief.\n<br/><br/>\nTo help us make meaning.\n<br/><br/>\nTo “understand” us.\n<br/><br/>\nNot excluding this — and Eliza somewhat anticipated our current predicament — what happens when \"it\" also starts representing us?\n<br/><br/>\nNot just as companions… but as \nproxies.\n<br/><br/>\nFor work. \n<br/><br/>\nFor relationships. \n<br/><br/>\nFor identity itself.\n<br/><br/>\nWhen the \"it\" is not just with us, but also taking action amongst other humans on our behalf?\n<br/><br/>\nDigital Twins — almost feels potentially more problematic. \n<br/><br/>\nBut hold on..\n<br/><br/>\nSuppose we worked really, really hard to imagine how that might be good rather than leading to an existential conflagration.\n<br/><br/>\nWe're prone to identify the calamity. I get that. \n<br/><br/>\nRemember Fredric Jameson?\n<br/><br/>\n“It's easier to imagine the end of the world than the end of capitalism.”\nSure you do..or some variation therein.\n<br/><br/>\nI do this too. \n<br/><br/>\nIt's as if we're programmed to see the worst of all possible outcomes, particularly when we feel like we have no control.\n<br/><br/>\nWhat does this idea of a 'Digital Twin' (okay..not the most evocative naming there..) look like if it delivers non-extractive benefits?\n<br/><br/>\nIf you've got 50 minutes with it per week rather than continuous always-on?\n<br/><br/>\nJust wondering outloud.\n<br/><br/><a href='https://generalseminar.com/seminar/s06/e05'>Wonder with me into our preferred near future ⇪</a>",
+          "text_color": "#0a0a0a",
+          "top_left_radius": "0px",
+          "top_right_radius": "0px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "simple-text.html"
+      }
+    }
+  },
+  {
+    "spacer-1": {
+      "elements": [
+        {
+          "spacer_color": "#4cbfdf",
+          "spacer_height": "20px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "subject-line": {
+      "elements": [
+        {
+          "end_phrase": "at Near Future Laboratory and some things were shared in the Discord",
+          "week_number": "18",
+          "year": "2025"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "subject-line.html"
+      }
+    }
+  },
+  {
+    "box-feature-1": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width": "0px",
+          "callout": "Resources for Designing Futures",
+          "callout_font_family": "FormaDJRUI, Monaco, Arial",
+          "callout_font_size": "18pt",
+          "callout_font_weight": "normal",
+          "callout_text_color": "#0a0a0a",
+          "extra_box_style": "",
+          "font_weight": "normal",
+          "image_padding_left": "",
+          "image_url": "https://iwabm.notion.site/image/attachment%3A5a5f5743-5001-41f6-858d-c67bd7d48ae9%3AArtboard_Copy_69.png?table=block&id=1e2bc10f-791b-809f-9e2e-cf8e062c2dbd&spaceId=a58a35cf-9ffa-4aff-ba10-10d9aa8e152e&width=840&userId=&cache=v2",
+          "light_text_color": "#6a6a6a",
+          "link_ref": "https://iwabm.notion.site/Resources-for-Designing-Futures-1e0bc10f791b803da409ed2de569115e",
+          "link_ref_2": "https://iwabm.notion.site/Resources-for-Designing-Futures-1e0bc10f791b803da409ed2de569115e",
+          "link_text_1": "Needs for New Design Education",
+          "link_text_2": "Masaki Iwabuchi Notion Resource",
+          "main_copy": "Despite advancements in science and technology, our future remains uncertain due to complex global challenges like climate change, international conflicts, and economic inequality. While designers excel at creating visually appealing and human-centered products, they often lack the expertise to tackle long-term societal issues.",
+          "outline_color": "",
+          "subtitle": "Masaki Iwabuchi has pulled together a Notion document containing a rich catalog of resources for designerly approaches to futuring.",
+          "subtitle_font_family": "FormaDJRUI, Helvetica, Monaco, Arial",
+          "subtitle_font_style": "normal",
+          "subtitle_font_weight": "normal",
+          "subtitle_text_color": "#0a0a0a",
+          "text_color": "#0a0a0a",
+          "value_prop": ""
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "box-feature.html"
+      }
+    }
+  },
+  {
+    "spacer-2": {
+      "elements": [
+        {
+          "spacer_color": "#ffffff",
+          "spacer_height": "20px"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "spacer.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-5": {
+      "elements": [
+        {
+          "background_color": "#ddfab8",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://generalseminar.com/images/s06/e05/GS_S06E05_SQUARE_2_600px.webp",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Digital Twins Are The Future Of Work?",
+          "link_url": "https://generalseminar.com/seminar/s06/e05/",
+          "main_copy": "What if your career had a shadow version of you — always learning, always optimizing, always on? But who owns that twin, anyway? Who operates it? Where does it ‘reside’? Join us! General Seminar Season 6, Episode 5.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-10": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://play.pocketcasts.com/podcasts/0de94e80-f77e-0135-c25e-7d73a919276a/03efc94c-6377-4ed3-9917-2c8fe97addd8",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Revolutionising AI usability with Jakob Nielsen",
+          "link_url": "https://pca.st/episode/03efc94c-6377-4ed3-9917-2c8fe97addd8",
+          "main_copy": "UX legend Jakob Nielsen discusses why AI usability still lags behind (behind what?) and what needs to change.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@DrewWiberg in<br/>⁠🦈-design-won’t-save-us⁠"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-2": {
+      "elements": [
+        {
+          "background_color": "#ddfab8",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Free open-source realistic text to speech",
+          "link_url": "https://huggingface.co/spaces/nari-labs/Dia-1.6B",
+          "main_copy": "Dia is a 1.6B parameter text to speech model created by Nari Labs.\n\nDia directly generates highly realistic dialogue from a transcript. You can condition the output on audio, enabling emotion and tone control. The model can also produce nonverbal communications like laughter, coughing, clearing throat, etc.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian in<br/>🛠-whats-ai-good-for-anyway"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-1": {
+      "elements": [
+        {
+          "background_color": "#ffffff",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://lllyasviel.github.io/frame_pack_gitpage/img/logo.png",
+          "light_text_color": "#6a6a6a",
+          "link_text": "FramePack",
+          "link_url": "https://lllyasviel.github.io/frame_pack_gitpage/",
+          "main_copy": "Generative video on your laptop? Open source? It's video diffusion, but feels like image diffusion.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@pegaunisusicorn in<br/> ⁠🛠-whats-ai-good-for-anyway⁠)"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-3": {
+      "elements": [
+        {
+          "background_color": "#ddfab8",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://i3.ytimg.com/vi/eIP5bc-It8E/hqdefault.jpg",
+          "light_text_color": "#6a6a6a",
+          "link_text": "The Whiff of AI Aesthetic",
+          "link_url": "https://youtu.be/eIP5bc-It8E",
+          "main_copy": "Dream Logic Episode 1 (Kirby Ferguson): “It’s the start of a weekly conversation: musings, artist interviews, and long looks into the strange, evolving landscape of new creative tools. In this episode, Karin reflects on the unexpected freedoms and failures of this medium, and what she's noticed among peers in the design world. What it makes possible. What it doesn’t. It’s an open invitation to think differently.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian in<br/>⁠🎬-videos⁠"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-4": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://i3.ytimg.com/vi/4fro_xPdj5E/hqdefault.jpg",
+          "light_text_color": "#6a6a6a",
+          "link_text": "\"The Home of 1999\" from the 1960s",
+          "link_url": "https://youtu.be/4fro_xPdj5E?si=6I2nOAV3Fabmkc96",
+          "main_copy": "In 1967, Philco-Ford produced a short film exploring what the \"Home of the Future\" might look like. We re-examine this film to see what they got right about the future - and what was wrong with the past.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian in</br>🥖-domestic-futures)"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item": {
+      "elements": [
+        {
+          "background_color": "#ddfab8",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "",
+          "light_text_color": "#6a6a6a",
+          "link_text": "One Prompt Can Bypass Every Major LLM’s Safeguards",
+          "link_url": "https://www.forbes.com/sites/tonybradley/2025/04/24/one-prompt-can-bypass-every-major-llms-safeguards/",
+          "main_copy": "Researchers have discovered a universal prompt injection technique that bypasses safety in all major LLMs, revealing critical flaws in current AI alignment methods.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@pegaunisusicorn in<br/>🧰-artificial-intelligence⁠"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-0": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Local Deep Research Release Notes",
+          "link_url": "https://github.com/LearningCircuit/local-deep-research/blob/main/docs/release_notes/0.2.0.md",
+          "main_copy": "Speaking of Digital Twins, Local Deep Research is an AI-powered assistant that transforms complex questions into comprehensive, cited reports by conducting iterative analysis using any LLM across diverse knowledge sources.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@julian in<br/>🛠-whats-ai-good-for-anyway"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-6": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "bottom_left_radius": "0px",
+          "bottom_right_radius": "0px",
+          "image_url": "https://img.youtube.com/vi/jxsyXc-LpKk/maxresdefault.jpg",
+          "light_text_color": "#6a6a6a",
+          "link_text": "Mountainhead Trailer",
+          "link_url": "",
+          "main_copy": "A group of billionaire friends gather for a snowy trip while a global crisis unfolds and then drama.",
+          "text_color": "#0a0a0a",
+          "user_callout": "@Patrick@Sentiers in<br/>🍿-films-and-shorts"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "2025-05-04T20:44:40-07:00",
+          "build_year": "2025",
+          "html_file_name": "w18b-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "2025-05-04T20:44:40-07:00",
+          "build_year": "2025",
+          "html_file_name": "w18b-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "2025-05-04T20:44:40-07:00",
+          "build_year": "2025",
+          "html_file_name": "w18b-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  },
+  {
+    "bottom": {
+      "elements": [
+        {
+          "build_time": "2025-05-04T20:44:40-07:00",
+          "build_year": "2025",
+          "html_file_name": "w18b-y25.html"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "bottom.html"
+      }
+    }
+  },
+  {
+    "box-item": {
+      "elements": [
+        {
+          "background_color": "#FFFFFF",
+          "border_color": "",
+          "border_width": "0px",
+          "font_family": "FormaDJRUI, Helvetica, Monaco, Arial",
+          "font_style": "normal",
+          "image_url": "https://nearfuturelaboratory.com/images/site/hq/HQ_007_D_O_3x2_030922_2041.webp",
+          "link_ref": "Link Ref Lorem ipsum dolor sit amet.",
+          "link_text": "Link Text Lorem ipsum dolor sit amet.",
+          "main_copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "outline_color": "",
+          "radius": "0px",
+          "text_color": "#0a0a0a"
+        }
+      ],
+      "metadata": {
+        "ordinal": "",
+        "template_name": "box-item.html"
+      }
+    }
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "subject-line" : {
+      "elements" : [
+        {
+          "end_phrase" : "and we went to the agentic future.",
+          "week_number" : "20",
+          "year" : "2025"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "subject-line.html"
+      }
+    }
+  },
+  {
+    "section-title-1" : {
+      "elements" : [
+        {
+          "bg_color" : "#FFFFFF",
+          "title" : "Dispatches from the Near Future"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "section-title.html"
+      }
+    }
+  },
+  {
+    "image-feature-1" : {
+      "elements" : [
+        {
+          "background_color" : "#FFFFFF",
+          "bottom_left_radius" : "0px",
+          "bottom_right_radius" : "0px",
+          "image_corner_radius" : "8px",
+          "image_url" : "https://nearfuturelaboratory.com/images/design-fiction-dispatches/faradays-cage-a-bar-and-grill/faradays_cage_a_bar_and_grill_01.webp",
+          "link_ref" : "Farday’s Cage: A Bar and Grill",
+          "main_copy" : "General Seminar just concluded today! I wish you would’ve been there. We had two sessions imagining into a plausible near future in which companion intelligences, digital twins, and digipets are as normal and frought as automatic garage door openers.<br/>\nThis bar and grill is one of the artifacts we found. Actually, we found a review of the joint in a neighborhood newspaper. (Yes. News. Paper.)",
+          "read_more_text" : "Read the story",
+          "read_more_url" : "https://nearfuturelaboratory.com/dispatches/ai/faradays-cage-a-bar-and-grill/",
+          "title" : "Faraday’s Cage: A Bar and Grill",
+          "top_left_radius" : "0px",
+          "top_right_radius" : "0px"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "image-feature.html"
+      }
+    }
+  },
+  {
+    "spacer-1" : {
+      "elements" : [
+        {
+          "background_color" : "#ebebeb",
+          "spacer_height" : "4px"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "spacer.html"
+      }
+    }
+  },
+  {
+    "simple-text-2" : {
+      "elements" : [
+        {
+          "background_color" : "#FFFFFF",
+          "bottom_left_radius" : "0px",
+          "bottom_right_radius" : "0px",
+          "font_size" : "16px",
+          "line_height" : "23px",
+          "main_html" : "<p>Things like Farday’s Cage: A Bar and Grill are designed fictional artifacts that are created to explore and provoke thought about possible futures. They are not meant to be taken literally or as predictions of what will happen in the future. The goal is to stimulate discussion and encourage critical thinking about the implications of emerging technologies and societal trends.<br/>\nMuch of what passes for futures work these days is trapped in a logic game of highly analytic processes, systems, and methods that grind away at the speculative and imaginative aspects of pondering possibility.\n<br/>\nMy hope is that with the new “<a href='https://nearfuturelaboratory.com/dispatches'>Dispatches from the Near Future</a>” unit of Near Future Laboratory, the increased inventory of imagination-led examples can help us recognize the value of this approach both to augment, complement, and moisten the otherwise dry commercial futures. \n</p>",
+          "text_color" : "#0a0a0a",
+          "top_left_radius" : "0px",
+          "top_right_radius" : "0px"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "simple-text.html"
+      }
+    }
+  },
+  {
+    "section-title-3" : {
+      "elements" : [
+        {
+          "bg_color" : "#FFFFFF",
+          "title" : "Upcoming Events"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "section-title.html"
+      }
+    }
+  },
+  {
+    "337-dd-test" : {
+      "elements" : [
+        {
+          "image_url" : "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/xp/7e60cb78-35b7-4474-b481-8885c4b9ab54",
+          "link_title" : "Office Hours",
+          "link_url" : "https://lu.ma/y4i9jkl5",
+          "main_copy" : "I’ve been hosting Office Hours for 261 Weeks! A couple of weeks back we started trying a new format, where *you can share your work in progress for gentle feedback!<br/>\nThese are light, no-pressure sharing sessions: a tight 10 minute share followed by 20 minutes of discussion, gentle responses and invaluable feedback from a super engaged group of industrious and industrial attendees.<br/>\n<a href='https://lu.ma/y4i9jkl5'><span style=\"background-color: #f0f0f0; padding: 2 2;\">RSVP to attend</a>.</span></a><br/>\n<a href='https://nearfuturelaboratory.com/office-hours-signup/'><span style=\"background-color: #f0f0f0; padding: 2 2;\">Sign up to share</span></a>",
+          "title" : "Now With WiP Reviews!"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "337-dd-test.html"
+      }
+    }
+  },
+  {
+      "image-feature-3" : {
+        "elements" : [
+          {
+            "background_color" : "#FFFFFF",
+            "bottom_left_radius" : "0px",
+            "bottom_right_radius" : "0px",
+            "image_corner_radius" : "8px",
+            "image_url" : "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/f9/5edd0de5-1e63-4e93-b8b0-26bee17eb924.png",
+            "link_ref" : "https://lu.ma/fs_sideshow_001?tk=QEQX6U",
+            "main_copy" : "One night. A room full of artists, designers, filmmakers, and creative people sharing the work they’re making outside the brief. Sound experiments. Illegible interfaces. Broken narratives. Tools bent into new shapes. Ideas with no client, no deadline, no plan—just the need to try something no one asked for. A rare glimpse into experimental ventures headed straight into unknown territory.<br/>\n​Sideshow is a space for work that’s personal, unruly, and unfinished—kept alive in spite of economic pressure and the pull of everything more urgent.  It’s a chance to share what’s taking shape, spark something new, and help each other keep going. Not by scaling up. Just by showing up. To keep alive the side that keeps us going.<br/>\nThis first edition is anchored by a presentation from Kirby Ferguson (<a href='https://www.youtube.com/watch?v=X9RYuvPCQUA'>Everything is a Remix</a>) and <a href='https://karinfyhrie.com/'>Karin Fyhrie</a> (Collins, IDEO), debuting selections from <a href='https://www.youtube.com/watch?v=Xb4cEbo2NNs'>Dream Logic</a>—a collaborative video series tracing their process of wrestling with, shaping, and occasionally surrendering to the possibilities of generative AI in creative work.<br/><br/>\n<strong>5:30 PM - 8:30 PM Thursday, June 12th, Proper Hotel, Santa Monica, California</strong>",
+            "read_more_text" : "RSVP",
+            "read_more_url" : "https://lu.ma/fs_sideshow_001?tk=QEQX6U",
+            "title" : "SideShow: Where Side Projects Take Center Stage",
+            "top_left_radius" : "0px",
+            "top_right_radius" : "0px"
+          }
+        ],
+        "metadata" : {
+          "ordinal" : "1",
+          "template_name" : "image-feature.html"
+        }
+      },
+    "section-title-2" : {
+      "elements" : [
+        {
+          "bg_color" : "#FFFFFF",
+          "title" : "Seen in the Near Future Laboratory Discord"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "section-title.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-1" : {
+      "elements" : [
+        {
+          "background_color" : "#FFFFFF",
+          "bottom_left_radius" : "0px",
+          "bottom_right_radius" : "0px",
+          "image_url" : false,
+          "light_text_color" : "#6a6a6a",
+          "link_text" : "1. Tarpits trap AI bots in goo",
+          "main_copy" : "Tarpits are the idiom describing (malicious) software designed to trap and overwhelm AI web crawlers that disregard the standard “robots.txt” file that is meant to instruct bots whether or how they may crawl a site.",
+          "page_url" : "https://arstechnica.com/tech-policy/2025/01/ai-haters-build-tarpits-to-trap-and-trick-ai-scrapers-that-ignore-robots-txt/ ",
+          "text_color" : "#0a0a0a",
+          "user_callout" : "(⁠🧰-artificial-intelligence⁠)\nvia @Julian"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-2" : {
+      "elements" : [
+        {
+          "background_color" : "#FFFFFF",
+          "bottom_left_radius" : "0px",
+          "bottom_right_radius" : "0px",
+          "image_url" : false,
+          "light_text_color" : "#6a6a6a",
+          "link_text" : "2. Dispatch from the Trenches of the Butlerian Jihad",
+          "main_copy" : "Like a weird story from a sleep-induced dream, generative AI isn’t reasoning; it’s assembling fragments of digital culture. Here Ted Chiang argues how this raises profound questions about our own cognitive development, how we are forgetting how to reason and make sense, and the future of critical thought.",
+          "page_url" : "https://open.substack.com/pub/solarshades/p/dispatch-from-the-trenches-of-the?r=6pcx&utm_medium=ios ",
+          "text_color" : "#0a0a0a",
+          "user_callout" : "(⁠🛠-whats-ai-good-for-anyway⁠)\nvia @Julian"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "discord-callout-item-3" : {
+      "elements" : [
+        {
+          "background_color" : "#FFFFFF",
+          "bottom_left_radius" : "0px",
+          "bottom_right_radius" : "0px",
+          "image_url" : false,
+          "light_text_color" : "#6a6a6a",
+          "link_text" : "3. Giving computers a sense of smell",
+          "main_copy" : "Vision and hearing have been digitized, but not smell—our oldest and deepest sense. To digitize a sense, you must be able to Read it, Map it, and Write it with distinct yet interdependent technologies. ",
+          "page_url" : "https://www.osmo.ai/",
+          "text_color" : "#0a0a0a",
+          "user_callout" : "(⁠🛠-whats-ai-good-for-anyway⁠) via @(Kevin) SkepticalDesign"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "discord-callout-item.html"
+      }
+    }
+  },
+  {
+    "337-dd-test-4" : {
+      "elements" : [
+        {
+          "image_url" : "https://images-ext-1.discordapp.net/external/fwGhA_hpyuO9BWVU9-981J4V2rAiVQM3XY_SLstT314/https/static01.nyt.com/images/2025/03/02/us/nat-bar-exam-1/nat-bar-exam-1-videoSixteenByNine3000.jpg?format=webp&width=2422&height=1362",
+          "link_title" : "AI hallucinates bizarre test questions for California bar exam",
+          "link_url" : "",
+          "main_copy" : "The new California bar exam contains inscrutable questions — conjured against policy by a consultancy that used AI to write questions.",
+          "title" : "WTF?"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "337-dd-test.html"
+      }
+    }
+  },
+  {
+    "337-dd-test-2" : {
+      "elements" : [
+        {
+          "image_url" : "https://img.youtube.com/vi/wv779vmyPVY/sddefault.jpg",
+          "link_title" : "Chat versus Collab",
+          "link_url" : "https://www.youtube.com/watch?v=wv779vmyPVY",
+          "main_copy" : "Underperformers treat AI like a tool. Top performers treat it like a teammate.",
+          "title" : "Stanford Professor Teaches AI-Powered Creativity"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "337-dd-test.html"
+      }
+    }
+  },
+  {
+    "337-dd-test-5" : {
+      "elements" : [
+        {
+          "image_url" : "https://farmingdale-observer.com/wp-content/uploads/2025/05/6480846130354-2025-05-12t163745.734.jpg.webp",
+          "link_title" : "AI 1997",
+          "link_url" : "https://farmingdale-observer.com/2025/05/14/someone-experimented-with-a-1997-processor-and-showed-that-just-128-mb-of-ram-is-enough-to-harness-the-power-of-ai/",
+          "main_copy" : "I’m less interested in someone in the front row saying, “it couldn’t have happened! not enough data“, than I am in imagining what then or now — in a counterfactual past or an adjacent now — would be like to inhabit. I think that’s what’s going on with Project Pilshaw? Report back, team.",
+          "title" : "Imagine AI then, rather than now"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "337-dd-test.html"
+      }
+    }
+  },
+  {
+    "bottom" : {
+      "elements" : [
+        {
+          "build_time" : "2025-05-14T23:49:37-07:00",
+          "build_year" : "2025",
+          "html_file_name" : "w20-y25.html"
+        }
+      ],
+      "metadata" : {
+        "ordinal" : "1",
+        "template_name" : "bottom.html"
+      }
+    }
+  }
+]
